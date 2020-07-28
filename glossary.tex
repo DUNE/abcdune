@@ -111,7 +111,7 @@
 %time projection chamber
 \newduneabbrev{tpc}{TPC}{time projection chamber}{A type of particle detector that uses an \efield together with a sensitive volume of gas or liquid, e.g., \gls{lar}, to perform a \threed reconstruction of a particle trajectory or interaction. The activity is recorded by digitizing the waveforms of current
   induced on the anode as the distribution of ionization charge passes by
-  or is collected on the electrode} % The portion of each DUNE \gls{detmodule} that records ionization electrons after they drift away from a cathode through the \gls{lar}, and also  through gaseous argon in a \gls{dp} module, is a TPC.  }
+  or is collected on the electrode (TPC is also used for ``total project cost'')} 
 
 %liquid argon time-projection chamber
 \newduneabbrev{lartpc}{LArTPC}{liquid argon time-projection chamber}{A \gls{tpc} filled with liquid argon; %A class of detector technology that this technology forms 
@@ -179,7 +179,7 @@ serial communication in which the data format and transmission speeds are config
 
 \newduneword{dc}{DC}{direct coupling} % I think these are ok lower case (anne)
 
-\newduneword{ac}{AC}{capacitive coupling}  % I think these are ok lower case (anne)
+\newduneword{ac}{AC}{Alternating Current; when used in the phrase ``AC coupling'' refers to a circuit element that filters out low-frequency components, such as constant offsets, leaving higher frequency signal components. The frequency filtering is determined both by a resistor and a capacitor}
 
 \newduneabbrev{pll}{PLL}{Phase-Locked Loop}{A control system that generates an
 output signal whose phase is related to the phase of an input signal}  %leave upper case
@@ -198,7 +198,7 @@ output signal whose phase is related to the phase of an input signal}  %leave up
 
 \newduneabbrev{ams}{AMS}{analog and mixed signal}{Verilog-AMS is a derivative of the Verilog hardware description language that includes analog and mixed-signal extensions (AMS) in order to define the behavior of analog and mixed-signal systems}
 
-\newduneabbrev{hepa}{HEPA}{High Efficiency Particulate Air}{The High Efficiency Particulate Air filters are a type of air filter that remove \num{99.97}\% of particles that have a size greater than or equal to \SI{0.3}{$\mu$m}}  % leave in upper case
+\newduneabbrev{hepa}{HEPA}{High Efficiency Particulate Air}{The High Efficiency Particulate Air filters are a type of air filter that remove 99.97\% of particles that have a size greater than or equal to \SI{0.3}{$\mu$m}}  % leave in upper case
 
 \newduneabbrev{uvm}{UVM}{universal verification methodology}{The Universal Verification Methodology is a standardized methodology for verifying integrated circuit designs}   % leave in upper case
 
@@ -239,14 +239,15 @@ predict circuit behavior}
 \newduneword{calci}{CALCI}{Calibration and Cryogenic Instrumentation}
 
 %detector module
-\newduneword{detmodule}{detector module}{The entire DUNE far detector is
+\newduneword{detmodule}{far detector module}{The entire DUNE far detector is
   segmented into four modules, each with a nominal \SI{10}{\kton}
   fiducial mass}
+  
+\newduneword{module}{module}{Many aspects of the DUNE far and near detectors are modular, so ``module'' must be understood in context. It may refer to one of the four far detector modules, distinct portions of a subdetector as in a ``field cage module,'' a software or electronics module, e.g., a separate framework plug-in, and so on}
 
 %detector unit  
-\newduneword{detunit}{detector unit}{A %\gls{submodule} 
-portion of a \gls{detmodule} may be further partitioned into a number of similar parts.   For example the \gls{sp} \gls{tpc} %\gls{submodule} 
-is made up of \gls{apa}  units (and other elements)}
+\newduneword{detunit}{detector unit}{A  
+portion of a \gls{detmodule} may be further partitioned into a number of similar parts.   For example, the \gls{sp} \gls{tpc} is made up of \gls{apa}  units (and other elements)}
 
 
 %secondary DAQ buffer
@@ -690,7 +691,7 @@ transformation inverts its space coordinates, i.e. produces the mirror image}
   \gls{cf} at the DUNE near detector site, \gls{fnal}}
 
 %grand unified theory
-\newduneabbrevs{gut}{GUT}{grand unified theory}{grand unified theories}{A class of theories that unifies the electro-weak and strong forces}
+\newduneabbrevs{gut}{GUT}{grand unified theory}{grand unified theories}{A class of theories that unifies the electroweak and strong forces}
 
 %liquid argon
 \newduneabbrev{lar}{LAr}{liquid argon}{Argon in its liquid phase; it is a cryogenic liquid with a boiling point of $\SI{-90}{^\circ{C}}$ (\SI{87}{K}) and density of \SI{1.4}{g/ml}}
@@ -715,7 +716,9 @@ transformation inverts its space coordinates, i.e. produces the mirror image}
 %mass hierarchy
 \newduneabbrev{mh}{MH}{mass hierarchy}{Describes the separation
   between the mass squared differences related to the solar and
-  atmospheric neutrino problems}
+  atmospheric neutrino problems (also written as \gls{mo})}
+
+\newduneabbrev{mo}{MO}{mass ordering}{See \gls{mh}}
 
 %fnal main injector
 \newduneabbrev{mi}{MI}{Fermilab Main Injector}{An accelerator at
@@ -1120,7 +1123,7 @@ Neutrino Facility (LBNF)''}
 \newduneword{ppr}{production progress review}{A project management device by which the progress of production is reviewed} %changed to dune word 1/13 
 \newduneabbrev{edms}{EDMS}{engineering document management system}{A computerized document management system developed and supported at \gls{cern} in which some DUNE documents, drawings and engineering models are managed}
 \newduneabbrev{ecr}{ECR}{engineering change request}{The first step in the change control process in which a proposed change is described}
-\newduneabbrev{docdb}{DocDB}{Document DataBase}{A computerized document management system developed and supported at \gls{fnal} in which virtually all LBNF and most DUNE documents are managed}
+\newduneabbrev{docdb}{DocDB}{Document DataBase}{A computerized document management system developed and supported at \gls{fnal} in which virtually all LBNF and most DUNE documents are managed (docs.dunescience.org)}
 
 \newduneword{wrgm}{WR grandmaster}{White Rabbit grandmaster}
 
@@ -1332,7 +1335,7 @@ elastically scatters off of another particle}
 
 \newduneabbrev{xml}{XML}{extensible markup language}{A markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable}
 
-\newduneabbrev{crt}{CRT}{cosmic ray tagger}{Detector external to the TPC designed to tag TPC-traversing cosmic ray particles}
+\newduneabbrev{crt}{CRT}{cosmic-ray tagger}{Detector external to the TPC designed to tag TPC-traversing cosmic ray particles}
 
 \newduneabbrev{sn}{SN}{supernova}{Event that occurs upon the death of certain types of stars}
 
@@ -1366,7 +1369,7 @@ computing and software consortium}
 
 % from DP-HV --start
 \newduneword{frp}{FRP}{fiber-reinforced plastic}
-\newduneabbrev{hdpe}{HDPE}{high-density polyethylene}{High-density polyethylene plastic}
+\newduneabbrev{hdpe}{HDPE}{high-density polyethylene}{A thermoplastic polymer made from petroleum commonly used to make plastic bottles}
 \newduneword{hvps}{HVPS}{\gls{hv} power supply}
 \newduneword{aisi}{AISI}{American Iron and Steel Institute}
 \newduneword{ific}{IFIC}{Instituto de Fisica Corpuscular (in Valencia, Spain)}
@@ -1524,3 +1527,21 @@ with a screw-type coupling mechanism}
 
 \newduneword{4850l}{4850L}{The depth in feet (1480 m) of the top of the cryostats underground at SURF; used more generally to refer to the DUNE underground area. Called the ``4850 level'' or ``4850L''}
 
+\newduneword{apb}{APB}{authorship and publications board}
+\newduneword{crb}{CRB}{collaboration resources board}
+\newduneword{cube}{CuBe}{beryllium copper, used to make \gls{sp} \gls{apa} readout planes}
+\newduneword{drift}{drift}{(1) refers to electron drift under the influence of an electric field in a \gls{tpc}; (2) an excavated horizontal corridors (tunnels) in the underground areas at \gls{surf}}
+\newduneword{exposure}{exposure}{The integrated detector fiducial mass times beam intensity; it is proportional to the number of interactions and is used to normalize cross sections in a data sample}
+\newduneword{fr4}{FR-4}{Flame-retardant fiberglass-reinforced epoxy resin laminate used in making PCBs and other detector components}
+\newduneword{g10}{G-10}{Non-flame-retardant fiberglass-reinforced epoxy resin laminate used in making PCBs}
+\newduneword{kapton}{Kapton}{A polyimide plastic film that is stable over a broad range of temperatures and is resistant to radiation damage}
+\newduneword{shaft}{shaft}{A vertical excavation at \gls{surf} connecting with the surface}
+\newduneword{winze}{winze}{A vertical excavation at \gls{surf} connecting two drifts, not connecting to the surface}
+\newduneword{ib}{IB}{institutional board}
+\newduneword{irb}{IBR}{institutional board representative}
+\newduneword{scomm}{SC}{speakers committee}
+\newduneword{sac}{SAC}{spokespersons advisory committee}
+\newduneword{ccondc}{CCC}{code of conduct committee}
+\newduneword{eoc}{EOC}{education and outreach committee}
+\newduneword{indico}{Indico}{Web-based meeting organization tool}
+\newduneword{mec}{meson exchange current}{See \gls{2p2h}}

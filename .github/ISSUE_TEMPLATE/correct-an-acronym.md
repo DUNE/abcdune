@@ -15,6 +15,9 @@ Paste here the HTML or the LaTeX (preferred)
 
 **Describe the issue**
 A clear and concise explanation of why the current description is inaccurate.
+```
+
+```
 
 **Suggest a correction**
 Write here the (possibly in LaTeX) the suggested description of the acronym.

@@ -10,23 +10,29 @@ assignees: aheavey, brettviren, clairedavid
 # Request of a new acronym
 
 ## Case 1: you know the definition
-The glossary is to be updated in LaTeX format. It will be automatically converted in HTML.
-The custom commands are:
-- **terms that do *not* have acronyms**: `\newduneword` (3 arguments)
-```
-\newduneword{dword}{DUNE Word}{A term in the DUNE lexicon}
-```
-- **terms that do have acronyms**: `\newduneabbrev` (4 arguments) and `\newduneabbrevs` (5 arguments)
-```
-\newduneabbrev{lar}{LAr}{liquid argon}{Argon in its liquid phase}
-\newduneabbrevs{cpa}{CPA}{cathode plane assembly}{cathode plane assemblies}{The component of the \gls{sp} detector module that provides the drift HV cathode}
-```
-
-Enter your requested acronym choosing the relevant template:
+  The term to add to glossary, spelled out long hand (eg: `Anode Plane Assembly`):
 ```
 
 ```
-Paste reference/source link(s) below:
+  Official abbreviation, if any (eg: `APA`):
+```
+
+```
+
+  Suggested identifier (short, single word, lower case, eg `apa`):
+```
+
+```
+
+  Brief descriptive text or, if you know the DUNE LaTeX Glossary system you may provide a full glossaries.tex entry:
+```
+
+```
+
+Any additional information about your term, (context of use, synonyms, links, citations, etc):
+```
+
+```
 
 
 ## Case 2: you do not know the definition

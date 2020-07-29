@@ -57,8 +57,10 @@ def gls_to_html_link(defString, gls_tag_type, dunewd_dict):
         link_text = dunewd_dict[glsTag]["term"] if dunewd_dict[glsTag]["type"] is "word" else dunewd_dict[glsTag]["abbrev"]
         if isPlural:
             link_text = link_text + "s"
-
-        defString  = defString.replace(tagToReplace, "<a href=\"#" + glsTag + "\">" + link_text + "</a>")
+        
+        # if the acronym key (glsTag) starts with a number:
+        # pandoc will intepret it as a LaTeX command. Hence escaping it for now:
+        defString  = defString.replace(tagToReplace, "<a href=\"\#" + glsTag + "\">" + link_text + "</a>")
     
     return defString 
 
@@ -83,6 +85,7 @@ def latex_into_html(descr_LaTeX, dunewd_dict, defs_dict):
     output_html = output_html.replace("<p>", "")
     output_html = output_html.replace("</p>", "")
     output_html = output_html.replace("&amp;percnt;", "&percnt;")
+    output_html = output_html.replace("\#", "#")
 
     # Replace the &lt; by < and &gt; by > to have <a></a> tags 
     output_html = output_html.replace("&lt;", "<")
@@ -226,17 +229,20 @@ def main():
 
     for key , info in dunewd_dict.items():
 
+        print(key)
         termHTML = latex_into_html(info["term"], dunewd_dict, defs_dict)    
         info["termHTML"] = termHTML
         
         if info["type"] is "abbrevs":
             termsHTML = latex_into_html(info["terms"], dunewd_dict, defs_dict)
             info["termsHTML"] = termsHTML
-            
+        
+        print(info["defLaTeX"])
         defHTML = latex_into_html(info["defLaTeX"], dunewd_dict, defs_dict)
         info["defHTML"] = defHTML + "."
 
-        print(key)
+        print(info["defHTML"])
+        print("\n")
         """
         for key_info, value in info.items():
             print("%s: %s"%(key_info, value))
@@ -275,7 +281,7 @@ def main():
     for letter in abc:
         content += '<a href="#' + letter + '">' + letter + '</a>\n'
     content += r'''</p>
-    <p>Acronym not found? See <a href="https://wiki.dunescience.org/wiki/ABC_DUNE" target="_blank">wiki instructions</a> to add it.</p>
+    <p>Acronym not found? See <a href="help.html" target="_blank">instructions</a> on how to contribute.</p>
 </center>
 '''
     #==== Loop over alphabet =====

@@ -37,8 +37,8 @@
         "type": "word"
     },
     "ac": {
-        "defHTML": "capacitive coupling.",
-        "defLaTeX": "capacitive coupling",
+        "defHTML": "Alternating Current; when used in the phrase \"AC coupling\" refers to a circuit element that filters out low-frequency components, such as constant offsets, leaving higher frequency signal components. The frequency filtering is determined both by a resistor and a capacitor.",
+        "defLaTeX": "Alternating Current; when used in the phrase ``AC coupling'' refers to a circuit element that filters out low-frequency components, such as constant offsets, leaving higher frequency signal components. The frequency filtering is determined both by a resistor and a capacitor",
         "term": "AC",
         "termHTML": "AC",
         "type": "word"
@@ -121,6 +121,13 @@
         "terms": "anode plane assemblies",
         "termsHTML": "anode plane assemblies",
         "type": "abbrevs"
+    },
+    "apb": {
+        "defHTML": "authorship and publications board.",
+        "defLaTeX": "authorship and publications board",
+        "term": "APB",
+        "termHTML": "APB",
+        "type": "word"
     },
     "arapuca": {
         "defHTML": "A <a href=\"#pds\">PD system</a> design that consists of a light trap that captures wavelength-shifted photons inside boxes with highly reflective internal surfaces until they are eventually detected by <a href=\"#sipm\">SiPM</a> detectors or are lost.",
@@ -374,6 +381,13 @@
         "termHTML": "CCC",
         "type": "word"
     },
+    "ccondc": {
+        "defHTML": "code of conduct committee.",
+        "defLaTeX": "code of conduct committee",
+        "term": "CCC",
+        "termHTML": "CCC",
+        "type": "word"
+    },
     "ccqe": {
         "defHTML": "charged current quasielastic interaction.",
         "defLaTeX": "charged current quasielastic interaction",
@@ -597,6 +611,13 @@
         "termHTML": "CR",
         "type": "word"
     },
+    "crb": {
+        "defHTML": "collaboration resources board.",
+        "defLaTeX": "collaboration resources board",
+        "term": "CRB",
+        "termHTML": "CRB",
+        "type": "word"
+    },
     "crio": {
         "defHTML": "Compact Reconfigurable Input Output.",
         "defLaTeX": "Compact Reconfigurable Input Output",
@@ -624,8 +645,8 @@
         "abbrev": "CRT",
         "defHTML": "Detector external to the TPC designed to tag TPC-traversing cosmic ray particles.",
         "defLaTeX": "Detector external to the TPC designed to tag TPC-traversing cosmic ray particles",
-        "term": "cosmic ray tagger",
-        "termHTML": "cosmic ray tagger",
+        "term": "cosmic-ray tagger",
+        "termHTML": "cosmic-ray tagger",
         "type": "abbrev"
     },
     "cryo": {
@@ -664,6 +685,13 @@
         "term": "coating, testing and storage facility",
         "termHTML": "coating, testing and storage facility",
         "type": "abbrev"
+    },
+    "cube": {
+        "defHTML": "beryllium copper, used to make <a href=\"#sp\">SP</a> <a href=\"#apa\">APA</a> readout planes.",
+        "defLaTeX": "beryllium copper, used to make \\gls{sp} \\gls{apa} readout planes",
+        "term": "CuBe",
+        "termHTML": "CuBe",
+        "type": "word"
     },
     "cuc": {
         "abbrev": "CUC",
@@ -796,7 +824,7 @@
     },
     "daqoob": {
         "abbrev": "OOB dispatcher",
-        "defHTML": "This component is responsible for dispatching a <a href=\"#snb\">SNB</a> dump command to all <a href=\"#daqfer\">FERs</a> in the <a href=\"#detmodule\">detector module</a>.",
+        "defHTML": "This component is responsible for dispatching a <a href=\"#snb\">SNB</a> dump command to all <a href=\"#daqfer\">FERs</a> in the <a href=\"#detmodule\">far detector module</a>.",
         "defLaTeX": "This component is responsible for dispatching a \\gls{snb} dump  command to all \\glspl{daqfer} in the \\gls{detmodule}",
         "term": "out-of-band trigger command  dispatcher",
         "termHTML": "out-of-band trigger command dispatcher",
@@ -886,7 +914,7 @@
     },
     "dcdb": {
         "abbrev": "DCDB",
-        "defHTML": "Database used by DUNE to track the history and testing of all parts of each <a href=\"#detmodule\">detector module</a>.",
+        "defHTML": "Database used by DUNE to track the history and testing of all parts of each <a href=\"#detmodule\">far detector module</a>.",
         "defLaTeX": "Database used by DUNE to track the history and testing of all parts of each \\gls{detmodule}",
         "term": "DUNE construction database",
         "termHTML": "DUNE construction database",
@@ -910,13 +938,13 @@
     "detmodule": {
         "defHTML": "The entire DUNE far detector is segmented into four modules, each with a nominal 10 fiducial mass.",
         "defLaTeX": "The entire DUNE far detector is  segmented into four modules, each with a nominal \\SI{10}{\\kton}  fiducial mass",
-        "term": "detector module",
-        "termHTML": "detector module",
+        "term": "far detector module",
+        "termHTML": "far detector module",
         "type": "word"
     },
     "detunit": {
-        "defHTML": "Aportion of a <a href=\"#detmodule\">detector module</a> may be further partitioned into a number of similar parts. For example the <a href=\"#sp\">SP</a> <a href=\"#tpc\">TPC</a>is made up of <a href=\"#apa\">APA</a> units (and other elements).",
-        "defLaTeX": "Aportion of a \\gls{detmodule} may be further partitioned into a number of similar parts.   For example the \\gls{sp} \\gls{tpc}is made up of \\gls{apa}  units (and other elements)",
+        "defHTML": "Aportion of a <a href=\"#detmodule\">far detector module</a> may be further partitioned into a number of similar parts. For example, the <a href=\"#sp\">SP</a> <a href=\"#tpc\">TPC</a> is made up of <a href=\"#apa\">APA</a> units (and other elements).",
+        "defLaTeX": "Aportion of a \\gls{detmodule} may be further partitioned into a number of similar parts.   For example, the \\gls{sp} \\gls{tpc} is made up of \\gls{apa}  units (and other elements)",
         "term": "detector unit",
         "termHTML": "detector unit",
         "type": "word"
@@ -968,8 +996,8 @@
     },
     "docdb": {
         "abbrev": "DocDB",
-        "defHTML": "A computerized document management system developed and supported at <a href=\"#fnal\">Fermilab</a> in which virtually all LBNF and most DUNE documents are managed.",
-        "defLaTeX": "A computerized document management system developed and supported at \\gls{fnal} in which virtually all LBNF and most DUNE documents are managed",
+        "defHTML": "A computerized document management system developed and supported at <a href=\"#fnal\">Fermilab</a> in which virtually all LBNF and most DUNE documents are managed (docs.dunescience.org).",
+        "defLaTeX": "A computerized document management system developed and supported at \\gls{fnal} in which virtually all LBNF and most DUNE documents are managed (docs.dunescience.org)",
         "term": "Document DataBase",
         "termHTML": "Document DataBase",
         "type": "abbrev"
@@ -1028,6 +1056,13 @@
         "termHTML": "dynamic random access memory",
         "type": "abbrev"
     },
+    "drift": {
+        "defHTML": "(1) refers to electron drift under the influence of an electric field in a <a href=\"#tpc\">TPC</a>; (2) an excavated horizontal corridors (tunnels) in the underground areas at <a href=\"#surf\">SURF</a>.",
+        "defLaTeX": "(1) refers to electron drift under the influence of an electric field in a \\gls{tpc}; (2) an excavated horizontal corridors (tunnels) in the underground areas at \\gls{surf}",
+        "term": "drift",
+        "termHTML": "drift",
+        "type": "word"
+    },
     "dsnb": {
         "abbrev": "DSNB",
         "defHTML": "The term describing the pervasive, constant flux of neutrinos due to all past supernova neutrino bursts.",
@@ -1038,14 +1073,14 @@
     },
     "dss": {
         "abbrev": "DSS",
-        "defHTML": "The system used to support a <a href=\"#sp\">SP</a> <a href=\"#detmodule\">detector module</a> within its cryostat.",
+        "defHTML": "The system used to support a <a href=\"#sp\">SP</a> <a href=\"#detmodule\">far detector module</a> within its cryostat.",
         "defLaTeX": "The system used to support a \\gls{sp} \\gls{detmodule} within its cryostat",
         "term": "detector support system",
         "termHTML": "detector support system",
         "type": "abbrev"
     },
     "dumpbuffer": {
-        "defHTML": "This <a href=\"#daq\">DAQ</a> buffer accepts a high-rate data stream, in aggregate, from an associated portion of a <a href=\"#detmodule\">detector module</a> sufficient to collect all data likely relevant to a potential <a href=\"#snb\">SNB</a>.",
+        "defHTML": "This <a href=\"#daq\">DAQ</a> buffer accepts a high-rate data stream, in aggregate, from an associated portion of a <a href=\"#detmodule\">far detector module</a> sufficient to collect all data likely relevant to a potential <a href=\"#snb\">SNB</a>.",
         "defLaTeX": "This \\gls{daq} buffer  accepts a high-rate data stream, in aggregate, from an associated  portion of a \\gls{detmodule} sufficient to collect all data likely relevant to  a potential \\gls{snb}",
         "term": "DAQ dump buffer",
         "termHTML": "DAQ dump buffer",
@@ -1076,7 +1111,7 @@
     },
     "eb": {
         "abbrev": "EB",
-        "defHTML": "A software agent that executes <a href=\"#trigcommand\">trigger commands</a> for one <a href=\"#detmodule\">detector module</a> by reading out the requested data.",
+        "defHTML": "A software agent that executes <a href=\"#trigcommand\">trigger commands</a> for one <a href=\"#detmodule\">far detector module</a> by reading out the requested data.",
         "defLaTeX": "A software agent that executes \\glspl{trigcommand}  for one  \\gls{detmodule} by reading out the requested data",
         "term": "event builder",
         "termHTML": "event builder",
@@ -1153,6 +1188,13 @@
         "termHTML": "effective number of bits",
         "type": "abbrev"
     },
+    "eoc": {
+        "defHTML": "education and outreach committee.",
+        "defLaTeX": "education and outreach committee",
+        "term": "EOC",
+        "termHTML": "EOC",
+        "type": "word"
+    },
     "eos": {
         "abbrev": "EOS",
         "defHTML": "The XRootD-based distributed file system developed by CERN.",
@@ -1209,7 +1251,7 @@
     },
     "etl": {
         "abbrev": "ETL",
-        "defHTML": "Trigger processing that consumes <a href=\"#detmodule\">detector module</a> level <a href=\"#trignote\">trigger notification</a> information and other global sources of trigger input and emits <a href=\"#trigcommand\">trigger command</a> information back to the <a href=\"#mtl\">MTLs</a>.",
+        "defHTML": "Trigger processing that consumes <a href=\"#detmodule\">far detector module</a> level <a href=\"#trignote\">trigger notification</a> information and other global sources of trigger input and emits <a href=\"#trigcommand\">trigger command</a> information back to the <a href=\"#mtl\">MTLs</a>.",
         "defLaTeX": "Trigger processing  that consumes \\gls{detmodule} level \\gls{trignote} information  and other global sources of trigger input and emits  \\gls{trigcommand} information back to the \\glspl{mtl}",
         "term": "external trigger logic",
         "termHTML": "external trigger logic",
@@ -1239,8 +1281,15 @@
         "termHTML": "executive board",
         "type": "abbrev"
     },
+    "exposure": {
+        "defHTML": "The integrated detector fiducial mass times beam intensity; it is proportional to the number of interactions and is used to normalize cross sections in a data sample.",
+        "defLaTeX": "The integrated detector fiducial mass times beam intensity; it is proportional to the number of interactions and is used to normalize cross sections in a data sample",
+        "term": "exposure",
+        "termHTML": "exposure",
+        "type": "word"
+    },
     "externtrigger": {
-        "defHTML": "Information provided to the <a href=\"#mtl\">MTL</a> about events external to a <a href=\"#detmodule\">detector module</a> so that it may be considered in forming <a href=\"#trigcommand\">trigger commands</a>.",
+        "defHTML": "Information provided to the <a href=\"#mtl\">MTL</a> about events external to a <a href=\"#detmodule\">far detector module</a> so that it may be considered in forming <a href=\"#trigcommand\">trigger commands</a>.",
         "defLaTeX": "Information  provided to the \\gls{mtl} about events external to a  \\gls{detmodule} so that it may be considered in forming  \\glspl{trigcommand}",
         "term": "external trigger candidate",
         "termHTML": "external trigger candidate",
@@ -1393,6 +1442,13 @@
         "termHTML": "field programmable gate array",
         "type": "abbrev"
     },
+    "fr4": {
+        "defHTML": "Flame-retardant fiberglass-reinforced epoxy resin laminate used in making PCBs and other detector components.",
+        "defLaTeX": "Flame-retardant fiberglass-reinforced epoxy resin laminate used in making PCBs and other detector components",
+        "term": "FR-4",
+        "termHTML": "FR-4",
+        "type": "word"
+    },
     "fra": {
         "abbrev": "FRA",
         "defHTML": "A joint partnership of the University of Chicago and the Universities Research Association (URA) that manages and operates Fermilab on behalf of the <a href=\"#doe\">DOE</a>.",
@@ -1476,6 +1532,13 @@
         "term": "full width at half maximum",
         "termHTML": "full width at half maximum",
         "type": "abbrev"
+    },
+    "g10": {
+        "defHTML": "Non-flame-retardant fiberglass-reinforced epoxy resin laminate used in making PCBs.",
+        "defLaTeX": "Non-flame-retardant fiberglass-reinforced epoxy resin laminate used in making PCBs",
+        "term": "G-10",
+        "termHTML": "G-10",
+        "type": "word"
     },
     "gar": {
         "abbrev": "GAr",
@@ -1571,8 +1634,8 @@
     },
     "gut": {
         "abbrev": "GUT",
-        "defHTML": "A class of theories that unifies the electro-weak and strong forces.",
-        "defLaTeX": "A class of theories that unifies the electro-weak and strong forces",
+        "defHTML": "A class of theories that unifies the electroweak and strong forces.",
+        "defLaTeX": "A class of theories that unifies the electroweak and strong forces",
         "term": "grand unified theory",
         "termHTML": "grand unified theory",
         "terms": "grand unified theories",
@@ -1596,8 +1659,8 @@
     },
     "hdpe": {
         "abbrev": "HDPE",
-        "defHTML": "High-density polyethylene plastic.",
-        "defLaTeX": "High-density polyethylene plastic",
+        "defHTML": "A thermoplastic polymer made from petroleum commonly used to make plastic bottles.",
+        "defLaTeX": "A thermoplastic polymer made from petroleum commonly used to make plastic bottles",
         "term": "high-density polyethylene",
         "termHTML": "high-density polyethylene",
         "type": "abbrev"
@@ -1611,8 +1674,8 @@
     },
     "hepa": {
         "abbrev": "HEPA",
-        "defHTML": "The High Efficiency Particulate Air filters are a type of air filter that remove &percnt; of particles that have a size greater than or equal to 0.3\u00a0<span class=\"math inline\"><em>\u03bc</em></span>m.",
-        "defLaTeX": "The High Efficiency Particulate Air filters are a type of air filter that remove \\num{99.97}&percnt; of particles that have a size greater than or equal to \\SI{0.3}{$\\mu$m}",
+        "defHTML": "The High Efficiency Particulate Air filters are a type of air filter that remove 99.97&percnt; of particles that have a size greater than or equal to 0.3\u00a0<span class=\"math inline\"><em>\u03bc</em></span>m.",
+        "defLaTeX": "The High Efficiency Particulate Air filters are a type of air filter that remove 99.97&percnt; of particles that have a size greater than or equal to \\SI{0.3}{$\\mu$m}",
         "term": "High Efficiency Particulate Air",
         "termHTML": "High Efficiency Particulate Air",
         "type": "abbrev"
@@ -1703,6 +1766,13 @@
         "termHTML": "Inter-Integrated Circuit",
         "type": "abbrev"
     },
+    "ib": {
+        "defHTML": "institutional board.",
+        "defLaTeX": "institutional board",
+        "term": "IB",
+        "termHTML": "IB",
+        "type": "word"
+    },
     "icarus": {
         "defHTML": "A neutrino experiment that was located at the Laboratori Nazionali del Gran Sasso (LNGS) in Italy, then refurbished at <a href=\"#cern\">CERN</a> for re-use in the same neutrino beam from <a href=\"#fnal\">Fermilab</a> used by the MiniBooNE, <a href=\"#microboone\">MicroBooNE</a> and <a href=\"#sbnd\">SBND</a> experiments. The ICARUS detector is being reassembled at <a href=\"#fnal\">Fermilab</a>.",
         "defLaTeX": "A neutrino experiment that was located at the Laboratori Nazionali del Gran Sasso (LNGS) in Italy, then refurbished at \\gls{cern} for re-use in the same neutrino beam from \\gls{fnal} used by the MiniBooNE, \\gls{microboone} and \\gls{sbnd} experiments. The ICARUS detector is being reassembled at \\gls{fnal}",
@@ -1771,6 +1841,13 @@
         "termHTML": "International Neutrino Council",
         "type": "abbrev"
     },
+    "indico": {
+        "defHTML": "Web-based meeting organization tool.",
+        "defLaTeX": "Web-based meeting organization tool",
+        "term": "Indico",
+        "termHTML": "Indico",
+        "type": "word"
+    },
     "inl": {
         "abbrev": "INL",
         "defHTML": "A commonly used measure of performance in <a href=\"#adc\">ADCs</a>. It is the deviation between the ideal input threshold value and the measured threshold level of a certain output code.",
@@ -1817,6 +1894,13 @@
         "termHTML": "project integration director",
         "type": "word"
     },
+    "irb": {
+        "defHTML": "institutional board representative.",
+        "defLaTeX": "institutional board representative",
+        "term": "IBR",
+        "termHTML": "IBR",
+        "type": "word"
+    },
     "irig": {
         "abbrev": "IRIG",
         "defHTML": "A standards body that defined a time-code standard for transferring timing information.",
@@ -1847,6 +1931,13 @@
         "term": "Joint Project Office",
         "termHTML": "Joint Project Office",
         "type": "abbrev"
+    },
+    "kapton": {
+        "defHTML": "A polyimide plastic film that is stable over a broad range of temperatures and is resistant to radiation damage.",
+        "defLaTeX": "A polyimide plastic film that is stable over a broad range of temperatures and is resistant to radiation damage",
+        "term": "Kapton",
+        "termHTML": "Kapton",
+        "type": "word"
     },
     "kloe": {
         "defHTML": "KLOE is a <span class=\"math inline\"><em>e</em><sup>+</sup><em>e</em><sup>\u2212</sup></span> collider detector spectrometer operated at DAFNE, the <span class=\"math inline\"><em>\u03d5</em></span>-meson factory at Frascati, Rome. In DUNE it will consist of a 26\u00a0cm Pb+scintillating fiber ECAL surrounding a cylindrical open detector region that is 4.00\u00a0m in diameter and 4.30\u00a0m long. The ECAL and detector region are embedded in a 0.6\u00a0T magnetic field created by a 4.86\u00a0m diameter superconducting coil and a 475\u00a0tonne iron yoke.",
@@ -2205,10 +2296,17 @@
         "termHTML": "main communications room",
         "type": "abbrev"
     },
+    "mec": {
+        "defHTML": "See <a href=\"#2p2h\">2p2h</a>.",
+        "defLaTeX": "See \\gls{2p2h}",
+        "term": "meson exchange current",
+        "termHTML": "meson exchange current",
+        "type": "word"
+    },
     "mh": {
         "abbrev": "MH",
-        "defHTML": "Describes the separation between the mass squared differences related to the solar and atmospheric neutrino problems.",
-        "defLaTeX": "Describes the separation  between the mass squared differences related to the solar and  atmospheric neutrino problems",
+        "defHTML": "Describes the separation between the mass squared differences related to the solar and atmospheric neutrino problems (also written as <a href=\"#mo\">MO</a>).",
+        "defLaTeX": "Describes the separation  between the mass squared differences related to the solar and  atmospheric neutrino problems (also written as \\gls{mo})",
         "term": "mass hierarchy",
         "termHTML": "mass hierarchy",
         "type": "abbrev"
@@ -2287,6 +2385,21 @@
         "term": "module level trigger",
         "termHTML": "module level trigger",
         "type": "abbrev"
+    },
+    "mo": {
+        "abbrev": "MO",
+        "defHTML": "See <a href=\"#mh\">MH</a>.",
+        "defLaTeX": "See \\gls{mh}",
+        "term": "mass ordering",
+        "termHTML": "mass ordering",
+        "type": "abbrev"
+    },
+    "module": {
+        "defHTML": "Many aspects of the DUNE far and near detectors are modular, so \"module\" must be understood in context. It may refer to one of the four far detector modules, distinct portions of a subdetector as in a \"field cage module,\" a software or electronics module, e.g., a separate framework plug-in, and so on.",
+        "defLaTeX": "Many aspects of the DUNE far and near detectors are modular, so ``module'' must be understood in context. It may refer to one of the four far detector modules, distinct portions of a subdetector as in a ``field cage module,'' a software or electronics module, e.g., a separate framework plug-in, and so on",
+        "term": "module",
+        "termHTML": "module",
+        "type": "word"
     },
     "mosi": {
         "abbrev": "MOSI",
@@ -3018,7 +3131,7 @@
         "type": "abbrev"
     },
     "readout window": {
-        "defHTML": "A fixed, atomic and continuous period of time over which data from a <a href=\"#detmodule\">detector module</a>, in whole or in part, is recorded. This period may differ based on the trigger that initiated the readout.",
+        "defHTML": "A fixed, atomic and continuous period of time over which data from a <a href=\"#detmodule\">far detector module</a>, in whole or in part, is recorded. This period may differ based on the trigger that initiated the readout.",
         "defLaTeX": "A fixed, atomic and  continuous period of time over which data from a \\gls{detmodule}, in  whole or in part, is recorded.  This period may differ based on the trigger that initiated the  readout",
         "term": "readout window",
         "termHTML": "readout window",
@@ -3145,6 +3258,13 @@
         "termHTML": "signal-to-noise",
         "type": "abbrev"
     },
+    "sac": {
+        "defHTML": "spokespersons advisory committee.",
+        "defLaTeX": "spokespersons advisory committee",
+        "term": "SAC",
+        "termHTML": "SAC",
+        "type": "word"
+    },
     "saci": {
         "defHTML": "<a href=\"#slac\">SLAC</a> <a href=\"#asic\">ASIC</a> Control Interface.",
         "defLaTeX": "\\gls{slac} \\gls{asic} Control Interface",
@@ -3226,6 +3346,13 @@
         "termHTML": "Scientific Computing Infrastructure",
         "type": "abbrev"
     },
+    "scomm": {
+        "defHTML": "speakers committee.",
+        "defLaTeX": "speakers committee",
+        "term": "SC",
+        "termHTML": "SC",
+        "type": "word"
+    },
     "sdsd": {
         "abbrev": "SDSD",
         "defHTML": "A Fermilab division responsible providing host laboratory functions at SURF in South Dakota.",
@@ -3289,6 +3416,13 @@
         "term": "term",
         "termHTML": "term",
         "type": "abbrev"
+    },
+    "shaft": {
+        "defHTML": "A vertical excavation at <a href=\"#surf\">SURF</a> connecting with the surface.",
+        "defLaTeX": "A vertical excavation at \\gls{surf} connecting with the surface",
+        "term": "shaft",
+        "termHTML": "shaft",
+        "type": "word"
     },
     "shv": {
         "abbrev": "SHV",
@@ -3486,7 +3620,7 @@
     },
     "ssd": {
         "abbrev": "SSD",
-        "defHTML": "Any storage device that may provide sufficient write throughput to receive, both collectively and distributed, the sustained full rate of data from a <a href=\"#detmodule\">detector module</a> for many seconds.",
+        "defHTML": "Any storage device that may provide sufficient write throughput to receive, both collectively and distributed, the sustained full rate of data from a <a href=\"#detmodule\">far detector module</a> for many seconds.",
         "defLaTeX": "Any storage device that  may provide sufficient write throughput to receive, both collectively and  distributed, the sustained full rate of data from a \\gls{detmodule}  for many seconds",
         "term": "solid-state disk",
         "termHTML": "solid-state disk",
@@ -3632,8 +3766,8 @@
     },
     "tpc": {
         "abbrev": "TPC",
-        "defHTML": "A type of particle detector that uses an together with a sensitive volume of gas or liquid, e.g., <a href=\"#lar\">LAr</a>, to perform a reconstruction of a particle trajectory or interaction. The activity is recorded by digitizing the waveforms of current induced on the anode as the distribution of ionization charge passes by or is collected on the electrode.",
-        "defLaTeX": "A type of particle detector that uses an \\efield together with a sensitive volume of gas or liquid, e.g., \\gls{lar}, to perform a \\threed reconstruction of a particle trajectory or interaction. The activity is recorded by digitizing the waveforms of current  induced on the anode as the distribution of ionization charge passes by  or is collected on the electrode",
+        "defHTML": "A type of particle detector that uses an together with a sensitive volume of gas or liquid, e.g., <a href=\"#lar\">LAr</a>, to perform a reconstruction of a particle trajectory or interaction. The activity is recorded by digitizing the waveforms of current induced on the anode as the distribution of ionization charge passes by or is collected on the electrode (TPC is also used for \"total project cost\").",
+        "defLaTeX": "A type of particle detector that uses an \\efield together with a sensitive volume of gas or liquid, e.g., \\gls{lar}, to perform a \\threed reconstruction of a particle trajectory or interaction. The activity is recorded by digitizing the waveforms of current  induced on the anode as the distribution of ionization charge passes by  or is collected on the electrode (TPC is also used for ``total project cost'')",
         "term": "time projection chamber",
         "termHTML": "time projection chamber",
         "type": "abbrev"
@@ -3654,7 +3788,7 @@
         "type": "word"
     },
     "trigcommand": {
-        "defHTML": "Information derived from one or more <a href=\"#trigcandidate\">trigger candidates</a> that directs elements of the <a href=\"#detmodule\">detector module</a> to read out a portion of the data stream.",
+        "defHTML": "Information derived from one or more <a href=\"#trigcandidate\">trigger candidates</a> that directs elements of the <a href=\"#detmodule\">far detector module</a> to read out a portion of the data stream.",
         "defLaTeX": "Information derived from  one or more \\glspl{trigcandidate}  that directs elements of the  \\gls{detmodule} to read out a portion of the data stream",
         "term": "trigger command",
         "termHTML": "trigger command",
@@ -3839,6 +3973,13 @@
         "term": "weakly-interacting massive particle",
         "termHTML": "weakly-interacting massive particle",
         "type": "abbrev"
+    },
+    "winze": {
+        "defHTML": "A vertical excavation at <a href=\"#surf\">SURF</a> connecting two drifts, not connecting to the surface.",
+        "defLaTeX": "A vertical excavation at \\gls{surf} connecting two drifts, not connecting to the surface",
+        "term": "winze",
+        "termHTML": "winze",
+        "type": "word"
     },
     "wire board": {
         "defHTML": "At the head end of the APA in the <a href=\"#sp\">SP</a> <a href=\"#tpc\">TPC</a>, stacks of electronics boards referred to as \"wire boards\" are arrayed to anchor the wires. They also provide the connection between the wires and the cold electronics.",

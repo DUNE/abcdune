@@ -68,8 +68,8 @@ def latex_into_html(descr_LaTeX, dunewd_dict, defs_dict):
 
     # Replace the newcommand{} from defs.tex by the proper latex
     for def_key, def_info in defs_dict.items():
-        def_key_esc = "\\" + def_key
-        if def_key_esc in descr_LaTeX:
+        if def_key in descr_LaTeX:
+            #print("===> def_key %s found in: %s"%(def_key, descr_LaTeX))
             descr_LaTeX = descr_LaTeX.replace(def_key, def_info['def_latex'])
     
     # Replace `` quotes '' by "
@@ -145,7 +145,7 @@ def main():
 
         if def_command:
             defs_dict[def_command] = { "N_args": N_args, "def_latex": def_latex }
-
+    
     #------------------------
     # Opening glossary.tex
     #------------------------
@@ -223,8 +223,8 @@ def main():
     """
     ===== Description in HTML =====
     Need to have all dunewords and defs before converting to html
-    ===> to replace definitions into latex
-    ===> to referenced acronyms into html links
+    1. to replace definitions into latex
+    2. to reference acronyms into html links
     """
 
     for key , info in dunewd_dict.items():
@@ -232,17 +232,20 @@ def main():
         print(key)
         termHTML = latex_into_html(info["term"], dunewd_dict, defs_dict)    
         info["termHTML"] = termHTML
-        
+
+        if info["type"] is "abbrev" or info["type"] is "abbrevs":
+            abbrevHTML = latex_into_html(info["abbrev"], dunewd_dict, defs_dict)
+            info["abbrevHTML"] = abbrevHTML
+
         if info["type"] is "abbrevs":
             termsHTML = latex_into_html(info["terms"], dunewd_dict, defs_dict)
             info["termsHTML"] = termsHTML
         
-        print(info["defLaTeX"])
+        #print(info["defLaTeX"])
         defHTML = latex_into_html(info["defLaTeX"], dunewd_dict, defs_dict)
         info["defHTML"] = defHTML + "."
 
-        print(info["defHTML"])
-        print("\n")
+        #print(info["defHTML"])
         """
         for key_info, value in info.items():
             print("%s: %s"%(key_info, value))
@@ -300,7 +303,7 @@ def main():
 
                 if info["type"] is not "word": # cases abbrev and abbrevs
 
-                    content += '  <dt id = "' + key + '">' + info["abbrev"] + '</dt>\n'
+                    content += '  <dt id = "' + key + '">' + info["abbrevHTML"] + '</dt>\n'
                     content += '  <dd>' + info["termHTML"] + '<br>'
                 else:
                     content += '  <dt id = "' + key + '">' + info["termHTML"] + '</dt>\n'

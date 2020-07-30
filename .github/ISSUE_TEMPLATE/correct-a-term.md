@@ -2,7 +2,7 @@
 name: Correct a term
 about: Suggestion a correction to an existing entry
 title: ''
-labels: invalid
+labels: documentation
 assignees: aheavey, brettviren, clairedavid
 
 ---

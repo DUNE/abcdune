@@ -1,30 +1,30 @@
 ---
-name: Add an acronym
-about: Request a missing acronym to be added
-title: 'New acronym '
+name: Add a term
+about: Request a missing term to be added
+title: 'New term '
 labels: documentation
 assignees: aheavey, brettviren, clairedavid
 
 ---
 
-# Request of a new acronym
+# Request for a new term
 
 ## Case 1: you know the definition
-  The term to add to glossary, spelled out long hand (eg: `Anode Plane Assembly`):
+  The term to add to glossary, fully spelled out (e.g. `Anode Plane Assembly`):
 ```
 
 ```
-  Official abbreviation, if any (eg: `APA`):
-```
-
-```
-
-  Suggested identifier (short, single word, lower case, eg `apa`):
+  Official abbreviation, if any (e.g. `APA`):
 ```
 
 ```
 
-  Brief descriptive text or, if you know the DUNE LaTeX Glossary system you may provide a full glossaries.tex entry:
+  Suggested identifier (short, lower case, no spaces, e.g. `apa`):
+```
+
+```
+
+  Brief descriptive text or, if you know the DUNE LaTeX Glossary system you may provide a full glossary.tex entry:
 ```
 
 ```

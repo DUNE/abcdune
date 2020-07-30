@@ -7,26 +7,26 @@ assignees: aheavey, brettviren, clairedavid
 
 ---
 
-**Paste below the term and its description**
-Paste here the HTML or the LaTeX (preferred)
+**Paste the term and its description below**
+Paste the HTML or the LaTeX (preferred) for the term's entry here.
 ```
 
 ```
 
 **Describe the issue**
-A clear and concise explanation of why the current description is inaccurate.
+Give a clear and concise explanation of what is inaccurate in the current entry.
 ```
 
 ```
 
 **Suggest a correction**
-Write here the (possibly in LaTeX) the suggested description of the term.
+Write the (in LaTeX, if possible) your suggested correction here.
 ```
 
 ```
 
 **Additional context**
-Add any other context, links or references about the correction here.
+Add any other context, links, or references about the correction here.
 ```
 
 ```

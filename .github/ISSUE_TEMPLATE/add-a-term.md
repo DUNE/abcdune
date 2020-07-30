@@ -7,7 +7,7 @@ assignees: aheavey, brettviren, clairedavid
 
 ---
 
-# Request of a new term
+# Request for a new term
 
 ## Case 1: you know the definition
   The term to add to glossary, fully spelled out (e.g. `Anode Plane Assembly`):
@@ -19,7 +19,7 @@ assignees: aheavey, brettviren, clairedavid
 
 ```
 
-  Suggested identifier (short, lower case, e.g. `apa`):
+  Suggested identifier (short, lower case, no spaces, e.g. `apa`):
 ```
 
 ```

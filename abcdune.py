@@ -284,7 +284,7 @@ def main():
     for letter in abc:
         content += '<a href="#' + letter + '">' + letter + '</a>\n'
     content += r'''</p>
-    <p>Acronym not found? See <a href="help.html" target="_blank">instructions</a> on how to contribute.</p>
+    <p>Term not found? See <a href="help.html" target="_blank">instructions</a> on how to contribute.</p>
 </center>
 '''
     #==== Loop over alphabet =====

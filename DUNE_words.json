@@ -1007,8 +1007,8 @@
         "type": "word"
     },
     "detunit": {
-        "defHTML": "Aportion of a <a href=\"#detmodule\">far detector module</a> may be further partitioned into a number of similar parts. For example, the <a href=\"#sp\">SP</a> <a href=\"#tpc\">TPC</a> is made up of <a href=\"#apa\">APA</a> units (and other elements).",
-        "defLaTeX": "Aportion of a \\gls{detmodule} may be further partitioned into a number of similar parts.   For example, the \\gls{sp} \\gls{tpc} is made up of \\gls{apa}  units (and other elements)",
+        "defHTML": "A portion of a <a href=\"#detmodule\">far detector module</a> may be further partitioned into a number of similar parts. For example, the <a href=\"#sp\">SP</a> <a href=\"#tpc\">TPC</a> is made up of <a href=\"#apa\">APA</a> units (and other elements).",
+        "defLaTeX": "A portion of a \\gls{detmodule} may be further partitioned into a number of similar parts.   For example, the \\gls{sp} \\gls{tpc} is made up of \\gls{apa}  units (and other elements)",
         "term": "detector unit",
         "termHTML": "detector unit",
         "type": "word"

@@ -1964,8 +1964,8 @@
         "type": "word"
     },
     "ifdhc": {
-        "defHTML": ".",
-        "defLaTeX": "",
+        "defHTML": "A multi-protocol tool for data transfer and file delivery in jobs. It is able to automatically select transfer protocols based on source and destination characteristics.",
+        "defLaTeX": "A multi-protocol tool for data transfer and file delivery in jobs. It is able to automatically select transfer protocols based on source and destination characteristics.",
         "term": "Intensity Frontier Data Handling Client",
         "termHTML": "Intensity Frontier Data Handling Client",
         "type": "word"

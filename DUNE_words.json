@@ -974,6 +974,13 @@
         "termHTML": "DC",
         "type": "word"
     },
+    "dcache": {
+        "defHTML": "A distributed, highly scalable (multi-PB) storage system, usable as both a standalone system and as a high-speed frontend to a tape storage system (such as /pnfs at Fermilab).",
+        "defLaTeX": "A distributed, highly scalable (multi-PB) storage system, usable as both a standalone system and as a high-speed frontend to a tape storage system (such as /pnfs at Fermilab).",
+        "term": "dCache",
+        "termHTML": "dCache",
+        "type": "word"
+    },
     "dcdb": {
         "abbrev": "DCDB",
         "abbrevHTML": "DCDB",
@@ -1947,6 +1954,20 @@
         "defLaTeX": "Database that stores beamline information indexed by timestamp",
         "term": "IFbeam",
         "termHTML": "IFbeam",
+        "type": "word"
+    },
+    "ifdh": {
+        "defHTML": "The actual command invoked when using <a href=\"#ifdhc\">IFDHC</a> on the command line, e.g. ifdh cp source_file dest_file",
+        "defLaTeX": "The actual command invoked when using \\gls{ifdhc}, on the command line, e.g. ifdh cp source_file dest_file",
+        "term": "Intensity Frontier Data Handling",
+        "termHTML": "Intensity Frontier Data Handling",
+        "type": "word"
+    },
+    "ifdhc": {
+        "defHTML": "A multi-protocol tool for data transfer and file delivery in jobs. It is able to automatically select transfer protocols based on source and destination characteristics.",
+        "defLaTeX": "A multi-protocol tool for data transfer and file delivery in jobs. It is able to automatically select transfer protocols based on source and destination characteristics.",
+        "term": "Intensity Frontier Data Handling Client",
+        "termHTML": "Intensity Frontier Data Handling Client",
         "type": "word"
     },
     "ific": {
@@ -3129,6 +3150,13 @@
         "term": "photomultiplier tube",
         "termHTML": "photomultiplier tube",
         "type": "abbrev"
+    },
+    "pnfs": {
+        "defHTML": "A file system often used in large storage systems. Typically interaction is very similar to a regular NFS volume, but there can be some subtle and important differences.",
+        "defLaTeX": "A file system often used in large storage systems. Typically interaction is very similar to a regular NFS volume, but there can be some subtle and important differences.",
+        "term": "Pseudo Network File System",
+        "termHTML": "Pseudo Network File System",
+        "type": "word"
     },
     "pnp": {
         "defHTML": "Type of bipolar junction transistor consistning of alayer of N-doped semiconductor sandwiched between two layers of P-doped material.",

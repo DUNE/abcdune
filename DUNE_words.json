@@ -1968,8 +1968,8 @@
     "ifdh": {
         "abbrev": "ifdh",
         "abbrevHTML": "ifdh",
-        "defHTML": "The actual command invoked when using <a href=\"#ifdhc\">IFDHC</a>, on the command line, e.g. ifdh cp source<span class=\"math inline\">$_$</span>file dest<span class=\"math inline\">$_$</span>file.",
-        "defLaTeX": "The actual command invoked when using \\gls{ifdhc}, on the command line, e.g. ifdh cp source$_$file dest$_$file",
+        "defHTML": "The actual command invoked when using <a href=\"#ifdhc\">IFDHC</a>, on the command line, e.g. ifdh cp source_file dest_file.",
+        "defLaTeX": "The actual command invoked when using \\gls{ifdhc}, on the command line, e.g. ifdh cp source\\_file dest\\_file",
         "term": "Intensity Frontier Data Handling",
         "termHTML": "Intensity Frontier Data Handling",
         "type": "abbrev"

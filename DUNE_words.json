@@ -204,8 +204,8 @@
         "type": "abbrev"
     },
     "atlas": {
-        "defHTML": "One of two general-purpose detectors at the <a href=\"#lhc\">LHC</a>. It investigates a wide range of physics, from the search for the Higgs boson to extra dimensions and particles that could make up <a href=\"#dm\">DM</a>.",
-        "defLaTeX": "One of two general-purpose detectors at the \\gls{lhc}. It investigates a wide range of physics, from the search for the Higgs boson to extra dimensions and particles that could make up \\gls{dm}",
+        "defHTML": "One of two general-purpose detectors at the <a href=\"#lhc\">LHC</a>. It investigates a wide range of physics, from the measurements of the Higgs boson properties to searches for extra dimensions and particles that could make up <a href=\"#dm\">DM</a>.",
+        "defLaTeX": "One of two general-purpose detectors at the \\gls{lhc}. It investigates a wide range of physics, from the measurements of the Higgs boson properties to searches for extra dimensions and particles that could make up \\gls{dm}",
         "term": "ATLAS",
         "termHTML": "ATLAS",
         "type": "word"
@@ -972,6 +972,13 @@
         "defLaTeX": "direct coupling",
         "term": "DC",
         "termHTML": "DC",
+        "type": "word"
+    },
+    "dcache": {
+        "defHTML": "A distributed, highly scalable (multi-PB) storage system, usable as both a standalone system and as a high-speed frontend to a tape storage system (such as /pnfs at Fermilab).",
+        "defLaTeX": "A distributed, highly scalable (multi-PB) storage system, usable as both a standalone system and as a high-speed frontend to a tape storage system (such as /pnfs at Fermilab)",
+        "term": "dCache",
+        "termHTML": "dCache",
         "type": "word"
     },
     "dcdb": {
@@ -1853,6 +1860,15 @@
         "termHTML": "HEP Software Foundation Collaboration",
         "type": "abbrev"
     },
+    "htc": {
+        "abbrev": "HTC",
+        "abbrevHTML": "HTC",
+        "defHTML": "Computing facilities typically consisting of large numbers of commodity servers as opposed to a single large machine. Best suited for running large numbers of independent jobs in parallel, these facilities are what is usually meant by \"grid computing\".",
+        "defLaTeX": "Computing facilities typically consisting of large numbers of commodity servers as opposed to a single large machine. Best suited for running large numbers of independent jobs in parallel, these facilities are what is usually meant by ``grid computing''",
+        "term": "High Throughput Computing",
+        "termHTML": "High Throughput Computing",
+        "type": "abbrev"
+    },
     "hv": {
         "abbrev": "HV",
         "abbrevHTML": "HV",
@@ -1948,6 +1964,24 @@
         "term": "IFbeam",
         "termHTML": "IFbeam",
         "type": "word"
+    },
+    "ifdh": {
+        "abbrev": "ifdh",
+        "abbrevHTML": "ifdh",
+        "defHTML": "The actual command invoked when using <a href=\"#ifdhc\">IFDHC</a>, on the command line, e.g. ifdh cp source<span class=\"math inline\">$_$</span>file dest<span class=\"math inline\">$_$</span>file.",
+        "defLaTeX": "The actual command invoked when using \\gls{ifdhc}, on the command line, e.g. ifdh cp source$_$file dest$_$file",
+        "term": "Intensity Frontier Data Handling",
+        "termHTML": "Intensity Frontier Data Handling",
+        "type": "abbrev"
+    },
+    "ifdhc": {
+        "abbrev": "IFDHC",
+        "abbrevHTML": "IFDHC",
+        "defHTML": "A multi-protocol tool for data transfer and file delivery in jobs. It is able to automatically select transfer protocols based on source and destination characteristics.",
+        "defLaTeX": "A multi-protocol tool for data transfer and file delivery in jobs. It is able to automatically select transfer protocols based on source and destination characteristics",
+        "term": "Intensity Frontier Data Handling Client",
+        "termHTML": "Intensity Frontier Data Handling Client",
+        "type": "abbrev"
     },
     "ific": {
         "defHTML": "Instituto de Fisica Corpuscular (in Valencia, Spain).",
@@ -3128,6 +3162,15 @@
         "defLaTeX": "A device that makes use  of the photoelectric effect to produce an electrical signal from the  arrival of optical photons",
         "term": "photomultiplier tube",
         "termHTML": "photomultiplier tube",
+        "type": "abbrev"
+    },
+    "pnfs": {
+        "abbrev": "PNFS",
+        "abbrevHTML": "PNFS",
+        "defHTML": "A file system often used in large storage systems. Typically interaction is very similar to a regular NFS volume, but there can be some subtle and important differences.",
+        "defLaTeX": "A file system often used in large storage systems. Typically interaction is very similar to a regular NFS volume, but there can be some subtle and important differences",
+        "term": "Pseudo Network File System",
+        "termHTML": "Pseudo Network File System",
         "type": "abbrev"
     },
     "pnp": {

@@ -272,7 +272,7 @@ def main():
 
 <center>
 <img src="gfx/abcdune_logo.png" alt="A B C DUNE" id="header">
-<h2>Speak neutrinos</h2>
+<h2>DUNE's glossary</h2>
 
 <p class="alphabet_menu">
 '''

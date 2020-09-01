@@ -61,6 +61,15 @@
         "termHTML": "analog-to-digital converter",
         "type": "abbrev"
     },
+    "agky": {
+        "abbrev": "AGKY",
+        "abbrevHTML": "AGKY",
+        "defHTML": "A model for hadronization of nonresonant inelastic neutrino reactions at invariant hadronic masses of less than 3 3\u00a0GeV/c\u00b2 used in.",
+        "defLaTeX": "A model for hadronization of nonresonant inelastic neutrino reactions at invariant hadronic masses of less than 3 \\SI{3}{\\GeV\\per\\square c} used in \\dshort{GENIE}",
+        "term": "Andreopolis-Gallagher-Kehayias-Yang",
+        "termHTML": "Andreopolis-Gallagher-Kehayias-Yang",
+        "type": "abbrev"
+    },
     "ahj": {
         "abbrev": "AHJ",
         "abbrevHTML": "AHJ",
@@ -412,11 +421,13 @@
         "type": "word"
     },
     "ccqe": {
-        "defHTML": "charged current quasielastic interaction.",
-        "defLaTeX": "charged current quasielastic interaction",
-        "term": "CCQE",
-        "termHTML": "CCQE",
-        "type": "word"
+        "abbrev": "CCQE",
+        "abbrevHTML": "CCQE",
+        "defHTML": "An interaction where a neutrino scatters from a nucleon, producing a charged lepton and converting a neutron to a proton or vice versa.",
+        "defLaTeX": "An interaction where a neutrino scatters from a nucleon, producing a charged lepton and converting a neutron to a proton or vice versa",
+        "term": "charged current quasielastic interaction",
+        "termHTML": "charged current quasielastic interaction",
+        "type": "abbrev"
     },
     "cdr": {
         "abbrev": "CDR",
@@ -504,6 +515,15 @@
         "defLaTeX": "Refers to a probability  used to determine the value of a random variable given its  distribution",
         "term": "confidence level",
         "termHTML": "confidence level",
+        "type": "abbrev"
+    },
+    "clas": {
+        "abbrev": "CLAS",
+        "abbrevHTML": "CLAS",
+        "defHTML": "A nuclear and particle physics detector located in the experimental Hall B at Jefferson Laboratory in Newport News, Virginia, United States. It is used to study the properties of the nuclear matter by the collaboration of over 200 physicists. Of particular relevance is its study of electron interactions with nuclei, including argon..",
+        "defLaTeX": "A nuclear and particle physics detector located in the experimental Hall B at Jefferson Laboratory in Newport News, Virginia, United States. It is used to study the properties of the nuclear matter by the collaboration of over 200 physicists. Of particular relevance is its study of electron interactions with nuclei, including argon.",
+        "term": "CEBAF Large Acceptance Spectrometer",
+        "termHTML": "CEBAF Large Acceptance Spectrometer",
         "type": "abbrev"
     },
     "cmgc": {
@@ -1193,6 +1213,15 @@
         "termHTML": "DUNE Word",
         "type": "word"
     },
+    "e4nu": {
+        "abbrev": "e4nu",
+        "abbrevHTML": "e4nu",
+        "defHTML": "A collaboration dedicated to using JLab\u2019s electron-scattering data to deliver improved neutrino-nucleus cross sections..",
+        "defLaTeX": "A collaboration dedicated to using JLab's electron-scattering data to deliver improved neutrino-nucleus cross sections.",
+        "term": "Electrons for Neutrinos",
+        "termHTML": "Electrons for Neutrinos",
+        "type": "abbrev"
+    },
     "eb": {
         "abbrev": "EB",
         "abbrevHTML": "EB",
@@ -1464,6 +1493,13 @@
         "term": "DAQ front-end computer",
         "termHTML": "DAQ front-end computer",
         "type": "abbrev"
+    },
+    "fee": {
+        "defHTML": "front-end electronics.",
+        "defLaTeX": "front-end electronics",
+        "term": "FEE",
+        "termHTML": "FEE",
+        "type": "word"
     },
     "felix": {
         "abbrev": "FELIX",
@@ -1783,6 +1819,15 @@
         "termHTML": "hazard analysis",
         "type": "abbrev"
     },
+    "hadw": {
+        "abbrev": "W",
+        "abbrevHTML": "W",
+        "defHTML": "Refers to the invariant mass of the hadronic system formed during the neutrino scatter.",
+        "defLaTeX": "Refers to the invariant mass of the hadronic system formed during the neutrino scatter",
+        "term": "invariant mass of the hadronic system",
+        "termHTML": "invariant mass of the hadronic system",
+        "type": "abbrev"
+    },
     "har": {
         "defHTML": "hazard analysis report.",
         "defLaTeX": "hazard analysis report",
@@ -1927,8 +1972,8 @@
         "type": "word"
     },
     "icarus": {
-        "defHTML": "A neutrino experiment that was located at the Laboratori Nazionali del Gran Sasso (LNGS) in Italy, then refurbished at <a href=\"#cern\">CERN</a> for re-use in the same neutrino beam from <a href=\"#fnal\">Fermilab</a> used by the MiniBooNE, <a href=\"#microboone\">MicroBooNE</a> and <a href=\"#sbnd\">SBND</a> experiments. The ICARUS detector is being reassembled at <a href=\"#fnal\">Fermilab</a>.",
-        "defLaTeX": "A neutrino experiment that was located at the Laboratori Nazionali del Gran Sasso (LNGS) in Italy, then refurbished at \\gls{cern} for re-use in the same neutrino beam from \\gls{fnal} used by the MiniBooNE, \\gls{microboone} and \\gls{sbnd} experiments. The ICARUS detector is being reassembled at \\gls{fnal}",
+        "defHTML": "A neutrino experiment that was located at the Laboratori Nazionali del Gran Sasso (LNGS) in Italy, then refurbished at <a href=\"#cern\">CERN</a> for re-use in the same neutrino beam from <a href=\"#fnal\">Fermilab</a> used by the <a href=\"#miniboone\">MiniBooNE</a> , <a href=\"#microboone\">MicroBooNE</a> and <a href=\"#sbnd\">SBND</a> experiments. The ICARUS detector is being reassembled at <a href=\"#fnal\">Fermilab</a>.",
+        "defLaTeX": "A neutrino experiment that was located at the Laboratori Nazionali del Gran Sasso (LNGS) in Italy, then refurbished at \\gls{cern} for re-use in the same neutrino beam from \\gls{fnal} used by the \\gls{miniboone} , \\gls{microboone} and \\gls{sbnd} experiments. The ICARUS detector is being reassembled at \\gls{fnal}",
         "term": "ICARUS",
         "termHTML": "ICARUS",
         "type": "word"
@@ -2007,6 +2052,13 @@
         "term": "integrated master schedule",
         "termHTML": "integrated master schedule",
         "type": "abbrev"
+    },
+    "imt": {
+        "defHTML": "Intranuclear momentum transfer.",
+        "defLaTeX": "Intranuclear momentum transfer",
+        "term": "IMT",
+        "termHTML": "IMT",
+        "type": "word"
     },
     "inc": {
         "abbrev": "INC",
@@ -2164,8 +2216,8 @@
     "lar": {
         "abbrev": "LAr",
         "abbrevHTML": "LAr",
-        "defHTML": "Argon in its liquid phase; it is a cryogenic liquid with a boiling point of -90\u00a0<span class=\"math inline\"><em></em><sup>\u2218</sup><em>C</em></span> (87\u00a0K) and density of 1.4\u00a0g/ml.",
-        "defLaTeX": "Argon in its liquid phase; it is a cryogenic liquid with a boiling point of \\SI{-90}{$^\\circ{C}$} (\\SI{87}{K}) and density of \\SI{1.4}{g/ml}",
+        "defHTML": "Argon in its liquid phase; it is a cryogenic liquid with a boiling point of 87\u00a0K and density of 1.4\u00a0g/ml.",
+        "defLaTeX": "Argon in its liquid phase; it is a cryogenic liquid with a boiling point of \\SI{87}{K} and density of \\SI{1.4}{g/ml}",
         "term": "liquid argon",
         "termHTML": "liquid argon",
         "type": "abbrev"
@@ -2320,6 +2372,15 @@
         "defLaTeX": "Refers to dark matter particles with mass values much lower than the electroweak scale, specifically below the 1~GeV level",
         "term": "light-mass dark matter",
         "termHTML": "light-mass dark matter",
+        "type": "abbrev"
+    },
+    "ldmx": {
+        "abbrev": "LDMX",
+        "abbrevHTML": "LDMX",
+        "defHTML": "The LDMX detector concept consists of a small precision tracker, and electromagnetic and hadronic calorimeters, all with near <span class=\"math inline\">2<em>\u03c0</em></span> azimuthal acceptance from the forward beam axis out to <span class=\"math inline\">\u2004\u223c\u200440<sup>\u2218</sup></span> angle. This detector would be capable of measuring correlations among electrons, pions, protons, and neutrons in electron-nucleus scattering at exactly the energies relevant for DUNE physics..",
+        "defLaTeX": "The LDMX detector concept consists of a small precision tracker, and electromagnetic and hadronic calorimeters, all with near $2\\pi$ azimuthal acceptance from the forward beam axis out to $\u223c40^\\circ$ angle. This detector would be capable of measuring correlations among electrons, pions, protons, and neutrons in electron-nucleus scattering at exactly the energies relevant for DUNE physics.",
+        "term": "Light Dark Matter eXperiment",
+        "termHTML": "Light Dark Matter eXperiment",
         "type": "abbrev"
     },
     "ldo": {
@@ -2508,11 +2569,13 @@
         "type": "abbrev"
     },
     "mec": {
-        "defHTML": "See <a href=\"#2p2h\">2p2h</a>.",
-        "defLaTeX": "See \\gls{2p2h}",
-        "term": "meson exchange current",
-        "termHTML": "meson exchange current",
-        "type": "word"
+        "abbrev": "MEC",
+        "abbrevHTML": "MEC",
+        "defHTML": "An nuclear effect wherein pairs or larger groups of nucleons within a nucleus are bound together through the exchange of pions or other mesons. Neutrinos and other particles can scatter from these correlated pairs..",
+        "defLaTeX": "An nuclear effect wherein pairs or larger groups of nucleons within a nucleus are bound together through the exchange of pions or other mesons. Neutrinos and other particles can scatter from these correlated pairs.",
+        "term": "meson-exchange currents",
+        "termHTML": "meson-exchange currents",
+        "type": "abbrev"
     },
     "mh": {
         "abbrev": "MH",
@@ -2544,6 +2607,13 @@
         "defLaTeX": "Neutrino cross sections experiment at \\gls{fnal}",
         "term": "MINERvA",
         "termHTML": "MINERvA",
+        "type": "word"
+    },
+    "miniboone": {
+        "defHTML": "The Mini Booster Neutrino Experiment, at Fermilab, was designed to fully explore the LSND result.",
+        "defLaTeX": "The Mini Booster Neutrino Experiment, at Fermilab, was designed to fully explore the LSND result",
+        "term": "MiniBooNE",
+        "termHTML": "MiniBooNE",
         "type": "word"
     },
     "minipod": {
@@ -2646,6 +2716,13 @@
         "termHTML": "multi-purpose detector",
         "type": "abbrev"
     },
+    "mpgd": {
+        "defHTML": "MicroPattern Gas Detectors.",
+        "defLaTeX": "MicroPattern Gas Detectors",
+        "term": "MPGD",
+        "termHTML": "MPGD",
+        "type": "word"
+    },
     "mppc": {
         "defHTML": "6\u00a0mm<span class=\"math inline\">\u00d7</span>6\u00a0mm Multi-Pixel Photon Counters produced by Hamamatsu Photonics K.K.",
         "defLaTeX": "\\SI{6}{mm}$\\times$\\SI{6}{mm} Multi-Pixel Photon Counters produced by Hamamatsu\\texttrademark{} Photonics K.K",
@@ -2733,6 +2810,27 @@
         "termHTML": "near detector",
         "type": "abbrev"
     },
+    "nd280": {
+        "defHTML": "Near Detector 280, is the magnetized near detector <span class=\"citation\" data-cites=\"Abe:2011ks\"></span>.",
+        "defLaTeX": "Near Detector 280, is the \\dword{t2k} magnetized near detector \\cite{Abe:2011ks}",
+        "term": "ND280",
+        "termHTML": "ND280",
+        "type": "word"
+    },
+    "nde": {
+        "defHTML": "non-destructive examination.",
+        "defLaTeX": "non-destructive examination",
+        "term": "NDE",
+        "termHTML": "NDE",
+        "type": "word"
+    },
+    "ndgar": {
+        "defHTML": "component of the near detector with a core gaseous argon <a href=\"#tpc\">TPC</a> surrounded by an <a href=\"#ecal\">ECAL</a> and a magnet.",
+        "defLaTeX": "component of the near detector with a core gaseous argon \\gls{tpc} surrounded by an \\gls{ecal} and a magnet",
+        "term": "ND-GAr",
+        "termHTML": "ND-GAr",
+        "type": "word"
+    },
     "ndk": {
         "abbrev": "NDK",
         "abbrevHTML": "NDK",
@@ -2741,6 +2839,13 @@
         "term": "nucleon decay",
         "termHTML": "nucleon decay",
         "type": "abbrev"
+    },
+    "ndlar": {
+        "defHTML": "<a href=\"#lartpc\">LArTPC</a> component of the near detector based on <a href=\"#arcube\">ArgonCube</a> technology.",
+        "defLaTeX": "\\gls{lartpc} component of the near detector based on \\gls{arcube} technology",
+        "term": "ND-LAr",
+        "termHTML": "ND-LAr",
+        "type": "word"
     },
     "nersc": {
         "defHTML": "National Energy Research Computing Facility at <a href=\"#lbnl\">LBNL</a>.",
@@ -3085,6 +3190,13 @@
         "termHTML": "photoelectron",
         "type": "abbrev"
     },
+    "pep4": {
+        "defHTML": "TPC for the Positron Electron Project 4 Collider at Stanford.",
+        "defLaTeX": "TPC for the Positron Electron Project 4 Collider at Stanford",
+        "term": "PEP-4",
+        "termHTML": "PEP-4",
+        "type": "word"
+    },
     "pfive": {
         "abbrev": "P5",
         "abbrevHTML": "P5",
@@ -3102,6 +3214,13 @@
         "term": "particle flow particle",
         "termHTML": "particle flow particle",
         "type": "abbrev"
+    },
+    "pickling": {
+        "defHTML": "steel pickling and oiling is a metal surface treatment finishing process used to remove surface impurities such as rust and carbon scale from hot rolled carbon steel.",
+        "defLaTeX": "steel pickling and oiling is a metal surface treatment finishing process used to remove surface impurities such as rust and carbon scale from hot rolled carbon steel",
+        "term": "pickling",
+        "termHTML": "pickling",
+        "type": "word"
     },
     "pid": {
         "abbrev": "PID",
@@ -3280,6 +3399,13 @@
         "termHTML": "production readiness review",
         "type": "word"
     },
+    "psv": {
+        "defHTML": "pressure safety valve.",
+        "defLaTeX": "pressure safety valve",
+        "term": "PSV",
+        "termHTML": "PSV",
+        "type": "word"
+    },
     "ptb": {
         "abbrev": "PTB",
         "abbrevHTML": "PTB",
@@ -3421,6 +3547,15 @@
         "termHTML": "readout window",
         "type": "word"
     },
+    "res": {
+        "abbrev": "RES",
+        "abbrevHTML": "RES",
+        "defHTML": "The mode of scattering where the target nucleon is excited to a resonant state and decays, typically producing one or more pions.",
+        "defLaTeX": "The mode of scattering where the target nucleon is excited to a resonant state and decays, typically producing one or more pions",
+        "term": "resonant scattering",
+        "termHTML": "resonant scattering",
+        "type": "abbrev"
+    },
     "rf": {
         "abbrev": "RF",
         "abbrevHTML": "RF",
@@ -3449,6 +3584,13 @@
         "defLaTeX": "The risk probability, after taking into account the planned mitigation activities, is ranked as L (low $<\\,$\\SI{10}{&percnt;}),M (medium \\SIrange{10}{25}{&percnt;}), orH (high $>\\,$\\SI{25}{&percnt;}).The cost and schedule impacts are ranked asL (cost increase $<\\,$\\SI{5}{&percnt;}, schedule delay $<\\,$2 months),M (\\SIrange{5}{25}{&percnt;} and 2--6 months, respectively) andH ($>\\,$\\SI{20}{&percnt;} and $>\\,$2 months, respectively)",
         "term": "risk probabilities",
         "termHTML": "risk probabilities",
+        "type": "word"
+    },
+    "rmm": {
+        "defHTML": "Resistive MicroMegas.",
+        "defLaTeX": "Resistive MicroMegas",
+        "term": "RMM",
+        "termHTML": "RMM",
         "type": "word"
     },
     "rms": {
@@ -3686,6 +3828,13 @@
         "termHTML": "spurious free dynamic range",
         "type": "abbrev"
     },
+    "sfgd": {
+        "defHTML": "Super Fine-Grained Detector (SuperFGD) is 3D granular plastic scintillator detector that adopts the same technology as . It will be installed in the system <span class=\"citation\" data-cites=\"Abe:2019whr\"></span>. design will inherit in large part from the SuperFGD detector..",
+        "defLaTeX": "Super Fine-Grained Detector (SuperFGD) is 3D granular plastic scintillator detector that adopts the same technology as \\dword{3dst}. It will be installed in the \\dword{t2k} \\dword{nd280} system \\cite{Abe:2019whr}. \\dword{3dst} design will inherit in large part from the SuperFGD detector.",
+        "term": "SuperFGD",
+        "termHTML": "SuperFGD",
+        "type": "word"
+    },
     "sfp": {
         "abbrev": "SFP",
         "abbrevHTML": "SFP",
@@ -3746,6 +3895,13 @@
         "term": "silicon photomultiplier",
         "termHTML": "silicon photomultiplier",
         "type": "abbrev"
+    },
+    "sis": {
+        "defHTML": "shallow inelastic scattering.",
+        "defLaTeX": "shallow inelastic scattering",
+        "term": "SIS",
+        "termHTML": "SIS",
+        "type": "word"
     },
     "sit": {
         "abbrev": "SIT",
@@ -3965,6 +4121,15 @@
         "termHTML": "STT",
         "type": "word"
     },
+    "stv": {
+        "abbrev": "STV",
+        "abbrevHTML": "STV",
+        "defHTML": "Kinematical variables obtained by projecting the neutrino interaction onto the transverse plane.",
+        "defLaTeX": "Kinematical variables obtained by projecting the neutrino interaction onto the transverse plane",
+        "term": "Single Transverse Variables",
+        "termHTML": "Single Transverse Variables",
+        "type": "abbrev"
+    },
     "surf": {
         "abbrev": "SURF",
         "abbrevHTML": "SURF",
@@ -4072,6 +4237,24 @@
         "defLaTeX": "Total harmonic distortion is the ratio of the \\gls{rms} value of the fundamental signal to the mean value of the root-sum-square of its harmonics",
         "term": "total harmonic distortion",
         "termHTML": "total harmonic distortion",
+        "type": "abbrev"
+    },
+    "tms": {
+        "abbrev": "TMS",
+        "abbrevHTML": "TMS",
+        "defHTML": "A muon spectrometer for the Near Detector that will be installed for the initial running period of DUNE, before the <a href=\"#mpd\">MPD</a> detector component is ready.",
+        "defLaTeX": "A muon spectrometer for the Near Detector that will be installed for the initial running period of DUNE, before the \\gls{mpd} detector component is ready",
+        "term": "temporary muon spectrometer",
+        "termHTML": "temporary muon spectrometer",
+        "type": "abbrev"
+    },
+    "tof": {
+        "abbrev": "ToF",
+        "abbrevHTML": "ToF",
+        "defHTML": "The time a particle takes to fly between two visible interactions observed in the detector. If combined with the distance traveled by the particle, for example a neutron, it can be used for energy reconstruction.",
+        "defLaTeX": "The time a particle takes to fly between two visible interactions observed in the detector. If combined with the distance traveled by the particle, for example a neutron, it can be used for energy reconstruction",
+        "term": "time of flight",
+        "termHTML": "time of flight",
         "type": "abbrev"
     },
     "topfc": {

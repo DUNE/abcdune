@@ -97,8 +97,8 @@
   
 
 %dual-phase
-\newduneabbrev{dp}{DP}{dual-phase}{Distinguishes one of the DUNE far detector technologies by the fact that it operates using argon %Distinguishes one of the four \SI{10}{\kton} \glspl{detmodule} of the DUNE far detector by the fact that it operates using argon 
- in both gas and liquid phases}
+\newduneabbrev{dp}{DP}{dual-phase}{Distinguishes one of the DUNE far detector technologies by the fact that it operates using argon 
+ in both gas and liquid phases; sometimes called double-phase} % 1 sept2020; Anne added `double' after SSR mentioned that EU tends to use it
 
 %photon detection system
 \newduneabbrev{pds}{PD system}{photon detection system}{The detector 
@@ -836,10 +836,11 @@ general project oversight, systems engineering, \gls{qa} and safety}
   ($W^+$ or $W^-$) is exchanged}
 
 
-\newduneabbrev{dis}{DIS}{deep inelastic scattering}{Refers to the 
-  interaction of an elementary charged particle with a nucleus in an
-  energy range where the interaction can be modeled as taking place with
-  individual nucleons}
+\newduneabbrev{dis}{DIS}{deep inelastic scattering}{Refers to interaction between
+  elementary particles and a nucleus in an energy range where the
+  interaction can be modeled as occurring between constituent quarks
+  of one nucleon and resulting in no bulk recoil of the resulting
+  nucleus} % 1sep2020 ArturA: swapped with {qe}
 
 \newduneabbrev{fsi}{FSI}{final-state interactions}{Refers to
   interactions between elementary or composite particles subsequent to
@@ -860,11 +861,10 @@ general project oversight, systems engineering, \gls{qa} and safety}
   function. 
   Forms the basis for some types of detector and physics simulations}
 
-\newduneabbrev{qe}{QE}{quasi-elastic}{Refers to interaction between
-  elementary particles and a nucleus in an energy range where the
-  interaction can be modeled as occurring between constituent quarks
-  of one nucleon and resulting in no bulk recoil of the resulting
-  nucleus}
+\newduneabbrev{qe}{QE}{quasi-elastic}{Refers to the 
+  interaction of an elementary charged particle with a nucleus in an
+  energy range where the interaction can be modeled as taking place with
+  individual nucleons} % 1sep2020 ArturA: swapped with {dis}
 
 %%%%%%%%%%%%%%%%%%%%%%%%% PROJECT VOLUME list for acronyms below %%%%%%%%%%%%%%%
 
@@ -1089,11 +1089,9 @@ Neutrino Facility (LBNF)''}
 \newduneword{dmp}{DMP}{data management plan} %{A project management device to state how the experimental data will be managed}
 \newduneword{qam}{QAM}{quality assurance manager} %{The manager of \gls{qa} for the LBNF/DUNE project}
 
-\newduneabbrev{dss}{DSS}{detector support system}{The system used to support a \gls{sp} \gls{detmodule} within its cryostat}
+\newduneabbrev{dss}{DSS}{detector support system}{The system of rails suspended from the cryostat ceiling in a \gls{spmod} used to support the \gls{apa}s, \gls{cpa}s, and the \glspl{ewfc}} % update from MV 1sept2020 
 
-\newduneabbrev{ddss}{DDSS}{DUNE detector safety system}{The system used to manage key aspects of detector safety}
-
-%\newduneabbrev{itf}{ITF}{integration and test facility}{A facility where various detector components will be tested prior to installation}  IS NO MORE - I WANT THIS TO CAUSE AN ERROR IF IT'S CALLED!
+\newduneabbrev{ddss}{DDSS}{DUNE detector safety system}{The hardware system responsible for the safety of the detector, implemented either via a \gls{plc} or via custom hardware protections} % update from MV 1sept2020 
 
 \newduneabbrev{lc}{LC}{logistics center}{A facility where \gls{lbnf} and \gls{dune} components will be received and transhipped to \gls{surf}}
 
@@ -1197,7 +1195,8 @@ Neutrino Facility (LBNF)''}
 \newduneword{uhmwpe}{UHMWPE}{ultra-high molecular weight polyethylene}
 
 \newduneword{cts}{CTS}{Cryogenic Test System}
-\newduneword{plc}{PLC}{programmable logic controller}
+
+\newduneabbrev{plc}{PLC}{programmable logic controller}{An industrial digital computer that has been ruggedized and adapted for the control of manufacturing or other processes that require high reliability, ease of programming, and process fault diagnosis} % update from Marco V 1sep2020
 
 \newduneword{mppc}{MPPC}{\SI{6}{mm}$\times$\SI{6}{mm} Multi-Pixel Photon Counters produced by Hamamatsu\texttrademark{} Photonics K.K}
 
@@ -1497,7 +1496,9 @@ H ($>\,$\SI{20}{\%} and $>\,$2 months, respectively)}
 
 \newduneword{baryonnumber}{baryon number}{A quantity expressing the total number of baryons in a system minus the number of antibaryons}
 
-\newduneword{np04}{NP04}{CERN North Area hadron beamline used for the \gls{sp} test beam run}
+\newduneword{np04}{NP04}{CERN North Area hadron beamline used for the \gls{pdsp} test beam run}
+
+\newduneword{np02}{NP02}{CERN North Area hadron beamline used for the \gls{pddp} test beam run} %new from KH 1sep2020
 
 \newduneword{ua1}{UA1}{UA1 (Underground Area 1) was a particle detector at \gls{cern}'s  Super Proton Synchrotron (SPS). It ran from 1981 until 1990, when the SPS was used as a proton-antiproton collider, searching for traces of W and Z particles in collisions. (CERN) The UA1 dipole magnet was reused in the NOMAD experiment and currently provides the magnetic field for the \gls{t2k} ND280 detector}
 
@@ -1565,7 +1566,7 @@ with a screw-type coupling mechanism}
 
 \newduneword{ndgar}{ND-GAr}{component of the near detector with a core gaseous argon \gls{tpc} surrounded by an \gls{ecal} and a magnet}
 
-\newduneword{sfgd}{SuperFGD}{Super Fine-Grained Detector (SuperFGD) is 3D granular plastic scintillator detector that adopts the same technology as \dword{3dst}. It will be installed in the \dword{t2k} \dword{nd280} system \cite{Abe:2019whr}. \dword{3dst} design will inherit in large part from the SuperFGD detector.}
+\newduneword{sfgd}{SuperFGD}{Super Fine-Grained Detector (SuperFGD) is 3D granular plastic scintillator detector that adopts the same technology as \dword{3dst}. It will be installed in the \dword{t2k} \dword{nd280} system \cite{Abe:2019whr}. \dword{3dst} design will inherit in large part from the SuperFGD detector}
 
 \newduneword{nd280}{ND280}{Near Detector 280, is the \dword{t2k} magnetized near detector \cite{Abe:2011ks}}
 
@@ -1583,17 +1584,17 @@ with a screw-type coupling mechanism}
 
 \newduneabbrev{res}{RES}{resonant scattering}{The mode of scattering where the target nucleon is excited to a resonant state and decays, typically producing one or more pions}
 
-\newduneabbrev{hadw}{W}{invariant mass of the hadronic system}{Refers to the invariant mass of the hadronic system formed during the neutrino scatter}
+ \newduneabbrev{hadw}{W}{invariant mass of the hadronic system}{Refers to the invariant mass of the hadronic system formed during the neutrino scatter}
 
 \newduneabbrev{agky}{AGKY}{Andreopolis-Gallagher-Kehayias-Yang}{A model for hadronization of nonresonant inelastic neutrino reactions at invariant hadronic masses of less than 3 \SI{3}{\GeV\per\square c} used in \dshort{GENIE}} 
 
-\newduneabbrev{clas}{CLAS}{CEBAF Large Acceptance Spectrometer}{A nuclear and particle physics detector located in the experimental Hall B at Jefferson Laboratory in Newport News, Virginia, United States. It is used to study the properties of the nuclear matter by the collaboration of over 200 physicists. Of particular relevance is its study of electron interactions with nuclei, including argon.} 
+\newduneabbrev{clas}{CLAS}{CEBAF Large Acceptance Spectrometer}{A nuclear and particle physics detector located in the experimental Hall B at Jefferson Laboratory in Newport News, Virginia, United States. It is used to study the properties of the nuclear matter by the collaboration of over 200 physicists. Of particular relevance is its study of electron interactions with nuclei, including argon} 
 
-\newduneabbrev{e4nu}{e4nu}{Electrons for Neutrinos}{A collaboration dedicated to using JLab's electron-scattering data to deliver improved neutrino-nucleus cross sections.} 
+\newduneabbrev{e4nu}{e4nu}{Electrons for Neutrinos}{A collaboration dedicated to using JLab's electron-scattering data to deliver improved neutrino-nucleus cross sections} 
 
-\newduneabbrev{ldmx}{LDMX}{Light Dark Matter eXperiment}{The LDMX detector concept consists of a small precision tracker, and electromagnetic and hadronic calorimeters, all with near $2\pi$ azimuthal acceptance from the forward beam axis out to $∼40^\circ$ angle. This detector would be capable of measuring correlations among electrons, pions, protons, and neutrons in electron-nucleus scattering at exactly the energies relevant for DUNE physics.} 
+\newduneabbrev{ldmx}{LDMX}{Light Dark Matter eXperiment}{The LDMX detector concept consists of a small precision tracker, and electromagnetic and hadronic calorimeters, all with near $2\pi$ azimuthal acceptance from the forward beam axis out to $∼40^\circ$ angle. This detector would be capable of measuring correlations among electrons, pions, protons, and neutrons in electron-nucleus scattering at exactly the energies relevant for DUNE physics} 
 
-\newduneabbrev{mec}{MEC}{meson-exchange currents} {An nuclear effect wherein pairs or larger groups of nucleons within a nucleus are bound together through the exchange of pions or other mesons. Neutrinos and other particles can scatter from these correlated pairs.}
+\newduneabbrev{mec}{MEC}{meson-exchange currents} {An nuclear effect wherein pairs or larger groups of nucleons within a nucleus are bound together through the exchange of pions or other mesons. Neutrinos and other particles can scatter from these correlated pairs}
 
 \newduneword{imt}{IMT}{Intranuclear momentum transfer}
 

@@ -64,10 +64,10 @@
     "agky": {
         "abbrev": "AGKY",
         "abbrevHTML": "AGKY",
-        "defHTML": "A model for hadronization of nonresonant inelastic neutrino reactions at invariant hadronic masses of less than 3 3\u00a0GeV/c\u00b2 used in.",
-        "defLaTeX": "A model for hadronization of nonresonant inelastic neutrino reactions at invariant hadronic masses of less than 3 \\SI{3}{\\GeV\\per\\square c} used in \\dshort{GENIE}",
-        "term": "Andreopolis-Gallagher-Kehayias-Yang",
-        "termHTML": "Andreopolis-Gallagher-Kehayias-Yang",
+        "defHTML": "A model for hadronization of non-resonant inelastic neutrino reactions used in <a href=\"#genie\">GENIE</a>. At low invariant hadronic masses, typically less than 2.3\u2006GeV/c<span class=\"math inline\"><em></em><sup>2</sup></span>, it is a KNO-inspired empirical model anchored on several bubble chamber measurements of neutrino-induced shower characteristics. For invariant hadronic masses between 2.3 and 3.0\u2006GeV/c<span class=\"math inline\"><em></em><sup>2</sup></span>, the model transitions linearly to a <a href=\"#genie\">GENIE</a>-tuned version of PYTHIA, which is also used for the simulation of events at higher invariant masses.",
+        "defLaTeX": "A model for hadronization of non-resonant inelastic neutrino reactions used in \\gls{genie}. At low invariant hadronic masses, typically less than 2.3\\,GeV/c$^2$, it is a KNO-inspired empirical model anchored on several bubble chamber measurements of neutrino-induced shower characteristics. For invariant hadronic masses between 2.3 and 3.0\\,GeV/c$^2$, the model transitions linearly to a \\gls{genie}-tuned version of PYTHIA, which is also used for the simulation of events at higher invariant masses",
+        "term": "Andreopoulos-Gallagher-Kehayias-Yang",
+        "termHTML": "Andreopoulos-Gallagher-Kehayias-Yang",
         "type": "abbrev"
     },
     "ahj": {
@@ -148,7 +148,7 @@
         "type": "word"
     },
     "arapuca": {
-        "defHTML": "A <a href=\"#pds\">PD system</a> design that consists of a light trap that captures wavelength-shifted photons inside boxes with highly reflective internal surfaces until they are eventually detected by <a href=\"#sipm\">SiPM</a> detectors or are lost.",
+        "defHTML": "A <a href=\"#pds\">PDS</a> design that consists of a light trap that captures wavelength-shifted photons inside boxes with highly reflective internal surfaces until they are eventually detected by <a href=\"#sipm\">SiPM</a> detectors or are lost.",
         "defLaTeX": "A \\gls{pds} design that consists of a light trap that captures wavelength-shifted photons inside boxes with highly reflective internal surfaces until they are eventually detected by \\gls{sipm} detectors or are lost",
         "term": "ARAPUCA",
         "termHTML": "ARAPUCA",
@@ -3166,8 +3166,8 @@
         "type": "word"
     },
     "pds": {
-        "abbrev": "PD system",
-        "abbrevHTML": "PD system",
+        "abbrev": "PDS",
+        "abbrevHTML": "PDS",
         "defHTML": "The detector subsystem sensitive to light produced in the <a href=\"#lar\">LAr</a>.",
         "defLaTeX": "The detector  subsystem sensitive to light produced in the \\gls{lar} ",
         "term": "photon detection system",

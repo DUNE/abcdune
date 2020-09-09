@@ -64,7 +64,7 @@
     "agky": {
         "abbrev": "AGKY",
         "abbrevHTML": "AGKY",
-        "defHTML": "A model for hadronization of non-resonant inelastic neutrino reactions used in <a href=\"#genie\">GENIE</a>. At low invariant hadronic masses, typically less than 2.3\u2006GeV/c<span class=\"math inline\"><em></em><sup>2</sup></span>, it is a KNO-inspired empirical model anchored on several bubble chamber measurements of neutrino-induced shower characteristics. For invariant hadronic masses between 2.3 and 3.0\u2006GeV/c<span class=\"math inline\"><em></em><sup>2</sup></span>, the model transitions linearly to a <a href=\"#genie\">GENIE</a>-tuned version of PYTHIA, which is also used for the simulation of events at higher invariant masses.",
+        "defHTML": "A model for hadronization of non-resonant inelastic neutrino reactions used in <a href=\"#genie\">GENIE</a>. At low invariant hadronic masses, typically less than 2.3\u2006GeV/c<span class=\"math inline\"><sup>2</sup></span>, it is a KNO-inspired empirical model anchored on several bubble chamber measurements of neutrino-induced shower characteristics. For invariant hadronic masses between 2.3 and 3.0\u2006GeV/c<span class=\"math inline\"><sup>2</sup></span>, the model transitions linearly to a <a href=\"#genie\">GENIE</a>-tuned version of PYTHIA, which is also used for the simulation of events at higher invariant masses.",
         "defLaTeX": "A model for hadronization of non-resonant inelastic neutrino reactions used in \\gls{genie}. At low invariant hadronic masses, typically less than 2.3\\,GeV/c$^2$, it is a KNO-inspired empirical model anchored on several bubble chamber measurements of neutrino-induced shower characteristics. For invariant hadronic masses between 2.3 and 3.0\\,GeV/c$^2$, the model transitions linearly to a \\gls{genie}-tuned version of PYTHIA, which is also used for the simulation of events at higher invariant masses",
         "term": "Andreopoulos-Gallagher-Kehayias-Yang",
         "termHTML": "Andreopoulos-Gallagher-Kehayias-Yang",
@@ -1854,8 +1854,8 @@
     "hepa": {
         "abbrev": "HEPA",
         "abbrevHTML": "HEPA",
-        "defHTML": "The High Efficiency Particulate Air filters are a type of air filter that remove 99.97&percnt; of particles that have a size greater than or equal to 0.3\u00a0<span class=\"math inline\"><em>\u03bc</em></span>m.",
-        "defLaTeX": "The High Efficiency Particulate Air filters are a type of air filter that remove 99.97&percnt; of particles that have a size greater than or equal to \\SI{0.3}{$\\mu$m}",
+        "defHTML": "The High Efficiency Particulate Air filters are a type of air filter that remove 99.97&percnt; of particles that have a size greater than or equal to 0.3\u00a0\u03bcm.",
+        "defLaTeX": "The High Efficiency Particulate Air filters are a type of air filter that remove 99.97&percnt; of particles that have a size greater than or equal to \\SI{0.3}{\\micro\\meter}",
         "term": "High Efficiency Particulate Air",
         "termHTML": "High Efficiency Particulate Air",
         "type": "abbrev"
@@ -1958,7 +1958,7 @@
     "i2c": {
         "abbrev": "I2C",
         "abbrevHTML": "I2C",
-        "defHTML": "I<span class=\"math inline\"><em></em><sup>2</sup></span>C or I2C is a synchronous,multi-master, multi-slave, packet switched, single-ended, serial computer bus widely usedfor attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance,intra-board communication.",
+        "defHTML": "I<span class=\"math inline\"><sup>2</sup></span>C or I2C is a synchronous,multi-master, multi-slave, packet switched, single-ended, serial computer bus widely usedfor attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance,intra-board communication.",
         "defLaTeX": "I$^2$C or I2C is a synchronous,multi-master, multi-slave, packet switched, single-ended, serial computer bus widely usedfor attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance,intra-board communication",
         "term": "Inter-Integrated Circuit",
         "termHTML": "Inter-Integrated Circuit",
@@ -2426,7 +2426,7 @@
         "defHTML": "liquid nitrogen.",
         "defLaTeX": "liquid nitrogen",
         "term": "LN$_2$",
-        "termHTML": "LN<span class=\"math inline\"><em></em><sub>2</sub></span>",
+        "termHTML": "LN<span class=\"math inline\"><sub>2</sub></span>",
         "type": "word"
     },
     "lng": {

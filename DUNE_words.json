@@ -526,6 +526,13 @@
         "termHTML": "CEBAF Large Acceptance Spectrometer",
         "type": "abbrev"
     },
+    "cmake": {
+        "defHTML": "CMake is an open-source, cross-platform family of tools designed to build, test and package software.",
+        "defLaTeX": "CMake is an open-source, cross-platform family of tools designed to build, test and package software",
+        "term": "Cmake",
+        "termHTML": "Cmake",
+        "type": "word"
+    },
     "cmgc": {
         "abbrev": "CMGC",
         "abbrevHTML": "CMGC",
@@ -766,6 +773,15 @@
         "defLaTeX": "The utility cavern at the 4850L of \\gls{surf} located between the two detector caverns. It contains utilities such as central cryogenics and other systems, and the underground data center and control room",
         "term": "central utility cavern",
         "termHTML": "central utility cavern",
+        "type": "abbrev"
+    },
+    "cvmfs": {
+        "abbrev": "CVMFS",
+        "abbrevHTML": "CVMFS",
+        "defHTML": "A distributed file system designed for scalable, high-performance distribution of software to interactive and batch computers.",
+        "defLaTeX": "A distributed file system designed for scalable, high-performance distribution of software to interactive and batch computers",
+        "term": "CERN VM File System",
+        "termHTML": "CERN VM File System",
         "type": "abbrev"
     },
     "cvn": {
@@ -2174,6 +2190,13 @@
         "termHTML": "Kapton",
         "type": "word"
     },
+    "kerberos": {
+        "defHTML": "A strong authentication system used by the computing resources at Fermilab and CERN.",
+        "defLaTeX": "A strong authentication system used by the computing resources at Fermilab and CERN",
+        "term": "Kerberos",
+        "termHTML": "Kerberos",
+        "type": "word"
+    },
     "kloe": {
         "defHTML": "KLOE is a <span class=\"math inline\"><em>e</em><sup>+</sup><em>e</em><sup>\u2212</sup></span> collider detector spectrometer operated at DAFNE, the <span class=\"math inline\"><em>\u03d5</em></span>-meson factory at Frascati, Rome. In DUNE it will consist of a 26\u00a0cm Pb+scintillating fiber ECAL surrounding a cylindrical open detector region that is 4.00\u00a0m in diameter and 4.30\u00a0m long. The ECAL and detector region are embedded in a 0.6\u00a0T magnetic field created by a 4.86\u00a0m diameter superconducting coil and a 475\u00a0tonne iron yoke.",
         "defLaTeX": "KLOE is a $e^+ e^-$ collider detector spectrometer operated at DAFNE, the $\\phi$-meson factory at Frascati, Rome. In DUNE it will consist of a \\SI{26}{cm} Pb+scintillating fiber ECAL surrounding a cylindrical open detector region that is  \\SI{4.00}{m} in diameter and \\SI{4.30}{m} long. The ECAL and detector region are embedded in a \\SI{0.6}{T} magnetic field created by a \\SI{4.86}{m} diameter superconducting coil and a \\SI{475}{tonne} iron yoke",
@@ -2736,6 +2759,15 @@
         "term": "MPT detector",
         "termHTML": "MPT detector",
         "type": "word"
+    },
+    "mrb": {
+        "abbrev": "MRB",
+        "abbrevHTML": "MRB",
+        "defHTML": "A Fermilab-developed build system based on that allows development and builds of code from multiple repositories.",
+        "defLaTeX": "A Fermilab-developed build system based on \\dword{cmake} that allows development and builds of code from multiple repositories",
+        "term": "Multi Repository Build System",
+        "termHTML": "Multi Repository Build System",
+        "type": "abbrev"
     },
     "msw": {
         "abbrev": "MSW",

@@ -64,7 +64,7 @@
     "agky": {
         "abbrev": "AGKY",
         "abbrevHTML": "AGKY",
-        "defHTML": "A model for hadronization of non-resonant inelastic neutrino reactions used in <a href=\"#genie\">GENIE</a>. At low invariant hadronic masses, typically less than 2.3\u2006GeV/c<span class=\"math inline\"><sup>2</sup></span>, it is a KNO-inspired empirical model anchored on several bubble chamber measurements of neutrino-induced shower characteristics. For invariant hadronic masses between 2.3 and 3.0\u2006GeV/c<span class=\"math inline\"><sup>2</sup></span>, the model transitions linearly to a <a href=\"#genie\">GENIE</a>-tuned version of PYTHIA, which is also used for the simulation of events at higher invariant masses.",
+        "defHTML": "A model for hadronization of non-resonant inelastic neutrino reactions used in <a href=\"#genie\">GENIE</a>. At low invariant hadronic masses, typically less than 2.3\u2006GeV/c<span class=\"math inline\"><em></em><sup>2</sup></span>, it is a KNO-inspired empirical model anchored on several bubble chamber measurements of neutrino-induced shower characteristics. For invariant hadronic masses between 2.3 and 3.0\u2006GeV/c<span class=\"math inline\"><em></em><sup>2</sup></span>, the model transitions linearly to a <a href=\"#genie\">GENIE</a>-tuned version of PYTHIA, which is also used for the simulation of events at higher invariant masses.",
         "defLaTeX": "A model for hadronization of non-resonant inelastic neutrino reactions used in \\gls{genie}. At low invariant hadronic masses, typically less than 2.3\\,GeV/c$^2$, it is a KNO-inspired empirical model anchored on several bubble chamber measurements of neutrino-induced shower characteristics. For invariant hadronic masses between 2.3 and 3.0\\,GeV/c$^2$, the model transitions linearly to a \\gls{genie}-tuned version of PYTHIA, which is also used for the simulation of events at higher invariant masses",
         "term": "Andreopoulos-Gallagher-Kehayias-Yang",
         "termHTML": "Andreopoulos-Gallagher-Kehayias-Yang",
@@ -1132,10 +1132,10 @@
     "doma": {
         "abbrev": "DOMA",
         "abbrevHTML": "DOMA",
-        "defHTML": "data organization, management, and access efforts through theHEP Software Foundation.",
-        "defLaTeX": "data organization, management, and access efforts through theHEP Software Foundation",
-        "term": "data organization, management, andaccess",
-        "termHTML": "data organization, management, andaccess",
+        "defHTML": "data organization, management, and access efforts through the HEP Software Foundation.",
+        "defLaTeX": "data organization, management, and access efforts through the HEP Software Foundation",
+        "term": "data organization, management, and access",
+        "termHTML": "data organization, management, and access",
         "type": "abbrev"
     },
     "dp": {
@@ -1974,7 +1974,7 @@
     "i2c": {
         "abbrev": "I2C",
         "abbrevHTML": "I2C",
-        "defHTML": "I<span class=\"math inline\"><sup>2</sup></span>C or I2C is a synchronous,multi-master, multi-slave, packet switched, single-ended, serial computer bus widely usedfor attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance,intra-board communication.",
+        "defHTML": "I<span class=\"math inline\"><em></em><sup>2</sup></span>C or I2C is a synchronous,multi-master, multi-slave, packet switched, single-ended, serial computer bus widely usedfor attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance,intra-board communication.",
         "defLaTeX": "I$^2$C or I2C is a synchronous,multi-master, multi-slave, packet switched, single-ended, serial computer bus widely usedfor attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance,intra-board communication",
         "term": "Inter-Integrated Circuit",
         "termHTML": "Inter-Integrated Circuit",
@@ -2449,7 +2449,7 @@
         "defHTML": "liquid nitrogen.",
         "defLaTeX": "liquid nitrogen",
         "term": "LN$_2$",
-        "termHTML": "LN<span class=\"math inline\"><sub>2</sub></span>",
+        "termHTML": "LN<span class=\"math inline\"><em></em><sub>2</sub></span>",
         "type": "word"
     },
     "lng": {
@@ -2808,6 +2808,15 @@
         "termHTML": "NA61",
         "type": "word"
     },
+    "nas": {
+        "abbrev": "NAS",
+        "abbrevHTML": "NAS",
+        "defHTML": "Disk storage that is available on computers but shared between them. Relies on NFS mounts rather than authenticated file transfer protocols. Usually found on interactive servers to provide space for home directories, app and data storage.",
+        "defLaTeX": "Disk storage that is available on computers but shared between them.  Relies on NFS mounts rather than authenticated file transfer protocols.  Usually found on interactive servers to provide space for home directories, app and data storage",
+        "term": "network attached storage",
+        "termHTML": "network attached storage",
+        "type": "abbrev"
+    },
     "nasa": {
         "defHTML": "U.S. National Aereonautics and Space Administration.",
         "defLaTeX": "U.S. National Aereonautics and Space Administration",
@@ -2902,6 +2911,15 @@
         "defLaTeX": "Experiment at Lawrence Livermore National Laboratory (U.S. national lab in Livermore, CA) searching for new physics with neutrinoless double-beta decay",
         "term": "Enriched Xenon Observatory",
         "termHTML": "Enriched Xenon Observatory",
+        "type": "abbrev"
+    },
+    "nfs": {
+        "abbrev": "NFS",
+        "abbrevHTML": "NFS",
+        "defHTML": "Industry-standard mechanism for mounting disks over a network. Provides regular UNIX file and directory access.",
+        "defLaTeX": "Industry-standard mechanism for mounting disks over a network.  Provides regular UNIX file and directory access",
+        "term": "network file system",
+        "termHTML": "network file system",
         "type": "abbrev"
     },
     "nh": {
@@ -3588,6 +3606,13 @@
         "termHTML": "readout window",
         "type": "word"
     },
+    "recombination": {
+        "defHTML": "Electrons freed from Argon atoms will sometimes recombine with the positive argon ions, either the same ones from which they came or nearby ones. Sometimes called \"quenching\".",
+        "defLaTeX": "Electrons freed from Argon atoms will sometimes recombine with the positive argon ions, either the same ones from which they came or nearby ones.  Sometimes called ``quenching\"",
+        "term": "recombination",
+        "termHTML": "recombination",
+        "type": "word"
+    },
     "res": {
         "abbrev": "RES",
         "abbrevHTML": "RES",
@@ -4148,6 +4173,15 @@
         "termHTML": "solid-state disk",
         "type": "abbrev"
     },
+    "sso": {
+        "abbrev": "SSO",
+        "abbrevHTML": "SSO",
+        "defHTML": "Often used to indicate that a group of services, such as DocDB or the DUNE Wiki share common sign-in credentials and active sessions. Fermilab services that say \"Sign in with SSO username and password\" mean to use your Services username and password.",
+        "defLaTeX": "Often used to indicate that a group of services, such as DocDB or the DUNE Wiki share common sign-in credentials and active sessions.  Fermilab services that say \"Sign in with SSO username and password\" mean to use your Services username and password",
+        "term": "single sign-on",
+        "termHTML": "single sign-on",
+        "type": "abbrev"
+    },
     "ssp": {
         "defHTML": "<a href=\"#sipm\">SiPM</a> signal processor.",
         "defLaTeX": "\\gls{sipm} signal processor",
@@ -4456,6 +4490,24 @@
         "termHTML": "UNICAMP",
         "type": "word"
     },
+    "upd": {
+        "abbrev": "UPD",
+        "abbrevHTML": "UPD",
+        "defHTML": "A tool for uploading and downloading pre-built software products between local systems and centralized software distribution servers. UPD is not frequently used on DUNE because newer tools are more convenient.",
+        "defLaTeX": "A tool for uploading and downloading pre-built software products between local systems and centralized software distribution servers.  UPD is not frequently used on DUNE because newer tools are more convenient",
+        "term": "UNIX product distribution",
+        "termHTML": "UNIX product distribution",
+        "type": "abbrev"
+    },
+    "ups": {
+        "abbrev": "UPS",
+        "abbrevHTML": "UPS",
+        "defHTML": "A software tool that sets up a consistent environment of versions of pre-installed products and their dependencies on UNIX-like platforms.",
+        "defLaTeX": "A software tool that sets up a consistent environment of versions of pre-installed products and their dependencies on UNIX-like platforms",
+        "term": "UNIX product support",
+        "termHTML": "UNIX product support",
+        "type": "abbrev"
+    },
     "utca": {
         "abbrev": "$\\mu$TCA",
         "abbrevHTML": "<span class=\"math inline\"><em>\u03bc</em></span>TCA",
@@ -4480,6 +4532,15 @@
         "term": "VALOR",
         "termHTML": "VALOR",
         "type": "word"
+    },
+    "vo": {
+        "abbrev": "VO",
+        "abbrevHTML": "VO",
+        "defHTML": "A database containing a list of member names, certificate distinguishing information, and a list of permissions members have to access computing grid and data resources.",
+        "defLaTeX": "A database containing a list of member names, certificate distinguishing information, and a list of permissions members have to access computing grid and data resources",
+        "term": "virtual organization",
+        "termHTML": "virtual organization",
+        "type": "abbrev"
     },
     "vuv": {
         "defHTML": "vacuum ultra-violet.",

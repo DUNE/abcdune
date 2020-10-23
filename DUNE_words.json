@@ -32,8 +32,8 @@
         "type": "abbrev"
     },
     "4850l": {
-        "defHTML": "The depth in feet (1480 m) of the top of the cryostats underground at SURF; used more generally to refer to the DUNE underground area. Called the \"4850 level\" or \"4850L\".",
-        "defLaTeX": "The depth in feet (1480 m) of the top of the cryostats underground at SURF; used more generally to refer to the DUNE underground area. Called the ``4850 level'' or ``4850L''",
+        "defHTML": "The depth in feet (1480 m) of the access level for the DUNE underground area at SURF; called the \"4850 level\".",
+        "defLaTeX": "The depth in feet (1480 m) of the access level for the DUNE underground area at SURF; called the ``4850 level''",
         "term": "4850L",
         "termHTML": "4850L",
         "type": "word"
@@ -430,19 +430,10 @@
         "type": "abbrev"
     },
     "cdr": {
-        "abbrev": "CDR",
-        "abbrevHTML": "CDR",
-        "defHTML": "A formal project document that describes the experiment at a conceptual level.",
-        "defLaTeX": "A formal project  document   that describes the experiment  at a conceptual level",
-        "term": "conceptual design report",
-        "termHTML": "conceptual design report",
-        "type": "abbrev"
-    },
-    "cdrev": {
-        "defHTML": "A project management device by which a conceptual design is reviewed.",
-        "defLaTeX": "A project management device by which a conceptual design is reviewed",
-        "term": "conceptual design review",
-        "termHTML": "conceptual design review",
+        "defHTML": "Depending on context, either \"conceptual design report,\" a formal project document that describes the experiment at a conceptual level, or \"conceptual design review,\" a formal review of the conceptual design of the experiment or of a component.",
+        "defLaTeX": "Depending on context, either ``conceptual design report,'' a formal project  document  that describes the experiment at a conceptual level, or ``conceptual design review,'' a formal review of the conceptual design of the experiment or of a component",
+        "term": "CDR",
+        "termHTML": "CDR",
         "type": "word"
     },
     "ce": {
@@ -1033,6 +1024,13 @@
         "termHTML": "DCS",
         "type": "word"
     },
+    "ddp": {
+        "defHTML": "a dual-phase DUNE far detector module.",
+        "defLaTeX": "a dual-phase DUNE far detector module",
+        "term": "DUNE-DP",
+        "termHTML": "DUNE-DP",
+        "type": "word"
+    },
     "ddss": {
         "abbrev": "DDSS",
         "abbrevHTML": "DDSS",
@@ -1187,6 +1185,13 @@
         "term": "diffuse supernova neutrino background",
         "termHTML": "diffuse supernova neutrino background",
         "type": "abbrev"
+    },
+    "dsp": {
+        "defHTML": "a single-phase DUNE far detector module.",
+        "defLaTeX": "a single-phase DUNE far detector module",
+        "term": "DUNE-SP",
+        "termHTML": "DUNE-SP",
+        "type": "word"
     },
     "dss": {
         "abbrev": "DSS",
@@ -1847,6 +1852,20 @@
         "termsHTML": "grand unified theories",
         "type": "abbrevs"
     },
+    "h2": {
+        "defHTML": "CERN North Area hadron beamline used for the <a href=\"#pddp\">ProtoDUNE-DP</a> test beam run.",
+        "defLaTeX": "CERN North Area hadron beamline used for the \\gls{pddp} test beam run",
+        "term": "H2",
+        "termHTML": "H2",
+        "type": "word"
+    },
+    "h4": {
+        "defHTML": "CERN North Area hadron beamline used for the <a href=\"#pdsp\">ProtoDUNE-SP</a> test beam run.",
+        "defLaTeX": "CERN North Area hadron beamline used for the \\gls{pdsp} test beam run",
+        "term": "H4",
+        "termHTML": "H4",
+        "type": "word"
+    },
     "ha": {
         "abbrev": "HA",
         "abbrevHTML": "HA",
@@ -1965,6 +1984,13 @@
         "defLaTeX": "HV divider board",
         "term": "HVDB",
         "termHTML": "HVDB",
+        "type": "word"
+    },
+    "hvft": {
+        "defHTML": "HV feedthrough.",
+        "defLaTeX": "HV feedthrough",
+        "term": "HVFT",
+        "termHTML": "HVFT",
         "type": "word"
     },
     "hvps": {
@@ -2189,16 +2215,18 @@
         "type": "abbrev"
     },
     "irr": {
+        "abbrev": "IRR",
+        "abbrevHTML": "IRR",
         "defHTML": "A project management device by which the plan for installation is reviewed.",
         "defLaTeX": "A project management device by which the plan for installation is reviewed",
         "term": "installation readiness review",
         "termHTML": "installation readiness review",
-        "type": "word"
+        "type": "abbrev"
     },
     "jpo": {
         "abbrev": "JPO",
         "abbrevHTML": "JPO",
-        "defHTML": "The framework through which team members from the LBNF project office, <a href=\"#integoff\">integration office</a>, and DUNE <a href=\"#tc\">technical coordination</a> work together to provide coherence in project support functions across the global enterprise.Its functions include global project configuration and integration, installation planning and coordination, scheduling, safety assurance, technical review planning and oversight, development of partner agreements, and financial reporting.",
+        "defHTML": "The framework through which team members from the LBNF project office, <a href=\"#integoff\">integration office</a>, and DUNE <a href=\"#tc\">TCN</a> work together to provide coherence in project support functions across the global enterprise.Its functions include global project configuration and integration, installation planning and coordination, scheduling, safety assurance, technical review planning and oversight, development of partner agreements, and financial reporting.",
         "defLaTeX": "The framework through which team members from the LBNF project office, \\gls{integoff}, and DUNE \\gls{tc} work together to provide coherence in project support functions across the global enterprise.Its functions include global project configuration and integration, installation planning and coordination, scheduling, safety assurance, technical review planning and oversight, development of partner agreements, and financial reporting",
         "term": "Joint Project Office",
         "termHTML": "Joint Project Office",
@@ -2393,15 +2421,6 @@
         "termHTML": "Long Baseline Neutrino Observatory",
         "type": "abbrev"
     },
-    "lc": {
-        "abbrev": "LC",
-        "abbrevHTML": "LC",
-        "defHTML": "A facility where <a href=\"#lbnf\">LBNF</a> and <a href=\"#dune\">DUNE</a> components will be received and transhipped to <a href=\"#surf\">SURF</a>.",
-        "defLaTeX": "A facility where \\gls{lbnf} and \\gls{dune} components will be received and transhipped to \\gls{surf}",
-        "term": "logistics center",
-        "termHTML": "logistics center",
-        "type": "abbrev"
-    },
     "lcm": {
         "defHTML": "light calibration module.",
         "defLaTeX": "light calibration module",
@@ -2422,7 +2441,7 @@
         "abbrev": "LDMX",
         "abbrevHTML": "LDMX",
         "defHTML": "The LDMX detector concept consists of a small precision tracker, and electromagnetic and hadronic calorimeters, all with near <span class=\"math inline\">2<em>\u03c0</em></span> azimuthal acceptance from the forward beam axis out to <span class=\"math inline\">\u2004\u223c\u200440<sup>\u2218</sup></span> angle. This detector would be capable of measuring correlations among electrons, pions, protons, and neutrons in electron-nucleus scattering at exactly the energies relevant for DUNE physics.",
-        "defLaTeX": "The LDMX detector concept consists of a small precision tracker, and electromagnetic and hadronic calorimeters, all with near $2\\pi$ azimuthal acceptance from the forward beam axis out to $\u223c40^\\circ$ angle. This detector would be capable of measuring correlations among electrons, pions, protons, and neutrons in electron-nucleus scattering at exactly the energies relevant for DUNE physics",
+        "defLaTeX": "The LDMX detector concept consists of a small precision tracker, and electromagnetic and hadronic calorimeters, all with near $2\\pi$ azimuthal acceptance from the forward beam axis out to $\\sim40^\\circ$ angle. This detector would be capable of measuring correlations among electrons, pions, protons, and neutrons in electron-nucleus scattering at exactly the energies relevant for DUNE physics",
         "term": "Light Dark Matter eXperiment",
         "termHTML": "Light Dark Matter eXperiment",
         "type": "abbrev"
@@ -2880,8 +2899,8 @@
         "type": "word"
     },
     "nde": {
-        "defHTML": "non-destructive examination.",
-        "defLaTeX": "non-destructive examination",
+        "defHTML": "non-destructive evaluation.",
+        "defLaTeX": "non-destructive evaluation",
         "term": "NDE",
         "termHTML": "NDE",
         "type": "word"
@@ -2978,15 +2997,15 @@
         "type": "word"
     },
     "np02": {
-        "defHTML": "CERN North Area hadron beamline used for the <a href=\"#pddp\">ProtoDUNE-DP</a> test beam run.",
-        "defLaTeX": "CERN North Area hadron beamline used for the \\gls{pddp} test beam run",
+        "defHTML": "Experiment in the CERN North Area <a href=\"#h2\">H2</a> hadron beamline; <a href=\"#pddp\">ProtoDUNE-DP</a>.",
+        "defLaTeX": "Experiment in the CERN North Area \\gls{h2} hadron beamline;  \\gls{pddp}",
         "term": "NP02",
         "termHTML": "NP02",
         "type": "word"
     },
     "np04": {
-        "defHTML": "CERN North Area hadron beamline used for the <a href=\"#pdsp\">ProtoDUNE-SP</a> test beam run.",
-        "defLaTeX": "CERN North Area hadron beamline used for the \\gls{pdsp} test beam run",
+        "defHTML": "Experiment in the CERN North Area <a href=\"#h4\">H4</a> hadron beamline; <a href=\"#pdsp\">ProtoDUNE-SP</a>.",
+        "defLaTeX": "Experiment in the CERN North Area \\gls{h4} hadron beamline;  \\gls{pdsp}",
         "term": "NP04",
         "termHTML": "NP04",
         "type": "word"
@@ -3131,11 +3150,13 @@
         "type": "abbrev"
     },
     "orr": {
+        "abbrev": "ORR",
+        "abbrevHTML": "ORR",
         "defHTML": "A project management device by which the operational readiness is reviewed.",
         "defLaTeX": "A project management device by which the operational readiness is reviewed",
         "term": "operational readiness review",
         "termHTML": "operational readiness review",
-        "type": "word"
+        "type": "abbrev"
     },
     "osg": {
         "abbrev": "OSG",
@@ -3230,10 +3251,10 @@
         "type": "word"
     },
     "pdr": {
-        "defHTML": "A project management device by which an early design is reviewed.",
-        "defLaTeX": "A project management device by which an early design is reviewed",
-        "term": "preliminary design review",
-        "termHTML": "preliminary design review",
+        "defHTML": "Depending on context, either \"preliminary design report,\" a formal project document that describes the experiment at a preliminary level, or \"preliminary design review,\" a formal review of the preliminary design of the experiment or of a component.",
+        "defLaTeX": "Depending on context, either ``preliminary design report,'' a formal project document  that describes the experiment at a preliminary level, or ``preliminary design review,'' a formal review of the preliminary design of the experiment or of a component",
+        "term": "PDR",
+        "termHTML": "PDR",
         "type": "word"
     },
     "pds": {
@@ -3255,8 +3276,8 @@
     "pdsp2": {
         "defHTML": "A second test run in the singe-phaseProtoDUNE test stand at CERN, acting as a validation of the finalsingle-phase detector design.",
         "defLaTeX": "A second test run in the singe-phaseProtoDUNE test stand at CERN, acting as a validation of the finalsingle-phase detector design",
-        "term": "ProtoDUNE-SP-2",
-        "termHTML": "ProtoDUNE-SP-2",
+        "term": "ProtoDUNE-SP-II",
+        "termHTML": "ProtoDUNE-SP-II",
         "type": "word"
     },
     "pe": {
@@ -3425,11 +3446,13 @@
         "type": "abbrev"
     },
     "ppr": {
+        "abbrev": "PPR",
+        "abbrevHTML": "PPR",
         "defHTML": "A project management device by which the progress of production is reviewed.",
         "defLaTeX": "A project management device by which the progress of production is reviewed",
         "term": "production progress review",
         "termHTML": "production progress review",
-        "type": "word"
+        "type": "abbrev"
     },
     "pps": {
         "abbrev": "1PPS signal",
@@ -3449,15 +3472,6 @@
         "termHTML": "parts per trillion",
         "type": "abbrev"
     },
-    "prelimdr": {
-        "abbrev": "PDR",
-        "abbrevHTML": "PDR",
-        "defHTML": "A formal project document that describes the experiment at a preliminary design level.",
-        "defLaTeX": "A formal project  document  that describes the experiment at a preliminary design level",
-        "term": "preliminary design report",
-        "termHTML": "preliminary design report",
-        "type": "abbrev"
-    },
     "protodune": {
         "defHTML": "Either of the two DUNE prototype detectors constructed at <a href=\"#cern\">CERN</a>. One prototype implements <a href=\"#sp\">SP</a> technology and the other <a href=\"#dp\">DP</a>.",
         "defLaTeX": "Either of the two DUNE prototype detectors constructed at \\gls{cern}.  One prototype implements \\gls{sp} technology and the other \\gls{dp}",
@@ -3468,16 +3482,18 @@
     "protodune2": {
         "defHTML": "The second run of a <a href=\"#protodune\">ProtoDUNE</a> detector.",
         "defLaTeX": "The second run of a \\gls{protodune} detector",
-        "term": "ProtoDUNE-2",
-        "termHTML": "ProtoDUNE-2",
+        "term": "ProtoDUNE-II",
+        "termHTML": "ProtoDUNE-II",
         "type": "word"
     },
     "prr": {
+        "abbrev": "PRR",
+        "abbrevHTML": "PRR",
         "defHTML": "A project management device by which the production readiness is reviewed.",
         "defLaTeX": "A project management device by which the production readiness is reviewed",
         "term": "production readiness review",
         "termHTML": "production readiness review",
-        "type": "word"
+        "type": "abbrev"
     },
     "psv": {
         "defHTML": "pressure safety valve.",
@@ -3505,22 +3521,11 @@
         "type": "abbrev"
     },
     "ptp": {
-        "abbrev": "PTP",
-        "abbrevHTML": "PTP",
-        "defHTML": "A <a href=\"#wls\">WLS</a> material.",
-        "defLaTeX": "A \\gls{wls} material",
-        "term": "p-terphenyl",
-        "termHTML": "p-terphenyl",
-        "type": "abbrev"
-    },
-    "ptproto": {
-        "abbrev": "PTP",
-        "abbrevHTML": "PTP",
-        "defHTML": "A networking protocol that allows synchronizing of clocks to within a few of a time standard on a local network.",
-        "defLaTeX": "A networking protocol that allows synchronizing of clocks to within a few \\si{\\micro\\second} of a time standard on a local network",
-        "term": "Precision Time Protocol",
-        "termHTML": "Precision Time Protocol",
-        "type": "abbrev"
+        "defHTML": "Depending on context, either p-terphenyl, a <a href=\"#wls\">WLS</a> material, or Precision Time Protocol, a networking protocol that allows synchronizing of clocks to within a few of a time standard on a local network.",
+        "defLaTeX": "Depending on context, either p-terphenyl, a \\gls{wls} material, or Precision Time Protocol, a networking protocol that allows synchronizing of clocks to within a few \\si{\\micro\\second} of a time standard on a local network",
+        "term": "PTP",
+        "termHTML": "PTP",
+        "type": "word"
     },
     "pubsub": {
         "abbrev": "PUB/SUB",
@@ -3534,8 +3539,8 @@
     "qa": {
         "abbrev": "QA",
         "abbrevHTML": "QA",
-        "defHTML": "The set of actions taken to provide confidence that quality requirements are fulfilled, and to detect and correct poor results.",
-        "defLaTeX": "The set of actions taken to provide confidence that quality requirements are fulfilled, and to detect and correct poor results",
+        "defHTML": "The process of ensuring thatthe quality of each element meets requirements during design and development, and to detect and correct poor results prior to production.",
+        "defLaTeX": "The process of ensuring thatthe quality of each element meets requirements during design and development, and to detect and correct poor results prior to production",
         "term": "quality assurance",
         "termHTML": "quality assurance",
         "type": "abbrev"
@@ -3557,8 +3562,8 @@
     "qc": {
         "abbrev": "QC",
         "abbrevHTML": "QC",
-        "defHTML": "An aggregate of activities (such as design analysis and inspection for defects) performed to ensure adequate quality in manufactured products.",
-        "defLaTeX": "An aggregate of activities (such as design analysis and inspection for defects) performed to ensure adequate quality in manufactured products",
+        "defHTML": "The process (e.g., inspection, testing, measurements)of ensuring that each manufactured element meets its quality requirements prior to assembly or installation.",
+        "defLaTeX": "The process (e.g., inspection, testing, measurements)of ensuring that each manufactured element meets its quality requirements prior to assembly or installation",
         "term": "quality control",
         "termHTML": "quality control",
         "type": "abbrev"
@@ -3579,13 +3584,6 @@
         "termHTML": "QFP",
         "type": "word"
     },
-    "r-c": {
-        "defHTML": "resistive-capacitive (circuit).",
-        "defLaTeX": "resistive-capacitive (circuit)",
-        "term": "RC",
-        "termHTML": "RC",
-        "type": "word"
-    },
     "rawevent": {
         "defHTML": "The unit of data output by the <a href=\"#daq\">DAQ</a>. It contains trigger and detector data spanning a unique, contiguous time period and a subset of the detector channels.",
         "defLaTeX": "The unit of data output by the  \\gls{daq}.  It contains trigger and detector data spanning a unique, contiguous  time period and a subset of the detector channels",
@@ -3594,13 +3592,11 @@
         "type": "word"
     },
     "rc": {
-        "abbrev": "RC",
-        "abbrevHTML": "RC",
-        "defHTML": "The system for configuring, starting and terminating the <a href=\"#daq\">DAQ</a>.",
-        "defLaTeX": "The system for configuring,  starting and terminating the \\gls{daq}",
-        "term": "run control",
-        "termHTML": "run control",
-        "type": "abbrev"
+        "defHTML": "Depending on context, one of (1) resistive-capacitive (circuit), (2) run control, the system for configuring, starting and terminating the <a href=\"#daq\">DAQ</a>, or (3) resource coordinator, a member of the <a href=\"#dune\">DUNE</a> management team responsible for coordinating the financial resources of the project.",
+        "defLaTeX": "Depending on context, one of (1) resistive-capacitive (circuit), (2) run control, the system for configuring, starting and terminating the \\gls{daq}, or (3) resource coordinator, a member of the \\gls{dune} management team responsible for coordinating the financial resources of the project",
+        "term": "RC",
+        "termHTML": "RC",
+        "type": "word"
     },
     "rce": {
         "abbrev": "RCE",
@@ -3609,15 +3605,6 @@
         "defLaTeX": "Data processor located outside of the cryostat on a \\gls{cob} that contains \\gls{fpga}, RAM and \\gls{ssd} resources, responsible for buffering data, producing trigger primitives, responding to triggered requests for data and synching \\gls{snb} dumps",
         "term": "reconfigurable computing element",
         "termHTML": "reconfigurable computing element",
-        "type": "abbrev"
-    },
-    "rcoord": {
-        "abbrev": "RC",
-        "abbrevHTML": "RC",
-        "defHTML": "A member of the <a href=\"#dune\">DUNE</a> management team responsible for coordinating the financial resources of the project effort.",
-        "defLaTeX": "A member of the \\gls{dune} management team responsible for coordinating the financial resources of the project effort",
-        "term": "resource coordinator",
-        "termHTML": "resource coordinator",
         "type": "abbrev"
     },
     "readout window": {
@@ -3690,11 +3677,13 @@
         "type": "abbrev"
     },
     "ro": {
+        "abbrev": "RO",
+        "abbrevHTML": "RO",
         "defHTML": "An office within the <a href=\"#integoff\">integration office</a> that organizes reviews.",
-        "defLaTeX": "An office within the \\gls{integoff} that organizes reviews ",
+        "defLaTeX": "An office within the \\gls{integoff} that organizes reviews",
         "term": "review office",
         "termHTML": "review office",
-        "type": "word"
+        "type": "abbrev"
     },
     "roc": {
         "abbrev": "ROC",
@@ -3850,8 +3839,8 @@
         "type": "word"
     },
     "sc": {
-        "defHTML": "scientific computing.",
-        "defLaTeX": "scientific computing",
+        "defHTML": "depending on context, either speakers committee or scientific computing.",
+        "defLaTeX": "depending on context, either speakers committee or scientific computing",
         "term": "SC",
         "termHTML": "SC",
         "type": "word"
@@ -3871,13 +3860,6 @@
         "term": "Scientific Computing Infrastructure",
         "termHTML": "Scientific Computing Infrastructure",
         "type": "abbrev"
-    },
-    "scomm": {
-        "defHTML": "speakers committee.",
-        "defLaTeX": "speakers committee",
-        "term": "SC",
-        "termHTML": "SC",
-        "type": "word"
     },
     "sdsd": {
         "abbrev": "SDSD",
@@ -3900,8 +3882,8 @@
     "sdwf": {
         "abbrev": "SDWF",
         "abbrevHTML": "SDWF",
-        "defHTML": "Warehousing operations in South Dakota responsible for receiving LBNF and DUNE goods and coordinating shipments to the Ross shaft at <a href=\"#surf\">SURF</a>.",
-        "defLaTeX": "Warehousing operations in South Dakota responsible for receiving LBNF and DUNE goods and coordinating shipments to the Ross shaft at \\gls{surf}",
+        "defHTML": "Warehousing operations in South Dakota responsible for receiving LBNF and DUNE goods and coordinating shipments to the access shaft (Ross Shaft) at <a href=\"#surf\">SURF</a>.",
+        "defLaTeX": "Warehousing operations in South Dakota responsible for receiving LBNF and DUNE goods and coordinating shipments to the access shaft (Ross Shaft) at \\gls{surf}",
         "term": "South Dakota Warehouse Facility",
         "termHTML": "South Dakota Warehouse Facility",
         "type": "abbrev"
@@ -3947,15 +3929,6 @@
         "defLaTeX": "In the \\gls{dp} technology, a volume above the cryostat penetration used for a signal feedthrough",
         "term": "signal feedthrough chimney",
         "termHTML": "signal feedthrough chimney",
-        "type": "abbrev"
-    },
-    "sgft": {
-        "abbrev": "SGFT",
-        "abbrevHTML": "SGFT",
-        "defHTML": "add def (DP install).",
-        "defLaTeX": "add def (DP install)",
-        "term": "term",
-        "termHTML": "term",
         "type": "abbrev"
     },
     "shaft": {
@@ -4284,11 +4257,13 @@
         "type": "abbrev"
     },
     "tc": {
-        "defHTML": "The DUNE organization responsible for overall integrationof the detector elements and successful execution of the detectorconstruction project; areas of responsibility includegeneral project oversight, systems engineering, <a href=\"#qa\">QA</a> and safety.",
-        "defLaTeX": "The DUNE organization responsible for overall integrationof the detector elements and successful execution of the detectorconstruction project; areas of responsibility includegeneral project oversight, systems engineering, \\gls{qa} and safety",
+        "abbrev": "TCN",
+        "abbrevHTML": "TCN",
+        "defHTML": "The DUNE organization responsible for overall integration of the detector elements and successful execution of the detector construction project; areas of responsibility include general project oversight, systems engineering, <a href=\"#qa\">QA</a> and safety.",
+        "defLaTeX": "The DUNE organization responsible for overall integration of the detector elements and successful execution of the detector construction project; areas of responsibility include general project oversight, systems engineering, \\gls{qa} and safety",
         "term": "technical coordination",
         "termHTML": "technical coordination",
-        "type": "word"
+        "type": "abbrev"
     },
     "tcm": {
         "abbrev": "TCM",
@@ -4311,20 +4286,18 @@
     "tcoord": {
         "abbrev": "TC",
         "abbrevHTML": "TC",
-        "defHTML": "A member of the <a href=\"#dune\">DUNE</a> management team responsible for organizing the technical aspects of the project effort; is head of <a href=\"#tc\">technical coordination</a>.",
+        "defHTML": "A member of the <a href=\"#dune\">DUNE</a> management team responsible for organizing the technical aspects of the project effort; is head of <a href=\"#tc\">TCN</a>.",
         "defLaTeX": "A member of the \\gls{dune} management team responsible for organizing the technical aspects of the project effort; is head of \\gls{tc}",
         "term": "technical coordinator",
         "termHTML": "technical coordinator",
         "type": "abbrev"
     },
     "tdr": {
-        "abbrev": "TDR",
-        "abbrevHTML": "TDR",
-        "defHTML": "A formal project document that describes the experiment at a technical level.",
-        "defLaTeX": "A formal project  document  that describes the experiment at a technical level",
-        "term": "technical design report",
-        "termHTML": "technical design report",
-        "type": "abbrev"
+        "defHTML": "Depending on context, either \"technical design report,\" a formal project document that describes the experiment at a technical level, or \"technical design review,\" a formal review of the technical design of the experiment or of a component.",
+        "defLaTeX": "Depending on context, either ``technical design report,'' a formal project  document  that describes the experiment at a technical level, or ``technical design review,'' a formal review of the technical design of the experiment or of a component",
+        "term": "TDR",
+        "termHTML": "TDR",
+        "type": "word"
     },
     "thd": {
         "abbrev": "THD",

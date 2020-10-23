@@ -500,7 +500,7 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
 \newduneword{protodune}{ProtoDUNE}{Either of the two DUNE prototype detectors constructed at \gls{cern}. % and operated in  a CERN test beam (expected fall 2018). 
   One prototype implements \gls{sp} technology and the other \gls{dp}}
   
-\newduneword{protodune2}{ProtoDUNE-2}{The second run of a \gls{protodune} detector}
+\newduneword{protodune2}{ProtoDUNE-II}{The second run of a \gls{protodune} detector}  % #33
 
 %the single-phase ProtoDUNE detector
 \newduneword{pdsp}{ProtoDUNE-SP}{The \gls{sp} \gls{protodune} detector at \gls{cern}}
@@ -545,10 +545,10 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
   \gls{detunit}}
 
 %run control 
-\newduneabbrev{rc}{RC}{run control}{The system for configuring,
-  starting and terminating the \gls{daq}}
+%\newduneabbrev{rc}{RC}{run control}{The system for configuring, starting and terminating the \gls{daq}}
 
-\newduneword{r-c}{RC}{resistive-capacitive (circuit)}
+\newduneword{rc}{RC}{Depending on context, one of (1) resistive-capacitive (circuit), (2) run control, the system for configuring, starting and terminating the \gls{daq}, or (3) resource coordinator, a member of the \gls{dune} management team responsible for coordinating the financial resources of the project} % #33
+
 
 \newduneabbrev{daqccm}{CCM}{DAQ control, configuration and monitoring subsystem}{A system for controlling, configuring and monitoring other systems in particular those that make up the \gls{daq} where the CCM encompasses \gls{rc}}
 
@@ -592,7 +592,7 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
 
 \newduneabbrev{ntp}{NTP}{Network Time Protocol}{A networking protocol that allows synchronizing of clocks to within a few \si{\milli\second} of a time standard on a local network and within a few tens of \si{\milli\second} over the Internet} 
 
-\newduneabbrev{ptproto}{PTP}{Precision Time Protocol}{A networking protocol that allows synchronizing of clocks to within a few \si{\micro\second} of a time standard on a local network} 
+\newduneword{ptp}{PTP}{Depending on context, either p-terphenyl, a \gls{wls} material, or Precision Time Protocol, a networking protocol that allows synchronizing of clocks to within a few \si{\micro\second} of a time standard on a local network}  % #33
 
 \newduneabbrev{irig}{IRIG}{inter-range instrumentation group}{A standards body that defined a time-code standard for transferring timing information}
 
@@ -635,11 +635,10 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
 
 %beamline
 \newduneword{beamline}{beamline}{A sequence of control and monitoring devices used for the formation of a directed collection of particles}
-%conceptual design report
-\newduneabbrev{cdr}{CDR}{conceptual design report}{A formal project
-  document %required by funding agencies
-   that describes the experiment
-  at a conceptual level}
+
+
+\newduneword{cdr}{CDR}{Depending on context, either ``conceptual design report,'' a formal project  document  that describes the experiment at a conceptual level, or ``conceptual design review,'' a formal review of the conceptual design of the experiment or of a component}  % #33
+
 
 %conventional facilities
 \newduneabbrev{cf}{CF}{conventional facilities}{Pertaining to
@@ -731,23 +730,21 @@ transformation inverts its space coordinates, i.e. produces the mirror image}
   production target}
 
 %quality assurance
-\newduneabbrev{qa}{QA}{quality assurance}{The set of actions taken to provide confidence that quality requirements are fulfilled, and to detect and correct poor results}
+\newduneabbrev{qa}{QA}{quality assurance}{The process of ensuring that %The set of actions taken to provide confidence that 
+the quality of each element meets requirements during design and development, and to detect and correct poor results prior to production} % #33
 
 %quality control
-\newduneabbrev{qc}{QC}{quality control}{An aggregate of activities (such as design analysis and inspection for defects) performed to ensure adequate quality in manufactured products}
+\newduneabbrev{qc}{QC}{quality control}{The process (e.g., inspection, testing, measurements) %An aggregate of activities (such as design analysis and inspection for defects) performed 
+of ensuring that each manufactured element meets its quality requirements prior to assembly or installation} %adequate quality in manufactured products}  % #33
 
 %standard model
 \newduneabbrev{sm}{SM}{standard model}{Refers to a theory describing
   the interaction of elementary particles}
 
 %technical design report
-\newduneabbrev{tdr}{TDR}{technical design report}{A formal project
-  document %required by funding agencies 
-  that describes the experiment at a technical level}
+ \newduneword{tdr}{TDR}{Depending on context, either ``technical design report,'' a formal project  document  that describes the experiment at a technical level, or ``technical design review,'' a formal review of the technical design of the experiment or of a component}  % #33
 
-\newduneabbrev{prelimdr}{PDR}{preliminary design report}{A formal project
-  document %required by funding agencies 
-  that describes the experiment at a preliminary design level}
+%  #33 \newduneabbrev{prelimdr}{PDR}{preliminary design report}{A formal project document  that describes the experiment at a preliminary design level}
 
 %interim design report
 \newduneabbrev{tp}{IDR}{interim design report}{An intermediate
@@ -805,18 +802,15 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
 % can also use in the text: \gls{sp} \gls{detmodule} 
 \newduneword{spmod}{SP module}{single-phase DUNE \gls{fd} module}
 \newduneword{dpmod}{DP module}{dual-phase DUNE \gls{fd} module}
-%\newduneword{dsp}{DUNE-SP}{The \gls{sp} DUNE detector} % No they are det modules!
-%\newduneword{ddp}{DUNE-DP}{The \gls{dp} DUNE detector}% No they are det modules!
+\newduneword{dsp}{DUNE-SP}{a single-phase DUNE far detector module} % 33
+\newduneword{ddp}{DUNE-DP}{a dual-phase DUNE far detector module}% 33
 
 \newduneabbrev{tcoord}{TC}{technical coordinator}{A member of the \gls{dune} management team responsible for organizing the technical aspects of the project effort; is head of \gls{tc}}
 
-\newduneabbrev{rcoord}{RC}{resource coordinator}{A member of the \gls{dune} management team responsible for coordinating the financial resources of the project effort}
+%\newduneabbrev{rcoord}{RC}{resource coordinator}{A member of the \gls{dune} management team responsible for coordinating the financial resources of the project effort} % #33
 
-%\newduneabbrev{tc}{TCN}{technical coordination}{The DUNE organization responsible for overall integration of the detector elements and successful execution of the detector construction project; areas of responsibility include general project oversight, systems engineering, \gls{qa} and safety}
-\newduneword{tc}{technical coordination}{The DUNE organization responsible for overall integration 
-of the detector elements and successful execution of the detector
-construction project; areas of responsibility include 
-general project oversight, systems engineering, \gls{qa} and safety}
+\newduneabbrev{tc}{TCN}{technical coordination}{The DUNE organization responsible for overall integration of the detector elements and successful execution of the detector construction project; areas of responsibility include general project oversight, systems engineering, \gls{qa} and safety}  % #33
+
 
 \newduneabbrev{exb}{EB}{executive board}{The highest level DUNE
   decision-making body for the collaboration}
@@ -1066,9 +1060,10 @@ Neutrino Facility (LBNF)''}
   
 \newduneabbrev{tpb}{TPB}{tetra-phenyl butadiene}{A \gls{wls} material}
 
-\newduneabbrev{ptp}{PTP}{p-terphenyl}{A \gls{wls} material}
+%\newduneabbrev{ptp}{PTP}{p-terphenyl}{A \gls{wls} material}  % #33
 
 \newduneabbrev{sft}{SFT}{signal feedthrough}{A cryostat penetration allowing for the passage of cables or other extended parts}
+
 \newduneabbrev{sftchimney}{SFT chimney}{signal feedthrough chimney}{In the \gls{dp} technology, a volume above the cryostat penetration used for a signal feedthrough}
 
 
@@ -1093,7 +1088,7 @@ Neutrino Facility (LBNF)''}
 
 \newduneabbrev{ddss}{DDSS}{DUNE detector safety system}{The hardware system responsible for the safety of the detector, implemented either via a \gls{plc} or via custom hardware protections} % update from MV 1sept2020 
 
-\newduneabbrev{lc}{LC}{logistics center}{A facility where \gls{lbnf} and \gls{dune} components will be received and transhipped to \gls{surf}}
+%\newduneabbrev{lc}{LC}{logistics center}{A facility where \gls{lbnf} and \gls{dune} components will be received and transhipped to \gls{surf}} % 33 (it's the SDWF not LC)
 
 \newduneabbrev{tco}{TCO}{temporary construction opening}{An opening in the side of a cryostat through which detector elements are brought into the cryostat; utilized during construction and installation}
 
@@ -1105,19 +1100,19 @@ Neutrino Facility (LBNF)''}
 
 \newduneabbrev{cmgc}{CMGC}{construction manager/general contractor}{The organizational unit responsible for management of the construction of conventional facilities at the underground area at the \gls{surf} site}
 
-%\newduneabbrev{cdrev}{CDR}{conceptual design review}{A project management device by which a conceptual design is reviewed} 
-\newduneword{cdrev}{conceptual design review}{A project management device by which a conceptual design is reviewed} 
-%\newduneabbrev{pdr}{PDR}{preliminary design review}{A project management device by which an early design is reviewed} % do we want this for `review' not `report'?
-%\newduneabbrev{fdr}{FDR}{final design review}{A project management device by which a final design is reviewed}
-\newduneword{pdr}{preliminary design review}{A project management device by which an early design is reviewed} % do we want this for `review' not `report'?
-\newduneword{fdr}{final design review}{A project management device by which a final design is reviewed}
-%\newduneabbrev{prr}{PRR}{production readiness review}{A project management device by which the production readiness is reviewed}
-\newduneword{prr}{production readiness review}{A project management device by which the production readiness is reviewed}
-%\newduneabbrev{irr}{IRR}{installation readiness review}{A project management device by which the plan for installation is reviewed}
-\newduneword{irr}{installation readiness review}{A project management device by which the plan for installation is reviewed}
-%\newduneabbrev{orr}{ORR}{operational readiness review}{A project management device by which the operational readiness is reviewed}
-\newduneword{orr}{operational readiness review}{A project management device by which the operational readiness is reviewed}
-\newduneword{ppr}{production progress review}{A project management device by which the progress of production is reviewed} %changed to dune word 1/13 
+%\newduneabbrev{cdrev}{CDR}{conceptual design review}{A project management device by which a conceptual design is reviewed}   % #33
+
+\newduneword{pdr}{PDR}{Depending on context, either ``preliminary design report,'' a formal project document  that describes the experiment at a preliminary level, or ``preliminary design review,'' a formal review of the preliminary design of the experiment or of a component} % #33
+
+\newduneword{fdr}{final design review}{A project management device by which a final design is reviewed}  % per #33, not sure if we need a `final design report'
+
+\newduneabbrev{prr}{PRR}{production readiness review}{A project management device by which the production readiness is reviewed}  % #33
+
+\newduneabbrev{irr}{IRR}{installation readiness review}{A project management device by which the plan for installation is reviewed}  % #33
+\newduneabbrev{orr}{ORR}{operational readiness review}{A project management device by which the operational readiness is reviewed}  % #33
+
+\newduneabbrev{ppr}{PPR}{production progress review}{A project management device by which the progress of production is reviewed}  % #33
+
 \newduneabbrev{edms}{EDMS}{engineering document management system}{A computerized document management system developed and supported at \gls{cern} in which some DUNE documents, drawings and engineering models are managed}
 \newduneabbrev{ecr}{ECR}{engineering change request}{The first step in the change control process in which a proposed change is described}
 \newduneabbrev{docdb}{DocDB}{Document DataBase}{A computerized document management system developed and supported at \gls{fnal} in which virtually all LBNF and most DUNE documents are managed (docs.dunescience.org)}
@@ -1178,6 +1173,9 @@ Neutrino Facility (LBNF)''}
 \newduneabbrev{ims}{IMS}{integrated master schedule}{A project management device consisting of linked tasks and milestones}
 
 \newduneword{hvdb}{HVDB}{HV divider board}
+
+\newduneword{hvft}{HVFT}{HV feedthrough}  % #33
+
 \newduneword{sas}{SAS}{Another term for the materials airlock; a pass-through chamber used to ensure safe transfer of materials into a clean room, avoiding contamination in both directions}
 
 \newduneabbrev{fea}{FEA}{finite element analysis}{Simulation of a physical phenomenon using the numerical technique called Finite Element Method (FEM), a numerical method for solving problems of engineering and mathematical physics}
@@ -1281,7 +1279,7 @@ elastically scatters off of another particle}
 
 \newduneabbrev{cno}{CNO}{carbon nitrogen oxygen}{The CNO cycle (for carbon-nitrogen-oxygen) is one of the two known sets of fusion reactions by which stars convert hydrogen to helium, the other being the proton-proton chain reaction (pp-chain reaction). In the CNO cycle, four protons fuse, using carbon, nitrogen, and oxygen isotopes as catalysts, to produce one alpha particle, two positrons and two electron neutrinos}
 
-\newduneabbrev{sdwf}{SDWF}{South Dakota Warehouse Facility}{Warehousing operations in South Dakota responsible for receiving LBNF and DUNE goods and coordinating shipments to the Ross shaft at \gls{surf}}
+\newduneabbrev{sdwf}{SDWF}{South Dakota Warehouse Facility}{Warehousing operations in South Dakota responsible for receiving LBNF and DUNE goods and coordinating shipments to the access shaft (Ross Shaft) at \gls{surf}}
 
 \newduneabbrev{wms}{WMS}{warehouse management system}{Commercial software package used to track shipments and interface to freight forwarders. This includes a database for shipping}
 
@@ -1297,7 +1295,7 @@ elastically scatters off of another particle}
 \newduneabbrev{sno}{SNO}{Sudbury Neutrino Observatory}{The Sudbury Neutrino Observatory was a detector built 6800 feet under ground, in INCO's Creighton mine near Sudbury, Ontario, Canada. SNO was a heavy-water Cherenkov detector designed to detect neutrinos produced by fusion reactions in the sun}
 
 \newduneword{sk}{Super-Kamiokande}{Experiment sited in the Kamioka-mine, Hida-city, Gifu, Japan that uses a large water Cherenkov detector to study neutrino properties through the observation of solar neutrinos, atmospheric neutrinos and man-made neutrinos}
-% (too long and not in line with defs of other experiments) From the official website~\cite{skwebsite}: Super-Kamiokande is a large water Cherenkov detector.  The Super-Kamiokande detector consists of a stainless-steel tank,39.3 m diameter and 41.4 m tall, filled with 50,000 tons of ultra pure water. About 13,000 photo-multipliers are installed on the tank wall. The detector is located at 1,000 meter underground in the Kamioka-mine, Hida-city, Gifu, Japan}
+
 
 \newduneabbrev{id}{ID}{inner diameter}{Inner diameter of a tube}
 
@@ -1404,9 +1402,9 @@ radioactive sources inside the \gls{dune} cryostat}
 
 \newduneword{mu2e}{Mu2e}{An experiment sited at \gls{fnal} that searches for charged-lepton flavor violation and seeks to discover physics beyond the \gls{sm}}
 
-\newduneword{pdsp2}{ProtoDUNE-SP-2}{A second test run in the singe-phase
+\newduneword{pdsp2}{ProtoDUNE-SP-II}{A second test run in the singe-phase
 ProtoDUNE test stand at CERN, acting as a validation of the final
-single-phase detector design}
+single-phase detector design}  % #33
 
 
 \newduneword{osha}{OSHA}{Occupational Safety and Health Administration (USA Department of Labor) formed by the Occupational Safety and Health Act of 1970}
@@ -1432,7 +1430,7 @@ on neutron capture gamma showers spread out in the whole detector}
 
 \newduneabbrev{pab}{PAB}{Proton Assembly Building}{Home of several \gls{lar} facilities at Fermilab}
 \newduneword{hep}{HEP}{high energy physics}
-\newduneword{sc}{SC}{scientific computing}  % check, this may be wrong (ask Heidi)
+%\newduneword{sc}{SC}{scientific computing}  % #33
 \newduneword{cms}{CMS}{Compact Muon Solenoid experiment at CERN}
 \newduneword{alice}{ALICE}{A Large Ion Collider Experiment, at CERN}
 \newduneword{gpib}{GPIB}{general purpose interface bus}
@@ -1444,7 +1442,7 @@ on neutron capture gamma showers spread out in the whole detector}
 \newduneword{au}{AU}{astronomical unit}
 \newduneword{nufit}{NuFIT 4.0}{The NuFIT 4.0 global fit to neutrino oscillation data}
 
-\newduneabbrev{sgft}{SGFT}{term}{add def (DP install)}
+%\newduneabbrev{sgft}{SGFT}{term}{add def (DP install)} % #33
 \newduneword{uhv}{UHV}{ultra high vacuum}
 \newduneword{lps}{LPS}{laser positioning system}
 
@@ -1494,9 +1492,14 @@ H ($>\,$\SI{20}{\%} and $>\,$2 months, respectively)}
 
 \newduneword{baryonnumber}{baryon number}{A quantity expressing the total number of baryons in a system minus the number of antibaryons}
 
-\newduneword{np04}{NP04}{CERN North Area hadron beamline used for the \gls{pdsp} test beam run}
+%np02/4 and h2/4 new/updated per SK and EJ (by AH 10/22/20)
+\newduneword{np04}{NP04}{Experiment in the CERN North Area \gls{h4} hadron beamline;  \gls{pdsp}}  % #33
 
-\newduneword{np02}{NP02}{CERN North Area hadron beamline used for the \gls{pddp} test beam run} %new from KH 1sep2020
+\newduneword{np02}{NP02}{Experiment in the CERN North Area \gls{h2} hadron beamline;  \gls{pddp}}  % #33
+
+\newduneword{h4}{H4}{CERN North Area hadron beamline used for the \gls{pdsp} test beam run}  % #33
+
+\newduneword{h2}{H2}{CERN North Area hadron beamline used for the \gls{pddp} test beam run}  % #33
 
 \newduneword{ua1}{UA1}{UA1 (Underground Area 1) was a particle detector at \gls{cern}'s  Super Proton Synchrotron (SPS). It ran from 1981 until 1990, when the SPS was used as a proton-antiproton collider, searching for traces of W and Z particles in collisions. (CERN) The UA1 dipole magnet was reused in the NOMAD experiment and currently provides the magnetic field for the \gls{t2k} ND280 detector}
 
@@ -1514,8 +1517,8 @@ with a screw-type coupling mechanism}
 
 \newduneword{kloe}{KLOE}{KLOE is a $e^+ e^-$ collider detector spectrometer operated at DAFNE, the $\phi$-meson factory at Frascati, Rome. In DUNE it will consist of a \SI{26}{cm} Pb+scintillating fiber ECAL surrounding a cylindrical open detector region that is  \SI{4.00}{m} in diameter and \SI{4.30}{m} long. The ECAL and detector region are embedded in a \SI{0.6}{T} magnetic field created by a \SI{4.86}{m} diameter superconducting coil and a \SI{475}{tonne} iron yoke}
 
-%\newduneabbrev{ro}{RO}{review office}{An office within the \gls{integoff} that organizes reviews }
-\newduneword{ro}{review office}{An office within the \gls{integoff} that organizes reviews }
+\newduneabbrev{ro}{RO}{review office}{An office within the \gls{integoff} that organizes reviews} % #33
+%\newduneword{ro}{review office}{An office within the \gls{integoff} that organizes reviews } % #33
 
 \newduneabbrev{doecd}{CD}{critical decision}{The U.S. DOE's Order 413.3B outlines a series of staged project approvals, each of which is referred to as a critical decision (CD)}
 
@@ -1523,7 +1526,7 @@ with a screw-type coupling mechanism}
 
 \newduneabbrev{sand}{SAND}{System for on-Axis Neutrino Detection}{The beam monitor component of the near detector that remains on-axis at all times and serves as a dedicated neutrino spectrum monitor}
 
-\newduneword{4850l}{4850L}{The depth in feet (1480 m) of the top of the cryostats underground at SURF; used more generally to refer to the DUNE underground area. Called the ``4850 level'' or ``4850L''}
+\newduneword{4850l}{4850L}{The depth in feet (1480 m) of the access level for the DUNE underground area at SURF; called the ``4850 level''} % #33
 
 \newduneword{apb}{APB}{authorship and publications board}
 \newduneword{crb}{CRB}{collaboration resources board}
@@ -1537,7 +1540,7 @@ with a screw-type coupling mechanism}
 \newduneword{winze}{winze}{A vertical excavation at \gls{surf} connecting two drifts, not connecting to the surface}
 \newduneword{ib}{IB}{institutional board}
 \newduneword{irb}{IBR}{institutional board representative}
-\newduneword{scomm}{SC}{speakers committee}
+\newduneword{sc}{SC}{depending on context, either speakers committee or scientific computing} % #33
 \newduneword{sac}{SAC}{spokespersons advisory committee}
 \newduneword{ccondc}{CCC}{code of conduct committee}
 \newduneword{eoc}{EOC}{education and outreach committee}
@@ -1550,7 +1553,7 @@ with a screw-type coupling mechanism}
 \newduneabbrev{pnfs}{PNFS}{Pseudo Network File System}{A file system often used in large storage systems. Typically interaction is very similar to a regular NFS volume, but there can be some subtle and important differences}
 
 % next 3 from NS cryogenics (Anne 8/28/20)
-\newduneword{nde}{NDE}{non-destructive examination}
+\newduneword{nde}{NDE}{non-destructive evaluation} % 33
 \newduneword{psv}{PSV}{pressure safety valve}
 \newduneword{pickling}{pickling}{steel pickling and oiling is a metal surface treatment finishing process used to remove surface impurities such as rust and carbon scale from hot rolled carbon steel}
 

@@ -479,7 +479,7 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
 %\newduneabbrev{coldata}{COLDATA}{a 64-channel control and communications ASIC}{A key component of the 128-channel \gls{femb} that provides a control and communication interface between cold \gls{lvds} channels and warm electronics external to the cryostat}
 
 %cryo
-\newduneword{cryo}{CRYO}{Integrated ASIC including \gls{fe} circuitry providing signal amplification and pulse shaping, analog to digital conversion, and control and communication functionalities for 64 channels}
+\newduneword{cryo}{CRYO}{(1) Integrated ASIC including \gls{fe} circuitry providing signal amplification and pulse shaping, analog to digital conversion, and control and communication functionalities for 64 channels; (2) acryonym for cryogenic systems and cryostat work scopes in \gls{lbnf}}
 
 %liquid argon application-specific integrated circuit
 \newduneword{larasic}{LArASIC}{A 16-channel \gls{fe} \gls{asic} that provides signal amplification and pulse shaping}
@@ -634,7 +634,7 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
 \newduneword{artdaq}{artdaq}{A data acquisition toolkit for data transfer, aggregation and processing}
 
 %beamline
-\newduneword{beamline}{beamline}{A sequence of control and monitoring devices used for the formation of a directed collection of particles}
+\newduneword{beamline}{beamline}{A sequence of control and monitoring devices used for the formation of a directed collection of particles; a subproject within \gls{lbnf}} % #36
 
 
 \newduneword{cdr}{CDR}{Depending on context, either ``conceptual design report,'' a formal project  document  that describes the experiment at a conceptual level, or ``conceptual design review,'' a formal review of the conceptual design of the experiment or of a component}  % #33
@@ -642,7 +642,7 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
 
 %conventional facilities
 \newduneabbrev{cf}{CF}{conventional facilities}{Pertaining to
-  construction and operation of buildings and conventional infrastructure, and for \gls{lbnf-dune}, CF includes the excavation caverns}
+  construction and operation of buildings and conventional infrastructure, and for the \gls{lbnf-dune}, CF includes the excavation caverns}
 
 %charge parity
 \newduneabbrev{cp}{CP}{charge parity}{Product of charge and parity
@@ -701,11 +701,12 @@ transformation inverts its space coordinates, i.e. produces the mirror image}
   The ``long'' designation is an approximate and relative distinction. For DUNE, this distance  (between \gls{fnal} and \gls{surf}) is approximately \SI{1300}{km}}
 
 %long-baseline neutrino facility
-\newduneabbrev{lbnf}{LBNF}{Long-Baseline Neutrino Facility}{The
+\newduneabbrev{lbnf}{LBNF}{Long-Baseline Neutrino Facility}{The project scope and  
   organizational entity responsible for developing the neutrino beam, the cryostats
-  and cryogenics systems, and the conventional facilities for DUNE}
+  and cryogenics systems, and the conventional facilities for DUNE} % #36
   
-\newduneabbrev{lbnf-dune}{LBNF/DUNE}{LBNF and DUNE project}{The overall global project, including \gls{lbnf} and \gls{dune}}
+\newduneabbrev{lbnf-dune}{LBNF/DUNE}{LBNF and DUNE enterprise}{The overall enterprise including the LBNF/DUNE-US \gls{doe} project, other international contributing projects, and the \gls{dune} collaboration and experiment}
+%\newduneabbrev{lbnf-dune}{LBNF/DUNE}{LBNF and DUNE project}{The overall global project, including \gls{lbnf} and \gls{dune}} % #35 09nov20
 
 \newduneabbrev{lbnc}{LBNC}{Long-Baseline Neutrino Committee}{The committee, composed of internationally prominent scientists with relevant expertise, charged by the \gls{fnal} director to review the scientific, technical, and managerial progress, plans and decisions associated with \gls{dune}}
 
@@ -840,6 +841,8 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
   interactions between elementary or composite particles subsequent to
   the initial, fundamental particle interaction, such as may occur as
   the products exit a nucleus}
+  
+\newduneabbrev{fsint}{FSI}{far site integration}{The scope of work at the \gls{fs} for the \gls{integoff}} % #36 - can't put it together with prev item
 
 \newduneword{geant4}{Geant4}{A
   software toolkit for the simulation of the passage of particles
@@ -862,8 +865,8 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
 
 %%%%%%%%%%%%%%%%%%%%%%%%% PROJECT VOLUME list for acronyms below %%%%%%%%%%%%%%%
 
-\newduneabbrev{mou}{MoU}{memorandum of understanding}{A document
-  summarizing an agreement between two or more parties}
+\newduneabbrev{mou}{MoU}{memorandum of understanding}{A project management methodology that documents an agreement between \gls{fnal} and the LBNF/DUNE-US Project for how Fermilab will support the project. More generally, a document
+  summarizing an agreement between two or more parties} % #36 elaine
 
 \newduneabbrev{pip2}{PIP-II}{Proton Improvement Plan II}{A \gls{fnal} project for
   improving the protons on target delivered delivered by the \gls{lbnf} neutrino production beam. 
@@ -875,7 +878,7 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
 \newduneabbrev{sdsd}{SDSD}{Fermilab South Dakota Services Division}{A Fermilab division responsible providing host laboratory functions at SURF in South Dakota}
 
 \newduneabbrev{firus}{FIRUS}{Facility Information Reporting Utility System}
- {The safety system at \gls{surf}}
+ {Facility incident reporting systems, one at \gls{fnal} and at \gls{surf}, that monitors and reports the status of various fire, security and utility sensors} % #36
 
 \newduneabbrev{bsi}{BSI}{building and site infrastructure}
  {The work package for outfitting of the \gls{lbnf} underground infrastructure}
@@ -1009,7 +1012,9 @@ Neutrino Facility (LBNF)''}
 
 \newduneabbrev{lanl}{LANL}{Los Alamos National Laboratory}{US national laboratory in Los Alamos, NM}
 
-\newduneabbrev{fs}{FS}{full stream}{Relates to a data stream that has not undergone selection, compression or other form of reduction}
+%\newduneabbrev{fs}{FS}{full stream}{Relates to a data stream that has not undergone selection, compression or other form of reduction}
+\newduneword{fs}{FS}{(1) The far site, \gls{surf}, where the DUNE far detector is located; (2) ``Full stream'' relates to a data stream that has not undergone selection, compression or other form of reduction} % #36 (see change from item above)
+
 
 \newduneabbrev{lem}{LEM}{large electron multiplier}{A micro-pattern detector suitable for use in ultra-pure argon vapor; LEMs consist of copper-clad PCB boards with sub-millimeter-size holes through which electrons undergo amplification}
 
@@ -1078,7 +1083,8 @@ Neutrino Facility (LBNF)''}
 \newduneabbrev{wrtsn}{WR-TSN}{White Rabbit TimeStamping Node}{A unit on the \gls{wr} network that timestamps the trigger signals and sends out trigger data packets to \gls{wrmch}}
 
 % these should be abbrevs
-\newduneword{cmp}{CMP}{configuration management plan}
+%\newduneword{cmp}{CMP}{configuration management plan}  #36 replace with sys eng mgmt plan
+
 \newduneword{qap}{QAP}{quality assurance plan} %{A project management device for planning \gls{qa}}
 \newduneword{ieshp}{IESHP}{integrated environmental, safety and health plan}%{Refers to the LBNF/DUNE project planning instrument}
 \newduneword{dmp}{DMP}{data management plan} %{A project management device to state how the experimental data will be managed}
@@ -1092,19 +1098,19 @@ Neutrino Facility (LBNF)''}
 
 \newduneabbrev{tco}{TCO}{temporary construction opening}{An opening in the side of a cryostat through which detector elements are brought into the cryostat; utilized during construction and installation}
 
-\newduneabbrev{surf}{SURF}{Sanford Underground Research Facility}{The laboratory in South Dakota where the \gls{lbnf} \gls{fscf} will be constructed and the \gls{dune} \gls{fd} will be installed and operated}
+\newduneabbrev{surf}{SURF}{Sanford Underground Research Facility}{The laboratory in South Dakota where the \gls{dune} \gls{fd} will be installed and operated; also where the \gls{lbnf} \gls{fscf} and the \gls{fs} cryostat and cryogenic systems will be constructed} %  36
 
-\newduneabbrev{sit}{SIT}{surface installation team}{An organizational unit responsible for logistics and integration in South Dakota}
+%\newduneabbrev{sit}{SIT}{surface installation team}{An organizational unit responsible for logistics and integration in South Dakota} #35 09nov20
 
 \newduneabbrev{uit}{UIT}{underground installation team}{An organizational unit responsible for installation in the underground area at the \gls{surf} site}
 
-\newduneabbrev{cmgc}{CMGC}{construction manager/general contractor}{The organizational unit responsible for management of the construction of conventional facilities at the underground area at the \gls{surf} site}
+\newduneabbrev{cmgc}{CMGC}{construction manager/general contractor}{The contracted company hired to manage overall construction, used by \gls{lbnf} at the \gls{surf} site for the \gls{fscf} construction} % #36 old: The organizational unit responsible for management of the construction of conventional facilities at the underground area at the \gls{surf} site}
 
 %\newduneabbrev{cdrev}{CDR}{conceptual design review}{A project management device by which a conceptual design is reviewed}   % #33
 
 \newduneword{pdr}{PDR}{Depending on context, either ``preliminary design report,'' a formal project document  that describes the experiment at a preliminary level, or ``preliminary design review,'' a formal review of the preliminary design of the experiment or of a component} % #33
 
-\newduneword{fdr}{final design review}{A project management device by which a final design is reviewed}  % per #33, not sure if we need a `final design report'
+\newduneword{fdr}{FDR}{Depending on context, either ``final design report,'' a formal project document  that describes the experiment at a final level, or ``final design review,'' a formal review of the final design of the experiment or of a component} %  per #33, not sure if we need a `final design report' - yes per #36
 
 \newduneabbrev{prr}{PRR}{production readiness review}{A project management device by which the production readiness is reviewed}  % #33
 
@@ -1113,8 +1119,8 @@ Neutrino Facility (LBNF)''}
 
 \newduneabbrev{ppr}{PPR}{production progress review}{A project management device by which the progress of production is reviewed}  % #33
 
-\newduneabbrev{edms}{EDMS}{engineering document management system}{A computerized document management system developed and supported at \gls{cern} in which some DUNE documents, drawings and engineering models are managed}
-\newduneabbrev{ecr}{ECR}{engineering change request}{The first step in the change control process in which a proposed change is described}
+\newduneabbrev{edms}{EDMS}{engineering document management system}{A computerized document management system developed and supported at \gls{cern} in which some LBNF/DUNE documents, drawings and engineering models are managed} % #36  add `lbnf' before dune
+%\newduneabbrev{ecr}{ECR}{engineering change request}{The first step in the change control process in which a proposed change is described} #36 replace with bcr
 \newduneabbrev{docdb}{DocDB}{Document DataBase}{A computerized document management system developed and supported at \gls{fnal} in which virtually all LBNF and most DUNE documents are managed (docs.dunescience.org)}
 
 \newduneword{wrgm}{WR grandmaster}{White Rabbit grandmaster}
@@ -1133,7 +1139,7 @@ Neutrino Facility (LBNF)''}
 \newduneword{icarus}{ICARUS}{A neutrino experiment that was located at the Laboratori Nazionali del Gran Sasso (LNGS) in Italy, then refurbished at \gls{cern} for re-use in the same neutrino beam from \gls{fnal} used by the \gls{miniboone} , \gls{microboone} and \gls{sbnd} experiments. The ICARUS detector is being reassembled at \gls{fnal}}
 \newduneword{atlas}{ATLAS}{One of two general-purpose detectors at the \gls{lhc}. It investigates a wide range of physics, from the measurements of the Higgs boson properties to searches for extra dimensions and particles that could make up \gls{dm}}
 
-\newduneword{lbne}{LBNE}{Long Baseline Neutrino Experiment (a terminated US project that was reformulated in 2014 under the auspices of the new \gls{dune} collaboration, an internationally coordinated and internationally funded program, with \gls{fnal} as host)}
+\newduneword{lbne}{LBNE}{Long Baseline Neutrino Experiment; (1) a terminated U.S. experiment that was reformulated in 2014 under the auspices of the new \gls{dune} collaboration, an internationally coordinated and internationally funded program, with \gls{fnal} as host; and (2) the former name of the DOE LBNF/DUNE Project} % #36
 
 
 \newduneabbrev{lbno}{LBNO}{Long Baseline Neutrino Observatory} {A terminated European project that, during its six-year duration, assessed the feasibility of a next-generation deep underground neutrino observatory in Europe)}
@@ -1264,10 +1270,10 @@ Neutrino Facility (LBNF)''}
 \newduneword{ashriver}{Ash River}{The Ash River, Minnesota, USA \gls{nova} experiment far site, used as an assembly test site for \gls{dune}} 
 
 %\newduneabbrev{ipd}{PI-DIR}{project integration director}{Responsible for integration and installation of \gls{lbnf} and \gls{dune} deliverables in South Dakota. Manages the \gls{integoff}}
-\newduneword{ipd}{project integration director}{Responsible for integration and installation of \gls{lbnf} and \gls{dune} deliverables in South Dakota. Manages the \gls{integoff}}
+\newduneword{ipd}{project integration director}{Responsible for integration and installation of DUNE detector deliverables. Manages the integration project} %#35 09nov20 Responsible for integration and installation of \gls{lbnf} and \gls{dune} deliverables in South Dakota. Manages the \gls{integoff}}
 
 \newduneabbrev{jpo}{JPO}{Joint Project Office}{The framework through which team members from the LBNF project office, \gls{integoff}, and DUNE \gls{tc} work together to provide coherence in project support functions across the global enterprise. 
-Its functions include global project configuration and integration, installation planning and coordination, scheduling, safety assurance, technical review planning and oversight, development of partner agreements, and financial reporting}
+JPO functions include systems engineering, procurement, \gls{esh}, \gls{qa}, finance, project controls, risk management, compliance, internal review, partner agreement management, document management, and administrative support} % #35 09nov20 global project configuration and integration, installation planning and coordination, scheduling, safety assurance, technical review planning and oversight, development of partner agreements, and financial reporting}
 
 \newduneword{ifbeam}{IFbeam}{Database that stores beamline information indexed by timestamp}
 
@@ -1287,8 +1293,9 @@ elastically scatters off of another particle}
 
 \newduneabbrev{aup}{AUP}{acceptance for use and possession}{Required for beneficial occupancy of the underground areas at \gls{surf} for \gls{lbnf} and \gls{dune}}
 
-\newduneabbrev{bms}{BMS}{building management system}{Part of the safety system at \gls{surf} that includes the fire and life safety system}
-\newduneabbrev{fls}{FLS}{fire and life safety system}{Part of the safety system at \gls{surf}}
+\newduneabbrev{bms}{BMS}{building management system}{A system provided by the \gls{cf} to manage the utility (cooling, ventilation, power, etc.) and fire/life safety systems. Separate systems are provided at \gls{surf} and at \gls{fnal}} % #36 Elaine  old: Part of the safety system at \gls{surf} that includes the fire and life safety system}
+
+\newduneabbrev{fls}{FLS}{fire and life safety system}{Fire and life safety; systems designed with \gls{cf} to meet building/safety code compliance for safe facilities at \gls{surf} and at \gls{fnal}} % #36 
 
 
 
@@ -1510,7 +1517,7 @@ H ($>\,$\SI{20}{\%} and $>\,$2 months, respectively)}
 \newduneword{nersc}{NERSC}{National Energy Research Computing Facility at \gls{lbnl}}
 
 % \newduneabbrev{integoff}{IO}{integration office}{The office that incorporates the onsite team responsible for coordinating integration and installation activities at SURF}
-\newduneword{integoff}{integration office}{The office that incorporates the onsite team responsible for coordinating integration and installation activities at SURF}
+\newduneword{integoff}{integration project}{The \gls{doe} project element that organizes the onsite teams responsible for coordinating far detector installation and detector-facility integration activities at \gls{surf} as well as near detector installation activities at \gls{fnal}.  The integration project office includes overall LBNF/DUNE systems engineering, compliance and review offices} % #35
 
 \newduneabbrev{sma}{SMA}{SubMiniature version A}{Connector interface for coaxial cables
 with a screw-type coupling mechanism}
@@ -1522,7 +1529,7 @@ with a screw-type coupling mechanism}
 
 \newduneabbrev{doecd}{CD}{critical decision}{The U.S. DOE's Order 413.3B outlines a series of staged project approvals, each of which is referred to as a critical decision (CD)}
 
-\newduneabbrev{lbnfspac}{LBNF SPAC}{LBNF Strategic Project Advisory Committee}{A committee charged by the host laboratory director to provide expert, independent advice on significant issues and strategies related to LBNF project organization, management, and risks}
+\newduneabbrev{lbnfspac}{LBNF/DUNE-US SPAC}{LBNF/DUNE-US Strategic Project Advisory Committee}{A committee charged by the host laboratory director to provide expert, independent advice on significant issues and strategies related to LBNF/DUNE-US project organization, management, and risks} % #36
 
 \newduneabbrev{sand}{SAND}{System for on-Axis Neutrino Detection}{The beam monitor component of the near detector that remains on-axis at all times and serves as a dedicated neutrino spectrum monitor}
 
@@ -1602,7 +1609,7 @@ with a screw-type coupling mechanism}
 
 \newduneword{miniboone}{MiniBooNE}{The Mini Booster Neutrino Experiment, at Fermilab, was designed to fully explore the LSND result}
 
-\newduneabbrev{tms}{TMS}{temporary muon spectrometer}{A muon spectrometer for the Near Detector that will be installed for the initial running period of DUNE, before the \gls{mpd} detector component is ready}
+\newduneabbrev{tms}{TMS}{Temporary Muon Spectrometer}{A muon spectrometer for the Near Detector that will be installed for the initial running period of DUNE, before the \gls{mpd} detector component is ready} % #34 09nov20 
 
 \newduneabbrev{cvmfs}{CVMFS}{CERN VM File System}{A distributed file system designed for scalable, high-performance distribution of software to interactive and batch computers} %from tjunk sept2020 #21
 
@@ -1631,3 +1638,19 @@ with a screw-type coupling mechanism}
 \newduneword{gplane}{grid plane}{The uninstrumented plane of wires in a SP \gls{apa} that borders the drift volume.   It shapes the signals and provides \gls{esd} protection} % tjunk sept2020 #31
 
 \newduneword{gmesh}{grounding mesh}{A metal mesh attached to the SP \gls{apa} frame between the collection-plane wires and the space inside the frame where the \gls{pd} modules are installed.  It provides electric field uniformity so the collection-plane wires all have similar fields around them} % tjunk sept2020 #32
+
+%%  begin #36 from Elaine 9 nov 20
+\newduneabbrev{bcr}{BCR}{baseline change request}{A DOE project change, part of the change management system process}
+
+\newduneword{ncav}{North Cavern}{the location of two of the planned four DUNE far detector modules at \gls{surf}}
+
+\newduneword{scav}{South Cavern}{the location of two of the planned four DUNE far detector modules at \gls{surf}}
+
+\newduneword{semp}{SEMP}{systems engineering management plan}  % #36 replaced cmp 
+
+\newduneabbrev{tpcost}{TPC}{total project cost}{The DOE terminology for the total budget and contingency for the entire LBNF/DUNE-US project from CD-0 to CD-4}  % #36 replaced cmp 
+\newduneabbrev{nsint}{NSI}{near site integration}{The scope of work at the near site for the \gls{integoff}} % #36 - can't put it together with other nsi
+
+\newduneabbrev{opcost}{OPC}{other project costs}{The DOE project costs that support conceptual design, pre-operations commissioning, technical coordination, and power}
+
+%%  end #36 

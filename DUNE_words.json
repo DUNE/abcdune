@@ -251,6 +251,15 @@
         "termHTML": "baryon number",
         "type": "word"
     },
+    "bcr": {
+        "abbrev": "BCR",
+        "abbrevHTML": "BCR",
+        "defHTML": "A DOE project change, part of the change management system process.",
+        "defLaTeX": "A DOE project change, part of the change management system process",
+        "term": "baseline change request",
+        "termHTML": "baseline change request",
+        "type": "abbrev"
+    },
     "bdm": {
         "abbrev": "BDM",
         "abbrevHTML": "BDM",
@@ -270,8 +279,8 @@
         "type": "abbrev"
     },
     "beamline": {
-        "defHTML": "A sequence of control and monitoring devices used for the formation of a directed collection of particles.",
-        "defLaTeX": "A sequence of control and monitoring devices used for the formation of a directed collection of particles",
+        "defHTML": "A sequence of control and monitoring devices used for the formation of a directed collection of particles; a subproject within <a href=\"#lbnf\">LBNF</a>.",
+        "defLaTeX": "A sequence of control and monitoring devices used for the formation of a directed collection of particles; a subproject within \\gls{lbnf}",
         "term": "beamline",
         "termHTML": "beamline",
         "type": "word"
@@ -286,8 +295,8 @@
     "bms": {
         "abbrev": "BMS",
         "abbrevHTML": "BMS",
-        "defHTML": "Part of the safety system at <a href=\"#surf\">SURF</a> that includes the fire and life safety system.",
-        "defLaTeX": "Part of the safety system at \\gls{surf} that includes the fire and life safety system",
+        "defHTML": "A system provided by the <a href=\"#cf\">CF</a> to manage the utility (cooling, ventilation, power, etc.) and fire/life safety systems. Separate systems are provided at <a href=\"#surf\">SURF</a> and at <a href=\"#fnal\">Fermilab</a>.",
+        "defLaTeX": "A system provided by the \\gls{cf} to manage the utility (cooling, ventilation, power, etc.) and fire/life safety systems. Separate systems are provided at \\gls{surf} and at \\gls{fnal}",
         "term": "building management system",
         "termHTML": "building management system",
         "type": "abbrev"
@@ -457,8 +466,8 @@
     "cf": {
         "abbrev": "CF",
         "abbrevHTML": "CF",
-        "defHTML": "Pertaining to construction and operation of buildings and conventional infrastructure, and for <a href=\"#lbnf-dune\">LBNF/DUNE</a>, CF includes the excavation caverns.",
-        "defLaTeX": "Pertaining to  construction and operation of buildings and conventional infrastructure, and for \\gls{lbnf-dune}, CF includes the excavation caverns",
+        "defHTML": "Pertaining to construction and operation of buildings and conventional infrastructure, and for the <a href=\"#lbnf-dune\">LBNF/DUNE</a>, CF includes the excavation caverns.",
+        "defLaTeX": "Pertaining to  construction and operation of buildings and conventional infrastructure, and for the \\gls{lbnf-dune}, CF includes the excavation caverns",
         "term": "conventional facilities",
         "termHTML": "conventional facilities",
         "type": "abbrev"
@@ -527,8 +536,8 @@
     "cmgc": {
         "abbrev": "CMGC",
         "abbrevHTML": "CMGC",
-        "defHTML": "The organizational unit responsible for management of the construction of conventional facilities at the underground area at the <a href=\"#surf\">SURF</a> site.",
-        "defLaTeX": "The organizational unit responsible for management of the construction of conventional facilities at the underground area at the \\gls{surf} site",
+        "defHTML": "The contracted company hired to manage overall construction, used by <a href=\"#lbnf\">LBNF</a> at the <a href=\"#surf\">SURF</a> site for the <a href=\"#fscf\">FSCF</a> construction.",
+        "defLaTeX": "The contracted company hired to manage overall construction, used by \\gls{lbnf} at the \\gls{surf} site for the \\gls{fscf} construction",
         "term": "construction manager/general contractor",
         "termHTML": "construction manager/general contractor",
         "type": "abbrev"
@@ -538,13 +547,6 @@
         "defLaTeX": "Complementary metal-oxide-semiconductor",
         "term": "CMOS",
         "termHTML": "CMOS",
-        "type": "word"
-    },
-    "cmp": {
-        "defHTML": "configuration management plan.",
-        "defLaTeX": "configuration management plan",
-        "term": "CMP",
-        "termHTML": "CMP",
         "type": "word"
     },
     "cms": {
@@ -712,8 +714,8 @@
         "type": "abbrev"
     },
     "cryo": {
-        "defHTML": "Integrated ASIC including <a href=\"#fe\">FE</a> circuitry providing signal amplification and pulse shaping, analog to digital conversion, and control and communication functionalities for 64 channels.",
-        "defLaTeX": "Integrated ASIC including \\gls{fe} circuitry providing signal amplification and pulse shaping, analog to digital conversion, and control and communication functionalities for 64 channels",
+        "defHTML": "(1) Integrated ASIC including <a href=\"#fe\">FE</a> circuitry providing signal amplification and pulse shaping, analog to digital conversion, and control and communication functionalities for 64 channels; (2) acryonym for cryogenic systems and cryostat work scopes in <a href=\"#lbnf\">LBNF</a>.",
+        "defLaTeX": "(1) Integrated ASIC including \\gls{fe} circuitry providing signal amplification and pulse shaping, analog to digital conversion, and control and communication functionalities for 64 channels; (2) acryonym for cryogenic systems and cryostat work scopes in \\gls{lbnf}",
         "term": "CRYO",
         "termHTML": "CRYO",
         "type": "word"
@@ -1261,20 +1263,11 @@
         "termHTML": "electromagnetic calorimeter",
         "type": "abbrev"
     },
-    "ecr": {
-        "abbrev": "ECR",
-        "abbrevHTML": "ECR",
-        "defHTML": "The first step in the change control process in which a proposed change is described.",
-        "defLaTeX": "The first step in the change control process in which a proposed change is described",
-        "term": "engineering change request",
-        "termHTML": "engineering change request",
-        "type": "abbrev"
-    },
     "edms": {
         "abbrev": "EDMS",
         "abbrevHTML": "EDMS",
-        "defHTML": "A computerized document management system developed and supported at <a href=\"#cern\">CERN</a> in which some DUNE documents, drawings and engineering models are managed.",
-        "defLaTeX": "A computerized document management system developed and supported at \\gls{cern} in which some DUNE documents, drawings and engineering models are managed",
+        "defHTML": "A computerized document management system developed and supported at <a href=\"#cern\">CERN</a> in which some LBNF/DUNE documents, drawings and engineering models are managed.",
+        "defLaTeX": "A computerized document management system developed and supported at \\gls{cern} in which some LBNF/DUNE documents, drawings and engineering models are managed",
         "term": "engineering document management system",
         "termHTML": "engineering document management system",
         "type": "abbrev"
@@ -1482,10 +1475,10 @@
         "type": "abbrev"
     },
     "fdr": {
-        "defHTML": "A project management device by which a final design is reviewed.",
-        "defLaTeX": "A project management device by which a final design is reviewed",
-        "term": "final design review",
-        "termHTML": "final design review",
+        "defHTML": "Depending on context, either \"final design report,\" a formal project document that describes the experiment at a final level, or \"final design review,\" a formal review of the final design of the experiment or of a component.",
+        "defLaTeX": "Depending on context, either ``final design report,'' a formal project document  that describes the experiment at a final level, or ``final design review,'' a formal review of the final design of the experiment or of a component",
+        "term": "FDR",
+        "termHTML": "FDR",
         "type": "word"
     },
     "fe": {
@@ -1580,8 +1573,8 @@
     "firus": {
         "abbrev": "FIRUS",
         "abbrevHTML": "FIRUS",
-        "defHTML": "The safety system at <a href=\"#surf\">SURF</a>.",
-        "defLaTeX": "The safety system at \\gls{surf}",
+        "defHTML": "Facility incident reporting systems, one at <a href=\"#fnal\">Fermilab</a> and at <a href=\"#surf\">SURF</a>, that monitors and reports the status of various fire, security and utility sensors.",
+        "defLaTeX": "Facility incident reporting systems, one at \\gls{fnal} and at \\gls{surf}, that monitors and reports the status of various fire, security and utility sensors",
         "term": "Facility Information Reporting Utility System",
         "termHTML": "Facility Information Reporting Utility System",
         "type": "abbrev"
@@ -1589,8 +1582,8 @@
     "fls": {
         "abbrev": "FLS",
         "abbrevHTML": "FLS",
-        "defHTML": "Part of the safety system at <a href=\"#surf\">SURF</a>.",
-        "defLaTeX": "Part of the safety system at \\gls{surf}",
+        "defHTML": "Fire and life safety; systems designed with <a href=\"#cf\">CF</a> to meet building/safety code compliance for safe facilities at <a href=\"#surf\">SURF</a> and at <a href=\"#fnal\">Fermilab</a>.",
+        "defLaTeX": "Fire and life safety; systems designed with \\gls{cf} to meet building/safety code compliance for safe facilities at \\gls{surf} and at \\gls{fnal}",
         "term": "fire and life safety system",
         "termHTML": "fire and life safety system",
         "type": "abbrev"
@@ -1646,13 +1639,11 @@
         "type": "word"
     },
     "fs": {
-        "abbrev": "FS",
-        "abbrevHTML": "FS",
-        "defHTML": "Relates to a data stream that has not undergone selection, compression or other form of reduction.",
-        "defLaTeX": "Relates to a data stream that has not undergone selection, compression or other form of reduction",
-        "term": "full stream",
-        "termHTML": "full stream",
-        "type": "abbrev"
+        "defHTML": "(1) The far site, <a href=\"#surf\">SURF</a>, where the DUNE far detector is located; (2) \"Full stream\" relates to a data stream that has not undergone selection, compression or other form of reduction.",
+        "defLaTeX": "(1) The far site, \\gls{surf}, where the DUNE far detector is located; (2) ``Full stream'' relates to a data stream that has not undergone selection, compression or other form of reduction",
+        "term": "FS",
+        "termHTML": "FS",
+        "type": "word"
     },
     "fscf": {
         "abbrev": "FSCF",
@@ -1670,6 +1661,15 @@
         "defLaTeX": "Refers to  interactions between elementary or composite particles subsequent to  the initial, fundamental particle interaction, such as may occur as  the products exit a nucleus",
         "term": "final-state interactions",
         "termHTML": "final-state interactions",
+        "type": "abbrev"
+    },
+    "fsint": {
+        "abbrev": "FSI",
+        "abbrevHTML": "FSI",
+        "defHTML": "The scope of work at the <a href=\"#fs\">FS</a> for the <a href=\"#integoff\">integration project</a>.",
+        "defLaTeX": "The scope of work at the \\gls{fs} for the \\gls{integoff}",
+        "term": "far site integration",
+        "termHTML": "far site integration",
         "type": "abbrev"
     },
     "fss": {
@@ -2149,10 +2149,10 @@
         "type": "abbrev"
     },
     "integoff": {
-        "defHTML": "The office that incorporates the onsite team responsible for coordinating integration and installation activities at SURF.",
-        "defLaTeX": "The office that incorporates the onsite team responsible for coordinating integration and installation activities at SURF",
-        "term": "integration office",
-        "termHTML": "integration office",
+        "defHTML": "The <a href=\"#doe\">DOE</a> project element that organizes the onsite teams responsible for coordinating far detector installation and detector-facility integration activities at <a href=\"#surf\">SURF</a> as well as near detector installation activities at <a href=\"#fnal\">Fermilab</a>. The integration project office includes overall LBNF/DUNE systems engineering, compliance and review offices.",
+        "defLaTeX": "The \\gls{doe} project element that organizes the onsite teams responsible for coordinating far detector installation and detector-facility integration activities at \\gls{surf} as well as near detector installation activities at \\gls{fnal}.  The integration project office includes overall LBNF/DUNE systems engineering, compliance and review offices",
+        "term": "integration project",
+        "termHTML": "integration project",
         "type": "word"
     },
     "io": {
@@ -2183,8 +2183,8 @@
         "type": "abbrev"
     },
     "ipd": {
-        "defHTML": "Responsible for integration and installation of <a href=\"#lbnf\">LBNF</a> and <a href=\"#dune\">DUNE</a> deliverables in South Dakota. Manages the <a href=\"#integoff\">integration office</a>.",
-        "defLaTeX": "Responsible for integration and installation of \\gls{lbnf} and \\gls{dune} deliverables in South Dakota. Manages the \\gls{integoff}",
+        "defHTML": "Responsible for integration and installation of DUNE detector deliverables. Manages the integration project.",
+        "defLaTeX": "Responsible for integration and installation of DUNE detector deliverables. Manages the integration project",
         "term": "project integration director",
         "termHTML": "project integration director",
         "type": "word"
@@ -2226,8 +2226,8 @@
     "jpo": {
         "abbrev": "JPO",
         "abbrevHTML": "JPO",
-        "defHTML": "The framework through which team members from the LBNF project office, <a href=\"#integoff\">integration office</a>, and DUNE <a href=\"#tc\">TCN</a> work together to provide coherence in project support functions across the global enterprise.Its functions include global project configuration and integration, installation planning and coordination, scheduling, safety assurance, technical review planning and oversight, development of partner agreements, and financial reporting.",
-        "defLaTeX": "The framework through which team members from the LBNF project office, \\gls{integoff}, and DUNE \\gls{tc} work together to provide coherence in project support functions across the global enterprise.Its functions include global project configuration and integration, installation planning and coordination, scheduling, safety assurance, technical review planning and oversight, development of partner agreements, and financial reporting",
+        "defHTML": "The framework through which team members from the LBNF project office, <a href=\"#integoff\">integration project</a>, and DUNE <a href=\"#tc\">TCN</a> work together to provide coherence in project support functions across the global enterprise.JPO functions include systems engineering, procurement, <a href=\"#esh\">ES&amp;H</a>, <a href=\"#qa\">QA</a>, finance, project controls, risk management, compliance, internal review, partner agreement management, document management, and administrative support.",
+        "defLaTeX": "The framework through which team members from the LBNF project office, \\gls{integoff}, and DUNE \\gls{tc} work together to provide coherence in project support functions across the global enterprise.JPO functions include systems engineering, procurement, \\gls{esh}, \\gls{qa}, finance, project controls, risk management, compliance, internal review, partner agreement management, document management, and administrative support",
         "term": "Joint Project Office",
         "termHTML": "Joint Project Office",
         "type": "abbrev"
@@ -2370,8 +2370,8 @@
         "type": "abbrev"
     },
     "lbne": {
-        "defHTML": "Long Baseline Neutrino Experiment (a terminated US project that was reformulated in 2014 under the auspices of the new <a href=\"#dune\">DUNE</a> collaboration, an internationally coordinated and internationally funded program, with <a href=\"#fnal\">Fermilab</a> as host).",
-        "defLaTeX": "Long Baseline Neutrino Experiment (a terminated US project that was reformulated in 2014 under the auspices of the new \\gls{dune} collaboration, an internationally coordinated and internationally funded program, with \\gls{fnal} as host)",
+        "defHTML": "Long Baseline Neutrino Experiment; (1) a terminated U.S. experiment that was reformulated in 2014 under the auspices of the new <a href=\"#dune\">DUNE</a> collaboration, an internationally coordinated and internationally funded program, with <a href=\"#fnal\">Fermilab</a> as host; and (2) the former name of the DOE LBNF/DUNE Project.",
+        "defLaTeX": "Long Baseline Neutrino Experiment; (1) a terminated U.S. experiment that was reformulated in 2014 under the auspices of the new \\gls{dune} collaboration, an internationally coordinated and internationally funded program, with \\gls{fnal} as host; and (2) the former name of the DOE LBNF/DUNE Project",
         "term": "LBNE",
         "termHTML": "LBNE",
         "type": "word"
@@ -2379,8 +2379,8 @@
     "lbnf": {
         "abbrev": "LBNF",
         "abbrevHTML": "LBNF",
-        "defHTML": "The organizational entity responsible for developing the neutrino beam, the cryostats and cryogenics systems, and the conventional facilities for DUNE.",
-        "defLaTeX": "The  organizational entity responsible for developing the neutrino beam, the cryostats  and cryogenics systems, and the conventional facilities for DUNE",
+        "defHTML": "The project scope and organizational entity responsible for developing the neutrino beam, the cryostats and cryogenics systems, and the conventional facilities for DUNE.",
+        "defLaTeX": "The project scope and  organizational entity responsible for developing the neutrino beam, the cryostats  and cryogenics systems, and the conventional facilities for DUNE",
         "term": "Long-Baseline Neutrino Facility",
         "termHTML": "Long-Baseline Neutrino Facility",
         "type": "abbrev"
@@ -2388,19 +2388,19 @@
     "lbnf-dune": {
         "abbrev": "LBNF/DUNE",
         "abbrevHTML": "LBNF/DUNE",
-        "defHTML": "The overall global project, including <a href=\"#lbnf\">LBNF</a> and <a href=\"#dune\">DUNE</a>.",
-        "defLaTeX": "The overall global project, including \\gls{lbnf} and \\gls{dune}",
-        "term": "LBNF and DUNE project",
-        "termHTML": "LBNF and DUNE project",
+        "defHTML": "The overall enterprise including the LBNF/DUNE-US <a href=\"#doe\">DOE</a> project, other international contributing projects, and the <a href=\"#dune\">DUNE</a> collaboration and experiment.",
+        "defLaTeX": "The overall enterprise including the LBNF/DUNE-US \\gls{doe} project, other international contributing projects, and the \\gls{dune} collaboration and experiment",
+        "term": "LBNF and DUNE enterprise",
+        "termHTML": "LBNF and DUNE enterprise",
         "type": "abbrev"
     },
     "lbnfspac": {
-        "abbrev": "LBNF SPAC",
-        "abbrevHTML": "LBNF SPAC",
-        "defHTML": "A committee charged by the host laboratory director to provide expert, independent advice on significant issues and strategies related to LBNF project organization, management, and risks.",
-        "defLaTeX": "A committee charged by the host laboratory director to provide expert, independent advice on significant issues and strategies related to LBNF project organization, management, and risks",
-        "term": "LBNF Strategic Project Advisory Committee",
-        "termHTML": "LBNF Strategic Project Advisory Committee",
+        "abbrev": "LBNF/DUNE-US SPAC",
+        "abbrevHTML": "LBNF/DUNE-US SPAC",
+        "defHTML": "A committee charged by the host laboratory director to provide expert, independent advice on significant issues and strategies related to LBNF/DUNE-US project organization, management, and risks.",
+        "defLaTeX": "A committee charged by the host laboratory director to provide expert, independent advice on significant issues and strategies related to LBNF/DUNE-US project organization, management, and risks",
+        "term": "LBNF/DUNE-US Strategic Project Advisory Committee",
+        "termHTML": "LBNF/DUNE-US Strategic Project Advisory Committee",
         "type": "abbrev"
     },
     "lbnl": {
@@ -2764,8 +2764,8 @@
     "mou": {
         "abbrev": "MoU",
         "abbrevHTML": "MoU",
-        "defHTML": "A document summarizing an agreement between two or more parties.",
-        "defLaTeX": "A document  summarizing an agreement between two or more parties",
+        "defHTML": "A project management methodology that documents an agreement between <a href=\"#fnal\">Fermilab</a> and the LBNF/DUNE-US Project for how Fermilab will support the project. More generally, a document summarizing an agreement between two or more parties.",
+        "defLaTeX": "A project management methodology that documents an agreement between \\gls{fnal} and the LBNF/DUNE-US Project for how Fermilab will support the project. More generally, a document  summarizing an agreement between two or more parties",
         "term": "memorandum of understanding",
         "termHTML": "memorandum of understanding",
         "type": "abbrev"
@@ -2872,6 +2872,13 @@
         "term": "neutral current",
         "termHTML": "neutral current",
         "type": "abbrev"
+    },
+    "ncav": {
+        "defHTML": "the location of two of the planned four DUNE far detector modules at <a href=\"#surf\">SURF</a>.",
+        "defLaTeX": "the location of two of the planned four DUNE far detector modules at \\gls{surf}",
+        "term": "North Cavern",
+        "termHTML": "North Cavern",
+        "type": "word"
     },
     "ncg": {
         "abbrev": "NCG",
@@ -3028,6 +3035,15 @@
         "termHTML": "nonstandard interaction",
         "type": "abbrev"
     },
+    "nsint": {
+        "abbrev": "NSI",
+        "abbrevHTML": "NSI",
+        "defHTML": "The scope of work at the near site for the <a href=\"#integoff\">integration project</a>.",
+        "defLaTeX": "The scope of work at the near site for the \\gls{integoff}",
+        "term": "near site integration",
+        "termHTML": "near site integration",
+        "type": "abbrev"
+    },
     "ntp": {
         "abbrev": "NTP",
         "abbrevHTML": "NTP",
@@ -3130,6 +3146,15 @@
         "term": "OPC-UA",
         "termHTML": "OPC-UA",
         "type": "word"
+    },
+    "opcost": {
+        "abbrev": "OPC",
+        "abbrevHTML": "OPC",
+        "defHTML": "The DOE project costs that support conceptual design, pre-operations commissioning, technical coordination, and power.",
+        "defLaTeX": "The DOE project costs that support conceptual design, pre-operations commissioning, technical coordination, and power",
+        "term": "other project costs",
+        "termHTML": "other project costs",
+        "type": "abbrev"
     },
     "orc": {
         "abbrev": "ORC",
@@ -3679,7 +3704,7 @@
     "ro": {
         "abbrev": "RO",
         "abbrevHTML": "RO",
-        "defHTML": "An office within the <a href=\"#integoff\">integration office</a> that organizes reviews.",
+        "defHTML": "An office within the <a href=\"#integoff\">integration project</a> that organizes reviews.",
         "defLaTeX": "An office within the \\gls{integoff} that organizes reviews",
         "term": "review office",
         "termHTML": "review office",
@@ -3852,6 +3877,13 @@
         "termHTML": "SCADA",
         "type": "word"
     },
+    "scav": {
+        "defHTML": "the location of two of the planned four DUNE far detector modules at <a href=\"#surf\">SURF</a>.",
+        "defLaTeX": "the location of two of the planned four DUNE far detector modules at \\gls{surf}",
+        "term": "South Cavern",
+        "termHTML": "South Cavern",
+        "type": "word"
+    },
     "sci": {
         "abbrev": "SCI",
         "abbrevHTML": "SCI",
@@ -3887,6 +3919,13 @@
         "term": "South Dakota Warehouse Facility",
         "termHTML": "South Dakota Warehouse Facility",
         "type": "abbrev"
+    },
+    "semp": {
+        "defHTML": "systems engineering management plan.",
+        "defLaTeX": "systems engineering management plan",
+        "term": "SEMP",
+        "termHTML": "SEMP",
+        "type": "word"
     },
     "sfdr": {
         "abbrev": "SFDR",
@@ -3962,15 +4001,6 @@
         "term": "SIS",
         "termHTML": "SIS",
         "type": "word"
-    },
-    "sit": {
-        "abbrev": "SIT",
-        "abbrevHTML": "SIT",
-        "defHTML": "An organizational unit responsible for logistics and integration in South Dakota.",
-        "defLaTeX": "An organizational unit responsible for logistics and integration in South Dakota",
-        "term": "surface installation team",
-        "termHTML": "surface installation team",
-        "type": "abbrev"
     },
     "sk": {
         "defHTML": "Experiment sited in the Kamioka-mine, Hida-city, Gifu, Japan that uses a large water Cherenkov detector to study neutrino properties through the observation of solar neutrinos, atmospheric neutrinos and man-made neutrinos.",
@@ -4202,8 +4232,8 @@
     "surf": {
         "abbrev": "SURF",
         "abbrevHTML": "SURF",
-        "defHTML": "The laboratory in South Dakota where the <a href=\"#lbnf\">LBNF</a> <a href=\"#fscf\">FSCF</a> will be constructed and the <a href=\"#dune\">DUNE</a> <a href=\"#fd\">FD</a> will be installed and operated.",
-        "defLaTeX": "The laboratory in South Dakota where the \\gls{lbnf} \\gls{fscf} will be constructed and the \\gls{dune} \\gls{fd} will be installed and operated",
+        "defHTML": "The laboratory in South Dakota where the <a href=\"#dune\">DUNE</a> <a href=\"#fd\">FD</a> will be installed and operated; also where the <a href=\"#lbnf\">LBNF</a> <a href=\"#fscf\">FSCF</a> and the <a href=\"#fs\">FS</a> cryostat and cryogenic systems will be constructed.",
+        "defLaTeX": "The laboratory in South Dakota where the \\gls{dune} \\gls{fd} will be installed and operated; also where the \\gls{lbnf} \\gls{fscf} and the \\gls{fs} cryostat and cryogenic systems will be constructed",
         "term": "Sanford Underground Research Facility",
         "termHTML": "Sanford Underground Research Facility",
         "type": "abbrev"
@@ -4313,8 +4343,8 @@
         "abbrevHTML": "TMS",
         "defHTML": "A muon spectrometer for the Near Detector that will be installed for the initial running period of DUNE, before the <a href=\"#mpd\">MPD</a> detector component is ready.",
         "defLaTeX": "A muon spectrometer for the Near Detector that will be installed for the initial running period of DUNE, before the \\gls{mpd} detector component is ready",
-        "term": "temporary muon spectrometer",
-        "termHTML": "temporary muon spectrometer",
+        "term": "Temporary Muon Spectrometer",
+        "termHTML": "Temporary Muon Spectrometer",
         "type": "abbrev"
     },
     "tof": {
@@ -4360,6 +4390,15 @@
         "defLaTeX": "A type of particle detector that uses an \\efield together with a sensitive volume of gas or liquid, e.g., \\gls{lar}, to perform a \\threed reconstruction of a particle trajectory or interaction. The activity is recorded by digitizing the waveforms of current  induced on the anode as the distribution of ionization charge passes by  or is collected on the electrode (TPC is also used for ``total project cost'')",
         "term": "time projection chamber",
         "termHTML": "time projection chamber",
+        "type": "abbrev"
+    },
+    "tpcost": {
+        "abbrev": "TPC",
+        "abbrevHTML": "TPC",
+        "defHTML": "The DOE terminology for the total budget and contingency for the entire LBNF/DUNE-US project from CD-0 to CD-4.",
+        "defLaTeX": "The DOE terminology for the total budget and contingency for the entire LBNF/DUNE-US project from CD-0 to CD-4",
+        "term": "total project cost",
+        "termHTML": "total project cost",
         "type": "abbrev"
     },
     "tpm": {

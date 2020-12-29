@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage[pdftex,bookmarks,hidelinks]{hyperref}
+\usepackage[table,usenames,pdftex,dvipsnames]{xcolor}
+\usepackage{siunitx}
+\usepackage{xspace}
+\input{units}
+\input{defs}
+\input{lbnf-glossary}
+\hypersetup{
+    pdftitle={LBNF Glossaries Test},
+    pdfauthor={ABC},
+    final=true,
+    colorlinks=false,
+    linktocpage=true,
+    linkbordercolor=blue,
+    citebordercolor=green,
+    urlbordercolor=magenta,
+    filecolor=black,
+    pdfpagemode=UseOutlines,
+    pdfborderstyle={/S/U},  
+}
+\begin{document}
+\glsaddall
+\printglossaries
+\end{document}

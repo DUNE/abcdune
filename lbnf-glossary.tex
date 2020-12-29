@@ -1,0 +1,138 @@
+% See dune-words.tex for detailed explanation.
+
+% http://mirrors.ctan.org/macros/latex/contrib/glossaries/glossaries-user.pdf
+
+% \usepackage[acronyms,toc]{glossaries}
+\usepackage[toc]{glossaries}
+\makeglossaries
+
+
+% for terms with acronyms
+\newcommand{\dshort}[1]{\glsentrytext{#1}}  % doesn't provide link
+\newcommand{\dshorts}[1]{\glsentryshortpl{#1}}  % doesn't provide link
+\newcommand{\dlong}[1]{\glsentrylong{#1}}  % doesn't provide link
+\newcommand{\dlongs}[1]{\glsentrylongpl{#1}}  % doesn't provide link
+
+% force the "first time" behavior
+% \newcommand{\dfirst}[1]{\glsfirst{#1}}
+\newcommand{\dfirst}[1]{\glsfirst{#1}\glsunset{#1}}
+\newcommand{\dfirsts}[1]{\glsfirstplural{#1}\glsunset{#1}}
+
+\newcommand{\dword}[1]{\gls{#1}}
+\newcommand{\dwords}[1]{\glspl{#1}}
+\newcommand{\Dword}[1]{\Gls{#1}}
+\newcommand{\Dwords}[1]{\Glspl{#1}}
+
+
+% use this to define terms that do NOT have acronyms.
+% \newduneword{label}{term}{description}
+\newcommand{\newduneword}[3]{
+    \newglossaryentry{#1}{
+        text={#2},
+        long={#2},
+        name={\glsentrylong{#1}},
+        first={\glsentryname{#1}},
+        firstplural={\glsentrylong{#1}\glspluralsuffix},
+        description={#3},
+        sort={#2}
+    }
+}
+
+% use this to define terms that DO have acronyms.
+%                 1      2     3       4 
+% \newduneabbrev{label}{abbrev}{term}{description}
+%%%% note: there is something wonky about capitalization which
+%%%% is why \glsentry* isn't used in some of the arguments below.
+\newcommand{\newduneabbrev}[4]{
+  \newglossaryentry{#1}{
+    text={#2},
+    long={#3},
+    shortplural={{#2}\glspluralsuffix},
+    longplural={{#3}\glspluralsuffix{}},
+    name={\glsentrylong{#1}{} (\glsentrytext{#1}{})},
+    first={#3 (#2)},
+    firstplural={#3\glspluralsuffix{} (\glsentrytext{#1}\glspluralsuffix{})},
+    description={#4},
+    sort={#2}
+  }
+}
+
+%% If plural needs special spelling besides adding an "s"
+%                 1      2     3       4        5
+% \newduneabbrev{label}{abbrev}{term}{terms}{description}
+\newcommand{\newduneabbrevs}[5]{
+  \newglossaryentry{#1}{
+    text={#2},
+    long={#3},
+    plural={#4},
+    shortplural={{#2}\glspluralsuffix},
+    longplural={#4},
+    name={\glsentrylong{#1}{} (\glsentrytext{#1}{})},
+    first={#3 (#2)},
+    firstplural={#4 (\glsentrytext{#1}\glspluralsuffix{})},
+    description={#5},
+    sort={#2}    
+  }
+}
+
+
+% not in abcdune as of 29 Dec 2020. FSCF and NSCF design reports use this file.
+
+
+\newduneabbrev{exc}{EXC}{excavation}{The work package for excavation at SURF}
+
+\newduneword{grizzly}{grizzly}{A grating placed over an opening to an ore pass or chute to prevent large rocks or ore from falling through}
+
+\newduneword{nfpa}{NFPA}{National Fire Protection Association}
+
+%%%. used for nscf - it is using this glossary as of 4/12/20
+\newduneword{ashrae}{ASHRAE}{American Society of Heating, Refrigerating, and Air Conditioning}
+\newduneword{asme}{ASME}{American Society of Mechanical Engineers}
+\newduneword{aci}{ACI}{American Concrete Institute}
+
+\newduneword{nec}{NEC}{National Electric Code}
+\newduneword{nist}{NIST}{National Institute of Standards \& Technology}
+\newduneword{astm}{ASTM}{American Society for Testing and Material}
+\newduneword{ansi}{ANSI}{American National Standards Institute}
+
+\newduneword{ada}{ADA}{Americans with Disabilities Act}
+\newduneword{ahu}{AHU}{air handling unit}
+\newduneword{chw}{CHW}{chilled water}
+\newduneabbrev{opav}{OPAV}{over-pressurized air volume}{a zone that is kept at a pressure of 0.05 inches to 0.1 inches above the radioactive air path zone}
+\newduneword{nrv}{NRV}{} %% what is this?
+
+\newduneword{asp}{ASP}{advanced site preparation}
+\newduneword{lcw}{LCW}{low-conductivity water}
+\newduneword{icw}{ICW}{industrial cooling water}
+\newduneword{cpw}{CPW}{cooling pond water}
+
+\newduneabbrev{mit}{MIT}{Magnet Installation Tunnel}{a small building housing the facilities needed to offload magnets, and providing space to store and prepare tools, etc., outside the \gls{pbe}}
+\newduneabbrev{bee}{Beam EE}{Beam Extraction Enclosure}{the link between the \gls{mi} and the start of the NSCF where the beamline transitions from the MI to the \gls{pbe}}
+\newduneabbrev{pbe}{PBE}{Primary Beam Enclosure}{a structure connecting the \gls{bee}, the \gls{mit} and the \gls{tcpx}; it is surrounded by an earthwork
+embankment and is the structure that redirects the beamline to the angle needed to interact with the \gls{fd} at \gls{surf}}
+\newduneabbrev{pbsb}{PBSB (LBNF-5)}{Primary Beam Service Building}{a central utility location for the NSCF that also provides access to the \gls{pbe} through the \gls{mit} }
+
+\newduneabbrev{tcpx}{TC (LBNF-20)}{Target Complex}{the point where the proton beam collides with the target; it will contain very active components and also house the systems for  cooling the \gls{dkv} and its concrete shielding}
+\newduneabbrev{abcpx}{AC (LBNF-30)}{Absorber Complex}{the combination of the \gls{ahall} and the \gls{absb} and all the systems and structures they house}
+\newduneword{dkv}{decay vessel}{a \gls{cip} structure that connects the downstream end of the \gls{tcpx} with the \gls{ahall}; it is the volume in which the beam of secondary particles decays and forms the neutrino beam}
+\newduneabbrev{ahall}{AH}{Absorber Hall}{a below-grade structure that connects
+to the downstream end of the \gls{dkv} and contains the muon kern steel, which helps to filter unwanted particles from the neutrino beam}
+\newduneabbrev{absb}{ASB (LBNF-30)}{Absorber Service Building}{an above-grade building to accommodate the support equipment needed for assembly and operation of the equipment and technical components for the Absorber}
+\newduneabbrev{ndhall}{ND Hall}{Near Detector Hall}{the below-grade cavern that will house the \gls{nd}, the \glspl{echain} for moving components off-axis, and most of the cryogenics and other infrastructure and services needed for the ND.}
+\newduneabbrev{ndsb}{NDSB (LBNF-40)}{Near Detector Service Building}{an at-grade support building that will house the primary services for the below-grade near detector operations}
+
+\newduneword{hvac}{HVAC}{heating, ventilation and air conditioning}
+\newduneword{aecom}{AECOM}{the architecture/engineering firm hired for the Near Site CF}
+
+\newduneabbrev{cip}{CIP}{cast-in-place}{used for concrete, in contrast to pre-cast}
+%\newduneword{tgthall}{Target Hall (LBNF-20}{add def}
+\newduneword{mva}{MVA}{major vehicle access, aka the magnet tunnel}
+\newduneword{raw}{RAW}{radioactive water}
+\newduneword{mep}{MEP}{mechanical, electrical and plumbing}
+%\newduneword{cmu}{CMU}{needs def??}
+%\newduneword{lamb}{Lambertson magnet}{add def}
+\newduneword{swks}{site works}{site infrastructure elements and tasks that are needed to support the Conventional Facilities}
+\newduneword{nepa}{NEPA}{National Environmental Policy Act}
+\newduneword{fema}{FEMA}{Federal Emergency Management Agency}
+\newduneword{fess}{FESS}{Facility Engineering Services Section}
+

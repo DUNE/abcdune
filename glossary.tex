@@ -118,7 +118,7 @@
 the basis for the \gls{dune} \gls{fd} modules} %.   It typically entails observation of ionization activity by  electrical signals and of scintillation by optical signals}
 
 %anode plane assembly
-\newduneabbrevs{apa}{APA}{anode plane assembly}{anode plane assemblies}{A unit of the \gls{sp}
+\newduneabbrevs{apa}{APA}{anode plane assembly}{anode plane assemblies}{A unit of the \gls{sphd}
   detector module containing the elements sensitive to ionization in the \gls{lar}. 
   It contains two faces each of three planes of wires, and interfaces to the cold
   electronics and photon detection system} 
@@ -145,7 +145,7 @@ live wire connector in an unmated connector or plug}
 %front-end
 \newduneabbrev{fe}{FE}{front-end}{The front-end refers a point that is
   ``upstream'' of the data flow for a particular subsystem. 
-  For example the \gls{sp} front-end electronics is where the cold electronics
+  For example the \gls{sphd} front-end electronics is where the cold electronics
   meet the sense wires of the TPC and the front-end \gls{daq} is where the
   \gls{daq} meets the output of the electronics}
 
@@ -246,7 +246,7 @@ predict circuit behavior}
 \newduneword{module}{module}{Many aspects of the DUNE far and near detectors are modular, so ``module'' must be understood in context. It may refer to one of the four far detector modules, distinct portions of a subdetector as in a ``field cage module,'' a software or electronics module, e.g., a separate framework plug-in, and so on}
 
 %detector unit  
-\newduneword{detunit}{detector unit}{A portion of a \gls{detmodule} may be further partitioned into a number of similar parts.   For example, the \gls{sp} \gls{tpc} is made up of \gls{apa}  units (and other elements)}
+\newduneword{detunit}{detector unit}{A portion of a \gls{detmodule} may be further partitioned into a number of similar parts.   For example, the \gls{sphd} \gls{tpc} is made up of \gls{apa}  units (and other elements)}
 
 
 %secondary DAQ buffer
@@ -503,7 +503,7 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
 \newduneword{protodune2}{ProtoDUNE-II}{The second run of a \gls{protodune} detector}  % #33
 
 %the single-phase ProtoDUNE detector
-\newduneword{pdsp}{ProtoDUNE-SP}{The \gls{sp} \gls{protodune} detector at \gls{cern}}
+\newduneword{pdsp}{ProtoDUNE-SP}{The \gls{sphd} \gls{protodune} detector at \gls{cern}}
 
 %the dual-phase ProtoDune detector
 \newduneword{pddp}{ProtoDUNE-DP}{The \gls{dp} \gls{protodune} detector at \gls{cern}}
@@ -584,8 +584,8 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
 
 %warm interface board
 \newduneabbrev{wib}{WIB}{warm interface board}{Digital electronics
-  situated just outside the \gls{sp} cryostat that receives digital data
-  from the \glspl{femb} over cold copper connections and sends it to the \gls{rce}
+  situated just outside a FD cryostat that receives digital data
+  from the \glspl{femb} (part of \gls{ce}) over cold copper connections and sends it to the \gls{rce}
   \gls{fe} readout hardware}
 
 \newduneabbrev{gps}{GPS}{Global Positioning System}{A satellite-based system that provides a highly accurate \gls{pps} that may be used to synchronize clocks and determine location}
@@ -739,7 +739,7 @@ the quality of each element meets requirements during design and development, an
 of ensuring that each manufactured element meets its quality requirements prior to assembly or installation} %adequate quality in manufactured products}  % #33
 
 %standard model
-\newduneabbrev{sm}{SM}{standard model}{Refers to a theory describing
+\newduneabbrev{sm}{SM}{Standard Model}{Refers to a theory describing
   the interaction of elementary particles}
 
 %technical design report
@@ -776,11 +776,11 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
 
 \newduneword{cpafc}{CPA/FC}{A pair of \gls{cpa} panels and the top and bottom \gls{fc} portions that attach to the pair; an intermediate assembly for installation into the \gls{spmod} }
 
-\newduneabbrev{topfc}{top FC}{top field cage}{The horizontal portions of the \gls{sp} \gls{fc}   on the top of the \gls{tpc}}
+\newduneabbrev{topfc}{top FC}{top field cage}{The horizontal portions of the \gls{sphd} \gls{fc}   on the top of the \gls{tpc}}
 
-\newduneabbrev{botfc}{bottom FC}{bottom field cage}{The horizontal portions of the \gls{sp} \gls{fc} on the bottom of the \gls{tpc}}
+\newduneabbrev{botfc}{bottom FC}{bottom field cage}{The horizontal portions of the \gls{sphd} \gls{fc} on the bottom of the \gls{tpc}}
 
-\newduneabbrev{ewfc}{endwall FC}{endwall field cage}{The vertical portions of the \gls{sp} \gls{fc} near the wall}
+\newduneabbrev{ewfc}{endwall FC}{endwall field cage}{The vertical portions of the \gls{fc} near the end walls}
 
 \newduneabbrev{gp}{GP}{ground plane}{An electrode held electrically neutral relative to Earth ground voltage; it is mounted on the \gls{fc} in a \gls{spmod} to protect the cryostat wall}
 
@@ -893,7 +893,7 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
 \newduneabbrev{br}{BR}{branching ratio}{A fractional probability for a
   decay of a composite particle to occur into some specified set or
   sets of products}
-\newduneword{bsm}{BSM}{beyond the standard model}
+\newduneword{bsm}{BSM}{beyond the Standard Model}
 
 \newduneabbrev{dm}{DM}{dark matter}{The term given to the unknown
   matter or force that explains measurements of galaxy motion % motion of galaxies
@@ -1056,7 +1056,7 @@ Neutrino Facility (LBNF)''}
 \newduneword{stt}{STT}{straw tube tracker}
 
 
-\newduneword{wire board}{wire board}{At the head end of the APA in the \gls{sp} \gls{tpc}, stacks of electronics boards referred to as ``wire boards'' are arrayed to anchor the wires.  They also provide the connection between the wires and the cold electronics} %?? long for a word. ??
+\newduneword{wire board}{wire board}{At the head end of the APA in the \gls{sphd} \gls{tpc}, stacks of electronics boards referred to as ``wire boards'' are arrayed to anchor the wires.  They also provide the connection between the wires and the cold electronics} %?? long for a word. ??
 
 \newduneabbrev{wls}{WLS}{wavelength-shifting}{A material or process by
   which incident photons are absorbed by a material and photons are
@@ -1536,7 +1536,7 @@ with a screw-type coupling mechanism}
 
 \newduneword{apb}{APB}{authorship and publications board}
 \newduneword{crb}{CRB}{collaboration resources board}
-\newduneword{cube}{CuBe}{beryllium copper, used to make \gls{sp} \gls{apa} readout planes}
+\newduneword{cube}{CuBe}{beryllium copper, used to make \gls{sphd} \gls{apa} readout planes}
 \newduneword{drift}{drift}{(1) refers to electron drift under the influence of an electric field in a \gls{tpc}; (2) an excavated horizontal corridors (tunnels) in the underground areas at \gls{surf}}
 \newduneword{exposure}{exposure}{The integrated detector fiducial mass times beam intensity; it is proportional to the number of interactions and is used to normalize cross sections in a data sample}
 \newduneword{fr4}{FR-4}{Flame-retardant fiberglass-reinforced epoxy resin laminate used in making PCBs and other detector components}
@@ -1666,5 +1666,24 @@ with a screw-type coupling mechanism}
 
 \newduneword{lhe}{LHe}{liquid helium}
 
-\newduneword{echain}{energy chain}{mechanical machine elements used to carry and guide power to moving parts of machines or structures, as required for \gls{duneprism} to carry power, data, and utilities to and from each detector at any arbitrary position along the detector travel path}
+\newduneword{echain}{energy chain}{mechanical machine elements used to carry and guide power to moving parts of machines or structures, as required for \gls{duneprism} to carry power, data, and utilities to and from each movable near detector component at any arbitrary position along its travel path}
+
+% From vertical drift CDR 
+% 22 Feb 2021
+\newduneabbrev{sphd}{SPHD}{single-phase horizontal drift}{LArTPC design in which electrons drift horizontally to wire plane anodes (\glspl{apa}) that along with the front-end electronics are immersed in LAr}
+
+\newduneabbrev{spvd}{SPVD}{single-phase vertical drift}{LArTPC design in which electrons drift vertically to PCB-based anodes at the top and bottom of the LAr volume, with a cathode in the middle}
+
+\newduneabbrev{cru}{CRU}{charge-readout unit}{In the \gls{spvd} design an assembly of the \glspl{pcbp} plus adapter boards; four to a \gls{crp}} 
+
+\newduneword{mpv}{MPV}{most probable value}
+
+\newduneword{pcbp}{PCB panel}{In the \gls{spvd} design, one of four \SI{1.5x1.7}{m} assembled into a \gls{cru}}
+
+\newduneword{anodepln}{anode plane}{a planar array of charge readout devices covering an entire face of a detector module}
+
+\newduneword{msps}{MSPS}{megasamples per second}
+
+\newduneword{gpsdo}{GPSDO}{\gls{gps} disciplined oscillator}
+% end From vertical drift CDR  22 Feb 2021
 

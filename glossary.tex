@@ -143,11 +143,10 @@ for handling \gls{hv} by preventing accidental contact with the
 live wire connector in an unmated connector or plug}
 
 %front-end
-\newduneabbrev{fe}{FE}{front-end}{The front-end refers a point that is
+\newduneabbrev{fe}{FE}{front-end}{The front-end refers to a point that is
   ``upstream'' of the data flow for a particular subsystem. 
-  For example the \gls{sphd} front-end electronics is where the cold electronics
-  meet the sense wires of the TPC and the front-end \gls{daq} is where the
-  \gls{daq} meets the output of the electronics}
+ For example the \gls{sphd} front-end electronics is where the cold electronics
+  meet the sense wires of the TPC and the front-end \gls{daq} is where the \gls{daq} meets the output of the electronics}
 
 \newduneabbrev{daqrou}{DAQ RU}{DAQ readout unit}{The first element in the data flow of the \gls{daq}}
 
@@ -1260,7 +1259,7 @@ Neutrino Facility (LBNF)''}
 
 \newduneword{nuwro}{NuWro}{neutrino interaction generator}
 
-\newduneabbrev{neut}{NEUT}{neutrino interaction generator}{A neutrino interaction simulation program library for the studies of atmospheric accelerator neutrinos}
+\newduneabbrev{neut}{NEUT}{neutrino interaction generator}{A neutrino interaction simulation program library for the studies of atmospheric and accelerator neutrinos}
 
 \newduneword{minos}{MINOS}{A long-baseline neutrino experiment, with a near detector at \gls{fnal} and a far detector in the Soudan mine in Minnesota, designed to observe the phenomena of neutrino oscillations (ended data runs in 2012)}
 
@@ -1389,7 +1388,7 @@ radioactive sources inside the \gls{dune} cryostat}
 
 \newduneword{src}{SRC}{short-range correlated nucleon-nucleon interactions}
 \newduneword{larpix}{LArPix}{ \gls{asic} pixelated charge readout for a \gls{tpc} }
-\newduneword{arclt}{ArCLight}{a light detector \gls{arcube} effort}
+\newduneword{arclt}{ArCLight}{a light detector for the \gls{arcube} effort}
 \newduneword{fhc}{FHC}{forward horn current ($\numu$ mode)}
 \newduneword{rhc}{RHC}{reverse horn current (\numubartonumubar mode)}
 \newduneword{mwpc}{MWPC}{multi-wire proportional chamber}
@@ -1573,7 +1572,7 @@ with a screw-type coupling mechanism}
 
 \newduneword{ndgar}{ND-GAr}{component of the near detector with a core gaseous argon \gls{tpc} surrounded by an \gls{ecal} and a magnet}
 
-\newduneword{sfgd}{SuperFGD}{Super Fine-Grained Detector (SuperFGD) is 3D granular plastic scintillator detector that adopts the same technology as \dword{3dst}. It will be installed in the \dword{t2k} \dword{nd280} system \cite{Abe:2019whr}. \dword{3dst} design will inherit in large part from the SuperFGD detector}
+\newduneword{sfgd}{SuperFGD}{Super Fine-Grained Detector (SuperFGD) is a 3D granular plastic scintillator detector that adopts the same technology as \dword{3dst}. It will be installed in the \dword{t2k} \dword{nd280} system \cite{Abe:2019whr}. The \dword{3dst} design will inherit in large part from the SuperFGD detector}
 
 \newduneword{nd280}{ND280}{Near Detector 280, is the \dword{t2k} magnetized near detector \cite{Abe:2011ks}}
 
@@ -1657,7 +1656,7 @@ with a screw-type coupling mechanism}
 
 \newduneabbrev{croc}{CROC}{central readout chamber}{central (radial) readout chamber for the ND \gls{gartpc}} % from SManley 12/2/20 via email
 
-\newduneabbrev{tki}{TKI}{transverse kinematic imbalance}{TKI variables are formed assuming transverse momentum conservation of the outgoing particles in a neutrino interaction} % from SManley 12/2/20 via email
+\newduneabbrev{tki}{TKI}{transverse kinematic imbalance}{The imbalance among final-state particle momenta in the transverse plane to the neutrino direction; different aspects of the imbalance are sensitive to the detail of the nuclear effects in neutrino-nucleus interactions} % from SManley 25feb2021 via email
 
 
 \newduneabbrev{iandi}{I\&I}{Integration and Installation}{One of the three project areas in the LBNF/DUNE-US \gls{doe} project, along with LBNF and DUNE-US } 
@@ -1667,6 +1666,7 @@ with a screw-type coupling mechanism}
 \newduneword{lhe}{LHe}{liquid helium}
 
 \newduneword{echain}{energy chain}{mechanical machine elements used to carry and guide power to moving parts of machines or structures, as required for \gls{duneprism} to carry power, data, and utilities to and from each movable near detector component at any arbitrary position along its travel path}
+
 
 % From vertical drift CDR 
 % 22 Feb 2021
@@ -1686,4 +1686,29 @@ with a screw-type coupling mechanism}
 
 \newduneword{gpsdo}{GPSDO}{\gls{gps} disciplined oscillator}
 % end From vertical drift CDR  22 Feb 2021
+
+
+
+\newduneword{tdaq}{TDAQ}{trigger and DAQ system} % 25feb2021 SPVD DAQ
+
+\newduneword{nios}{NIOS}{Network Identity Operating System} 
+
+%%% from the computing CDR 26 Feb 2021
+
+\newduneabbrev{corsika}{CORSIKA}{COsmic Ray SImulations for KAscade}{a program for detailed simulation of extensive air showers initiated by high-energy cosmic ray particles}
+
+\newduneabbrev{scd}{SCD}{Scientific Computing Division}{Fermilab's Scientific Computing Division}
+
+\newduneabbrev{garsoft}{GArSoft}{Gaseous Argon Software}{A software toolkit similar to \gls{larsoft}, but targeted at the gaseous argon time projection chamber and calorimeter of \gls{ndgar}}
+
+\newduneword{ndgarlite}{ND-GAr-Lite}{a temporary muon spectrometer consisting of the magnet and steel flux return of \gls{ndgar}, but with a simplified tracking chamber made with scintillating bars}
+
+\newduneword{github}{GitHub}{a commerical web service providing code version management, storage, and browsing via \gls{git}}
+
+\newduneword{git}{git}{a distributed version-control system, commonly used to manage software}
+
+\newduneword{xrootd}{xrootd}{a high-performance data system widely used in HEP to store and to distribute data to jobs.  It allows streaming of data}
+
+\newduneabbrev{gpuaas}{GPUAAS}{GPU As A Service}{a technique that allows many non-GPU-enabled compute nodes to share a GPU resource by sending it work over the network and waiting for results to be returned}
+%%% end from the computing CDR 26 Feb 2021
 

@@ -129,11 +129,18 @@
         "termHTML": "Argonne National Laboratory",
         "type": "abbrev"
     },
+    "anodepln": {
+        "defHTML": "a planar array of charge readout devices covering an entire face of a detector module.",
+        "defLaTeX": "a planar array of charge readout devices covering an entire face of a detector module",
+        "term": "anode plane",
+        "termHTML": "anode plane",
+        "type": "word"
+    },
     "apa": {
         "abbrev": "APA",
         "abbrevHTML": "APA",
-        "defHTML": "A unit of the <a href=\"#sp\">SP</a> detector module containing the elements sensitive to ionization in the <a href=\"#lar\">LAr</a>. It contains two faces each of three planes of wires, and interfaces to the cold electronics and photon detection system.",
-        "defLaTeX": "A unit of the \\gls{sp}  detector module containing the elements sensitive to ionization in the \\gls{lar}.  It contains two faces each of three planes of wires, and interfaces to the cold  electronics and photon detection system",
+        "defHTML": "A unit of the <a href=\"#sphd\">SPHD</a> detector module containing the elements sensitive to ionization in the <a href=\"#lar\">LAr</a>. It contains two faces each of three planes of wires, and interfaces to the cold electronics and photon detection system.",
+        "defLaTeX": "A unit of the \\gls{sphd}  detector module containing the elements sensitive to ionization in the \\gls{lar}.  It contains two faces each of three planes of wires, and interfaces to the cold  electronics and photon detection system",
         "term": "anode plane assembly",
         "termHTML": "anode plane assembly",
         "terms": "anode plane assemblies",
@@ -155,8 +162,8 @@
         "type": "word"
     },
     "arclt": {
-        "defHTML": "a light detector <a href=\"#arcube\">ArgonCube</a> effort.",
-        "defLaTeX": "a light detector \\gls{arcube} effort",
+        "defHTML": "a light detector for the <a href=\"#arcube\">ArgonCube</a> effort.",
+        "defLaTeX": "a light detector for the \\gls{arcube} effort",
         "term": "ArCLight",
         "termHTML": "ArCLight",
         "type": "word"
@@ -322,8 +329,8 @@
     "botfc": {
         "abbrev": "bottom FC",
         "abbrevHTML": "bottom FC",
-        "defHTML": "The horizontal portions of the <a href=\"#sp\">SP</a> <a href=\"#fc\">FC</a> on the bottom of the <a href=\"#tpc\">TPC</a>.",
-        "defLaTeX": "The horizontal portions of the \\gls{sp} \\gls{fc} on the bottom of the \\gls{tpc}",
+        "defHTML": "The horizontal portions of the <a href=\"#sphd\">SPHD</a> <a href=\"#fc\">FC</a> on the bottom of the <a href=\"#tpc\">TPC</a>.",
+        "defLaTeX": "The horizontal portions of the \\gls{sphd} \\gls{fc} on the bottom of the \\gls{tpc}",
         "term": "bottom field cage",
         "termHTML": "bottom field cage",
         "type": "abbrev"
@@ -356,8 +363,8 @@
         "type": "abbrev"
     },
     "bsm": {
-        "defHTML": "beyond the standard model.",
-        "defLaTeX": "beyond the standard model",
+        "defHTML": "beyond the Standard Model.",
+        "defLaTeX": "beyond the Standard Model",
         "term": "BSM",
         "termHTML": "BSM",
         "type": "word"
@@ -457,10 +464,10 @@
     "cern": {
         "abbrev": "CERN",
         "abbrevHTML": "CERN",
-        "defHTML": "The leading particle physics laboratory in Europe and home to the ProtoDUNEs. (In French, the Organisation Europ\u00e9enne pour la Recherche Nucl\u00e9aire, derived from Conseil Europ\u00e9en pour la Recherche Nucl\u00e9aire).",
-        "defLaTeX": "The leading particle physics laboratory in Europe and home to the ProtoDUNEs. (In French, the Organisation Europ\\'{e}enne pour la Recherche Nucl\\'{e}aire, derived from Conseil Europ\\'{e}en pour la Recherche Nucl\\'{e}aire)",
-        "term": "European Organization for NuclearResearch",
-        "termHTML": "European Organization for NuclearResearch",
+        "defHTML": "The leading particle physics laboratory in Europe and home to the ProtoDUNEs.",
+        "defLaTeX": "The leading particle physics laboratory in Europe and home to the ProtoDUNEs",
+        "term": "European Laboratory for Particle Physics",
+        "termHTML": "European Laboratory for Particle Physics",
         "type": "abbrev"
     },
     "cf": {
@@ -611,6 +618,15 @@
         "termHTML": "CORE",
         "type": "word"
     },
+    "corsika": {
+        "abbrev": "CORSIKA",
+        "abbrevHTML": "CORSIKA",
+        "defHTML": "a program for detailed simulation of extensive air showers initiated by high-energy cosmic ray particles.",
+        "defLaTeX": "a program for detailed simulation of extensive air showers initiated by high-energy cosmic ray particles",
+        "term": "COsmic Ray SImulations for KAscade",
+        "termHTML": "COsmic Ray SImulations for KAscade",
+        "type": "abbrev"
+    },
     "cots": {
         "abbrev": "COTS",
         "abbrevHTML": "COTS",
@@ -623,10 +639,10 @@
     "cp": {
         "abbrev": "CP",
         "abbrevHTML": "CP",
-        "defHTML": "Product of charge and parity transformations.",
-        "defLaTeX": "Product of charge and parity  transformations",
-        "term": "charge parity",
-        "termHTML": "charge parity",
+        "defHTML": "Product of charge conjugation and parity transformations.",
+        "defLaTeX": "Product of charge conjugation and parity  transformations",
+        "term": "charge conjugation and parity",
+        "termHTML": "charge conjugation and parity",
         "type": "abbrev"
     },
     "cpa": {
@@ -695,6 +711,15 @@
         "termHTML": "charge readout",
         "type": "abbrev"
     },
+    "croc": {
+        "abbrev": "CROC",
+        "abbrevHTML": "CROC",
+        "defHTML": "central (radial) readout chamber for the ND <a href=\"#gartpc\">GArTPC</a>.",
+        "defLaTeX": "central (radial) readout chamber for the ND \\gls{gartpc}",
+        "term": "central readout chamber",
+        "termHTML": "central readout chamber",
+        "type": "abbrev"
+    },
     "crp": {
         "abbrev": "CRP",
         "abbrevHTML": "CRP",
@@ -711,6 +736,15 @@
         "defLaTeX": "Detector external to the TPC designed to tag TPC-traversing cosmic ray particles",
         "term": "cosmic-ray tagger",
         "termHTML": "cosmic-ray tagger",
+        "type": "abbrev"
+    },
+    "cru": {
+        "abbrev": "CRU",
+        "abbrevHTML": "CRU",
+        "defHTML": "In the <a href=\"#spvd\">SPVD</a> design an assembly of the <a href=\"#pcbp\">PCB panels</a> plus adapter boards; four to a <a href=\"#crp\">CRP</a>.",
+        "defLaTeX": "In the \\gls{spvd} design an assembly of the \\glspl{pcbp} plus adapter boards; four to a \\gls{crp}",
+        "term": "charge-readout unit",
+        "termHTML": "charge-readout unit",
         "type": "abbrev"
     },
     "cryo": {
@@ -753,8 +787,8 @@
         "type": "abbrev"
     },
     "cube": {
-        "defHTML": "beryllium copper, used to make <a href=\"#sp\">SP</a> <a href=\"#apa\">APA</a> readout planes.",
-        "defLaTeX": "beryllium copper, used to make \\gls{sp} \\gls{apa} readout planes",
+        "defHTML": "beryllium copper, used to make <a href=\"#sphd\">SPHD</a> <a href=\"#apa\">APA</a> readout planes.",
+        "defLaTeX": "beryllium copper, used to make \\gls{sphd} \\gls{apa} readout planes",
         "term": "CuBe",
         "termHTML": "CuBe",
         "type": "word"
@@ -1050,8 +1084,8 @@
         "type": "word"
     },
     "detunit": {
-        "defHTML": "A portion of a <a href=\"#detmodule\">far detector module</a> may be further partitioned into a number of similar parts. For example, the <a href=\"#sp\">SP</a> <a href=\"#tpc\">TPC</a> is made up of <a href=\"#apa\">APA</a> units (and other elements).",
-        "defLaTeX": "A portion of a \\gls{detmodule} may be further partitioned into a number of similar parts.   For example, the \\gls{sp} \\gls{tpc} is made up of \\gls{apa}  units (and other elements)",
+        "defHTML": "A portion of a <a href=\"#detmodule\">far detector module</a> may be further partitioned into a number of similar parts. For example, the <a href=\"#sphd\">SPHD</a> <a href=\"#tpc\">TPC</a> is made up of <a href=\"#apa\">APA</a> units (and other elements).",
+        "defLaTeX": "A portion of a \\gls{detmodule} may be further partitioned into a number of similar parts.   For example, the \\gls{sphd} \\gls{tpc} is made up of \\gls{apa}  units (and other elements)",
         "term": "detector unit",
         "termHTML": "detector unit",
         "type": "word"
@@ -1263,6 +1297,13 @@
         "termHTML": "electromagnetic calorimeter",
         "type": "abbrev"
     },
+    "echain": {
+        "defHTML": "mechanical machine elements used to carry and guide power to moving parts of machines or structures, as required for <a href=\"#duneprism\">DUNE-PRISM</a> to carry power, data, and utilities to and from each movable near detector component at any arbitrary position along its travel path.",
+        "defLaTeX": "mechanical machine elements used to carry and guide power to moving parts of machines or structures, as required for \\gls{duneprism} to carry power, data, and utilities to and from each movable near detector component at any arbitrary position along its travel path",
+        "term": "energy chain",
+        "termHTML": "energy chain",
+        "type": "word"
+    },
     "edms": {
         "abbrev": "EDMS",
         "abbrevHTML": "EDMS",
@@ -1418,8 +1459,8 @@
     "ewfc": {
         "abbrev": "endwall FC",
         "abbrevHTML": "endwall FC",
-        "defHTML": "The vertical portions of the <a href=\"#sp\">SP</a> <a href=\"#fc\">FC</a> near the wall.",
-        "defLaTeX": "The vertical portions of the \\gls{sp} \\gls{fc} near the wall",
+        "defHTML": "The vertical portions of the <a href=\"#fc\">FC</a> near the end walls.",
+        "defLaTeX": "The vertical portions of the \\gls{fc} near the end walls",
         "term": "endwall field cage",
         "termHTML": "endwall field cage",
         "type": "abbrev"
@@ -1484,8 +1525,8 @@
     "fe": {
         "abbrev": "FE",
         "abbrevHTML": "FE",
-        "defHTML": "The front-end refers a point that is \"upstream\" of the data flow for a particular subsystem. For example the <a href=\"#sp\">SP</a> front-end electronics is where the cold electronics meet the sense wires of the TPC and the front-end <a href=\"#daq\">DAQ</a> is where the <a href=\"#daq\">DAQ</a> meets the output of the electronics.",
-        "defLaTeX": "The front-end refers a point that is  ``upstream'' of the data flow for a particular subsystem.  For example the \\gls{sp} front-end electronics is where the cold electronics  meet the sense wires of the TPC and the front-end \\gls{daq} is where the  \\gls{daq} meets the output of the electronics",
+        "defHTML": "The front-end refers to a point that is \"upstream\" of the data flow for a particular subsystem. For example the <a href=\"#sphd\">SPHD</a> front-end electronics is where the cold electronics meet the sense wires of the TPC and the front-end <a href=\"#daq\">DAQ</a> is where the <a href=\"#daq\">DAQ</a> meets the output of the electronics.",
+        "defLaTeX": "The front-end refers to a point that is  ``upstream'' of the data flow for a particular subsystem. For example the \\gls{sphd} front-end electronics is where the cold electronics  meet the sense wires of the TPC and the front-end \\gls{daq} is where the \\gls{daq} meets the output of the electronics",
         "term": "front-end",
         "termHTML": "front-end",
         "type": "abbrev"
@@ -1736,11 +1777,20 @@
         "termHTML": "gaseous argon",
         "type": "abbrev"
     },
+    "garsoft": {
+        "abbrev": "GArSoft",
+        "abbrevHTML": "GArSoft",
+        "defHTML": "A software toolkit similar to <a href=\"#larsoft\">LArSoft</a>, but targeted at the gaseous argon time projection chamber and calorimeter of <a href=\"#ndgar\">ND-GAr</a>.",
+        "defLaTeX": "A software toolkit similar to \\gls{larsoft}, but targeted at the gaseous argon time projection chamber and calorimeter of \\gls{ndgar}",
+        "term": "Gaseous Argon Software",
+        "termHTML": "Gaseous Argon Software",
+        "type": "abbrev"
+    },
     "gartpc": {
         "abbrev": "GArTPC",
         "abbrevHTML": "GArTPC",
-        "defHTML": "A <a href=\"#tpc\">TPC</a> filled with gaseous argon; a possible technology choice for the <a href=\"#nd\">ND</a>.",
-        "defLaTeX": "A \\gls{tpc} filled with gaseous argon; a possible technology choice for the \\gls{nd}",
+        "defHTML": "A <a href=\"#tpc\">TPC</a> filled with gaseous argon.",
+        "defLaTeX": "A \\gls{tpc} filled with gaseous argon",
         "term": "gaseous argon time-projection chamber",
         "termHTML": "gaseous argon time-projection chamber",
         "type": "abbrev"
@@ -1782,6 +1832,20 @@
         "defLaTeX": "Giessen Boltzmann-Uehling-Uhlenback Project; a unified theory and transport framework in the MeV and GeV energy regimes for elementary reactions on nuclei ",
         "term": "GiBUU",
         "termHTML": "GiBUU",
+        "type": "word"
+    },
+    "git": {
+        "defHTML": "a distributed version-control system, commonly used to manage software.",
+        "defLaTeX": "a distributed version-control system, commonly used to manage software",
+        "term": "git",
+        "termHTML": "git",
+        "type": "word"
+    },
+    "github": {
+        "defHTML": "a commerical web service providing code version management, storage, and browsing via <a href=\"#git\">git</a>.",
+        "defLaTeX": "a commerical web service providing code version management, storage, and browsing via \\gls{git}",
+        "term": "GitHub",
+        "termHTML": "GitHub",
         "type": "word"
     },
     "globes": {
@@ -1830,6 +1894,22 @@
         "defLaTeX": "A satellite-based system that provides a highly accurate \\gls{pps} that may be used to synchronize clocks and determine location",
         "term": "Global Positioning System",
         "termHTML": "Global Positioning System",
+        "type": "abbrev"
+    },
+    "gpsdo": {
+        "defHTML": "<a href=\"#gps\">GPS</a> disciplined oscillator.",
+        "defLaTeX": "\\gls{gps} disciplined oscillator",
+        "term": "GPSDO",
+        "termHTML": "GPSDO",
+        "type": "word"
+    },
+    "gpuaas": {
+        "abbrev": "GPUAAS",
+        "abbrevHTML": "GPUAAS",
+        "defHTML": "a technique that allows many non-GPU-enabled compute nodes to share a GPU resource by sending it work over the network and waiting for results to be returned.",
+        "defLaTeX": "a technique that allows many non-GPU-enabled compute nodes to share a GPU resource by sending it work over the network and waiting for results to be returned",
+        "term": "GPU As A Service",
+        "termHTML": "GPU As A Service",
         "type": "abbrev"
     },
     "gsc": {
@@ -1924,6 +2004,13 @@
         "term": "high-level trigger",
         "termHTML": "high-level trigger",
         "type": "abbrev"
+    },
+    "hmi": {
+        "defHTML": "human-machine interface.",
+        "defLaTeX": "human-machine interface",
+        "term": "HMI",
+        "termHTML": "HMI",
+        "type": "word"
     },
     "hpc": {
         "abbrev": "HPC",
@@ -2025,6 +2112,15 @@
         "defLaTeX": "I$^2$C or I2C is a synchronous,multi-master, multi-slave, packet switched, single-ended, serial computer bus widely usedfor attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance,intra-board communication",
         "term": "Inter-Integrated Circuit",
         "termHTML": "Inter-Integrated Circuit",
+        "type": "abbrev"
+    },
+    "iandi": {
+        "abbrev": "I\\&I",
+        "abbrevHTML": "I&amp;I",
+        "defHTML": "One of the three project areas in the LBNF/DUNE-US <a href=\"#doe\">DOE</a> project, along with LBNF and DUNE-US.",
+        "defLaTeX": "One of the three project areas in the LBNF/DUNE-US \\gls{doe} project, along with LBNF and DUNE-US ",
+        "term": "Integration and Installation",
+        "termHTML": "Integration and Installation",
         "type": "abbrev"
     },
     "ib": {
@@ -2485,6 +2581,13 @@
         "termHTML": "LHCb",
         "type": "word"
     },
+    "lhe": {
+        "defHTML": "liquid helium.",
+        "defLaTeX": "liquid helium",
+        "term": "LHe",
+        "termHTML": "LHe",
+        "type": "word"
+    },
     "ln": {
         "defHTML": "liquid nitrogen.",
         "defLaTeX": "liquid nitrogen",
@@ -2745,6 +2848,15 @@
         "termHTML": "mass ordering",
         "type": "abbrev"
     },
+    "moa": {
+        "abbrev": "MOA",
+        "abbrevHTML": "MOA",
+        "defHTML": "A project management methodology that documents an agreement between <a href=\"#fnal\">Fermilab</a> and the LBNF/DUNE-US Project for how Fermilab will support the project.",
+        "defLaTeX": "A project management methodology that documents an agreement between \\gls{fnal} and the LBNF/DUNE-US Project for how Fermilab will support the project",
+        "term": "memorandum of agreement",
+        "termHTML": "memorandum of agreement",
+        "type": "abbrev"
+    },
     "module": {
         "defHTML": "Many aspects of the DUNE far and near detectors are modular, so \"module\" must be understood in context. It may refer to one of the four far detector modules, distinct portions of a subdetector as in a \"field cage module,\" a software or electronics module, e.g., a separate framework plug-in, and so on.",
         "defLaTeX": "Many aspects of the DUNE far and near detectors are modular, so ``module'' must be understood in context. It may refer to one of the four far detector modules, distinct portions of a subdetector as in a ``field cage module,'' a software or electronics module, e.g., a separate framework plug-in, and so on",
@@ -2800,6 +2912,13 @@
         "termHTML": "MPT detector",
         "type": "word"
     },
+    "mpv": {
+        "defHTML": "most probable value.",
+        "defLaTeX": "most probable value",
+        "term": "MPV",
+        "termHTML": "MPV",
+        "type": "word"
+    },
     "mrb": {
         "abbrev": "MRB",
         "abbrevHTML": "MRB",
@@ -2808,6 +2927,13 @@
         "term": "Multi Repository Build System",
         "termHTML": "Multi Repository Build System",
         "type": "abbrev"
+    },
+    "msps": {
+        "defHTML": "megasamples per second.",
+        "defLaTeX": "megasamples per second",
+        "term": "MSPS",
+        "termHTML": "MSPS",
+        "type": "word"
     },
     "msw": {
         "abbrev": "MSW",
@@ -2919,6 +3045,13 @@
         "termHTML": "ND-GAr",
         "type": "word"
     },
+    "ndgarlite": {
+        "defHTML": "a temporary muon spectrometer consisting of the magnet and steel flux return of <a href=\"#ndgar\">ND-GAr</a>, but with a simplified tracking chamber made with scintillating bars.",
+        "defLaTeX": "a temporary muon spectrometer consisting of the magnet and steel flux return of \\gls{ndgar}, but with a simplified tracking chamber made with scintillating bars",
+        "term": "ND-GAr-Lite",
+        "termHTML": "ND-GAr-Lite",
+        "type": "word"
+    },
     "ndk": {
         "abbrev": "NDK",
         "abbrevHTML": "NDK",
@@ -2945,8 +3078,8 @@
     "neut": {
         "abbrev": "NEUT",
         "abbrevHTML": "NEUT",
-        "defHTML": "A neutrino interaction simulation program library for the studies of atmospheric accelerator neutrinos.",
-        "defLaTeX": "A neutrino interaction simulation program library for the studies of atmospheric accelerator neutrinos",
+        "defHTML": "A neutrino interaction simulation program library for the studies of atmospheric and accelerator neutrinos.",
+        "defLaTeX": "A neutrino interaction simulation program library for the studies of atmospheric and accelerator neutrinos",
         "term": "neutrino interaction generator",
         "termHTML": "neutrino interaction generator",
         "type": "abbrev"
@@ -2986,6 +3119,13 @@
         "term": "network interface controller",
         "termHTML": "network interface controller",
         "type": "abbrev"
+    },
+    "nios": {
+        "defHTML": "Network Identity Operating System.",
+        "defLaTeX": "Network Identity Operating System",
+        "term": "NIOS",
+        "termHTML": "NIOS",
+        "type": "word"
     },
     "no": {
         "abbrev": "NO",
@@ -3238,6 +3378,13 @@
         "termHTML": "PCB",
         "type": "word"
     },
+    "pcbp": {
+        "defHTML": "In the <a href=\"#spvd\">SPVD</a> design, one of four 1.5x1.7\u00a0m assembled into a <a href=\"#cru\">CRU</a>.",
+        "defLaTeX": "In the \\gls{spvd} design, one of four \\SI{1.5x1.7}{m} assembled into a \\gls{cru}",
+        "term": "PCB panel",
+        "termHTML": "PCB panel",
+        "type": "word"
+    },
     "pci": {
         "defHTML": "Peripheral Component Interconnect.",
         "defLaTeX": "Peripheral Component Interconnect",
@@ -3292,8 +3439,8 @@
         "type": "abbrev"
     },
     "pdsp": {
-        "defHTML": "The <a href=\"#sp\">SP</a> <a href=\"#protodune\">ProtoDUNE</a> detector at <a href=\"#cern\">CERN</a>.",
-        "defLaTeX": "The \\gls{sp} \\gls{protodune} detector at \\gls{cern}",
+        "defHTML": "The <a href=\"#sphd\">SPHD</a> <a href=\"#protodune\">ProtoDUNE</a> detector at <a href=\"#cern\">CERN</a>.",
+        "defLaTeX": "The \\gls{sphd} \\gls{protodune} detector at \\gls{cern}",
         "term": "ProtoDUNE-SP",
         "termHTML": "ProtoDUNE-SP",
         "type": "word"
@@ -3884,6 +4031,15 @@
         "termHTML": "South Cavern",
         "type": "word"
     },
+    "scd": {
+        "abbrev": "SCD",
+        "abbrevHTML": "SCD",
+        "defHTML": "Fermilab\u2019s Scientific Computing Division.",
+        "defLaTeX": "Fermilab's Scientific Computing Division",
+        "term": "Scientific Computing Division",
+        "termHTML": "Scientific Computing Division",
+        "type": "abbrev"
+    },
     "sci": {
         "abbrev": "SCI",
         "abbrevHTML": "SCI",
@@ -3937,8 +4093,8 @@
         "type": "abbrev"
     },
     "sfgd": {
-        "defHTML": "Super Fine-Grained Detector (SuperFGD) is 3D granular plastic scintillator detector that adopts the same technology as . It will be installed in the system <span class=\"citation\" data-cites=\"Abe:2019whr\"></span>. design will inherit in large part from the SuperFGD detector.",
-        "defLaTeX": "Super Fine-Grained Detector (SuperFGD) is 3D granular plastic scintillator detector that adopts the same technology as \\dword{3dst}. It will be installed in the \\dword{t2k} \\dword{nd280} system \\cite{Abe:2019whr}. \\dword{3dst} design will inherit in large part from the SuperFGD detector",
+        "defHTML": "Super Fine-Grained Detector (SuperFGD) is a 3D granular plastic scintillator detector that adopts the same technology as . It will be installed in the system <span class=\"citation\" data-cites=\"Abe:2019whr\"></span>. The design will inherit in large part from the SuperFGD detector.",
+        "defLaTeX": "Super Fine-Grained Detector (SuperFGD) is a 3D granular plastic scintillator detector that adopts the same technology as \\dword{3dst}. It will be installed in the \\dword{t2k} \\dword{nd280} system \\cite{Abe:2019whr}. The \\dword{3dst} design will inherit in large part from the SuperFGD detector",
         "term": "SuperFGD",
         "termHTML": "SuperFGD",
         "type": "word"
@@ -4041,8 +4197,8 @@
         "abbrevHTML": "SM",
         "defHTML": "Refers to a theory describing the interaction of elementary particles.",
         "defLaTeX": "Refers to a theory describing  the interaction of elementary particles",
-        "term": "standard model",
-        "termHTML": "standard model",
+        "term": "Standard Model",
+        "termHTML": "Standard Model",
         "type": "abbrev"
     },
     "sma": {
@@ -4151,6 +4307,15 @@
         "termHTML": "single photoelectron",
         "type": "abbrev"
     },
+    "sphd": {
+        "abbrev": "SPHD",
+        "abbrevHTML": "SPHD",
+        "defHTML": "LArTPC design in which electrons drift horizontally to wire plane anodes (<a href=\"#apa\">APAs</a>) that along with the front-end electronics are immersed in LAr.",
+        "defLaTeX": "LArTPC design in which electrons drift horizontally to wire plane anodes (\\glspl{apa}) that along with the front-end electronics are immersed in LAr",
+        "term": "single-phase horizontal drift",
+        "termHTML": "single-phase horizontal drift",
+        "type": "abbrev"
+    },
     "spi": {
         "abbrev": "SPI",
         "abbrevHTML": "SPI",
@@ -4173,6 +4338,15 @@
         "term": "SP module",
         "termHTML": "SP module",
         "type": "word"
+    },
+    "spvd": {
+        "abbrev": "SPVD",
+        "abbrevHTML": "SPVD",
+        "defHTML": "LArTPC design in which electrons drift vertically to PCB-based anodes at the top and bottom of the LAr volume, with a cathode in the middle.",
+        "defLaTeX": "LArTPC design in which electrons drift vertically to PCB-based anodes at the top and bottom of the LAr volume, with a cathode in the middle",
+        "term": "single-phase vertical drift",
+        "termHTML": "single-phase vertical drift",
+        "type": "abbrev"
     },
     "src": {
         "defHTML": "short-range correlated nucleon-nucleon interactions.",
@@ -4322,6 +4496,13 @@
         "termHTML": "technical coordinator",
         "type": "abbrev"
     },
+    "tdaq": {
+        "defHTML": "trigger and DAQ system.",
+        "defLaTeX": "trigger and DAQ system",
+        "term": "TDAQ",
+        "termHTML": "TDAQ",
+        "type": "word"
+    },
     "tdr": {
         "defHTML": "Depending on context, either \"technical design report,\" a formal project document that describes the experiment at a technical level, or \"technical design review,\" a formal review of the technical design of the experiment or of a component.",
         "defLaTeX": "Depending on context, either ``technical design report,'' a formal project  document  that describes the experiment at a technical level, or ``technical design review,'' a formal review of the technical design of the experiment or of a component",
@@ -4336,6 +4517,15 @@
         "defLaTeX": "Total harmonic distortion is the ratio of the \\gls{rms} value of the fundamental signal to the mean value of the root-sum-square of its harmonics",
         "term": "total harmonic distortion",
         "termHTML": "total harmonic distortion",
+        "type": "abbrev"
+    },
+    "tki": {
+        "abbrev": "TKI",
+        "abbrevHTML": "TKI",
+        "defHTML": "The imbalance among final-state particle momenta in the transverse plane to the neutrino direction; different aspects of the imbalance are sensitive to the detail of the nuclear effects in neutrino-nucleus interactions.",
+        "defLaTeX": "The imbalance among final-state particle momenta in the transverse plane to the neutrino direction; different aspects of the imbalance are sensitive to the detail of the nuclear effects in neutrino-nucleus interactions",
+        "term": "transverse kinematic imbalance",
+        "termHTML": "transverse kinematic imbalance",
         "type": "abbrev"
     },
     "tms": {
@@ -4359,8 +4549,8 @@
     "topfc": {
         "abbrev": "top FC",
         "abbrevHTML": "top FC",
-        "defHTML": "The horizontal portions of the <a href=\"#sp\">SP</a> <a href=\"#fc\">FC</a> on the top of the <a href=\"#tpc\">TPC</a>.",
-        "defLaTeX": "The horizontal portions of the \\gls{sp} \\gls{fc}   on the top of the \\gls{tpc}",
+        "defHTML": "The horizontal portions of the <a href=\"#sphd\">SPHD</a> <a href=\"#fc\">FC</a> on the top of the <a href=\"#tpc\">TPC</a>.",
+        "defLaTeX": "The horizontal portions of the \\gls{sphd} \\gls{fc}   on the top of the \\gls{tpc}",
         "term": "top field cage",
         "termHTML": "top field cage",
         "type": "abbrev"
@@ -4619,8 +4809,8 @@
     "wib": {
         "abbrev": "WIB",
         "abbrevHTML": "WIB",
-        "defHTML": "Digital electronics situated just outside the <a href=\"#sp\">SP</a> cryostat that receives digital data from the <a href=\"#femb\">FEMBs</a> over cold copper connections and sends it to the <a href=\"#rce\">RCE</a> <a href=\"#fe\">FE</a> readout hardware.",
-        "defLaTeX": "Digital electronics  situated just outside the \\gls{sp} cryostat that receives digital data  from the \\glspl{femb} over cold copper connections and sends it to the \\gls{rce}  \\gls{fe} readout hardware",
+        "defHTML": "Digital electronics situated just outside a FD cryostat that receives digital data from the <a href=\"#femb\">FEMBs</a> (part of <a href=\"#ce\">CE</a>) over cold copper connections and sends it to the <a href=\"#rce\">RCE</a> <a href=\"#fe\">FE</a> readout hardware.",
+        "defLaTeX": "Digital electronics  situated just outside a FD cryostat that receives digital data  from the \\glspl{femb} (part of \\gls{ce}) over cold copper connections and sends it to the \\gls{rce}  \\gls{fe} readout hardware",
         "term": "warm interface board",
         "termHTML": "warm interface board",
         "type": "abbrev"
@@ -4651,8 +4841,8 @@
         "type": "word"
     },
     "wire board": {
-        "defHTML": "At the head end of the APA in the <a href=\"#sp\">SP</a> <a href=\"#tpc\">TPC</a>, stacks of electronics boards referred to as \"wire boards\" are arrayed to anchor the wires. They also provide the connection between the wires and the cold electronics.",
-        "defLaTeX": "At the head end of the APA in the \\gls{sp} \\gls{tpc}, stacks of electronics boards referred to as ``wire boards'' are arrayed to anchor the wires.  They also provide the connection between the wires and the cold electronics",
+        "defHTML": "At the head end of the APA in the <a href=\"#sphd\">SPHD</a> <a href=\"#tpc\">TPC</a>, stacks of electronics boards referred to as \"wire boards\" are arrayed to anchor the wires. They also provide the connection between the wires and the cold electronics.",
+        "defLaTeX": "At the head end of the APA in the \\gls{sphd} \\gls{tpc}, stacks of electronics boards referred to as ``wire boards'' are arrayed to anchor the wires.  They also provide the connection between the wires and the cold electronics",
         "term": "wire board",
         "termHTML": "wire board",
         "type": "word"
@@ -4740,6 +4930,13 @@
         "term": "extensible markup language",
         "termHTML": "extensible markup language",
         "type": "abbrev"
+    },
+    "xrootd": {
+        "defHTML": "a high-performance data system widely used in HEP to store and to distribute data to jobs. It allows streaming of data.",
+        "defLaTeX": "a high-performance data system widely used in HEP to store and to distribute data to jobs.  It allows streaming of data",
+        "term": "xrootd",
+        "termHTML": "xrootd",
+        "type": "word"
     },
     "zs": {
         "abbrev": "ZS",

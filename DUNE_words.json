@@ -3075,6 +3075,15 @@
         "termHTML": "NERSC",
         "type": "word"
     },
+    "nest": {
+        "abbrev": "NEST",
+        "abbrevHTML": "NEST",
+        "defHTML": "Comprehensive simulation code modeling the excitation, ionization, and corresponding scintillation and electroluminescence processes in liquid noble elements.",
+        "defLaTeX": "Comprehensive simulation code modeling the excitation, ionization, and corresponding scintillation and electroluminescence processes in liquid noble elements",
+        "term": "noble element simulation technique",
+        "termHTML": "noble element simulation technique",
+        "type": "abbrev"
+    },
     "neut": {
         "abbrev": "NEUT",
         "abbrevHTML": "NEUT",
@@ -3121,8 +3130,8 @@
         "type": "abbrev"
     },
     "nios": {
-        "defHTML": "Network Identity Operating System.",
-        "defLaTeX": "Network Identity Operating System",
+        "defHTML": "network identity operating system.",
+        "defLaTeX": "network identity operating system",
         "term": "NIOS",
         "termHTML": "NIOS",
         "type": "word"
@@ -3187,7 +3196,7 @@
     "ntp": {
         "abbrev": "NTP",
         "abbrevHTML": "NTP",
-        "defHTML": "A networking protocol that allows synchronizing of clocks to within a few of a time standard on a local network and within a few tens of over the Internet.",
+        "defHTML": "A networking protocol that allows synchronizing of clocks to within a few ms of a time standard on a local network and within a few tens of ms over the Internet.",
         "defLaTeX": "A networking protocol that allows synchronizing of clocks to within a few \\si{\\milli\\second} of a time standard on a local network and within a few tens of \\si{\\milli\\second} over the Internet",
         "term": "Network Time Protocol",
         "termHTML": "Network Time Protocol",
@@ -3379,7 +3388,7 @@
         "type": "word"
     },
     "pcbp": {
-        "defHTML": "In the <a href=\"#spvd\">SPVD</a> design, one of four 1.5x1.7\u00a0m assembled into a <a href=\"#cru\">CRU</a>.",
+        "defHTML": "In the <a href=\"#spvd\">SPVD</a> design, one of four 1.5\u00a0\u00d7\u00a01.7\u00a0m assembled into a <a href=\"#cru\">CRU</a>.",
         "defLaTeX": "In the \\gls{spvd} design, one of four \\SI{1.5x1.7}{m} assembled into a \\gls{cru}",
         "term": "PCB panel",
         "termHTML": "PCB panel",
@@ -3693,7 +3702,7 @@
         "type": "abbrev"
     },
     "ptp": {
-        "defHTML": "Depending on context, either p-terphenyl, a <a href=\"#wls\">WLS</a> material, or Precision Time Protocol, a networking protocol that allows synchronizing of clocks to within a few of a time standard on a local network.",
+        "defHTML": "Depending on context, either p-terphenyl, a <a href=\"#wls\">WLS</a> material, or Precision Time Protocol, a networking protocol that allows synchronizing of clocks to within a few \u03bcs of a time standard on a local network.",
         "defLaTeX": "Depending on context, either p-terphenyl, a \\gls{wls} material, or Precision Time Protocol, a networking protocol that allows synchronizing of clocks to within a few \\si{\\micro\\second} of a time standard on a local network",
         "term": "PTP",
         "termHTML": "PTP",
@@ -3826,7 +3835,7 @@
         "type": "word"
     },
     "riskprob": {
-        "defHTML": "The risk probability, after taking into account the planned mitigation activities, is ranked as L (low <span class=\"math inline\"><\u2006</span>10\u00a0&percnt;),M (medium ), orH (high <span class=\"math inline\">>\u2006</span>25\u00a0&percnt;).The cost and schedule impacts are ranked asL (cost increase <span class=\"math inline\"><\u2006</span>5\u00a0&percnt;, schedule delay <span class=\"math inline\"><\u2006</span>2 months),M ( and 2\u20136 months, respectively) andH (<span class=\"math inline\">>\u2006</span>20\u00a0&percnt; and <span class=\"math inline\">>\u2006</span>2 months, respectively).",
+        "defHTML": "The risk probability, after taking into account the planned mitigation activities, is ranked as L (low <span class=\"math inline\"><\u2006</span>10\u00a0&percnt;),M (medium 10\u00a0&percnt;\u201325\u00a0&percnt;), orH (high <span class=\"math inline\">>\u2006</span>25\u00a0&percnt;).The cost and schedule impacts are ranked asL (cost increase <span class=\"math inline\"><\u2006</span>5\u00a0&percnt;, schedule delay <span class=\"math inline\"><\u2006</span>2 months),M (5\u00a0&percnt;\u201325\u00a0&percnt; and 2\u20136 months, respectively) andH (<span class=\"math inline\">>\u2006</span>20\u00a0&percnt; and <span class=\"math inline\">>\u2006</span>2 months, respectively).",
         "defLaTeX": "The risk probability, after taking into account the planned mitigation activities, is ranked as L (low $<\\,$\\SI{10}{&percnt;}),M (medium \\SIrange{10}{25}{&percnt;}), orH (high $>\\,$\\SI{25}{&percnt;}).The cost and schedule impacts are ranked asL (cost increase $<\\,$\\SI{5}{&percnt;}, schedule delay $<\\,$2 months),M (\\SIrange{5}{25}{&percnt;} and 2--6 months, respectively) andH ($>\\,$\\SI{20}{&percnt;} and $>\\,$2 months, respectively)",
         "term": "risk probabilities",
         "termHTML": "risk probabilities",
@@ -4036,9 +4045,16 @@
         "abbrevHTML": "SCD",
         "defHTML": "Fermilab\u2019s Scientific Computing Division.",
         "defLaTeX": "Fermilab's Scientific Computing Division",
-        "term": "Scientific Computing Division",
-        "termHTML": "Scientific Computing Division",
+        "term": "scientific computing division",
+        "termHTML": "scientific computing division",
         "type": "abbrev"
+    },
+    "sce": {
+        "defHTML": "space charge effect.",
+        "defLaTeX": "space charge effect",
+        "term": "SCE",
+        "termHTML": "SCE",
+        "type": "word"
     },
     "sci": {
         "abbrev": "SCI",
@@ -4773,7 +4789,7 @@
         "type": "word"
     },
     "wa105": {
-        "defHTML": "The 3x1x1\u00a0m WA105 <a href=\"#dp\">DP</a> prototype detector at <a href=\"#cern\">CERN</a>.",
+        "defHTML": "The 3\u00a0\u00d7\u00a01\u00a0\u00d7\u00a01\u00a0m WA105 <a href=\"#dp\">DP</a> prototype detector at <a href=\"#cern\">CERN</a>.",
         "defLaTeX": "The \\SI[product-units=power]{3x1x1}{m} WA105 \\gls{dp} prototype detector at \\gls{cern}",
         "term": "WA105 DP demonstrator",
         "termHTML": "WA105 DP demonstrator",

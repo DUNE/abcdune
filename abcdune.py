@@ -39,7 +39,7 @@ def gls_to_html_link(defString, gls_tag_type, dunewd_dict):
 
     # replace possible gls{},glspl{} in defString by <a></a> html tags
 
-    isPlural = True if gls_tag_type is "glspl" else False
+    isPlural = True if gls_tag_type == "glspl" else False
 
     re_gls  = re.compile(r'\\' + gls_tag_type + '\{(.*?)\}')
     glsTags = re_gls.findall(defString)
@@ -54,7 +54,7 @@ def gls_to_html_link(defString, gls_tag_type, dunewd_dict):
         "abbrev" entry (acronym) if type 'abbrev'
         """
 
-        link_text = dunewd_dict[glsTag]["term"] if dunewd_dict[glsTag]["type"] is "word" else dunewd_dict[glsTag]["abbrev"]
+        link_text = dunewd_dict[glsTag]["term"] if dunewd_dict[glsTag]["type"] == "word" else dunewd_dict[glsTag]["abbrev"]
         if isPlural:
             link_text = link_text + "s"
         
@@ -233,11 +233,11 @@ def main():
         termHTML = latex_into_html(info["term"], dunewd_dict, defs_dict)    
         info["termHTML"] = termHTML
 
-        if info["type"] is "abbrev" or info["type"] is "abbrevs":
+        if info["type"] == "abbrev" or info["type"] == "abbrevs":
             abbrevHTML = latex_into_html(info["abbrev"], dunewd_dict, defs_dict)
             info["abbrevHTML"] = abbrevHTML
 
-        if info["type"] is "abbrevs":
+        if info["type"] == "abbrevs":
             termsHTML = latex_into_html(info["terms"], dunewd_dict, defs_dict)
             info["termsHTML"] = termsHTML
         
@@ -299,9 +299,9 @@ def main():
         
         for key, info in sorted(dunewd_dict.items()):
 
-            if key.startswith(letter.lower()) or (letter is "&num;" and key[0].isdigit()):
+            if key.startswith(letter.lower()) or (letter == "&num;" and key[0].isdigit()):
 
-                if info["type"] is not "word": # cases abbrev and abbrevs
+                if info["type"] != "word": # cases abbrev and abbrevs
 
                     content += '  <dt id = "' + key + '">' + info["abbrevHTML"] + '</dt>\n'
                     content += '  <dd>' + info["termHTML"] + '<br>'

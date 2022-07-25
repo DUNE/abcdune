@@ -139,8 +139,8 @@
     "apa": {
         "abbrev": "APA",
         "abbrevHTML": "APA",
-        "defHTML": "A unit of the <a href=\"#sphd\">SPHD</a> detector module containing the elements sensitive to ionization in the <a href=\"#lar\">LAr</a>. It contains two faces each of three planes of wires, and interfaces to the cold electronics and photon detection system.",
-        "defLaTeX": "A unit of the \\gls{sphd}  detector module containing the elements sensitive to ionization in the \\gls{lar}.  It contains two faces each of three planes of wires, and interfaces to the cold  electronics and photon detection system",
+        "defHTML": "A unit of the <a href=\"#sphd\">FD1-HD</a> detector module containing the elements sensitive to ionization in the <a href=\"#lar\">LAr</a>. Each anode face has three planes of wires (two induction, one collection) to provide a 3D view, and interfaces to the cold electronics and photon detection system.",
+        "defLaTeX": "A unit of the \\gls{sphd}  detector module containing the elements sensitive to ionization in the \\gls{lar}.  Each anode face has three planes of wires (two induction, one collection) to provide a 3D view, and interfaces to the cold electronics and photon detection system",
         "term": "anode plane assembly",
         "termHTML": "anode plane assembly",
         "terms": "anode plane assemblies",
@@ -286,8 +286,8 @@
         "type": "abbrev"
     },
     "beamline": {
-        "defHTML": "A sequence of control and monitoring devices used for the formation of a directed collection of particles; a subproject within <a href=\"#lbnf\">LBNF</a>.",
-        "defLaTeX": "A sequence of control and monitoring devices used for the formation of a directed collection of particles; a subproject within \\gls{lbnf}",
+        "defHTML": "A sequence of control and monitoring devices used for the formation of a directed collection of particles; also subproject within <a href=\"#usproj\">LBNF/DUNE-US</a>.",
+        "defLaTeX": "A sequence of control and monitoring devices used for the formation of a directed collection of particles; also subproject within \\gls{usproj}",
         "term": "beamline",
         "termHTML": "beamline",
         "type": "word"
@@ -297,6 +297,13 @@
         "defLaTeX": "B-factory experiment now running at KEK",
         "term": "Belle II",
         "termHTML": "Belle II",
+        "type": "word"
+    },
+    "bgr": {
+        "defHTML": "A bandgap voltage reference is a circuit block in ASIC for providing stable reference voltages.",
+        "defLaTeX": "A bandgap voltage reference is a circuit block in ASIC for providing stable reference voltages",
+        "term": "BGR",
+        "termHTML": "BGR",
         "type": "word"
     },
     "bms": {
@@ -329,7 +336,7 @@
     "botfc": {
         "abbrev": "bottom FC",
         "abbrevHTML": "bottom FC",
-        "defHTML": "The horizontal portions of the <a href=\"#sphd\">SPHD</a> <a href=\"#fc\">FC</a> on the bottom of the <a href=\"#tpc\">TPC</a>.",
+        "defHTML": "The horizontal portions of the <a href=\"#sphd\">FD1-HD</a> <a href=\"#fc\">field cage</a> on the bottom of the <a href=\"#tpc\">TPC</a>.",
         "defLaTeX": "The horizontal portions of the \\gls{sphd} \\gls{fc} on the bottom of the \\gls{tpc}",
         "term": "bottom field cage",
         "termHTML": "bottom field cage",
@@ -367,6 +374,13 @@
         "defLaTeX": "beyond the Standard Model",
         "term": "BSM",
         "termHTML": "BSM",
+        "type": "word"
+    },
+    "bsws": {
+        "defHTML": "bearing sensor wire compression seal.",
+        "defLaTeX": "bearing sensor wire compression seal",
+        "term": "BSWS",
+        "termHTML": "BSWS",
         "type": "word"
     },
     "bugey": {
@@ -464,8 +478,8 @@
     "cern": {
         "abbrev": "CERN",
         "abbrevHTML": "CERN",
-        "defHTML": "The leading particle physics laboratory in Europe and home to the ProtoDUNEs.",
-        "defLaTeX": "The leading particle physics laboratory in Europe and home to the ProtoDUNEs",
+        "defHTML": "The leading particle physics laboratory in Europe and home to the <a href=\"#protodune\">ProtoDUNEs</a> and other prototypes and demonstrators, including the <a href=\"#mod0\">Module 0s</a>.",
+        "defLaTeX": "The leading particle physics laboratory in Europe and home to the \\glspl{protodune} and other prototypes and demonstrators, including the \\glspl{mod0}",
         "term": "European Laboratory for Particle Physics",
         "termHTML": "European Laboratory for Particle Physics",
         "type": "abbrev"
@@ -473,8 +487,8 @@
     "cf": {
         "abbrev": "CF",
         "abbrevHTML": "CF",
-        "defHTML": "Pertaining to construction and operation of buildings and conventional infrastructure, and for the <a href=\"#lbnf-dune\">LBNF/DUNE</a>, CF includes the excavation caverns.",
-        "defLaTeX": "Pertaining to  construction and operation of buildings and conventional infrastructure, and for the \\gls{lbnf-dune}, CF includes the excavation caverns",
+        "defHTML": "Pertaining to construction and operation of buildings and conventional infrastructure, and includes cavern excavation.",
+        "defLaTeX": "Pertaining to  construction and operation of buildings and conventional infrastructure, and includes  cavern excavation",
         "term": "conventional facilities",
         "termHTML": "conventional facilities",
         "type": "abbrev"
@@ -581,6 +595,15 @@
         "termHTML": "carbon nitrogen oxygen",
         "type": "abbrev"
     },
+    "co": {
+        "abbrev": "CO",
+        "abbrevHTML": "CO",
+        "defHTML": "a team of engineers from multiple partners that provides clear direction for designing and constructing components that will be used during integration.",
+        "defLaTeX": "a team of engineers from multiple partners that provides clear direction for designing and constructing components that will be used during integration",
+        "term": "compliance office",
+        "termHTML": "compliance office",
+        "type": "abbrev"
+    },
     "cob": {
         "abbrev": "COB",
         "abbrevHTML": "COB",
@@ -609,6 +632,13 @@
         "defLaTeX": "The shared resources of the collaboration",
         "term": "common fund",
         "termHTML": "common fund",
+        "type": "word"
+    },
+    "comsol": {
+        "defHTML": "General-purpose simulation software based on advanced numerical methods (comsol.com).",
+        "defLaTeX": "General-purpose simulation software based on advanced numerical methods (comsol.com)",
+        "term": "COMSOL",
+        "termHTML": "COMSOL",
         "type": "word"
     },
     "core": {
@@ -657,7 +687,7 @@
         "type": "abbrevs"
     },
     "cpafc": {
-        "defHTML": "A pair of <a href=\"#cpa\">CPA</a> panels and the top and bottom <a href=\"#fc\">FC</a> portions that attach to the pair; an intermediate assembly for installation into the <a href=\"#spmod\">SP module</a>.",
+        "defHTML": "A pair of <a href=\"#cpa\">CPA</a> panels and the top and bottom <a href=\"#fc\">field cage</a> portions that attach to the pair; an intermediate assembly for installation into the <a href=\"#spmod\">SP module</a>.",
         "defLaTeX": "A pair of \\gls{cpa} panels and the top and bottom \\gls{fc} portions that attach to the pair; an intermediate assembly for installation into the \\gls{spmod} ",
         "term": "CPA/FC",
         "termHTML": "CPA/FC",
@@ -705,8 +735,8 @@
     "cro": {
         "abbrev": "CRO",
         "abbrevHTML": "CRO",
-        "defHTML": "The system for detecting ionization charge distributions in a <a href=\"#dp\">DP</a> detector module.",
-        "defLaTeX": "The system for detecting  ionization charge distributions in a \\gls{dp} detector module",
+        "defHTML": "The system for detecting ionization charge distributions in a detector module.",
+        "defLaTeX": "The system for detecting  ionization charge distributions in a  detector module",
         "term": "charge readout",
         "termHTML": "charge readout",
         "type": "abbrev"
@@ -723,8 +753,8 @@
     "crp": {
         "abbrev": "CRP",
         "abbrevHTML": "CRP",
-        "defHTML": "In the <a href=\"#dp\">DP</a> technology, a collection of electrodes in a planar arrangement placed at a particular voltage relative to some applied E field such that drifting electrons may be collected and their number and time may be measured.",
-        "defLaTeX": "In the \\gls{dp} technology, a  collection of  electrodes in a planar arrangement placed at a particular voltage  relative to some applied \\efield such that drifting electrons  may be collected and their number and time may be measured",
+        "defHTML": "An anode technology using a stack of perforated <a href=\"#pcb\">PCBs</a> with etched electrode strips to provide <a href=\"#cro\">CRO</a> in 3D; it has two induction layers and one collection layer.",
+        "defLaTeX": "An anode technology using a stack of perforated \\glspl{pcb} with etched electrode strips to provide \\gls{cro} in 3D; it has two induction layers and one collection layer",
         "term": "charge-readout plane",
         "termHTML": "charge-readout plane",
         "type": "abbrev"
@@ -741,8 +771,8 @@
     "cru": {
         "abbrev": "CRU",
         "abbrevHTML": "CRU",
-        "defHTML": "In the <a href=\"#spvd\">SPVD</a> design an assembly of the <a href=\"#pcbp\">PCB panels</a> plus adapter boards; four to a <a href=\"#crp\">CRP</a>.",
-        "defLaTeX": "In the \\gls{spvd} design an assembly of the \\glspl{pcbp} plus adapter boards; four to a \\gls{crp}",
+        "defHTML": "In the <a href=\"#spvd\">FD2-VD</a> design an assembly of the <a href=\"#pcbp\">PCB panels</a> plus adapter boards; two to a <a href=\"#crp\">CRP</a>.",
+        "defLaTeX": "In the \\gls{spvd} design an assembly of the \\glspl{pcbp} plus adapter boards; two to a \\gls{crp}",
         "term": "charge-readout unit",
         "termHTML": "charge-readout unit",
         "type": "abbrev"
@@ -787,7 +817,7 @@
         "type": "abbrev"
     },
     "cube": {
-        "defHTML": "beryllium copper, used to make <a href=\"#sphd\">SPHD</a> <a href=\"#apa\">APA</a> readout planes.",
+        "defHTML": "beryllium copper, used to make <a href=\"#sphd\">FD1-HD</a> <a href=\"#apa\">APA</a> readout planes.",
         "defLaTeX": "beryllium copper, used to make \\gls{sphd} \\gls{apa} readout planes",
         "term": "CuBe",
         "termHTML": "CuBe",
@@ -914,6 +944,15 @@
         "defLaTeX": "The subsystem of the \\gls{daq} responsible for forming a trigger decision based on a portion of the input data stream.  The majority subset of the \\gls{daqtrs}",
         "term": "DAQ data selection subsystem",
         "termHTML": "DAQ data selection subsystem",
+        "type": "abbrev"
+    },
+    "daqdts": {
+        "abbrev": "DUNE DTS",
+        "abbrevHTML": "DUNE DTS",
+        "defHTML": "The portion of the <a href=\"#daq\">DAQ</a> that provides for timing and synchronization to various detector systems.",
+        "defLaTeX": "The portion of the \\gls{daq} that provides for timing and synchronization to various detector systems",
+        "term": "DUNE timing and synchronization subsystem",
+        "termHTML": "DUNE timing and synchronization subsystem",
         "type": "abbrev"
     },
     "daqeti": {
@@ -1060,11 +1099,11 @@
         "termHTML": "DCS",
         "type": "word"
     },
-    "ddp": {
-        "defHTML": "a dual-phase DUNE far detector module.",
-        "defLaTeX": "a dual-phase DUNE far detector module",
-        "term": "DUNE-DP",
-        "termHTML": "DUNE-DP",
+    "ddmp": {
+        "defHTML": "DUNE Management Plan.",
+        "defLaTeX": "DUNE Management Plan",
+        "term": "DUNE Management Plan",
+        "termHTML": "DUNE Management Plan",
         "type": "word"
     },
     "ddss": {
@@ -1077,14 +1116,14 @@
         "type": "abbrev"
     },
     "detmodule": {
-        "defHTML": "The entire DUNE far detector is segmented into four modules, each with a nominal 10 fiducial mass.",
-        "defLaTeX": "The entire DUNE far detector is  segmented into four modules, each with a nominal \\SI{10}{\\kton}  fiducial mass",
+        "defHTML": "The entire DUNE far detector is segmented into four modules, each with a total/fiducial mass of approximately 17/10.",
+        "defLaTeX": "The entire DUNE far detector is  segmented into four modules, each with a total/fiducial mass of approximately \\SI{17}{\\kton}/\\SI{10}{\\kton}",
         "term": "far detector module",
         "termHTML": "far detector module",
         "type": "word"
     },
     "detunit": {
-        "defHTML": "A portion of a <a href=\"#detmodule\">far detector module</a> may be further partitioned into a number of similar parts. For example, the <a href=\"#sphd\">SPHD</a> <a href=\"#tpc\">TPC</a> is made up of <a href=\"#apa\">APA</a> units (and other elements).",
+        "defHTML": "A portion of a <a href=\"#detmodule\">far detector module</a> may be further partitioned into a number of similar parts. For example, the <a href=\"#sphd\">FD1-HD</a> <a href=\"#tpc\">TPC</a> is made up of <a href=\"#apa\">APA</a> units (and other elements).",
         "defLaTeX": "A portion of a \\gls{detmodule} may be further partitioned into a number of similar parts.   For example, the \\gls{sphd} \\gls{tpc} is made up of \\gls{apa}  units (and other elements)",
         "term": "detector unit",
         "termHTML": "detector unit",
@@ -1141,8 +1180,8 @@
     "docdb": {
         "abbrev": "DocDB",
         "abbrevHTML": "DocDB",
-        "defHTML": "A computerized document management system developed and supported at <a href=\"#fnal\">Fermilab</a> in which virtually all LBNF and most DUNE documents are managed (docs.dunescience.org).",
-        "defLaTeX": "A computerized document management system developed and supported at \\gls{fnal} in which virtually all LBNF and most DUNE documents are managed (docs.dunescience.org)",
+        "defHTML": "A computerized document management system developed and supported at <a href=\"#fnal\">Fermilab</a> in which most <a href=\"#lbnf-dune\">LBNF/DUNE</a> documents are managed (docs.dunescience.org); some documents are maintained in <a href=\"#edms\">EDMS</a>.",
+        "defLaTeX": "A computerized document management system developed and supported at \\gls{fnal} in which most \\gls{lbnf-dune} documents are managed (docs.dunescience.org); some documents are maintained in \\gls{edms}",
         "term": "Document DataBase",
         "termHTML": "Document DataBase",
         "type": "abbrev"
@@ -1175,11 +1214,18 @@
     "dp": {
         "abbrev": "DP",
         "abbrevHTML": "DP",
-        "defHTML": "Distinguishes one of the DUNE far detector technologies by the fact that it operates using argon in both gas and liquid phases; sometimes called double-phase.",
-        "defLaTeX": "Distinguishes one of the DUNE far detector technologies by the fact that it operates using argon in both gas and liquid phases; sometimes called double-phase",
+        "defHTML": "Distinguishes a <a href=\"#lartpc\">LArTPC</a> technology by the fact that it operates using argon in both gas and liquid phases; sometimes called double-phase.",
+        "defLaTeX": "Distinguishes a \\gls{lartpc} technology by the fact that it operates using argon in both gas and liquid phases; sometimes called double-phase",
         "term": "dual-phase",
         "termHTML": "dual-phase",
         "type": "abbrev"
+    },
+    "dpdfd": {
+        "defHTML": "Deputy Project Director for far detectors.",
+        "defLaTeX": "Deputy Project Director for far detectors",
+        "term": "DPDFD",
+        "termHTML": "DPDFD",
+        "type": "word"
     },
     "dpmod": {
         "defHTML": "dual-phase DUNE <a href=\"#fd\">FD</a> module.",
@@ -1248,8 +1294,8 @@
     "dune": {
         "abbrev": "DUNE",
         "abbrevHTML": "DUNE",
-        "defHTML": "A leading-edge, international experiment for neutrino science and proton decay studies.",
-        "defLaTeX": "A leading-edge, international experiment for neutrino science and proton decay studies",
+        "defHTML": "A leading-edge, international experiment for neutrino science and proton decay studies; refers to the entire international experiment and collaboration.",
+        "defLaTeX": "A leading-edge, international experiment for neutrino science and proton decay studies; refers to the entire international experiment and collaboration",
         "term": "Deep Underground Neutrino Experiment",
         "termHTML": "Deep Underground Neutrino Experiment",
         "type": "abbrev"
@@ -1262,6 +1308,13 @@
         "term": "\\gls{dune} Precision Reaction-Independent Spectrum Measurement",
         "termHTML": "<a href=\"#dune\">DUNE</a> Precision Reaction-Independent Spectrum Measurement",
         "type": "abbrev"
+    },
+    "duneus": {
+        "defHTML": "Deep Underground Neutrino Experiment - United States; refers to the U.S. contribution to DUNE under the line-item <a href=\"#usproj\">LBNF/DUNE-US</a> project.",
+        "defLaTeX": "Deep Underground Neutrino Experiment - United States; refers to the U.S. contribution to DUNE under the line-item \\gls{usproj} project",
+        "term": "DUNE-US",
+        "termHTML": "DUNE-US",
+        "type": "word"
     },
     "dword": {
         "defHTML": "A term in the DUNE lexicon.",
@@ -1307,17 +1360,24 @@
     "edms": {
         "abbrev": "EDMS",
         "abbrevHTML": "EDMS",
-        "defHTML": "A computerized document management system developed and supported at <a href=\"#cern\">CERN</a> in which some LBNF/DUNE documents, drawings and engineering models are managed.",
-        "defLaTeX": "A computerized document management system developed and supported at \\gls{cern} in which some LBNF/DUNE documents, drawings and engineering models are managed",
+        "defHTML": "A computerized document management system developed and supported at <a href=\"#cern\">CERN</a> in which some project and collaboration documents, drawings and engineering models are managed.",
+        "defLaTeX": "A computerized document management system developed and supported at \\gls{cern} in which some project and collaboration documents, drawings and engineering models are managed",
         "term": "engineering document management system",
         "termHTML": "engineering document management system",
         "type": "abbrev"
     },
+    "eelaser": {
+        "defHTML": "a laser in which light is emitted from the edge of the substrate.",
+        "defLaTeX": "a laser in which  light is emitted from the edge of the substrate",
+        "term": "edge-emitting laser",
+        "termHTML": "edge-emitting laser",
+        "type": "word"
+    },
     "efig": {
         "abbrev": "EFIG",
         "abbrevHTML": "EFIG",
-        "defHTML": "The body responsible for the required high-level coordination between the <a href=\"#lbnf\">LBNF</a> and <a href=\"#dune\">DUNE</a> projects.",
-        "defLaTeX": "The body responsible for the required high-level coordination between the \\gls{lbnf} and \\gls{dune} projects",
+        "defHTML": "The body that provides a means to coordinate and discuss issues related to the interfaces within and between the facility and the DUNE detectors at both the <a href=\"#fnal\">Fermilab</a> and <a href=\"#surf\">SURF</a> sites.",
+        "defLaTeX": "The body that provides a means to coordinate and discuss issues related to the interfaces within and between the facility and the DUNE detectors at both the \\gls{fnal} and \\gls{surf} sites",
         "term": "Experimental Facilities Interface Group",
         "termHTML": "Experimental Facilities Interface Group",
         "type": "abbrev"
@@ -1325,8 +1385,8 @@
     "ehn1": {
         "abbrev": "EHN1",
         "abbrevHTML": "EHN1",
-        "defHTML": "Location at CERN of the ProtoDUNE experiments.",
-        "defLaTeX": "Location at CERN of the ProtoDUNE experiments",
+        "defHTML": "Location at <a href=\"#cern\">CERN</a> of the <a href=\"#np02\">NP02</a> and <a href=\"#np04\">NP04</a> areas used for the <a href=\"#protodune\">ProtoDUNEs</a> and for other test and prototyping activities for DUNE.",
+        "defLaTeX": "Location at \\gls{cern} of the \\gls{np02} and \\gls{np04} areas used for the \\glspl{protodune} and for other test and prototyping activities for DUNE",
         "term": "Experiment Hall North One",
         "termHTML": "Experiment Hall North One",
         "type": "abbrev"
@@ -1357,8 +1417,8 @@
     "enc": {
         "abbrev": "ENC",
         "abbrevHTML": "ENC",
-        "defHTML": "The equivalent noise charge is the input charge that corresponds to a <a href=\"#snr\">S/N</a><span class=\"math inline\">\u2004=\u20041</span>.",
-        "defLaTeX": "The equivalent noise charge is the input charge that corresponds to a \\gls{snr}$=1$",
+        "defHTML": "The equivalent noise charge is the input charge that corresponds to a <a href=\"#s/n\">S/N</a><span class=\"math inline\">\u2004=\u20041</span>.",
+        "defLaTeX": "The equivalent noise charge is the input charge that corresponds to a \\gls{s/n}$=1$",
         "term": "equivalent noise charge",
         "termHTML": "equivalent noise charge",
         "type": "abbrev"
@@ -1459,7 +1519,7 @@
     "ewfc": {
         "abbrev": "endwall FC",
         "abbrevHTML": "endwall FC",
-        "defHTML": "The vertical portions of the <a href=\"#fc\">FC</a> near the end walls.",
+        "defHTML": "The vertical portions of the <a href=\"#fc\">field cage</a> near the end walls.",
         "defLaTeX": "The vertical portions of the \\gls{fc} near the end walls",
         "term": "endwall field cage",
         "termHTML": "endwall field cage",
@@ -1498,13 +1558,11 @@
         "type": "abbrev"
     },
     "fc": {
-        "abbrev": "FC",
-        "abbrevHTML": "FC",
         "defHTML": "The component of a <a href=\"#lartpc\">LArTPC</a> that contains and shapes the applied E field.",
         "defLaTeX": "The component of a \\gls{lartpc} that contains and shapes the applied \\efield",
         "term": "field cage",
         "termHTML": "field cage",
-        "type": "abbrev"
+        "type": "word"
     },
     "fd": {
         "abbrev": "FD",
@@ -1514,6 +1572,31 @@
         "term": "far detector",
         "termHTML": "far detector",
         "type": "abbrev"
+    },
+    "fd1c": {
+        "abbrev": "FD1+C",
+        "abbrevHTML": "FD1+C",
+        "defHTML": "The first far detector module to be built at <a href=\"#surf\">SURF</a>, including integration and installation, and all cryogenics infrastructure to support FD1 and <a href=\"#fd2\">FD2</a>; also a subproject of <a href=\"#usproj\">LBNF/DUNE-US</a>.",
+        "defLaTeX": "The first far detector module to be built at \\gls{surf}, including integration and installation, and all cryogenics infrastructure to support FD1 and \\gls{fd2}; also a subproject of \\gls{usproj}",
+        "term": "far detector module 1 + cryogenics",
+        "termHTML": "far detector module 1 + cryogenics",
+        "type": "abbrev"
+    },
+    "fd2": {
+        "abbrev": "FD2",
+        "abbrevHTML": "FD2",
+        "defHTML": "The second DUNE far detector module to be built at <a href=\"#surf\">SURF</a>.",
+        "defLaTeX": "The second DUNE far detector module to be built at \\gls{surf}",
+        "term": "far detector module 2",
+        "termHTML": "far detector module 2",
+        "type": "abbrev"
+    },
+    "fdc": {
+        "defHTML": "Far Detector and Cryogenics Subproject.",
+        "defLaTeX": "Far Detector and Cryogenics Subproject",
+        "term": "FDC",
+        "termHTML": "FDC",
+        "type": "word"
     },
     "fdr": {
         "defHTML": "Depending on context, either \"final design report,\" a formal project document that describes the experiment at a final level, or \"final design review,\" a formal review of the final design of the experiment or of a component.",
@@ -1525,7 +1608,7 @@
     "fe": {
         "abbrev": "FE",
         "abbrevHTML": "FE",
-        "defHTML": "The front-end refers to a point that is \"upstream\" of the data flow for a particular subsystem. For example the <a href=\"#sphd\">SPHD</a> front-end electronics is where the cold electronics meet the sense wires of the TPC and the front-end <a href=\"#daq\">DAQ</a> is where the <a href=\"#daq\">DAQ</a> meets the output of the electronics.",
+        "defHTML": "The front-end refers to a point that is \"upstream\" of the data flow for a particular subsystem. For example the <a href=\"#sphd\">FD1-HD</a> front-end electronics is where the cold electronics meet the sense wires of the TPC and the front-end <a href=\"#daq\">DAQ</a> is where the <a href=\"#daq\">DAQ</a> meets the output of the electronics.",
         "defLaTeX": "The front-end refers to a point that is  ``upstream'' of the data flow for a particular subsystem. For example the \\gls{sphd} front-end electronics is where the cold electronics  meet the sense wires of the TPC and the front-end \\gls{daq} is where the \\gls{daq} meets the output of the electronics",
         "term": "front-end",
         "termHTML": "front-end",
@@ -1575,8 +1658,8 @@
     "femb": {
         "abbrev": "FEMB",
         "abbrevHTML": "FEMB",
-        "defHTML": "Refers a unit of the <a href=\"#sp\">SP</a> <a href=\"#ce\">CE</a> that contains the <a href=\"#fe\">FE</a> amplifier and <a href=\"#adc\">ADC</a> <a href=\"#asic\">ASICs</a> covering 128 channels.",
-        "defLaTeX": "Refers a unit of  the \\gls{sp} \\gls{ce} that contains the \\gls{fe} amplifier  and \\gls{adc} \\glspl{asic} covering 128 channels",
+        "defHTML": "Refers to a unit of the <a href=\"#sp\">SP</a> <a href=\"#ce\">CE</a> that contains the <a href=\"#fe\">FE</a> amplifier and <a href=\"#adc\">ADC</a> <a href=\"#asic\">ASICs</a> covering 128 channels.",
+        "defLaTeX": "Refers to a unit of  the \\gls{sp} \\gls{ce} that contains the \\gls{fe} amplifier  and \\gls{adc} \\glspl{asic} covering 128 channels",
         "term": "front-end mother board",
         "termHTML": "front-end mother board",
         "type": "abbrev"
@@ -1680,8 +1763,8 @@
         "type": "word"
     },
     "fs": {
-        "defHTML": "(1) The far site, <a href=\"#surf\">SURF</a>, where the DUNE far detector is located; (2) \"Full stream\" relates to a data stream that has not undergone selection, compression or other form of reduction.",
-        "defLaTeX": "(1) The far site, \\gls{surf}, where the DUNE far detector is located; (2) ``Full stream'' relates to a data stream that has not undergone selection, compression or other form of reduction",
+        "defHTML": "Depending on context, one of (1) the far site, <a href=\"#surf\">SURF</a>, where the DUNE far detector is located; (2) \"Full Stream\" relates to a data stream that has not undergone selection, compression or other form of reduction.",
+        "defLaTeX": "Depending on context, one of (1) the far site, \\gls{surf}, where the DUNE far detector is located; (2) ``Full Stream'' relates to a data stream that has not undergone selection, compression or other form of reduction",
         "term": "FS",
         "termHTML": "FS",
         "type": "word"
@@ -1689,11 +1772,18 @@
     "fscf": {
         "abbrev": "FSCF",
         "abbrevHTML": "FSCF",
-        "defHTML": "The <a href=\"#cf\">CF</a> at the DUNE far detector site, <a href=\"#surf\">SURF</a>.",
-        "defLaTeX": "The  \\gls{cf} at the DUNE far detector site, \\gls{surf}",
-        "term": "far site conventional facilities",
-        "termHTML": "far site conventional facilities",
+        "defHTML": "The <a href=\"#cf\">CF</a> at the DUNE far detector site, <a href=\"#surf\">SURF</a>, including all detector caverns and support infrastructure.",
+        "defLaTeX": "The \\gls{cf} at the DUNE far detector site, \\gls{surf}, including all detector caverns and support infrastructure",
+        "term": "Far Site Conventional Facilities",
+        "termHTML": "Far Site Conventional Facilities",
         "type": "abbrev"
+    },
+    "fscfbsi": {
+        "defHTML": "<a href=\"#usproj\">LBNF/DUNE-US</a> subproject for far site conventional facilities, building and site infrastructure.",
+        "defLaTeX": "\\gls{usproj} subproject for far site conventional facilities, building and site infrastructure",
+        "term": "FSCF-BSI",
+        "termHTML": "FSCF-BSI",
+        "type": "word"
     },
     "fsi": {
         "abbrev": "FSI",
@@ -1704,6 +1794,13 @@
         "termHTML": "final-state interactions",
         "type": "abbrev"
     },
+    "fsii": {
+        "defHTML": "far site integration and installation.",
+        "defLaTeX": "far site integration and installation",
+        "term": "FSII",
+        "termHTML": "FSII",
+        "type": "word"
+    },
     "fsint": {
         "abbrev": "FSI",
         "abbrevHTML": "FSI",
@@ -1712,6 +1809,13 @@
         "term": "far site integration",
         "termHTML": "far site integration",
         "type": "abbrev"
+    },
+    "fsm": {
+        "defHTML": "a mathematical model of computation; it is an abstract machine that can be in exactly one of a finite number of states at any given time.",
+        "defLaTeX": "a mathematical model of computation; it is an abstract machine that can be in exactly one of a finite number of states at any given time",
+        "term": "Finite State Machine",
+        "termHTML": "Finite State Machine",
+        "type": "word"
     },
     "fss": {
         "defHTML": "field shaping strips.",
@@ -1865,13 +1969,11 @@
         "type": "word"
     },
     "gp": {
-        "abbrev": "GP",
-        "abbrevHTML": "GP",
-        "defHTML": "An electrode held electrically neutral relative to Earth ground voltage; it is mounted on the <a href=\"#fc\">FC</a> in a <a href=\"#spmod\">SP module</a> to protect the cryostat wall.",
-        "defLaTeX": "An electrode held electrically neutral relative to Earth ground voltage; it is mounted on the \\gls{fc} in a \\gls{spmod} to protect the cryostat wall",
+        "defHTML": "An electrode held electrically neutral relative to Earth ground voltage; it is mounted on the <a href=\"#fc\">field cage</a> to protect the cryostat wall.",
+        "defLaTeX": "An electrode held electrically neutral relative to Earth ground voltage; it is mounted on the \\gls{fc} to protect the cryostat wall",
         "term": "ground plane",
         "termHTML": "ground plane",
-        "type": "abbrev"
+        "type": "word"
     },
     "gpib": {
         "defHTML": "general purpose interface bus.",
@@ -1881,8 +1983,8 @@
         "type": "word"
     },
     "gplane": {
-        "defHTML": "The uninstrumented plane of wires in a SP <a href=\"#apa\">APA</a> that borders the drift volume. It shapes the signals and provides <a href=\"#esd\">ESD</a> protection.",
-        "defLaTeX": "The uninstrumented plane of wires in a SP \\gls{apa} that borders the drift volume.   It shapes the signals and provides \\gls{esd} protection",
+        "defHTML": "The uninstrumented plane of wires or electrodes on an anode planefacing the drift volume. It shapes the signals and provides <a href=\"#esd\">ESD</a> protection.",
+        "defLaTeX": "The uninstrumented plane of wires or electrodes on an anode planefacing the drift volume.   It shapes the signals and provides \\gls{esd} protection",
         "term": "grid plane",
         "termHTML": "grid plane",
         "type": "word"
@@ -1912,6 +2014,13 @@
         "termHTML": "GPU As A Service",
         "type": "abbrev"
     },
+    "greyrm": {
+        "defHTML": "ISO-8 clean room with a cleanliness level of 3.5M particles of 0.5 micron or less per cubic meter volume. ISO-8 clean rooms are referred to as grey rooms because at this level of cleanliness most standard clean room attire is not required..",
+        "defLaTeX": "ISO-8 clean room with a cleanliness level of 3.5M particles of 0.5 micron or less per cubic meter volume. ISO-8 clean rooms are referred to as grey rooms because at this level of cleanliness most standard clean room attire is not required.",
+        "term": "grey room",
+        "termHTML": "grey room",
+        "type": "word"
+    },
     "gsc": {
         "abbrev": "GSC group",
         "abbrevHTML": "GSC group",
@@ -1933,15 +2042,15 @@
         "type": "abbrevs"
     },
     "h2": {
-        "defHTML": "CERN North Area hadron beamline used for the <a href=\"#pddp\">ProtoDUNE-DP</a> test beam run.",
-        "defLaTeX": "CERN North Area hadron beamline used for the \\gls{pddp} test beam run",
+        "defHTML": "CERN North Area hadron beamline used for <a href=\"#pddp\">ProtoDUNE-DP</a> and <a href=\"#spvd\">FD2-VD</a> prototypes and demonstrators.",
+        "defLaTeX": "CERN North Area hadron beamline used for \\gls{pddp} and \\gls{spvd} prototypes and demonstrators",
         "term": "H2",
         "termHTML": "H2",
         "type": "word"
     },
     "h4": {
-        "defHTML": "CERN North Area hadron beamline used for the <a href=\"#pdsp\">ProtoDUNE-SP</a> test beam run.",
-        "defLaTeX": "CERN North Area hadron beamline used for the \\gls{pdsp} test beam run",
+        "defHTML": "CERN North Area hadron beamline used for <a href=\"#pdsp\">ProtoDUNE-SP</a>.",
+        "defLaTeX": "CERN North Area hadron beamline used for \\gls{pdsp}",
         "term": "H4",
         "termHTML": "H4",
         "type": "word"
@@ -2012,6 +2121,13 @@
         "termHTML": "HMI",
         "type": "word"
     },
+    "hnl": {
+        "defHTML": "heavy neutral lepton.",
+        "defLaTeX": "heavy neutral lepton",
+        "term": "HNL",
+        "termHTML": "HNL",
+        "type": "word"
+    },
     "hpc": {
         "abbrev": "HPC",
         "abbrevHTML": "HPC",
@@ -2040,12 +2156,12 @@
         "type": "abbrev"
     },
     "hsf": {
-        "abbrev": "HSC",
-        "abbrevHTML": "HSC",
+        "abbrev": "HSF",
+        "abbrevHTML": "HSF",
         "defHTML": "A foundation that facilitates cooperation and common efforts in high energy physics software and computing internationally.",
         "defLaTeX": "A foundation that facilitates cooperation and common efforts in high energy physics software and computing internationally",
-        "term": "HEP Software Foundation Collaboration",
-        "termHTML": "HEP Software Foundation Collaboration",
+        "term": "HEP Software Foundation",
+        "termHTML": "HEP Software Foundation",
         "type": "abbrev"
     },
     "htc": {
@@ -2118,21 +2234,21 @@
         "abbrev": "I\\&I",
         "abbrevHTML": "I&amp;I",
         "defHTML": "One of the three project areas in the LBNF/DUNE-US <a href=\"#doe\">DOE</a> project, along with LBNF and DUNE-US.",
-        "defLaTeX": "One of the three project areas in the LBNF/DUNE-US \\gls{doe} project, along with LBNF and DUNE-US ",
+        "defLaTeX": "One of the three project areas in the LBNF/DUNE-US \\gls{doe} project, along with LBNF and DUNE-US",
         "term": "Integration and Installation",
         "termHTML": "Integration and Installation",
         "type": "abbrev"
     },
     "ib": {
-        "defHTML": "institutional board.",
-        "defLaTeX": "institutional board",
+        "defHTML": "institutional board; all institutions participating in DUNE are represented on this board.",
+        "defLaTeX": "institutional board; all institutions participating in DUNE are represented on this board",
         "term": "IB",
         "termHTML": "IB",
         "type": "word"
     },
     "icarus": {
-        "defHTML": "A neutrino experiment that was located at the Laboratori Nazionali del Gran Sasso (LNGS) in Italy, then refurbished at <a href=\"#cern\">CERN</a> for re-use in the same neutrino beam from <a href=\"#fnal\">Fermilab</a> used by the <a href=\"#miniboone\">MiniBooNE</a> , <a href=\"#microboone\">MicroBooNE</a> and <a href=\"#sbnd\">SBND</a> experiments. The ICARUS detector is being reassembled at <a href=\"#fnal\">Fermilab</a>.",
-        "defLaTeX": "A neutrino experiment that was located at the Laboratori Nazionali del Gran Sasso (LNGS) in Italy, then refurbished at \\gls{cern} for re-use in the same neutrino beam from \\gls{fnal} used by the \\gls{miniboone} , \\gls{microboone} and \\gls{sbnd} experiments. The ICARUS detector is being reassembled at \\gls{fnal}",
+        "defHTML": "A neutrino experiment that was located at the Laboratori Nazionali del Gran Sasso (LNGS) in Italy, then refurbished at <a href=\"#cern\">CERN</a> for re-use in the same neutrino beam from <a href=\"#fnal\">Fermilab</a> used by the <a href=\"#miniboone\">MiniBooNE</a> , <a href=\"#microboone\">MicroBooNE</a> and <a href=\"#sbnd\">SBND</a> experiments at <a href=\"#fnal\">Fermilab</a>.",
+        "defLaTeX": "A neutrino experiment that was located at the Laboratori Nazionali del Gran Sasso (LNGS) in Italy, then refurbished at \\gls{cern} for re-use in the same neutrino beam from \\gls{fnal} used by the \\gls{miniboone} , \\gls{microboone} and \\gls{sbnd} experiments at \\gls{fnal}",
         "term": "ICARUS",
         "termHTML": "ICARUS",
         "type": "word"
@@ -2140,11 +2256,18 @@
     "iceberg": {
         "abbrev": "ICEBERG",
         "abbrevHTML": "ICEBERG",
-        "defHTML": "Integrated Cryostat and Electronics Built for Experimental Research Goals: a new double-walled cryostat built and installed at <a href=\"#fnal\">Fermilab</a>for liquid argon detector R&amp;D and for testing of DUNE detector components.",
-        "defLaTeX": "Integrated Cryostat and Electronics Built for Experimental Research Goals: a new double-walled cryostat built and installed at \\gls{fnal}for liquid argon detector R\\&D and for testing of DUNE detector components",
+        "defHTML": "Integrated Cryostat and Electronics Built for Experimental Research Goals: a double-walled cryostat built and installed at <a href=\"#fnal\">Fermilab</a>for liquid argon detector R&amp;D and for testing of DUNE detector components.",
+        "defLaTeX": "Integrated Cryostat and Electronics Built for Experimental Research Goals: a double-walled cryostat built and installed at \\gls{fnal}for liquid argon detector R\\&D and for testing of DUNE detector components",
         "term": "ICEBERG R\\&D cryostat and electronics",
         "termHTML": "ICEBERG R&amp;D cryostat and electronics",
         "type": "abbrev"
+    },
+    "icecube": {
+        "defHTML": "South Pole Neutrino Observatory.",
+        "defLaTeX": "South Pole Neutrino Observatory",
+        "term": "IceCube",
+        "termHTML": "IceCube",
+        "type": "word"
     },
     "id": {
         "abbrev": "ID",
@@ -2235,6 +2358,13 @@
         "termHTML": "Indico",
         "type": "word"
     },
+    "ingaas": {
+        "defHTML": "Indium gallium arsenide is a room-temperature semiconductor commonly used as a high-speed, high-sensitivity photodetector for optical fiber telecommunications.",
+        "defLaTeX": "Indium gallium arsenide is a room-temperature semiconductor commonly used as a high-speed, high-sensitivity photodetector for optical fiber telecommunications",
+        "term": "InGaAs",
+        "termHTML": "InGaAs",
+        "type": "word"
+    },
     "inl": {
         "abbrev": "INL",
         "abbrevHTML": "INL",
@@ -2249,6 +2379,13 @@
         "defLaTeX": "The \\gls{doe} project element that organizes the onsite teams responsible for coordinating far detector installation and detector-facility integration activities at \\gls{surf} as well as near detector installation activities at \\gls{fnal}.  The integration project office includes overall LBNF/DUNE systems engineering, compliance and review offices",
         "term": "integration project",
         "termHTML": "integration project",
+        "type": "word"
+    },
+    "intlproj": {
+        "defHTML": "The international project to design and build the facilities and detectors for the <a href=\"#lbnf-dune\">LBNF/DUNE</a>; it includes the <a href=\"#usproj\">LBNF/DUNE-US</a> and projects at multiple international partners to manage the contributions from non-US institutions and funding agencies to design, build, and install the detector components.",
+        "defLaTeX": "The international project to design and build the facilities and detectors for the \\gls{lbnf-dune}; it includes the \\gls{usproj} and projects at multiple international partners to manage the contributions from non-US institutions and funding agencies to design, build, and install the detector components",
+        "term": "LBNF/DUNE Construction Project",
+        "termHTML": "LBNF/DUNE Construction Project",
         "type": "word"
     },
     "io": {
@@ -2313,8 +2450,8 @@
     "irr": {
         "abbrev": "IRR",
         "abbrevHTML": "IRR",
-        "defHTML": "A project management device by which the plan for installation is reviewed.",
-        "defLaTeX": "A project management device by which the plan for installation is reviewed",
+        "defHTML": "A project management mechanism by which the plan for installation is reviewed.",
+        "defLaTeX": "A project management mechanism by which the plan for installation is reviewed",
         "term": "installation readiness review",
         "termHTML": "installation readiness review",
         "type": "abbrev"
@@ -2322,8 +2459,8 @@
     "jpo": {
         "abbrev": "JPO",
         "abbrevHTML": "JPO",
-        "defHTML": "The framework through which team members from the LBNF project office, <a href=\"#integoff\">integration project</a>, and DUNE <a href=\"#tc\">TCN</a> work together to provide coherence in project support functions across the global enterprise.JPO functions include systems engineering, procurement, <a href=\"#esh\">ES&amp;H</a>, <a href=\"#qa\">QA</a>, finance, project controls, risk management, compliance, internal review, partner agreement management, document management, and administrative support.",
-        "defLaTeX": "The framework through which team members from the LBNF project office, \\gls{integoff}, and DUNE \\gls{tc} work together to provide coherence in project support functions across the global enterprise.JPO functions include systems engineering, procurement, \\gls{esh}, \\gls{qa}, finance, project controls, risk management, compliance, internal review, partner agreement management, document management, and administrative support",
+        "defHTML": "The framework used to facilitate close and coherent coordination across all elements with many shared management resources;JPO functions include systems engineering, procurement, <a href=\"#esh\">ES&amp;H</a>, <a href=\"#qa\">QA</a>, finance, project controls, risk management, compliance, internal reviews, partner agreement management, document management, and administrative support.",
+        "defLaTeX": "The framework used to facilitate close and coherent coordination across all elements with many shared management resources;JPO functions include systems engineering, procurement, \\gls{esh}, \\gls{qa}, finance, project controls, risk management, compliance, internal reviews, partner agreement management, document management, and administrative support",
         "term": "Joint Project Office",
         "termHTML": "Joint Project Office",
         "type": "abbrev"
@@ -2336,8 +2473,8 @@
         "type": "word"
     },
     "kerberos": {
-        "defHTML": "A strong authentication system used by the computing resources at Fermilab and CERN.",
-        "defLaTeX": "A strong authentication system used by the computing resources at Fermilab and CERN",
+        "defHTML": "A strong authentication system used by the computing resources at <a href=\"#fnal\">Fermilab</a> and <a href=\"#cern\">CERN</a>.",
+        "defLaTeX": "A strong authentication system used by the computing resources at \\gls{fnal} and \\gls{cern}",
         "term": "Kerberos",
         "termHTML": "Kerberos",
         "type": "word"
@@ -2429,6 +2566,13 @@
         "termHTML": "liquid argon time-projection chamber",
         "type": "abbrev"
     },
+    "larzic": {
+        "defHTML": "The cryogenic amplifier that is the principal component of the <a href=\"#spvd\">FD2-VD</a> top drift analog cards.",
+        "defLaTeX": "The cryogenic amplifier \\dword{asic} that is the principal component of the \\gls{spvd} top drift \\dword{fe} analog cards",
+        "term": "LARZIC",
+        "termHTML": "LARZIC",
+        "type": "word"
+    },
     "las": {
         "abbrev": "LAS",
         "abbrevHTML": "LAS",
@@ -2466,8 +2610,8 @@
         "type": "abbrev"
     },
     "lbne": {
-        "defHTML": "Long Baseline Neutrino Experiment; (1) a terminated U.S. experiment that was reformulated in 2014 under the auspices of the new <a href=\"#dune\">DUNE</a> collaboration, an internationally coordinated and internationally funded program, with <a href=\"#fnal\">Fermilab</a> as host; and (2) the former name of the DOE LBNF/DUNE Project.",
-        "defLaTeX": "Long Baseline Neutrino Experiment; (1) a terminated U.S. experiment that was reformulated in 2014 under the auspices of the new \\gls{dune} collaboration, an internationally coordinated and internationally funded program, with \\gls{fnal} as host; and (2) the former name of the DOE LBNF/DUNE Project",
+        "defHTML": "Long Baseline Neutrino Experiment; (1) a terminated U.S. experiment that was reformulated in 2014 under the auspices of the new <a href=\"#dune\">DUNE</a> collaboration, an internationally coordinated and internationally funded program, with <a href=\"#fnal\">Fermilab</a> as host; and (2) the former incarnation of <a href=\"#usproj\">LBNF/DUNE-US</a>.",
+        "defLaTeX": "Long Baseline Neutrino Experiment; (1) a terminated U.S. experiment that was reformulated in 2014 under the auspices of the new \\gls{dune} collaboration, an internationally coordinated and internationally funded program, with \\gls{fnal} as host; and (2) the former incarnation of \\gls{usproj} ",
         "term": "LBNE",
         "termHTML": "LBNE",
         "type": "word"
@@ -2475,8 +2619,8 @@
     "lbnf": {
         "abbrev": "LBNF",
         "abbrevHTML": "LBNF",
-        "defHTML": "The project scope and organizational entity responsible for developing the neutrino beam, the cryostats and cryogenics systems, and the conventional facilities for DUNE.",
-        "defLaTeX": "The project scope and  organizational entity responsible for developing the neutrino beam, the cryostats  and cryogenics systems, and the conventional facilities for DUNE",
+        "defHTML": "Long-Baseline Neutrino Facility; refers to the facilities that support the experiment including in-kind contributions under the line-item project. The portion of <a href=\"#usproj\">LBNF/DUNE-US</a> responsible for developing the neutrino beam, the far site cryostats, and far and near site cryogenics systems, and the conventional facilities, including the excavations.",
+        "defLaTeX": "Long-Baseline Neutrino Facility; refers to the facilities that support the experiment including in-kind contributions under the line-item project. The portion of \\gls{usproj} responsible for developing the neutrino beam, the far site cryostats,  and far and near site cryogenics systems, and the conventional facilities, including the excavations ",
         "term": "Long-Baseline Neutrino Facility",
         "termHTML": "Long-Baseline Neutrino Facility",
         "type": "abbrev"
@@ -2484,8 +2628,8 @@
     "lbnf-dune": {
         "abbrev": "LBNF/DUNE",
         "abbrevHTML": "LBNF/DUNE",
-        "defHTML": "The overall enterprise including the LBNF/DUNE-US <a href=\"#doe\">DOE</a> project, other international contributing projects, and the <a href=\"#dune\">DUNE</a> collaboration and experiment.",
-        "defLaTeX": "The overall enterprise including the LBNF/DUNE-US \\gls{doe} project, other international contributing projects, and the \\gls{dune} collaboration and experiment",
+        "defHTML": "Long-Baseline Neutrino Facility/Deep Underground Neutrino Experiment; refers to the overall enterprise or program including <a href=\"#usproj\">LBNF/DUNE-US</a>, participating international projects, and the <a href=\"#dune\">DUNE</a> experiment and collaboration.",
+        "defLaTeX": "Long-Baseline Neutrino Facility/Deep Underground Neutrino Experiment; refers to the overall enterprise or program including \\gls{usproj}, participating international projects, and the \\gls{dune} experiment and collaboration",
         "term": "LBNF and DUNE enterprise",
         "termHTML": "LBNF and DUNE enterprise",
         "type": "abbrev"
@@ -2493,10 +2637,10 @@
     "lbnfspac": {
         "abbrev": "LBNF/DUNE-US SPAC",
         "abbrevHTML": "LBNF/DUNE-US SPAC",
-        "defHTML": "A committee charged by the host laboratory director to provide expert, independent advice on significant issues and strategies related to LBNF/DUNE-US project organization, management, and risks.",
-        "defLaTeX": "A committee charged by the host laboratory director to provide expert, independent advice on significant issues and strategies related to LBNF/DUNE-US project organization, management, and risks",
-        "term": "LBNF/DUNE-US Strategic Project Advisory Committee",
-        "termHTML": "LBNF/DUNE-US Strategic Project Advisory Committee",
+        "defHTML": "A committee charged by the host laboratory director to provide expert, independent advice on significant issues and strategies related to <a href=\"#usproj\">LBNF/DUNE-US</a> project organization, management, and risks.",
+        "defLaTeX": "A committee charged by the host laboratory director to provide expert, independent advice on significant issues and strategies related to \\gls{usproj} project organization, management, and risks",
+        "term": "LBNF / DUNE-US Strategic Project Advisory Committee",
+        "termHTML": "LBNF / DUNE-US Strategic Project Advisory Committee",
         "type": "abbrev"
     },
     "lbnl": {
@@ -2628,8 +2772,8 @@
     "lro": {
         "abbrev": "LRO",
         "abbrevHTML": "LRO",
-        "defHTML": "The system for detecting scintillation photons in a <a href=\"#dp\">DP</a> detector module.",
-        "defLaTeX": "The system for detecting  scintillation photons in a \\gls{dp}  detector module",
+        "defHTML": "The system for detecting scintillation photons in a <a href=\"#lartpc\">LArTPC</a> detector module.",
+        "defLaTeX": "The system for detecting  scintillation photons in a \\gls{lartpc} detector module",
         "term": "light readout",
         "termHTML": "light readout",
         "type": "abbrev"
@@ -2682,6 +2826,15 @@
         "termHTML": "LVDS",
         "type": "word"
     },
+    "ly": {
+        "abbrev": "LY",
+        "abbrevHTML": "LY",
+        "defHTML": "detected photons per unit deposited energy.",
+        "defLaTeX": "detected photons per unit deposited energy",
+        "term": "light yield",
+        "termHTML": "light yield",
+        "type": "abbrev"
+    },
     "lz": {
         "defHTML": "Experiment sited at <a href=\"#surf\">SURF</a> that seeks to detect faint interactions between galactic dark matter and regular matter.",
         "defLaTeX": "Experiment sited at \\gls{surf} that  seeks to detect faint interactions between galactic dark matter and regular matter",
@@ -2710,8 +2863,8 @@
     "mch": {
         "abbrev": "MCH",
         "abbrevHTML": "MCH",
-        "defHTML": "An network switching device.",
-        "defLaTeX": "An network switching device",
+        "defHTML": "A network switching device.",
+        "defLaTeX": "A network switching device",
         "term": "MicroTCA Carrier Hub",
         "termHTML": "MicroTCA Carrier Hub",
         "type": "abbrev"
@@ -2755,8 +2908,8 @@
     "mi": {
         "abbrev": "MI",
         "abbrevHTML": "MI",
-        "defHTML": "An accelerator at <a href=\"#fnal\">Fermilab</a> that provides a beam of high-energy protons that upon striking a target produce secondaries that decay to provide the neutrinos directed toward the DUNE far detector.",
-        "defLaTeX": "An accelerator at  \\gls{fnal} that provides a beam of high-energy protons that upon  striking a target produce secondaries that decay to provide the  neutrinos directed toward the DUNE far detector",
+        "defHTML": "An accelerator at <a href=\"#fnal\">Fermilab</a> that provides a beam of high-energy protons to the the <a href=\"#usproj\">LBNF/DUNE-US</a> beamline.",
+        "defLaTeX": "An accelerator at  \\gls{fnal} that provides a beam of high-energy protons to the the \\gls{usproj}  beamline",
         "term": "Fermilab Main Injector",
         "termHTML": "Fermilab Main Injector",
         "type": "abbrev"
@@ -2857,6 +3010,13 @@
         "termHTML": "memorandum of agreement",
         "type": "abbrev"
     },
+    "mod0": {
+        "defHTML": "The final pre-production instance of a detector; for the DUNE <a href=\"#detmodule\">far detector modules</a>, these will use the 800\u2006t cryostats in <a href=\"#np02\">NP02</a> and <a href=\"#np04\">NP04</a>.",
+        "defLaTeX": "The final pre-production instance of a detector; for the DUNE \\glspl{detmodule}, these will use the 800\\,t cryostats in \\gls{np02} and \\gls{np04}",
+        "term": "Module 0",
+        "termHTML": "Module 0",
+        "type": "word"
+    },
     "module": {
         "defHTML": "Many aspects of the DUNE far and near detectors are modular, so \"module\" must be understood in context. It may refer to one of the four far detector modules, distinct portions of a subdetector as in a \"field cage module,\" a software or electronics module, e.g., a separate framework plug-in, and so on.",
         "defLaTeX": "Many aspects of the DUNE far and near detectors are modular, so ``module'' must be understood in context. It may refer to one of the four far detector modules, distinct portions of a subdetector as in a ``field cage module,'' a software or electronics module, e.g., a separate framework plug-in, and so on",
@@ -2944,6 +3104,13 @@
         "termHTML": "Mikheyev-Smirnov-Wolfenstein effect",
         "type": "abbrev"
     },
+    "mtbf": {
+        "defHTML": "mean time between failures.",
+        "defLaTeX": "mean time between failures",
+        "term": "MTBF",
+        "termHTML": "MTBF",
+        "type": "word"
+    },
     "mtl": {
         "abbrev": "MTL",
         "abbrevHTML": "MTL",
@@ -3018,8 +3185,8 @@
     "nd": {
         "abbrev": "ND",
         "abbrevHTML": "ND",
-        "defHTML": "Refers to the detector(s) installed close to the neutrino source at <a href=\"#fnal\">Fermilab</a>.",
-        "defLaTeX": "Refers to the detector(s) installed close to the neutrino source at \\gls{fnal} ",
+        "defHTML": "Refers to the collection of detector components installed close to the neutrino source at <a href=\"#fnal\">Fermilab</a>; also a subproject of <a href=\"#usproj\">LBNF/DUNE-US</a> that includes installation, infrastructure, and the cryogenics systems.",
+        "defLaTeX": "Refers to the collection of detector components installed close to the neutrino source at \\gls{fnal}; also a subproject of \\gls{usproj} that  includes  installation, infrastructure, and the cryogenics systems",
         "term": "near detector",
         "termHTML": "near detector",
         "type": "abbrev"
@@ -3153,15 +3320,15 @@
         "type": "word"
     },
     "np02": {
-        "defHTML": "Experiment in the CERN North Area <a href=\"#h2\">H2</a> hadron beamline; <a href=\"#pddp\">ProtoDUNE-DP</a>.",
-        "defLaTeX": "Experiment in the CERN North Area \\gls{h2} hadron beamline;  \\gls{pddp}",
+        "defHTML": "The CERN North Area in <a href=\"#ehn1\">EHN1</a> intersected by the <a href=\"#h2\">H2</a> hadron beamline, the location of the 800\u2006t cryostat used for <a href=\"#pddp\">ProtoDUNE-DP</a> and for <a href=\"#spvd\">FD2-VD</a> tests and prototypes; also used to refer to the 800\u2006t cryostat in this area.",
+        "defLaTeX": "The CERN North Area in \\gls{ehn1} intersected by the \\gls{h2} hadron beamline, the location of  the 800\\,t cryostat used for \\gls{pddp} and for \\gls{spvd} tests and prototypes; also used to refer to the 800\\,t cryostat in this area",
         "term": "NP02",
         "termHTML": "NP02",
         "type": "word"
     },
     "np04": {
-        "defHTML": "Experiment in the CERN North Area <a href=\"#h4\">H4</a> hadron beamline; <a href=\"#pdsp\">ProtoDUNE-SP</a>.",
-        "defLaTeX": "Experiment in the CERN North Area \\gls{h4} hadron beamline;  \\gls{pdsp}",
+        "defHTML": "The CERN North Area in <a href=\"#ehn1\">EHN1</a> intersected by the <a href=\"#h4\">H4</a> hadron beamline, the location of <a href=\"#pdsp\">ProtoDUNE-SP</a>; also used to refer to the 800\u2006t cryostat in this area.",
+        "defLaTeX": "The CERN North Area in \\gls{ehn1} intersected by the \\gls{h4} hadron beamline, the location of  \\gls{pdsp}; also used to refer to the 800\\,t cryostat in this area",
         "term": "NP04",
         "termHTML": "NP04",
         "type": "word"
@@ -3170,9 +3337,9 @@
         "abbrev": "NSCF",
         "abbrevHTML": "NSCF",
         "defHTML": "The <a href=\"#cf\">CF</a> at the DUNE near detector site, <a href=\"#fnal\">Fermilab</a>.",
-        "defLaTeX": "The  \\gls{cf} at the DUNE near detector site, \\gls{fnal}",
-        "term": "near site conventional facilities",
-        "termHTML": "near site conventional facilities",
+        "defLaTeX": "The \\gls{cf} at the DUNE near detector site, \\gls{fnal}",
+        "term": "Near Site Conventional Facilities",
+        "termHTML": "Near Site Conventional Facilities",
         "type": "abbrev"
     },
     "nsi": {
@@ -3326,8 +3493,8 @@
     "orr": {
         "abbrev": "ORR",
         "abbrevHTML": "ORR",
-        "defHTML": "A project management device by which the operational readiness is reviewed.",
-        "defLaTeX": "A project management device by which the operational readiness is reviewed",
+        "defHTML": "A project management mechanism by which the operational readiness is reviewed.",
+        "defLaTeX": "A project management mechanism by which the operational readiness is reviewed",
         "term": "operational readiness review",
         "termHTML": "operational readiness review",
         "type": "abbrev"
@@ -3349,8 +3516,8 @@
         "type": "word"
     },
     "p6": {
-        "defHTML": "framework used to plan and status the resource-loaded schedule of activities associated with the USA contributions to <a href=\"#lbnf\">LBNF</a> and <a href=\"#dune\">DUNE</a>.",
-        "defLaTeX": "framework used to plan and status the resource-loaded schedule of activities associated with the USA contributions to \\gls{lbnf} and \\gls{dune} ",
+        "defHTML": "software framework used to plan and status the resource-loaded schedule of activities associated with <a href=\"#usproj\">LBNF/DUNE-US</a>.",
+        "defLaTeX": "software framework used to plan and status the resource-loaded schedule of activities associated with \\gls{usproj}",
         "term": "P6",
         "termHTML": "P6",
         "type": "word"
@@ -3388,8 +3555,8 @@
         "type": "word"
     },
     "pcbp": {
-        "defHTML": "In the <a href=\"#spvd\">SPVD</a> design, one of four 1.5\u00a0\u00d7\u00a01.7\u00a0m assembled into a <a href=\"#cru\">CRU</a>.",
-        "defLaTeX": "In the \\gls{spvd} design, one of four \\SI{1.5x1.7}{m} assembled into a \\gls{cru}",
+        "defHTML": "In the <a href=\"#spvd\">FD2-VD</a> design, one of four <a href=\"#pcb\">PCBs</a> of size 1.5\u00a0\u00d7\u00a01.7\u00a0m assembled into a <a href=\"#cru\">CRU</a>.",
+        "defLaTeX": "In the \\gls{spvd} design, one of four \\glspl{pcb} of size  \\SI{1.5x1.7}{m} assembled into a \\gls{cru}",
         "term": "PCB panel",
         "termHTML": "PCB panel",
         "type": "word"
@@ -3410,11 +3577,32 @@
         "termHTML": "photon detector",
         "type": "abbrev"
     },
+    "pd2hd": {
+        "defHTML": "The second <a href=\"#protodune\">ProtoDUNE</a> for the <a href=\"#sphd\">FD1-HD</a> design, using <a href=\"#np04\">NP04</a>, to test installation, integration, and detector component performance.",
+        "defLaTeX": "The second \\gls{protodune} for the \\gls{sphd} design, using \\gls{np04}, to test installation, integration, and detector component performance",
+        "term": "ProtoDUNE-II-HD",
+        "termHTML": "ProtoDUNE-II-HD",
+        "type": "word"
+    },
+    "pd2vd": {
+        "defHTML": "The <a href=\"#protodune\">ProtoDUNE</a> for the <a href=\"#spvd\">FD2-VD</a> design, using <a href=\"#np02\">NP02</a>, to test installation, integration, and detector component performance.",
+        "defLaTeX": "The \\gls{protodune} for the \\gls{spvd} design, using \\gls{np02}, to test installation, integration, and detector component performance",
+        "term": "ProtoDUNE-II-VD",
+        "termHTML": "ProtoDUNE-II-VD",
+        "type": "word"
+    },
     "pddp": {
-        "defHTML": "The <a href=\"#dp\">DP</a> <a href=\"#protodune\">ProtoDUNE</a> detector at <a href=\"#cern\">CERN</a>.",
-        "defLaTeX": "The \\gls{dp} \\gls{protodune} detector at \\gls{cern}",
+        "defHTML": "The <a href=\"#dp\">DP</a> <a href=\"#protodune\">ProtoDUNE</a> detector constructed at <a href=\"#cern\">CERN</a> in <a href=\"#np02\">NP02</a>.",
+        "defLaTeX": "The \\gls{dp} \\gls{protodune} detector constructed at \\gls{cern} in \\gls{np02}",
         "term": "ProtoDUNE-DP",
         "termHTML": "ProtoDUNE-DP",
+        "type": "word"
+    },
+    "pde": {
+        "defHTML": "photo detection efficiency.",
+        "defLaTeX": "photo detection efficiency",
+        "term": "PDE",
+        "termHTML": "PDE",
         "type": "word"
     },
     "pdg": {
@@ -3448,8 +3636,8 @@
         "type": "abbrev"
     },
     "pdsp": {
-        "defHTML": "The <a href=\"#sphd\">SPHD</a> <a href=\"#protodune\">ProtoDUNE</a> detector at <a href=\"#cern\">CERN</a>.",
-        "defLaTeX": "The \\gls{sphd} \\gls{protodune} detector at \\gls{cern}",
+        "defHTML": "The <a href=\"#sphd\">FD1-HD</a> <a href=\"#protodune\">ProtoDUNE</a> detector constructed at <a href=\"#cern\">CERN</a> in <a href=\"#np04\">NP04</a>.",
+        "defLaTeX": "The \\gls{sphd} \\gls{protodune} detector constructed at \\gls{cern}  in \\gls{np04}",
         "term": "ProtoDUNE-SP",
         "termHTML": "ProtoDUNE-SP",
         "type": "word"
@@ -3469,6 +3657,13 @@
         "term": "photoelectron",
         "termHTML": "photoelectron",
         "type": "abbrev"
+    },
+    "peek": {
+        "defHTML": "Polyether ether ketone, a colorless organic thermoplastic polymer.",
+        "defLaTeX": "Polyether ether ketone, a colorless organic thermoplastic polymer",
+        "term": "PEEK",
+        "termHTML": "PEEK",
+        "type": "word"
     },
     "pep4": {
         "defHTML": "TPC for the Positron Electron Project 4 Collider at Stanford.",
@@ -3556,6 +3751,13 @@
         "termHTML": "Pontecorvo-Maki-Nakagawa-Sakata",
         "type": "abbrev"
     },
+    "pmos": {
+        "defHTML": "(see <a href=\"#cmos\">CMOS</a>; PMOS is constructed with the p-type source and drain and an n-type substrate.",
+        "defLaTeX": "(see \\gls{cmos}; PMOS is constructed with the p-type source and drain and an n-type substrate",
+        "term": "PMOS",
+        "termHTML": "PMOS",
+        "type": "word"
+    },
     "pmt": {
         "abbrev": "PMT",
         "abbrevHTML": "PMT",
@@ -3590,6 +3792,33 @@
         "termHTML": "pulsed neutron source",
         "type": "abbrev"
     },
+    "poe": {
+        "abbrev": "PoE",
+        "abbrevHTML": "PoE",
+        "defHTML": "systems that pass electric power along with data on twisted-pair Ethernet cabling.",
+        "defLaTeX": "systems that pass electric power along with data on twisted-pair Ethernet cabling",
+        "term": "power-over-Ethernet",
+        "termHTML": "power-over-Ethernet",
+        "type": "abbrev"
+    },
+    "pof": {
+        "abbrev": "PoF",
+        "abbrevHTML": "PoF",
+        "defHTML": "a technology in which a fiber optic cable carries optical power, which is used as an energy source rather than, or as well as, carrying data; this allows a device to be remotely powered, while providing electrical isolation between the device and the power supply.",
+        "defLaTeX": "a technology in which a fiber optic cable carries optical power, which is used as an energy source rather than, or as well as, carrying data; this allows a device to be remotely powered, while providing electrical isolation between the device and the power supply",
+        "term": "power-over-fiber",
+        "termHTML": "power-over-fiber",
+        "type": "abbrev"
+    },
+    "poms": {
+        "abbrev": "POMS",
+        "abbrevHTML": "POMS",
+        "defHTML": "A workflow management system available for all DUNE users to submit and monitor grid jobs as well as view job log files.",
+        "defLaTeX": "A workflow management system available for all DUNE users to submit and monitor grid jobs as well as view job log files",
+        "term": "Production Operations Management System",
+        "termHTML": "Production Operations Management System",
+        "type": "abbrev"
+    },
     "pot": {
         "abbrev": "POT",
         "abbrevHTML": "POT",
@@ -3602,11 +3831,18 @@
     "ppb": {
         "abbrev": "ppb",
         "abbrevHTML": "ppb",
-        "defHTML": "A concentration equal to one part in <span class=\"math inline\">10<sup>\u2005\u2212\u20059</sup></span>.",
-        "defLaTeX": "A concentration equal to one part in $10^{-9}$",
+        "defHTML": "A concentration equal to one part in <span class=\"math inline\">10<sup>9</sup></span>.",
+        "defLaTeX": "A concentration equal to one part in $10^{9}$",
         "term": "parts per billion",
         "termHTML": "parts per billion",
         "type": "abbrev"
+    },
+    "ppc": {
+        "defHTML": "photovoltaic power converter.",
+        "defLaTeX": "photovoltaic power converter",
+        "term": "PPC",
+        "termHTML": "PPC",
+        "type": "word"
     },
     "ppe": {
         "abbrev": "PPE",
@@ -3620,8 +3856,8 @@
     "ppm": {
         "abbrev": "ppm",
         "abbrevHTML": "ppm",
-        "defHTML": "A concentration equal to one part in <span class=\"math inline\">10<sup>\u2005\u2212\u20056</sup></span>.",
-        "defLaTeX": "A concentration equal to one part in $10^{-6}$",
+        "defHTML": "A concentration equal to one part in <span class=\"math inline\">10<sup>6</sup></span>.",
+        "defLaTeX": "A concentration equal to one part in $10^{6}$",
         "term": "parts per million",
         "termHTML": "parts per million",
         "type": "abbrev"
@@ -3629,8 +3865,8 @@
     "ppr": {
         "abbrev": "PPR",
         "abbrevHTML": "PPR",
-        "defHTML": "A project management device by which the progress of production is reviewed.",
-        "defLaTeX": "A project management device by which the progress of production is reviewed",
+        "defHTML": "A project management mechanism by which the progress of production is reviewed.",
+        "defLaTeX": "A project management mechanism by which the progress of production is reviewed",
         "term": "production progress review",
         "termHTML": "production progress review",
         "type": "abbrev"
@@ -3647,8 +3883,8 @@
     "ppt": {
         "abbrev": "ppt",
         "abbrevHTML": "ppt",
-        "defHTML": "A concentration equal to one part in <span class=\"math inline\">10<sup>\u2005\u2212\u200512</sup></span>.",
-        "defLaTeX": "A concentration equal to one part in $10^{-12}$",
+        "defHTML": "A concentration equal to one part in <span class=\"math inline\">10<sup>12</sup></span>.",
+        "defLaTeX": "A concentration equal to one part in $10^{12}$",
         "term": "parts per trillion",
         "termHTML": "parts per trillion",
         "type": "abbrev"
@@ -3670,8 +3906,8 @@
     "prr": {
         "abbrev": "PRR",
         "abbrevHTML": "PRR",
-        "defHTML": "A project management device by which the production readiness is reviewed.",
-        "defLaTeX": "A project management device by which the production readiness is reviewed",
+        "defHTML": "A project management mechanism by which the production readiness is reviewed.",
+        "defLaTeX": "A project management mechanism by which the production readiness is reviewed",
         "term": "production readiness review",
         "termHTML": "production readiness review",
         "type": "abbrev"
@@ -4136,8 +4372,8 @@
     "sftchimney": {
         "abbrev": "SFT chimney",
         "abbrevHTML": "SFT chimney",
-        "defHTML": "In the <a href=\"#dp\">DP</a> technology, a volume above the cryostat penetration used for a signal feedthrough.",
-        "defLaTeX": "In the \\gls{dp} technology, a volume above the cryostat penetration used for a signal feedthrough",
+        "defHTML": "A volume above the cryostat penetration used for a signal feedthrough.",
+        "defLaTeX": "A volume above the cryostat penetration used for a signal feedthrough",
         "term": "signal feedthrough chimney",
         "termHTML": "signal feedthrough chimney",
         "type": "abbrev"
@@ -4298,18 +4534,11 @@
         "termHTML": "SuperNovaObservatories with GLoBES",
         "type": "abbrev"
     },
-    "snr": {
-        "defHTML": "signal-to-noise ratio.",
-        "defLaTeX": "signal-to-noise ratio",
-        "term": "\\mbox{S/N}",
-        "termHTML": "S/N",
-        "type": "word"
-    },
     "sp": {
         "abbrev": "SP",
         "abbrevHTML": "SP",
-        "defHTML": "Distinguishes one of the DUNE far detector technologies by the fact that it operates using argon in its liquid phase only.",
-        "defLaTeX": "Distinguishes one of the DUNE far detector technologies by the fact that it operates using argon in its liquid phase only",
+        "defHTML": "Distinguishes a LArTPC technology by the fact that it operates using argon in its liquid phase only.",
+        "defLaTeX": "Distinguishes a LArTPC technology by the fact that it operates using argon in its liquid phase only",
         "term": "single-phase",
         "termHTML": "single-phase",
         "type": "abbrev"
@@ -4324,12 +4553,12 @@
         "type": "abbrev"
     },
     "sphd": {
-        "abbrev": "SPHD",
-        "abbrevHTML": "SPHD",
+        "abbrev": "FD1-HD",
+        "abbrevHTML": "FD1-HD",
         "defHTML": "LArTPC design in which electrons drift horizontally to wire plane anodes (<a href=\"#apa\">APAs</a>) that along with the front-end electronics are immersed in LAr.",
         "defLaTeX": "LArTPC design in which electrons drift horizontally to wire plane anodes (\\glspl{apa}) that along with the front-end electronics are immersed in LAr",
-        "term": "single-phase horizontal drift",
-        "termHTML": "single-phase horizontal drift",
+        "term": "horizontal drift technology",
+        "termHTML": "horizontal drift technology",
         "type": "abbrev"
     },
     "spi": {
@@ -4356,12 +4585,12 @@
         "type": "word"
     },
     "spvd": {
-        "abbrev": "SPVD",
-        "abbrevHTML": "SPVD",
+        "abbrev": "FD2-VD",
+        "abbrevHTML": "FD2-VD",
         "defHTML": "LArTPC design in which electrons drift vertically to PCB-based anodes at the top and bottom of the LAr volume, with a cathode in the middle.",
         "defLaTeX": "LArTPC design in which electrons drift vertically to PCB-based anodes at the top and bottom of the LAr volume, with a cathode in the middle",
-        "term": "single-phase vertical drift",
-        "termHTML": "single-phase vertical drift",
+        "term": "vertical drift technology",
+        "termHTML": "vertical drift technology",
         "type": "abbrev"
     },
     "src": {
@@ -4422,8 +4651,8 @@
     "surf": {
         "abbrev": "SURF",
         "abbrevHTML": "SURF",
-        "defHTML": "The laboratory in South Dakota where the <a href=\"#dune\">DUNE</a> <a href=\"#fd\">FD</a> will be installed and operated; also where the <a href=\"#lbnf\">LBNF</a> <a href=\"#fscf\">FSCF</a> and the <a href=\"#fs\">FS</a> cryostat and cryogenic systems will be constructed.",
-        "defLaTeX": "The laboratory in South Dakota where the \\gls{dune} \\gls{fd} will be installed and operated; also where the \\gls{lbnf} \\gls{fscf} and the \\gls{fs} cryostat and cryogenic systems will be constructed",
+        "defHTML": "The laboratory in Lead, SD, USA where the <a href=\"#dune\">DUNE</a> <a href=\"#fd\">FD</a> will be installed and operated; also where the <a href=\"#usproj\">LBNF/DUNE-US</a> <a href=\"#fscf\">FSCF</a> and the <a href=\"#fs\">FS</a> cryostat and cryogenics systems will be constructed.",
+        "defLaTeX": "The laboratory in Lead, SD, USA where the \\gls{dune} \\gls{fd} will be installed and operated; also where the \\gls{usproj} \\gls{fscf} and the \\gls{fs} cryostat and cryogenics systems will be constructed",
         "term": "Sanford Underground Research Facility",
         "termHTML": "Sanford Underground Research Facility",
         "type": "abbrev"
@@ -4449,6 +4678,13 @@
         "defLaTeX": "T2K (Tokai to Kamioka) is a long-baseline neutrino experiment in Japan studying neutrino oscillations",
         "term": "T2K",
         "termHTML": "T2K",
+        "type": "word"
+    },
+    "tai": {
+        "defHTML": "International Atomic Time.",
+        "defLaTeX": "International Atomic Time",
+        "term": "TAI",
+        "termHTML": "TAI",
         "type": "word"
     },
     "tallbo": {
@@ -4549,8 +4785,8 @@
         "abbrevHTML": "TMS",
         "defHTML": "A muon spectrometer for the Near Detector that will be installed for the initial running period of DUNE, before the <a href=\"#mpd\">MPD</a> detector component is ready.",
         "defLaTeX": "A muon spectrometer for the Near Detector that will be installed for the initial running period of DUNE, before the \\gls{mpd} detector component is ready",
-        "term": "Temporary Muon Spectrometer",
-        "termHTML": "Temporary Muon Spectrometer",
+        "term": "The Muon Spectrometer",
+        "termHTML": "The Muon Spectrometer",
         "type": "abbrev"
     },
     "tof": {
@@ -4565,7 +4801,7 @@
     "topfc": {
         "abbrev": "top FC",
         "abbrevHTML": "top FC",
-        "defHTML": "The horizontal portions of the <a href=\"#sphd\">SPHD</a> <a href=\"#fc\">FC</a> on the top of the <a href=\"#tpc\">TPC</a>.",
+        "defHTML": "The horizontal portions of the <a href=\"#sphd\">FD1-HD</a> <a href=\"#fc\">field cage</a> on the top of the <a href=\"#tpc\">TPC</a>.",
         "defLaTeX": "The horizontal portions of the \\gls{sphd} \\gls{fc}   on the top of the \\gls{tpc}",
         "term": "top field cage",
         "termHTML": "top field cage",
@@ -4592,8 +4828,8 @@
     "tpc": {
         "abbrev": "TPC",
         "abbrevHTML": "TPC",
-        "defHTML": "A type of particle detector that uses an E field together with a sensitive volume of gas or liquid, e.g., <a href=\"#lar\">LAr</a>, to perform a 3D reconstruction of a particle trajectory or interaction. The activity is recorded by digitizing the waveforms of current induced on the anode as the distribution of ionization charge passes by or is collected on the electrode (TPC is also used for \"total project cost\").",
-        "defLaTeX": "A type of particle detector that uses an \\efield together with a sensitive volume of gas or liquid, e.g., \\gls{lar}, to perform a \\threed reconstruction of a particle trajectory or interaction. The activity is recorded by digitizing the waveforms of current  induced on the anode as the distribution of ionization charge passes by  or is collected on the electrode (TPC is also used for ``total project cost'')",
+        "defHTML": "Depending on context, (1) a type of particle detector that uses an E field together with a sensitive volume of gas or liquid, e.g., <a href=\"#lar\">LAr</a>, to perform a 3D reconstruction of a particle trajectory or interaction. The activity is recorded by digitizing the waveforms of current induced on the anode as the distribution of ionization charge passes by or is collected on the electrode. (2) TPC is also used in <a href=\"#usproj\">LBNF/DUNE-US</a> for \"total project cost\".",
+        "defLaTeX": "Depending on context, (1) a type of particle detector that uses an \\efield together with a sensitive volume of gas or liquid, e.g., \\gls{lar}, to perform a \\threed reconstruction of a particle trajectory or interaction. The activity is recorded by digitizing the waveforms of current  induced on the anode as the distribution of ionization charge passes by  or is collected on the electrode. (2) TPC is also used in \\gls{usproj} for ``total project cost''",
         "term": "time projection chamber",
         "termHTML": "time projection chamber",
         "type": "abbrev"
@@ -4649,13 +4885,6 @@
         "defLaTeX": "Information derived by  the \\gls{daq} \\gls{fe} hardware that describes a region of space (e.g.,  one or several neighboring channels) and time (e.g., a contiguous set  of \\gls{adc} sample ticks) associated with some activity",
         "term": "trigger primitive",
         "termHTML": "trigger primitive",
-        "type": "word"
-    },
-    "tsmc": {
-        "defHTML": "Taiwan Semiconductor Manufacturing Company.",
-        "defLaTeX": "Taiwan Semiconductor Manufacturing Company",
-        "term": "TSMC",
-        "termHTML": "TSMC",
         "type": "word"
     },
     "tvs": {
@@ -4747,11 +4976,18 @@
         "termHTML": "UNIX product support",
         "type": "abbrev"
     },
+    "usproj": {
+        "defHTML": "Long-Baseline Neutrino Facility/Deep Underground Neutrino Experiment - United States; project to design and build the conventional and beamline facilities and the <a href=\"#doe\">DOE</a> contributions to the detectors. It is organized as a <a href=\"#doe\">DOE</a>/<a href=\"#fnal\">Fermilab</a> project and incorporates contributions to the facilities from international partners. It also acts as host for the installation and integration of the DUNE detectors.",
+        "defLaTeX": "Long-Baseline Neutrino Facility/Deep Underground Neutrino Experiment - United States; project to design and build the conventional and beamline facilities and the \\gls{doe} contributions to the detectors. It is organized as a \\gls{doe}/\\gls{fnal} project and incorporates contributions to the facilities from international partners. It also acts as host for the installation and integration of the DUNE detectors",
+        "term": "LBNF/DUNE-US",
+        "termHTML": "LBNF/DUNE-US",
+        "type": "word"
+    },
     "utca": {
         "abbrev": "$\\mu$TCA",
         "abbrevHTML": "<span class=\"math inline\"><em>\u03bc</em></span>TCA",
-        "defHTML": "The computer architecture specification followed by the crates that house charge and light readout electronics in the <a href=\"#dpmod\">DP module</a>.",
-        "defLaTeX": "The computer architecture specification followed by the crates that house charge and light readout electronics in the \\gls{dpmod}",
+        "defHTML": "The computer architecture specification followed by the crates that house charge and light readout electronics; used in the <a href=\"#spvd\">FD2-VD</a> and <a href=\"#dp\">DP</a> technologies.",
+        "defLaTeX": "The computer architecture specification followed by the crates that house charge and light readout electronics; used in the \\gls{spvd} and \\gls{dp} technologies",
         "term": "Micro Telecommunications Computing Architecture",
         "termHTML": "Micro Telecommunications Computing Architecture",
         "type": "abbrev"
@@ -4770,6 +5006,13 @@
         "defLaTeX": "A neutrino oscillation fitting framework that is used by \\gls{t2k}; the name stands for VALencia-Oxford-Rutherford, the original three institutions that developed it",
         "term": "VALOR",
         "termHTML": "VALOR",
+        "type": "word"
+    },
+    "vdmod": {
+        "defHTML": "vertical drift DUNE <a href=\"#fd\">FD</a> module.",
+        "defLaTeX": "vertical drift DUNE \\gls{fd} module",
+        "term": "vertical drift module",
+        "termHTML": "vertical drift module",
         "type": "word"
     },
     "vo": {
@@ -4857,7 +5100,7 @@
         "type": "word"
     },
     "wire board": {
-        "defHTML": "At the head end of the APA in the <a href=\"#sphd\">SPHD</a> <a href=\"#tpc\">TPC</a>, stacks of electronics boards referred to as \"wire boards\" are arrayed to anchor the wires. They also provide the connection between the wires and the cold electronics.",
+        "defHTML": "At the head end of the APA in the <a href=\"#sphd\">FD1-HD</a> <a href=\"#tpc\">TPC</a>, stacks of electronics boards referred to as \"wire boards\" are arrayed to anchor the wires. They also provide the connection between the wires and the cold electronics.",
         "defLaTeX": "At the head end of the APA in the \\gls{sphd} \\gls{tpc}, stacks of electronics boards referred to as ``wire boards'' are arrayed to anchor the wires.  They also provide the connection between the wires and the cold electronics",
         "term": "wire board",
         "termHTML": "wire board",

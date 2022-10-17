@@ -83,8 +83,8 @@
 \newduneword{nasa}{NASA}{U.S. National Aereonautics and Space Administration}
 
 %near detector
-\newduneabbrev{nd}{ND}{near detector}{Refers to the collection of detector components %or more  generally the experimental site
- installed close to the neutrino source at \gls{fnal}; also a subproject of \gls{usproj} that  includes  installation, infrastructure, and the cryogenics systems} %updated 19 nov 21
+\newduneabbrev{nd}{ND}{near detector}{Refers to the collection of \gls{dune} detector components %or more  generally the experimental site
+ installed close to the neutrino source at \gls{fnal}; also a subproject of \gls{usproj} that  includes  installation, infrastructure, and the cryogenics systems for this detector} %updated 19 nov 21
 
 %far detector
 \newduneabbrev{fd}{FD}{far detector}{The \SI{70}{kt} total (\fdfiducialmass fiducial) mass \gls{lartpc} DUNE detector, composed of four \larmass total (\nominalmodsize fiducial) mass modules,  %or more generally the experimental 
@@ -92,7 +92,7 @@
   Lead, SD, USA}
 
 %single-phase
-\newduneabbrev{sp}{SP}{single-phase}{Distinguishes a LArTPC technology by the fact that it operates using argon in its liquid phase only} %11 may 21 {Distinguishes one of the DUNE far detector technologies by the fact that it operates using argon in its liquid phase only}
+\newduneabbrev{sp}{SP}{single-phase}{Distinguishes a \gls{lartpc} technology by the fact that it operates using argon in its liquid phase only; a legacy \gls{dune} term now replaced by \gls{hd} and \gls{vd}} %11 may 21 {Distinguishes one of the DUNE far detector technologies by the fact that it operates using argon in its liquid phase only}
   
 
 %dual-phase
@@ -108,7 +108,7 @@
   subsystem that provides the \gls{tpc} drift field}
 
 %time projection chamber
-\newduneabbrev{tpc}{TPC}{time projection chamber}{Depending on context, (1) a type of particle detector that uses an \efield together with a sensitive volume of gas or liquid, e.g., \gls{lar}, to perform a \threed reconstruction of a particle trajectory or interaction. The activity is recorded by digitizing the waveforms of current
+\newduneabbrev{tpc}{TPC}{time projection chamber}{Depending on context: (1) A type of particle detector that uses an \efield together with a sensitive volume of gas or liquid, e.g., \gls{lar}, to perform a \threed reconstruction of a particle trajectory or interaction. The activity is recorded by digitizing the waveforms of current
   induced on the anode as the distribution of ionization charge passes by
   or is collected on the electrode. (2) TPC is also used in \gls{usproj} for ``total project cost''} 
 
@@ -218,11 +218,10 @@ output signal whose phase is related to the phase of an input signal}  %leave up
 \newduneword{pnp}{PNP}{Type of bipolar junction transistor consistning of a
 layer of N-doped semiconductor sandwiched between two layers of P-doped material}
 
-\newduneword{spice}{SPICE}{SPICE
-(``Simulation Program with Integrated Circuit Emphasis'') is a general-purpose, 
+\newduneabbrev{spice}{SPICE}{Simulation Program with Integrated Circuit Emphasis}{a general-purpose, 
 open-source analog electronic circuit simulator. It is a program used in integrated 
 circuit and board-level design to check the integrity of circuit designs and to 
-predict circuit behavior}
+predict circuit behavior} % Anne updated to abbrev oct 2022
 
 %data acquisition
 \newduneabbrev{daq}{DAQ}{data acquisition}{The data acquisition system
@@ -237,10 +236,9 @@ predict circuit behavior}
 \newduneword{calci}{CALCI}{Calibration and Cryogenic Instrumentation}
 
 %detector module
-\newduneword{detmodule}{far detector module}{The entire DUNE far detector is
-  segmented into four modules, each with a total/fiducial mass of approximately \SI{17}{\kton}/\SI{10}{\kton}}
+\newduneword{detmodule}{far detector module}{The entire DUNE far detector design calls for segmentation into  four modules,  each with a total/fiducial mass of approximately \SI{17}{\kton}/\SI{10}{\kton}}
   
-\newduneword{module}{module}{Many aspects of the DUNE far and near detectors are modular, so ``module'' must be understood in context. It may refer to one of the four far detector modules, distinct portions of a subdetector as in a ``field cage module,'' a software or electronics module, e.g., a separate framework plug-in, and so on}
+\newduneword{module}{module}{Many aspects of the DUNE far and near detectors are modular, so ``module'' must be understood in context.  It may refer to one of the four far detector modules,  distinct portions of a subdetector as in a ``field cage module,'' a software or electronics module,  e.g., a separate framework plug-in,  and so on}
 
 %detector unit  
 \newduneword{detunit}{detector unit}{A portion of a \gls{detmodule} may be further partitioned into a number of similar parts.   For example, the \gls{sphd} \gls{tpc} is made up of \gls{apa}  units (and other elements)}
@@ -271,7 +269,7 @@ predict circuit behavior}
 %  \gls{submodule} (elim by anne)
   portion of a \gls{detmodule} sufficient to collect all data likely relevant to
   a potential \gls{snb}}
-\newduneabbrev{etf}{ETF}{Experiment Test Framework}{\gls{wlcg} testing middleware running grid jobs that actively test distributed sites services and capabilities, and report back to monitoring services}
+\newduneabbrev{etf}{ETF}{Experiment Test Framework}{\gls{wlcg} testing middleware that runs grid jobs that actively test distributed sites' services and capabilities,  and reports back to monitoring services}
 
 %Global Trigger Logic
 \newduneabbrev{etl}{ETL}{external trigger logic}{Trigger processing
@@ -325,7 +323,7 @@ predict circuit behavior}
 
 %trigger command
 \newduneword{trigcommand}{trigger command}{Information derived from
-  one or more \glspl{trigcandidate}  that directs elements of the
+  one or more \glspl{trigcandidate}  that directs elements of a
   \gls{detmodule} to read out a portion of the data stream}
 
 %trigger command message
@@ -494,8 +492,8 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
 \newduneword{sar}{SAR}{successive approximation register}
 
 %protodune
-\newduneword{protodune}{ProtoDUNE}{Either of the two DUNE prototype detectors constructed at \gls{cern}. % and operated in  a CERN test beam (expected fall 2018). 
-  One prototype implements \gls{sp} technology and the other \gls{dp}}
+\newduneword{protodune}{ProtoDUNE}{Either of the two initial DUNE prototype detectors constructed at \gls{cern}. % and operated in  a CERN test beam (expected fall 2018). 
+  One prototype implemented \gls{sp} technology and the other \gls{dp}}
   
 \newduneword{protodune2}{ProtoDUNE-II}{The second run of a \gls{protodune} detector}  % #33
 
@@ -654,14 +652,14 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
 \newduneabbrev{cpv}{CPV}{charge-parity symmetry violation}{Lack of
   symmetry in a system before and after charge and parity
   transformations are applied. 
-  For CP symmetry to hold,  a particle turns into its
- corresponding antiparticle under a charge transformation, and a parity
-transformation inverts its space coordinates, i.e. produces the mirror image}
+  For \gls{cp} symmetry to hold,  a particle turns into its
+ corresponding antiparticle under a charge transformation,  and a parity
+transformation inverts its space coordinates,  i.e. produces the mirror image}
 
 %us department of energy
 \newduneword{doe}{DOE}{U.S. Department of Energy}
 
-\newduneabbrev{fra}{FRA}{Fermi Research Alliance}{A joint partnership of the University of Chicago and the Universities Research Association (URA) that manages and operates Fermilab on behalf of the \gls{doe}}
+\newduneabbrev{fra}{FRA}{Fermi Research Alliance}{A joint partnership of the University of Chicago and the Universities Research Association (URA) that manages and operates \gls{fnal} on behalf of the \gls{doe}}
 
 %\newduneword{us}{USA}{United States of America}
 
@@ -677,7 +675,7 @@ transformation inverts its space coordinates, i.e. produces the mirror image}
 
 \newduneabbrev{odh}{ODH}{oxygen deficiency hazard}{a hazard that occurs when inert gases such as nitrogen, helium, or argon displace room air and thus reduce the percentage of oxygen below the level required for human life}
 
-\newduneabbrev{feshm}{FESHM}{Fermilab Environment, Safety and Health Manual}{The document that contains Fermilab's policies and procedures designed to manage environment, safety, and health in all its programs}
+\newduneabbrev{feshm}{FESHM}{Fermilab Environment, Safety and Health Manual}{The document that contains \gls{fnal} 's policies and procedures designed to manage environment, safety, and health in all its programs}
 
 
 %far site conventional facilities
@@ -780,7 +778,7 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
 
 
 
-\newduneabbrevs{cpa}{CPA}{cathode plane assembly}{cathode plane assemblies}{The component of the \gls{sp} detector module that provides the drift HV cathode}
+\newduneabbrevs{cpa}{CPA}{cathode plane assembly}{cathode plane assemblies}{The component of the \gls{sphd} detector module that provides the drift HV cathode}
 
 %\newduneabbrev{fc}{FC}{field cage}{The component of a \gls{lartpc} that contains and shapes the applied \efield} % update 4 aug 2021 per SPordes
 
@@ -807,7 +805,7 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
   activity is undertaken}
 
 \newduneabbrev{ecal}{ECAL}{electromagnetic calorimeter}{A detector
-  component that measures energy deposition of traversing particles (in the near detector conceptual design)}
+  component that measures energy deposition of traversing particles (in the \gls{dune} near detector design)}
 
 \newduneabbrev{hv}{HV}{high voltage}{Generally describes a voltage
   applied to drive the motion of free electrons through some media, e.g., LAr}
@@ -878,7 +876,7 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
 
 %%%%%%%%%%%%%%%%%%%%%%%%% PROJECT VOLUME list for acronyms below %%%%%%%%%%%%%%%
 
-\newduneabbrev{mou}{MoU}{memorandum of understanding}{A project management methodology that documents an agreement between \gls{fnal} and the LBNF/DUNE-US Project for how Fermilab will support the project. More generally, a document
+\newduneabbrev{mou}{MoU}{memorandum of understanding}{A project management methodology that  \gls{usproj} uses to document agreement,s,  e.g., between \gls{fnal} and the Project, for how \gls{fnal}  will support the Project. More generally, a document
   summarizing an agreement between two or more parties} % #36 elaine
 
 \newduneabbrev{pip2}{PIP-II}{Proton Improvement Plan II}{A \gls{fnal} project for
@@ -888,7 +886,7 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
 \newduneabbrev{sdsta}{SDSTA}{South Dakota Science and Technology
   Authority}{The legal entity that manages \gls{surf}, in Lead, S.D}
   
-\newduneabbrev{sdsd}{SDSD}{Fermilab South Dakota Services Division}{A Fermilab division responsible providing host laboratory functions at SURF in South Dakota}
+\newduneabbrev{sdsd}{SDSD}{Fermilab South Dakota Services Division}{A \gls{fnal}  division responsible providing host laboratory functions at SURF in South Dakota}
 
 \newduneabbrev{firus}{FIRUS}{Facility Information Reporting Utility System}
  {Facility incident reporting systems, one at \gls{fnal} and at \gls{surf}, that monitors and reports the status of various fire, security and utility sensors} % #36
@@ -1003,14 +1001,14 @@ Neutrino Facility (LBNF)''}
 
 \newduneabbrev{ce}{CE}{cold electronics}{Analog and digital readout electronics that operate at cryogenic temperatures}
 
-\newduneabbrev{crp}{CRP}{charge-readout plane}{An anode technology using a stack of perforated \glspl{pcb} with etched electrode strips to provide \gls{cro} in 3D; it has two induction layers and one collection layer} % with projecting electrodes immersed in \dword{lar}}
+\newduneabbrev{crp}{CRP}{charge-readout plane}{An anode technology using a stack of perforated \glspl{pcb} with etched electrode strips to provide \gls{cro} in 3D; it has two induction layers and one collection layer; it is used in the \gls{spvd} \gls{fd} and \gls{dp} designs} % with projecting electrodes immersed in \dword{lar}}
 %In the \gls{dp} technology, a  collection of electrodes in a planar arrangement placed at a particular voltage  relative to some applied \efield such that drifting electrons may be collected and their number and time may be measured}
 
 \newduneabbrev{dram}{DRAM}{dynamic random access memory}{A computer memory technology}
 
 
 \newduneabbrev{fnal}{Fermilab}
-{Fermi National Accelerator Laboratory}{U.S. national laboratory in Batavia, IL. It is the laboratory that hosts \gls{dune} and serves as its near site}
+{Fermi National Accelerator Laboratory}{U.S. national laboratory in Batavia, IL.  It is the laboratory that hosts \gls{lbnf} and \gls{dune}, and serves as the experiment's near site}
 
 \newduneabbrev{bnl}{BNL}{Brookhaven National Laboratory}{US national laboratory in Upton, NY}
 
@@ -1130,7 +1128,7 @@ Neutrino Facility (LBNF)''}
 
 \newduneabbrev{ppr}{PPR}{production progress review}{A project management mechanism by which the progress of production is reviewed}  % #33
 
-\newduneabbrev{edms}{EDMS}{engineering document management system}{A computerized document management system developed and supported at \gls{cern} in which some project and collaboration documents, drawings and engineering models are managed} % #36  add `lbnf' before dune
+\newduneabbrev{edms}{EDMS}{engineering document management system}{A computerized document management system developed and supported at the \gls{cern} in which some \gls{dune} project and collaboration documents, drawings and engineering models are managed} % #36  add `lbnf' before dune
 %\newduneabbrev{ecr}{ECR}{engineering change request}{The first step in the change control process in which a proposed change is described} #36 replace with bcr
 \newduneabbrev{docdb}{DocDB}{Document DataBase}{A computerized document management system developed and supported at \gls{fnal} in which most \gls{lbnf-dune} documents are managed (docs.dunescience.org); some documents are maintained in \gls{edms}}
 
@@ -1142,7 +1140,7 @@ Neutrino Facility (LBNF)''}
 \newduneabbrev{larsoft}{LArSoft}{Liquid Argon Software}{A shared base of physics software across \gls{lartpc} experiments}
 % these should be abbrevs
 \newduneword{nova}{NOvA}{The \gls{nova} off-axis neutrino oscillation experiment at \gls{fnal}}
-\newduneword{minerva}{MINERvA}{Neutrino cross sections experiment at \gls{fnal}}
+\newduneword{minerva}{MINERvA}{Neutrino cross sections experiment at \gls{fnal},  shut down in 2019}
 \newduneword{microboone}{MicroBooNE}{A \gls{lartpc} neutrino oscillation experiment at \gls{fnal}}
 \newduneword{sbnd}{SBND}{The Short-Baseline Near Detector experiment at  \gls{fnal}}
 \newduneabbrev{nexo}{nEXO}{Enriched Xenon Observatory}{Experiment at Lawrence Livermore National Laboratory (U.S. national lab in Livermore, CA) searching for new physics with neutrinoless double-beta decay}
@@ -1277,7 +1275,7 @@ Neutrino Facility (LBNF)''}
 
 \newduneabbrev{neut}{NEUT}{neutrino interaction generator}{A neutrino interaction simulation program library for the studies of atmospheric and accelerator neutrinos}
 
-\newduneword{minos}{MINOS}{A long-baseline neutrino experiment, with a near detector at \gls{fnal} and a far detector in the Soudan mine in Minnesota, designed to observe the phenomena of neutrino oscillations (ended data runs in 2012)}
+\newduneword{minos}{MINOS}{A long-baseline neutrino experiment, with a near detector at \gls{fnal} and a far detector in the Soudan mine in Minnesota,  designed to observe the phenomena of neutrino oscillations (ended data runs in 2012)}
 
 
 \newduneabbrev{efig}{EFIG}{Experimental Facilities Interface Group}{The body that provides a means to coordinate and discuss issues related to the interfaces within and between the facility and the DUNE detectors at both the \gls{fnal} and \gls{surf} sites} %The body responsible for the required high-level coordination between the project and collaboration in \gls{lbnf-dune}}
@@ -1367,8 +1365,8 @@ elastically scatters off of another particle}
 % from Schellman
 
 \newduneword{rucio}{Rucio}{Data management system originally developed
-by \gls{atlas} but now open-source and shared across HEP}
-\newduneabbrev{doma}{DOMA}{data organization, management, and access}{data organization, management, and access efforts through the HEP Software Foundation}
+by \gls{atlas} but now open-source and shared across \gls{hep}}
+\newduneabbrev{doma}{DOMA}{data organization, management, and access}{data organization, management, and access efforts through the \gls{hsf}}
 
 \newduneabbrev{hsf}{HSF}{HEP Software Foundation}{A foundation that facilitates cooperation and common efforts in high energy physics software and computing internationally} %updated 3/4/22 AH per P. Laycock
 
@@ -1448,12 +1446,12 @@ on neutron capture gamma showers spread out in the whole detector}
 \newduneabbrev{opc}{OPC}{open platform communications}{Open platform communications is a series of standards and specifications for industrial telecommunication} 
 \newduneword{scada}{SCADA}{supervisory control and data acquisition}
 \newduneword{ln}{LN$_2$}{liquid nitrogen}
-\newduneabbrev{lapd}{LAPD}{Liquid Argon Purity Demonstrator}{Cryostat at Fermilab for long-term studies requiring a large volume of argon}
+\newduneabbrev{lapd}{LAPD}{Liquid Argon Purity Demonstrator}{Cryostat at \gls{fnal}  for long-term studies requiring a large volume of argon}
 
-\newduneabbrev{pab}{PAB}{Proton Assembly Building}{Home of several \gls{lar} facilities at Fermilab}
+\newduneabbrev{pab}{PAB}{Proton Assembly Building}{Home of several \gls{lar} facilities at \gls{fnal} }
 \newduneword{hep}{HEP}{high energy physics}
 %\newduneword{sc}{SC}{scientific computing}  % #33
-\newduneword{cms}{CMS}{Compact Muon Solenoid experiment at CERN}
+\newduneword{cms}{CMS}{Compact Muon Solenoid experiment; one of two general-purpose detectors at the \gls{lhc}. }
 \newduneword{alice}{ALICE}{A Large Ion Collider Experiment, at CERN}
 \newduneword{gpib}{GPIB}{general purpose interface bus}
 
@@ -1478,7 +1476,8 @@ on neutron capture gamma showers spread out in the whole detector}
 %\newduneabbrev{fgt}{FGT}{fine-grained tracker}{A near detector module Add def??}
 
 %\newduneword{consortium}{consortium}{A unit of organization in the  DUNE project focused on one major component of the far detector}
-\newduneword{fft}{FFT}{fast Fourier transform}
+%\newduneword{fft}{FFT}{fast Fourier transform}
+
 \newduneabbrev{enob}{ENOB}{effective number of bits}{The effective number of bits is a measure of the dynamic range of an \gls{adc} and its associated circuitry. The resolution of an \gls{adc} is specified by the number of bits used to represent the analog value, in principle giving 2N signal levels for an N-bit signal. However, all real \gls{adc} circuits introduce noise and distortion. ENOB specifies the resolution of an ideal \gls{adc} circuit that would have the same resolution as the circuit under consideration}
 \newduneabbrev{sndr}{SNDR}{signal to noise and distortion ratio}{Also known as SINAD. Ratio of the \gls{rms} signal amplitude to the mean value of the root-sum-square of all other spectral components, including harmonics, but excluding \gls{dc} levels. It is a good indication of the overall dynamic performance of an \gls{adc} because it includes all components which make up noise and distortion}
 \newduneabbrev{sfdr}{SFDR}{spurious free dynamic range}{Spurious free dynamic range is the ratio of the \gls{rms} value of the signal to the \gls{rms} value of the worst spurious signal regardless of where it falls in the frequency spectrum. The worst spur may or may not be a harmonic of the original signal}
@@ -1517,13 +1516,13 @@ H ($>\,$\SI{20}{\%} and $>\,$2 months, respectively)}
 %np02/4 and h2/4 new/updated per SK and EJ (by AH 10/22/20)
 \newduneword{np04}{NP04}{%Experiment 
 %Cryostat in the CERN North Area \gls{h4} hadron beamline;  \gls{pdsp}}  % #33
-The CERN North Area in \gls{ehn1} intersected by the \gls{h4} hadron beamline, the location of  \gls{pdsp}; also used to refer to the 800\,t cryostat in this area}
+The CERN North Area in \gls{ehn1} intersected by the \gls{h4} hadron beamline,  the location of  \gls{pdsp} and \gls{pdsp2}; also used to refer to the 800\,t cryostat in this area}
 
 \newduneword{np02}{NP02}{%Experiment 
 %Cryostat in the CERN North Area \gls{h2} hadron beamline;  \gls{pddp}}  % #33
 The CERN North Area in \gls{ehn1} intersected by the \gls{h2} hadron beamline, the location of  the 800\,t cryostat used for \gls{pddp} and for \gls{spvd} tests and prototypes; also used to refer to the 800\,t cryostat in this area}
 
-\newduneword{h4}{H4}{CERN North Area hadron beamline used for \gls{pdsp}}  % #33
+\newduneword{h4}{H4}{CERN North Area hadron beamline used for \gls{pdsp} and \gls{pdsp2}}  % #33
 
 \newduneword{h2}{H2}{CERN North Area hadron beamline used for \gls{pddp} and \gls{spvd} prototypes and demonstrators}  % #33
 
@@ -1531,7 +1530,7 @@ The CERN North Area in \gls{ehn1} intersected by the \gls{h2} hadron beamline, t
 
 \newduneword{ssc}{SSC}{The Superconducting Super Collider was to be a huge underground ring complex beneath the area near Waxahachie, Texas, USA, that would have been the world’s most energetic particle accelerator. It was begun in 1990, but canceled by the U.S. Congress in 1993 (scientificamerican.com Oct 2013)}
 
-\newduneword{daphne}{DAPHNE}{Detector electronics for Acquiring PHotons from NEutrinos is a custom-developed warm front-end waveform digitizing electronics module derived from the readout system developed at Fermilab for the Mu2e experiment}
+\newduneword{daphne}{DAPHNE}{Detector electronics for Acquiring PHotons from NEutrinos is a custom-developed warm front-end waveform digitizing electronics module derived from the readout system developed at \gls{fnal}  for the Mu2e experiment}
  
 \newduneword{nersc}{NERSC}{National Energy Research Computing Facility at \gls{lbnl}}
 
@@ -1541,7 +1540,7 @@ The CERN North Area in \gls{ehn1} intersected by the \gls{h2} hadron beamline, t
 \newduneabbrev{sma}{SMA}{SubMiniature version A}{Connector interface for coaxial cables
 with a screw-type coupling mechanism}
 
-\newduneword{kloe}{KLOE}{KLOE is a $e^+ e^-$ collider detector spectrometer operated at DAFNE, the $\phi$-meson factory at Frascati, Rome. In DUNE it will consist of a \SI{26}{cm} Pb+scintillating fiber ECAL surrounding a cylindrical open detector region that is  \SI{4.00}{m} in diameter and \SI{4.30}{m} long. The ECAL and detector region are embedded in a \SI{0.6}{T} magnetic field created by a \SI{4.86}{m} diameter superconducting coil and a \SI{475}{tonne} iron yoke}
+\newduneword{kloe}{KLOE}{KLOE is a $e^+ e^-$ collider detector spectrometer operated at DAFNE,  the $\phi$-meson factory at Frascati, Rome.  In DUNE it will consist of a \SI{26}{cm} Pb+scintillating fiber \gls{ecal} surrounding a cylindrical open detector region that is  \SI{4.00}{m} in diameter and \SI{4.30}{m} long.  The \gls{ecal} and detector region are embedded in a \SI{0.6}{T} magnetic field created by a \SI{4.86}{m} diameter superconducting coil and a \SI{475}{tonne} iron yoke}
 
 \newduneabbrev{ro}{RO}{review office}{An office within the \gls{integoff} that organizes reviews} % #33
 %\newduneword{ro}{review office}{An office within the \gls{integoff} that organizes reviews } % #33
@@ -1572,7 +1571,7 @@ with a screw-type coupling mechanism}
 \newduneword{indico}{Indico}{Web-based meeting organization tool}
 % replaced by abbrev from ND CDR:  \newduneword{mec}{meson exchange current}{See \gls{2p2h}}
 \newduneabbrev{htc}{HTC}{High Throughput Computing}{Computing facilities typically consisting of large numbers of commodity servers as opposed to a single large machine. Best suited for running large numbers of independent jobs in parallel, these facilities are what is usually meant by ``grid computing''}
-\newduneword{dcache}{dCache}{A distributed, highly scalable (multi-PB) storage system, usable as both a standalone system and as a high-speed frontend to a tape storage system (such as /pnfs at Fermilab)}
+\newduneword{dcache}{dCache}{A distributed, highly scalable (multi-PB) storage system, usable as both a standalone system and as a high-speed frontend to a tape storage system (such as \gls{pnfs} at \gls{fnal} )}
 \newduneabbrev{ifdhc}{IFDHC}{Intensity Frontier Data Handling Client}{A multi-protocol tool for data transfer and file delivery in jobs. It is able to automatically select transfer protocols based on source and destination characteristics}
 \newduneabbrev{ifdh}{ifdh}{Intensity Frontier Data Handling}{The actual command invoked when using \gls{ifdhc}, on the command line, e.g. ifdh cp source\_file dest\_file}
 \newduneabbrev{pnfs}{PNFS}{Pseudo Network File System}{A file system often used in large storage systems. Typically interaction is very similar to a regular NFS volume, but there can be some subtle and important differences}
@@ -1625,7 +1624,7 @@ with a screw-type coupling mechanism}
 
 \newduneword{imt}{IMT}{Intranuclear momentum transfer}
 
-\newduneword{miniboone}{MiniBooNE}{The Mini Booster Neutrino Experiment, at Fermilab, was designed to fully explore the LSND result}
+\newduneword{miniboone}{MiniBooNE}{The Mini Booster Neutrino Experiment,  at \gls{fnal} , was designed to fully explore the LSND result}
 
 \newduneabbrev{tms}{TMS}{The Muon Spectrometer}{A muon spectrometer for the Near Detector that will be installed for the initial running period of DUNE, before the \gls{mpd} detector component is ready} % #34 09nov20  08Apr22 Temporary -> The
 
@@ -1633,7 +1632,7 @@ with a screw-type coupling mechanism}
 
 \newduneword{kerberos}{Kerberos}{A strong authentication system used by the computing resources at \gls{fnal} and \gls{cern}} %from tjunk sept2020 #23
 
-\newduneabbrev{mrb}{MRB}{Multi Repository Build System}{A Fermilab-developed build system based on \dword{cmake} that allows development and builds of code from multiple repositories} %heidi sept2020
+\newduneabbrev{mrb}{MRB}{Multi Repository Build System}{A \gls{fnal}-developed build system based on \dword{cmake} that allows development and builds of code from multiple repositories} %heidi sept2020
 
 \newduneword{cmake}{Cmake}{CMake is an open-source, cross-platform family of tools designed to build, test and package software}%heidi sept2020
 
@@ -1641,11 +1640,11 @@ with a screw-type coupling mechanism}
 
 \newduneabbrev{upd}{UPD}{UNIX product distribution}{A tool for uploading and downloading pre-built software products between local systems and centralized software distribution servers.  UPD is not frequently used on DUNE because newer tools are more convenient} % tjunk sept2020 #22
 
-\newduneabbrev{sso}{SSO}{single sign-on}{Often used to indicate that a group of services, such as DocDB or the DUNE Wiki share common sign-in credentials and active sessions.  Fermilab services that say "Sign in with SSO username and password" mean to use your Services username and password} % tjunk sept2020 #24
+\newduneabbrev{sso}{SSO}{single sign-on}{Used at \gls{fnal} to indicate that a group of services,  such as DocDB or the DUNE Wiki share common sign-in credentials and active sessions.  \gls{fnal}  services that say "Sign in with SSO username and password" mean to use your \gls{fnal} Services or federated username and password} % tjunk sept2020 #24
 
 \newduneabbrev{vo}{VO}{virtual organization}{A database containing a list of member names, certificate distinguishing information, and a list of permissions members have to access computing grid and data resources} % tjunk sept2020 #27
 
-\newduneabbrev{nas}{NAS}{network attached storage}{Disk storage that is available on computers but shared between them.  Relies on NFS mounts rather than authenticated file transfer protocols.  Usually found on interactive servers to provide space for home directories, app and data storage} % tjunk sept2020 #25
+\newduneabbrev{nas}{NAS}{network attached storage}{Disk storage that is available on computers but shared between them.  Relies on \gls{nfs} mounts rather than authenticated file transfer protocols.  Usually found on interactive servers to provide space for home directories, app and data storage} % tjunk sept2020 #25
 
 \newduneabbrev{nfs}{NFS}{network file system}{Industry-standard mechanism for mounting disks over a network.  Provides regular UNIX file and directory access} % tjunk sept2020 #26
 
@@ -1667,12 +1666,12 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 
 \newduneword{semp}{SEMP}{systems engineering management plan}  % #36 replaced cmp 
 
-\newduneabbrev{tpcost}{TPC}{total project cost}{The DOE terminology for the total budget and contingency for the entire LBNF/DUNE-US project from CD-0 to CD-4}  % #36 replaced cmp 
+\newduneabbrev{tpcost}{TPC}{total project cost}{The DOE terminology for the total budget and contingency for the entire \gls{usproj} project from CD-0 to CD-4}  % #36 replaced cmp 
 \newduneabbrev{nsint}{NSI}{near site integration}{The scope of work at the near site for the \gls{integoff}} % #36 - can't put it together with other nsi
 
 \newduneabbrev{opcost}{OPC}{other project costs}{The DOE project costs that support conceptual design, pre-operations commissioning, technical coordination, and power}
 
-\newduneabbrev{moa}{MOA}{memorandum of agreement}{A project management methodology that documents an agreement between \gls{fnal} and the LBNF/DUNE-US Project for how Fermilab will support the project} %%%  MISSED THIS IN 36!!! ADDED AFTER
+\newduneabbrev{moa}{MOA}{memorandum of agreement}{A project management methodology that documents an agreement between \gls{fnal} and the \gls{usproj}  Project for how \gls{fnal}  will support the project} %%%  MISSED THIS IN 36!!! ADDED AFTER
 %%  end #36 
 
 \newduneabbrev{croc}{CROC}{central readout chamber}{central (radial) readout chamber for the ND \gls{gartpc}} % from SManley 12/2/20 via email
@@ -1693,7 +1692,7 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 % 22 Feb 2021
 \newduneabbrev{sphd}{FD1-HD}{horizontal drift technology}{LArTPC design in which electrons drift horizontally to wire plane anodes (\glspl{apa}) that along with the front-end electronics are immersed in LAr} % updated 21 May 21
 
-\newduneabbrev{spvd}{FD2-VD}{vertical drift technology}{LArTPC design in which electrons drift vertically to PCB-based anodes at the top and bottom of the LAr volume, with a cathode in the middle} % updated 21 May 21
+\newduneabbrev{spvd}{FD2-VD}{vertical drift technology}{LArTPC design in which electrons drift vertically to PCB-based anodes at the top and bottom of the LAr volume,  with a cathode in the middle} % updated 21 May 21
 
 \newduneabbrev{cru}{CRU}{charge-readout unit}{In the \gls{spvd} design an assembly of the \glspl{pcbp} plus adapter boards; two to a \gls{crp}} % 4 aug 2021 four --> two
 
@@ -1719,7 +1718,7 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 
 \newduneabbrev{corsika}{CORSIKA}{COsmic Ray SImulations for KAscade}{a program for detailed simulation of extensive air showers initiated by high-energy cosmic ray particles}
 
-\newduneabbrev{scd}{SCD}{scientific computing division}{Fermilab's Scientific Computing Division}
+\newduneabbrev{scd}{SCD}{scientific computing division}{\gls{fnal}'s Scientific Computing Division}
 
 \newduneabbrev{garsoft}{GArSoft}{Gaseous Argon Software}{A software toolkit similar to \gls{larsoft}, but targeted at the gaseous argon time projection chamber and calorimeter of \gls{ndgar}}
 
@@ -1729,7 +1728,7 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 
 \newduneword{git}{git}{a distributed version-control system, commonly used to manage software}
 
-\newduneword{xrootd}{xrootd}{a high-performance data system widely used in HEP to store and to distribute data to jobs.  It allows streaming of data}
+\newduneword{xrootd}{xrootd}{a high-performance data system widely used in \gls{hep} to store and to distribute data to jobs.  It allows streaming of data}
 
 \newduneabbrev{gpuaas}{GPUAAS}{GPU As A Service}{a technique that allows many non-GPU-enabled compute nodes to share a GPU resource by sending it work over the network and waiting for results to be returned}
 %%% end from the computing CDR 26 Feb 2021
@@ -1798,7 +1797,7 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 % added 20220725 ClaireDavid, issue 39
 
 %Anne test with new computer
-\newduneabbrev{fifemon}{FIFEMON}{FabrIc for Frontier Experiments MONitoring}{Comprehensive suite of job and storage monitoring information available for most Fermilab experiments, including DUNE}
+\newduneabbrev{fifemon}{FIFEMON}{FabrIc for Frontier Experiments MONitoring}{Comprehensive suite of job and storage monitoring information available for most \gls{fnal} experiments, including DUNE}
 
 % from FD2 TDR 9/26/22
 \newduneword{larg4}{LArG4}{LArG4 is the replacement for LArsim/LArG4. LArG4 is based on \gls{artg4tk}}
@@ -1813,3 +1812,200 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 % end from FD2 TDR 9/26/22
 
 \newduneword{mcnd}{MCND}{More Capable Near Detector} % for ND TDR 9/26/22, Steve M
+
+
+\newduneabbrev{compass}{COMPASS}{
+Common Muon and Proton Apparatus for Structure and Spectroscopy }{a multipurpose experiment at \gls{cern}’s Super Proton Synchrotron (SPS)} %
+
+\newduneword{vd}{VD}{vertical drift \gls{tpc} technology} %
+
+\newduneword{hd}{HD}{horizontal drift \gls{tpc} technology} %
+
+\newduneabbrev{esnet}{ESnet}{Energy Sciences Network}{The \gls{doe}'s dedicated science network} %
+
+\newduneword{project.py}{project.py}{XML-based job configuration system developed by the \gls{microboone} collaboration} %
+
+\newduneabbrev{ppfx}{PPFX}{Package to Predict the FluX}{\gls{fnal}-supported package that implements hadron production corrections to geant4 simulations and propagates uncertainties for the NuMI  and LBNF beam lines} %
+
+\newduneabbrev{ml}{ML}{Machine Learning}{Machine Learning}
+
+\newduneword{datalake}{data lake}{The not-yet-realized concept of a storage service with multiple levels of quality of service in which the end user can access data without knowing the data's source location} % from where the data are served}
+
+\newduneabbrev{metacat}{MetaCat}{MetaCat}{Metadata Catalog, a modern replacement for the file description portion of the sam metadata catalog} %
+
+\newduneword{g4lbnf}{g4lbnf}{LBNF neutrino beamline simulation program\cite{g4lbnf}} %
+
+\newduneword{Geant4Reweight}{Geant4Reweight}{Framework for evaluating and propagating hadronic interaction uncertainties in Geant4\cite{Calcutt:2021zck}} %
+
+\newduneword{geantnet}{G\'EANT}{G\'EANT interconnects Europe's national research and education networking (NREN) organizations with the high bandwidth, high speed and highly resilient pan-European backbone.
+}
+
+\newduneabbrev{nren}{NREN}{National Research and Education Network}{National level research computing network infrastructure} %
+
+\newduneabbrev{vrf}{VRF}{Virtual Routing and Forwarding}{Networking overlays that provide  a logical routing infrastructure  that allows flexible traffic engineering} %
+
+\newduneword{samvalue}{value}{A generic quantity describing a file in the \dword{sam} data catalog} %
+
+\newduneword{samparameter}{parameter}{A user or experiment described quantity describing a file in the \dword{sam} data catalog} %
+
+\newduneword{samproject}{SAM-project}{A server process running centrally that maintains a predefined list of files and delivers information about  their locations when asked by distributed processes. The project tracks success and failure of file processing} %
+
+\newduneword{samconsumer}{SAM-consumer}{A client process that requests information about file locations from a \dword{samproject}, process the file and reports success or failure} %
+
+\newduneword{samdataset}{SAM-dataset}{ A dynamic collection of files defined by queries to the \dword{sam} data catalog} %
+\newduneword{metacatdataset}{MetaCat-dataset}{ A fixed but mutable collection of files defined by queries to the \dword{metacat} data catalog} %
+
+\newduneword{samsnapshot}{SAM-snapshot}{A fixed collection of files corresponding to a \dword{sam} \dword{samdataset} at a particular point in time} %
+
+\newduneabbrev{mql}{MQL}{\dword{metacat} Query Language} {A query language which supports queries of the \dword{metacat} data catalog, including parentage and logical functions such as union, join and subtraction} %
+
+\newduneword{pdhd}{ProtoDUNE-HD}{\gls{protodune} with horizontal drift technology.  This refers to the \gls{sp} \gls{apa}-based prototype to run in \gls{np04} (in the  \gls{pd2} phase)} 
+
+\newduneword{pdvd}{ProtoDUNE-VD}{ProtoDUNE with vertical drift technology.  This refers to the \gls{crp}-based prototype to run in \gls{np02}  (in the  \gls{pd2} phase)} 
+
+\newduneword{pd2}{ProtoDUNE-II}{\gls{protodune} test runs at CERN in 2022-2023; includes \gls{pdhd} and \gls{pdvd}}
+
+\newduneabbrev{ucondb}{uconDB}{Unstructured Conditions Database}{Unstructured conditions database developed for \gls{fnal} fixed target experiments\cite{bib:ucondb}} 
+
+\newduneabbrev{json}{JSON}{JavaScript Object Notation}{Open standard data interchange format that uses pair-value pairs and maps well onto python data formats such as tuples and lists} 
+
+\newduneabbrev{dqmdb}{DQMDB}{Data Quality and Monitoring Database}{Database storing the results of data-quality monitoring} % removed .
+
+\newduneword{db}{DB}{database}
+
+\newduneabbrev{vm}{VM}{virtual machine}{Emulator of a physical computer that allows multiple users to configure different operating systems  while sharing physical hardware}
+
+\newduneword{enstore}{Enstore}{A mass storage system developed by \gls{fnal} that provides distributed access and management of data stored on tapes} % \cite{Litvintsev:2012dw}}
+
+\newduneword{stashcache}{StashCache}{A distributed caching federation that enables opportunistic users to utilize nearby opportunistic storage\cite{bib:stashcache}}
+
+\newduneabbrev{hdf5}{HDF5}{Hierarchical Data Format}{Data format\cite{bib:hdf5} widely used in \gls{ml}} 
+
+\newduneword{glideinwms}{GlideinWMS}{A system of submitting pilot jobs to grid computing sites, inside of which user jobs run, presenting a uniform setup across many different sites} % KH 2022-10-15  \cite{sfiligoi2009pilot
+
+\newduneword{mars}{MARS}{The MARS code system is a set of \gls{mc} programs for detailed simulation of coupled hadronic and electromagnetic cascades, with heavy ion, muon and neutrino production and interactions} % removed .
+
+\newduneabbrev{fife}{FIFE}{Fabric for Intensity Frontier Experiments}{\gls{fnal} computing infrastructure for \gls{if} Experiments} % \cite{box2014fife}} \newduneword{postgres}{Postgres}{also known as PostgreSQL, Postgres is a free and open-source relational database management system used extensively for databases in \gls{hep}}
+
+
+\newduneword{tr}{trigger record}{A data record produced by the \gls{dune} \gls{daq} system.  A Trigger Record can contain multiple interaction ``events'' or none} 
+
+\newduneword{postgres}{Postgres}{also known as PostgreSQL, Postgres is a free and open-source relational database management system used extensively for databases in \gls{hep}}
+
+
+
+\newduneword{fhicl}{FHICL}{Fermilab Hierarchical Configuration Language; a standard configuration language for the storage, communication, and manipulation of scientific parameter sets}
+
+\newduneword{api}{API}{Application Programming Interface}
+
+\newduneword{hwdb}{HWDB}{hardware database}   
+
+\newduneword{s3}{S3}{The Amazon cloud-based commercial storage service} % removed .  %anne added
+
+\newduneword{openstack}{OpenStack}{An open source cloud software used to deploy instances of containers}
+
+\newduneabbrev{cric}{CRIC}{Computing Resource Information System}{a framework providing a centralized (and flexible) way to describe which resources are being used by the experiment and how}
+
+%\newduneword{htcondorce}{HTCondor-CE}{add def}  %anne added
+
+\newduneabbrev{ccb}{CCB}{Computing Contributions Board}{a board made up of institutional representatives for larger countries and laboratories. It meets annually to negotiate collaboration contributions to computing infrastructure} 
+
+\newduneword{garfield}{Garfield}{A simulation program\cite{Veenhof:1998tt} developed at \gls{cern} for gaseous detectors } 
+
+\newduneword{datatier}{data tier}{Differing data types produced in a processing sequence, for example, raw data, reconstructed, derived analysis sample, histograms} 
+
+\newduneabbrev{gpu}{GPU}{Graphical Processing Unit}{Specialized computing hardware optimized for image processing} 
+
+\newduneabbrev{gpvm}{dunegpvm}{DUNE General Purpose Virtual Machine}{Centrally managed virtual Linux systems at \gls{fnal} with access to network attached and \gls{pnfs} storage. Used for small-scale data analysis and algorithm development} 
+
+\newduneword{madx}{MAD-X}{framework that provides the de facto standard scripting language to describe particle accelerators, simulate beam dynamics, and optimize beam optics at \gls{cern}}
+
+\newduneabbrev{cpu}{CPU}{Central Processing Unit}{A computing processor, when used as a unit of processing; generally refers to a single core} 
+
+\newduneabbrev{fft}{FFT}{Fast Fourier Transform}{An algorithm that calculates the frequency components of a time-domain waveform in a computationally efficient manner} 
+
+\newduneword{grain}{GRAIN}{In the \gls{sand} detector, a small cryostat containing \gls{lar} installed upstream of the straw-tube tracker inside the \gls{ecal}}
+
+\newduneword{voms}{VOMS}{Virtual Organization Membership Service (in grid computing)}
+
+\newduneword{cry}{CRY}{A cosmic ray shower library and software tool}
+
+\newduneword{jwt}{JWT}{\gls{json} web token}
+
+\newduneabbrev{ferry}{FERRY}{Frontier Experiments RegistRY}{a central database that keeps track of all scientific computing users at \gls{fnal}, the experiments and groups of which they are members, and the various capabilities they are allowed} 
+
+
+\newduneabbrev{perfsonar}{perfSONAR}{performance Service-Oriented Network monitoring ARchitecture}{a network measurement toolkit designed to provide federated coverage of paths and to help establish end-to-end usage expectations}
+
+\newduneword{ipv6}{IPv6}{the most recent version of the Internet communications protocol that provides an identification and location system for computers on networks and routes traffic across the Internet}
+
+\newduneword{monit}{MONIT}{a suite of tools using open source technology used in the monitoring of the \gls{cern} IT data center and \gls{wlcg} infrastructure. }
+
+\newduneword{garana}{GArAna}{provides a facility for making an analysis ntuple from information stored in \gls{garsoft} data products}
+
+\newduneword{ci}{CI}{continuous integration}
+
+\newduneword{datadis}{Data Dispatcher}{communicates between running processing jobs and the data delivery systems.  It provides file location information and basic bookkeeping on file access and transfers} % removed .
+
+\newduneabbrev{castor}{CASTOR}{CERN Advanced STORage manager}{a hierarchical storage system with tape and disk developed at \gls{cern}. It is being replaced by \gls{cta}} 
+
+\newduneabbrev{cta}{CTA}{CERN Tape Archive}{a hierarchical storage system with tape and disk developed at \gls{cern}. It is replacing \gls{castor}} 
+
+\newduneabbrev{sonic}{SONIC}{Services for Optimized
+Network Inference on Coprocessors}{Framework for implementing machine learning algorithms on co-processors developed by \gls{fnal}} 
+
+\newduneword{jobsub}{JobSub}{\cite{box2014fife} the \gls{fnal} \gls{if} job submission client that supports user submission of complex workflows to HT-Condor} 
+
+\newduneword{hepcloud}{HEPCloud}{routes jobs to local or remote computing resources based on the policy for a particular experiment, workflow requirements, and cost and efficiency of accessing the various resources. It expands the resources available to include \gls{hpc} centers and commercial cloud resources}
+
+\newduneword{wmsmon}{WMS monitoring}{Workflow Management System Monitoring}
+
+\newduneword{redmine}{Redmine}{an open source code repository and issue tracking tool that was historically used by many of the \gls{fnal} general computing projects and \gls{if} experiments} 
+
+\newduneabbrev{if}{IF}{Intensity Frontier}{refers to \gls{hep} experiments, particularly in the U.S., that rely on high luminosity instead of high energy for discovery.  Includes B-physics, neutrino, and muon experiments}
+
+\newduneword{slack}{Slack}{a commercial business communication platform} 
+
+\newduneword{servicenow}{ServiceNow}{a commercial enterprise workflow system used by \gls{fnal} for formal issue tracking and IT workflows such as user account preparation} 
+
+\newduneabbrev{rse}{RSE}{Rucio Storage Element}{A storage element that is known to the DUNE \gls{rucio} instance} 
+
+\newduneabbrev{coffea}{COFFEA}{Columnar Object Framework For Effective Analysis}{Columnar data analysis frame\-work\cite{Smith:2020pxs} developed at \gls{fnal}} 
+
+\newduneword{nuisance}{Nuisance}{An open source C++ framework for studying neutrino interaction cross sections\cite{Stowell:2016jfr}} 
+
+ \newduneabbrev{highland}{HighLAND}{High Level Analysis at a Neutrino Detector}{Analysis framework developed by the \gls{t2k} collaboration} 
+ 
+ \newduneabbrev{raii}{RAII}{Resource Acquisition Is Initialization}{a C++ programming technique that binds the lifecycle of a resource that must be acquired before use (e.g., allocated heap memory, thread of execution, open socket, open file, locked mutex, disk space, database connection—anything that exists in limited supply) to the lifetime of an object}  
+ 
+ \newduneword{fts3}{FTS3}{File Transfer Service version 3, developed by \gls{cern}, and distinct from, the \gls{fnal} File Transfer Service} 
+ 
+ \newduneword{wfms}{WFMS}{Workflow Management System}
+ 
+  \newduneword{condmeta}{conditions metadata}{defined as the information necessary to understand the context of physics data, e.g., beam data or calibrations} 
+ 
+ \newduneword{cdb}{conditions DB}{The Conditions Database stores the \gls{condmeta} needed for data processing and analysis} 
+ 
+ \newduneword{rntuple}{RNtuple}{The next generation of the \gls{root} I/O system\cite{Blomer:2020usr, ROOTTeam:2020jal}}
+ 
+ \newduneabbrev{lan}{LAN}{Local Area Network}{Computing network confined to a relatively small geographic area} 
+ 
+ \newduneabbrev{wan}{WAN}{Wide Area Network}{Computing network that interconnects \glspl{lan} across relatively broad geographic areas} 
+
+ \newduneword{layer3}{Layer-3}{Networking protocol  {https://en.wikipedia.org/wiki/Network\_layer}}
+ 
+ \newduneabbrev{rest}{REST}{Representational State Transfer}{Standard for web interfaces} %  \href{https://en.wikipedia.org/wiki/Representational\_state\_transfer}{https://en.wikipedia.org/wiki/Representational_state_transfer}}
+ 
+ \newduneabbrev{faq}{FAQ}{Frequently Asked Questions}{A software system for collecting and answering the most common questions about an activity} 
+ 
+\newduneword{spack}{Spack}{Software package manager for UNIX and mac OS systems} 
+
+\newduneabbrev{lxplus}{LXPLUS}{Linux Public Login User Service)}{The interactive logon service to Linux for all \gls{cern} users} 
+
+\newduneword{dunesw}{dunesw}{The base DUNE software release} 
+
+\newduneword{posix}{POSIX}{Portable Operating System Interface - Unix standard for operating system interfaces} 
+
+\newduneword{nutools}{NuTools}{shared code for \gls{larsoft} + NOvA + other neutrino experiments that use \gls{art}.  Includes beam and event generators and re-weighting packages}
+
+%% end entries from Computing CDR Oct 2022

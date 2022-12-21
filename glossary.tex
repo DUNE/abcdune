@@ -495,7 +495,7 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
 \newduneword{protodune}{ProtoDUNE}{Either of the two initial DUNE prototype detectors constructed at \gls{cern}. % and operated in  a CERN test beam (expected fall 2018). 
   One prototype implemented \gls{sp} technology and the other \gls{dp}}
   
-\newduneword{protodune2}{ProtoDUNE-II}{The second run of a \gls{protodune} detector}  % #33
+\newduneword{protodune2}{ProtoDUNE-II}{The second run of a ProtoDUNE detector}  % #33
 
 %the single-phase ProtoDUNE detector
 \newduneword{pdsp}{ProtoDUNE-SP}{The \gls{sphd} \gls{protodune} detector constructed at \gls{cern}  in \gls{np04}}
@@ -1423,7 +1423,7 @@ radioactive sources inside the \gls{dune} cryostat}
 \newduneword{mu2e}{Mu2e}{An experiment sited at \gls{fnal} that searches for charged-lepton flavor violation and seeks to discover physics beyond the \gls{sm}}
 
 \newduneword{pdsp2}{ProtoDUNE-SP-II}{A second test run in the single-phase ProtoDUNE test stand at CERN, acting as a validation of the final
-single-phase detector design}  % #33 11 may 21-  may need an update
+single-phase detector design}  % #33 11 may 21-  may need an update % 12/21/2022 Dont use!!
 
 
 \newduneword{osha}{OSHA}{Occupational Safety and Health Administration (USA Department of Labor) formed by the Occupational Safety and Health Act of 1970}
@@ -1690,9 +1690,9 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 
 % From vertical drift CDR 
 % 22 Feb 2021
-\newduneabbrev{sphd}{FD1-HD}{horizontal drift technology}{LArTPC design in which electrons drift horizontally to wire plane anodes (\glspl{apa}) that along with the front-end electronics are immersed in LAr} % updated 21 May 21
+\newduneabbrev{sphd}{FD1-HD}{horizontal drift detector module}{LArTPC design in which electrons drift horizontally to wire plane anodes (\glspl{apa}) that along with the front-end electronics are immersed in LAr} % updated 21 May 21
 
-\newduneabbrev{spvd}{FD2-VD}{vertical drift technology}{LArTPC design in which electrons drift vertically to PCB-based anodes at the top and bottom of the LAr volume,  with a cathode in the middle} % updated 21 May 21
+\newduneabbrev{spvd}{FD2-VD}{vertical drift detector module}{LArTPC design in which electrons drift vertically to PCB-based anodes at the top and bottom of the LAr volume,  with a cathode in the middle} % updated 21 May 21
 
 \newduneabbrev{cru}{CRU}{charge-readout unit}{In the \gls{spvd} design an assembly of the \glspl{pcbp} plus adapter boards; two to a \gls{crp}} % 4 aug 2021 four --> two
 
@@ -1779,11 +1779,17 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 
 \newduneword{ddmp}{DUNE Management Plan}{DUNE Management Plan}
   
-\newduneword{pd2hd}{ProtoDUNE-II-HD}{The second \gls{protodune} for the \gls{sphd} design, using \gls{np04}, to test installation, integration, and detector component performance}
+\newduneword{pd2hd}{ProtoDUNE-II-HD}{The second ProtoDUNE for the horizontal drift design, using NP04, to test installation, integration, and detector component performance}
 
-\newduneword{pd2vd}{ProtoDUNE-II-VD}{The \gls{protodune} for the \gls{spvd} design, using \gls{np02}, to test installation, integration, and detector component performance}
+%\newduneword{pd2vd}{ProtoDUNE-II-VD}{The ProtoDUNE for the \gls{spvd} design, using \gls{np02}, to test installation, integration, and detector component performance}
 
-\newduneword{mod0}{Module 0}{The final pre-production instance of a detector; for the DUNE \glspl{detmodule}, these will use the 800\,t cryostats in \gls{np02} and \gls{np04}}
+\newduneword{mod0}{Module 0}{The final pre-production instance of a detector; for the DUNE \glspl{detmodule}, the \glspl{protodune2} in the 800\,t cryostats in \gls{np02} and \gls{np04} serve this purpose}
+
+\newduneword{vdmod0}{FD2-VD Module 0}{The final pre-production \gls{protodune} instance for the DUNE \gls{spvd} \gls{detmodule},  it will use the 800\,t cryostat in \gls{np02} }
+
+\newduneword{hdmod0}{FD1-HD Module 0}{The final pre-production \gls{protodune} instance for the DUNE \gls{sphd} \gls{detmodule},  it will use the 800\,t cryostat in \gls{np04} }
+
+
 
 \newduneword{fsii}{FSII}{far site integration and installation}
 \newduneword{fdc}{FDC}{Far Detector and Cryogenics Subproject}
@@ -1817,9 +1823,9 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 \newduneabbrev{compass}{COMPASS}{
 Common Muon and Proton Apparatus for Structure and Spectroscopy }{a multipurpose experiment at \gls{cern}’s Super Proton Synchrotron (SPS)} %
 
-\newduneword{vd}{VD}{vertical drift \gls{tpc} technology} %
+\newduneword{vd}{vertical drift}{single-phase, vertical drift \gls{lartpc} technology} %
 
-\newduneword{hd}{HD}{horizontal drift \gls{tpc} technology} %
+\newduneword{hd}{horizontal drift}{single-phase,  horizontal drift \gls{lartpc} technology} %
 
 \newduneabbrev{esnet}{ESnet}{Energy Sciences Network}{The \gls{doe}'s dedicated science network} %
 
@@ -1859,7 +1865,7 @@ Common Muon and Proton Apparatus for Structure and Spectroscopy }{a multipurpose
 
 \newduneabbrev{mql}{MQL}{\dword{metacat} Query Language} {A query language which supports queries of the \dword{metacat} data catalog, including parentage and logical functions such as union, join and subtraction} %
 
-\newduneword{pdhd}{ProtoDUNE-HD}{\gls{protodune} with horizontal drift technology.  This refers to the \gls{sp} \gls{apa}-based prototype to run in \gls{np04} (in the  \gls{pd2} phase)} 
+%\newduneword{pdhd}{ProtoDUNE-HD}{\gls{protodune} with horizontal drift technology.  This refers to the \gls{sp} \gls{apa}-based prototype to run in \gls{np04} (in the  \gls{pd2} phase)} 
 
 \newduneword{pdvd}{ProtoDUNE-VD}{ProtoDUNE with vertical drift technology.  This refers to the \gls{crp}-based prototype to run in \gls{np02}  (in the  \gls{pd2} phase)} 
 
@@ -2024,10 +2030,10 @@ Network Inference on Coprocessors}{Framework for implementing machine learning a
 
 \newduneword{grafana}{Grafana}{add def}
 
-\newduneword{drb}{DUNE Resources Board}{add def}
-
 \newduneword{trigact}{trigger activitation}{a correlation (or cluster) in time and space within a stream of \glspl{trigprimitive}}
 
 \newduneword{cad}{CAD}{computer aided design}
 
 %end entries from FD2 TDR Nov 29 2022
+\newduneword{daqrou}{DAQ readout unit}{The basic component of the \gls{daqros}}
+\newduneword{gkvm}{GKVM}{Gava, Kneller, Volpe, McLaughlin Supernova model}

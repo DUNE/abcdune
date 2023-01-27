@@ -1,4 +1,4 @@
-% See dune-words.tex for detailed explanation.
+% See dune-words.tex for detailed explanation. Some explanation is upfront here.
 
 % http://mirrors.ctan.org/macros/latex/contrib/glossaries/glossaries-user.pdf
 
@@ -1591,7 +1591,8 @@ with a screw-type coupling mechanism}
 
 \newduneword{ndgar}{ND-GAr}{component of the near detector with a core gaseous argon \gls{tpc} surrounded by an \gls{ecal} and a magnet}
 
-\newduneword{sfgd}{SuperFGD}{Super Fine-Grained Detector (SuperFGD) is a 3D granular plastic scintillator detector that adopts the same technology as \dword{3dst}. It will be installed in the \dword{t2k} \dword{nd280} system.  The \dword{3dst} design will inherit in large part from the SuperFGD detector} %\cite{Abe:2019whr}
+\newduneword{sfgd}{SuperFGD}{Super Fine-Grained Detector (SuperFGD) is a 3D granular plastic scintillator detector that adopts the same technology as \dword{3dst}. It will be installed in the \dword{t2k} \dword{nd280} system . The \dword{3dst} design will inherit in large part from the SuperFGD detector} %\cite{Abe:2019whr}
+
 
 \newduneword{nd280}{ND280}{Near Detector 280, is the \dword{t2k} magnetized near detector} % \cite{Abe:2011ks}}
 
@@ -1690,9 +1691,11 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 
 % From vertical drift CDR 
 % 22 Feb 2021
+
 \newduneabbrev{sphd}{FD1-HD}{horizontal drift detector module}{LArTPC design used in FD1 in which electrons drift horizontally to wire plane anodes (\glspl{apa}) that along with the front-end electronics are immersed in LAr} % updated 21 May 21
 
 \newduneabbrev{spvd}{FD2-VD}{vertical drift detector module}{LArTPC design used in FD2 in which electrons drift vertically to PCB-based anodes at the top and bottom of the LAr volume,  with a cathode in the middle} % updated 21 May 21
+
 
 \newduneabbrev{cru}{CRU}{charge-readout unit}{In the \gls{spvd} design an assembly of the \glspl{pcbp} plus adapter boards; two to a \gls{crp}} % 4 aug 2021 four --> two
 
@@ -1779,11 +1782,14 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 
 \newduneword{ddmp}{DUNE Management Plan}{DUNE Management Plan}
   
+
+
 \newduneword{pd2hd}{ProtoDUNE-II-HD}{The second ProtoDUNE for the HD design, using NP04 to test installation, integration, and detector component performance}
 
 % don't use \newduneword{pd2vd}{ProtoDUNE-II-VD}{The \gls{protodune} for the \gls{spvd} design, using \gls{np02}, to test installation, integration, and detector component performance}
 
-\newduneword{mod0}{Module 0}{The final pre-production instance of a detector; for the DUNE \glspl{detmodule}, these will use the 800\,t cryostats in \gls{np02} and \gls{np04}}
+
+\newduneword{mod0}{Module 0}{The final pre-production instance of a detector; for the DUNE \glspl{detmodule}, the \glspl{protodune2} in the 800\,t cryostats in \gls{np02} and \gls{np04} serve this purpose}
 
 \newduneword{vdmod0}{FD2-VD Module 0}{The final pre-production \gls{protodune} instance for the DUNE \gls{spvd} \gls{detmodule},  it will use the 800\,t cryostat in \gls{np02} }
 
@@ -1821,9 +1827,11 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 \newduneabbrev{compass}{COMPASS}{
 Common Muon and Proton Apparatus for Structure and Spectroscopy }{a multipurpose experiment at \gls{cern}’s Super Proton Synchrotron (SPS)} %
 
+
 \newduneword{vd}{vertical drift}{single-phase, vertical drift \gls{lartpc} technology}
 
 \newduneword{hd}{horizontal drift}{single-phase,  horizontal drift \gls{lartpc} technology}
+
 
 \newduneabbrev{esnet}{ESnet}{Energy Sciences Network}{The \gls{doe}'s dedicated science network} %
 
@@ -1958,7 +1966,9 @@ Common Muon and Proton Apparatus for Structure and Spectroscopy }{a multipurpose
 \newduneabbrev{sonic}{SONIC}{Services for Optimized
 Network Inference on Coprocessors}{Framework for implementing machine learning algorithms on co-processors developed by \gls{fnal}} 
 
-\newduneword{jobsub}{JobSub}{The \gls{fnal} \gls{if} job submission client that supports user submission of complex workflows to HT-Condor} %\cite{box2014fife}
+
+\newduneword{jobsub}{JobSub}{The \gls{fnal} \gls{if} job submission client that supports user submission of complex workflows to HT-Condor} %\cite{box2014fife} 
+
 
 \newduneword{hepcloud}{HEPCloud}{routes jobs to local or remote computing resources based on the policy for a particular experiment, workflow requirements, and cost and efficiency of accessing the various resources. It expands the resources available to include \gls{hpc} centers and commercial cloud resources}
 
@@ -1978,29 +1988,30 @@ Network Inference on Coprocessors}{Framework for implementing machine learning a
 
 \newduneword{nuisance}{Nuisance}{An open source C++ framework for studying neutrino interaction cross sections} %\cite{Stowell:2016jfr}} 
 
- \newduneabbrev{highland}{HighLAND}{High Level Analysis at a Neutrino Detector}{Analysis framework developed by the \gls{t2k} collaboration} 
+\newduneabbrev{highland}{HighLAND}{High Level Analysis at a Neutrino Detector}{Analysis framework developed by the \gls{t2k} collaboration} 
  
- \newduneabbrev{raii}{RAII}{Resource Acquisition Is Initialization}{a C++ programming technique that binds the lifecycle of a resource that must be acquired before use (e.g., allocated heap memory, thread of execution, open socket, open file, locked mutex, disk space, database connection—anything that exists in limited supply) to the lifetime of an object}  
+\newduneabbrev{raii}{RAII}{Resource Acquisition Is Initialization}{a C++ programming technique that binds the lifecycle of a resource that must be acquired before use (e.g., allocated heap memory, thread of execution, open socket, open file, locked mutex, disk space, database connection—anything that exists in limited supply) to the lifetime of an object}  
  
- \newduneword{fts3}{FTS3}{File Transfer Service version 3, developed by \gls{cern}, and distinct from, the \gls{fnal} File Transfer Service} 
+\newduneword{fts3}{FTS3}{File Transfer Service version 3, developed by \gls{cern}, and distinct from, the \gls{fnal} File Transfer Service} 
  
- \newduneword{wfms}{WFMS}{Workflow Management System}
+\newduneword{wfms}{WFMS}{Workflow Management System}
  
-  \newduneword{condmeta}{conditions metadata}{defined as the information necessary to understand the context of physics data, e.g., beam data or calibrations} 
+\newduneword{condmeta}{conditions metadata}{defined as the information necessary to understand the context of physics data, e.g., beam data or calibrations} 
  
- \newduneword{cdb}{conditions DB}{The Conditions Database stores the \gls{condmeta} needed for data processing and analysis} 
+\newduneword{cdb}{conditions DB}{The Conditions Database stores the \gls{condmeta} needed for data processing and analysis} 
  
- \newduneword{rntuple}{RNtuple}{The next generation of the \gls{root} I/O system} %\cite{Blomer:2020usr, ROOTTeam:2020jal}}
- 
- \newduneabbrev{lan}{LAN}{Local Area Network}{Computing network confined to a relatively small geographic area} 
- 
- \newduneabbrev{wan}{WAN}{Wide Area Network}{Computing network that interconnects \glspl{lan} across relatively broad geographic areas} 
 
- \newduneword{layer3}{Layer-3}{Networking protocol  {https://en.wikipedia.org/wiki/Network\_layer}}
+\newduneword{rntuple}{RNtuple}{The next generation of the \gls{root} I/O system} %\cite{Blomer:2020usr, ROOTTeam:2020jal}}
  
- \newduneabbrev{rest}{REST}{Representational State Transfer}{Standard for web interfaces} %  \href{https://en.wikipedia.org/wiki/Representational\_state\_transfer}{https://en.wikipedia.org/wiki/Representational_state_transfer}}
+\newduneabbrev{lan}{LAN}{Local Area Network}{Computing network confined to a relatively small geographic area} 
  
- \newduneabbrev{faq}{FAQ}{Frequently Asked Questions}{A software system for collecting and answering the most common questions about an activity} 
+\newduneabbrev{wan}{WAN}{Wide Area Network}{Computing network that interconnects \glspl{lan} across relatively broad geographic areas} 
+
+\newduneword{layer3}{Layer-3}{Networking protocol  {https://en.wikipedia.org/wiki/Network\_layer}}
+ 
+\newduneabbrev{rest}{REST}{Representational State Transfer}{Standard for web interfaces} %  \href{https://en.wikipedia.org/wiki/Representational\_state\_transfer}{https://en.wikipedia.org/wiki/Representational_state_transfer}}
+ 
+\newduneabbrev{faq}{FAQ}{Frequently Asked Questions}{A software system for collecting and answering the most common questions about an activity} 
  
 \newduneword{spack}{Spack}{Software package manager for UNIX and mac OS systems} 
 
@@ -2034,6 +2045,9 @@ Network Inference on Coprocessors}{Framework for implementing machine learning a
 \newduneword{cad}{CAD}{computer aided design}
 
 %end entries from FD2 TDR Nov 29 2022
+
 \newduneword{gkvm}{GKVM}{Gava, Kneller, Volpe, McLaughlin Supernova model}
 
 \newduneword{daqrou}{DAQ readout unit}{The basic component of the \gls{daqros}}
+
+\newduneword{kpp}{key performance parameter}{(KPP) Defined by \gls{doecd}-2 (U.S.) as characteristic,  function, requirement or design basis that if changed would have a major impact on the system or facility performance, schedule,  cost and/or risk}

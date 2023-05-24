@@ -649,14 +649,8 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
   and time-reversal transformations}
 
 %charge-parity symmetry violation
-<<<<<<< Updated upstream
 \newduneabbrev{cpv}{CPV}{charge Conjugation-Parity symmetry Violation}{Lack of
-  symmetry in a system before and after charge conjugation and parity
-=======
-\newduneabbrev{cpv}{CPV}{charge conjugation - parity symmetry violation}{Lack of
-  symmetry in a system before and after charge and parity
->>>>>>> Stashed changes
-  transformations are applied. 
+  symmetry in a system before and after charge conjugation and parity  transformations are applied. 
   For \gls{cp} symmetry to hold,  a particle turns into its
  corresponding antiparticle under a charge transformation,  and a parity
 transformation inverts its space coordinates,  i.e. produces the mirror image}
@@ -1193,7 +1187,7 @@ Neutrino Facility (LBNF)''}
 \newduneword{comfund}{common fund}{The shared resources of the collaboration}
 \newduneabbrev{ims}{IMS}{integrated master schedule}{A project management device consisting of linked tasks and milestones}
 
-\newduneword{hvdb}{HVDB}{HV divider board}
+\newduneword{hvdb}{HVDB}{voltage divider board} %update per Bo 4/27/23
 
 \newduneword{hvft}{HVFT}{HV feedthrough}  % #33
 
@@ -1203,6 +1197,7 @@ Neutrino Facility (LBNF)''}
 
 \newduneword{fss}{FSS}{field shaping strips}
 \newduneword{lvds}{LVDS}{low-voltage differential signaling}
+
 
 
 
@@ -1808,6 +1803,9 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 
 \newduneword{fscfbsi}{FSCF-BSI}{\gls{usproj} subproject for far site conventional facilities, building and site infrastructure}
 
+\newduneword{fscfexc}{FSCF-EXC}{\gls{usproj} subproject for far site conventional facilities,  excavation}
+
+\newduneword{sdssf}{SDSSF}{South Dakota Steel Storage Facility}
 
 \newduneabbrev{poms}{POMS}{Production Operations Management System}{A workflow management system available for all DUNE users to submit and monitor grid jobs as well as view job log files}
 % added 20220725 ClaireDavid, issue 39
@@ -1961,7 +1959,7 @@ Common Muon and Proton Apparatus for Structure and Spectroscopy }{a multipurpose
 
 \newduneword{garana}{GArAna}{provides a facility for making an analysis ntuple from information stored in \gls{garsoft} data products}
 
-\newduneword{ci}{CI}{continuous integration}
+\newduneword{ci}{CI}{depending on context,  either continuous integration or cryogenic instrumentation}
 
 \newduneword{datadis}{Data Dispatcher}{communicates between running processing jobs and the data delivery systems.  It provides file location information and basic bookkeeping on file access and transfers} % removed .
 
@@ -2070,3 +2068,7 @@ Network Inference on Coprocessors}{Framework for implementing machine learning a
 \newduneword{msds}{MSDS}{Manufacturer Safety Data Sheet}
 
 \newduneword{darkside}{Darkside-50}{a dual-phase argon \gls{tpc}, developed for use in a search for direct evidence of dark matter}
+
+\newduneword{justin}{justIN workflow system}{Manages production and analysis workflows, using metadata from MetaCat to assemble lists of files to be processed and replica location information from Rucio to determine where best to process each file. justIN relies on ``just in time'' matching of work to job slots at sites}
+
+\newduneword{2x2}{2x2 ND LArTPC prototype}{A set of four LArTPC modules (in a 2-by-2 configuration) used in the DUNE near detector prototype}

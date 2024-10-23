@@ -15,6 +15,13 @@
         "termHTML": "2p2h",
         "type": "word"
     },
+    "2x2": {
+        "defHTML": "A set of four LArTPC modules (in a 2-by-2 configuration) used in the\nDUNE near detector prototype.",
+        "defLaTeX": "A set of four LArTPC modules (in a 2-by-2 configuration) used in the DUNE near detector prototype",
+        "term": "2x2 ND LArTPC prototype",
+        "termHTML": "2x2 ND LArTPC prototype",
+        "type": "word"
+    },
     "35t": {
         "defHTML": "A prototype cryostat and <a href=\"#sp\">SP</a> detector\nbuilt at <a href=\"#fnal\">Fermilab</a> before the <a\nhref=\"#protodune\">ProtoDUNE</a> detectors.",
         "defLaTeX": "A prototype cryostat and \\gls{sp} detector built at \\gls{fnal} before the \\gls{protodune} detectors",
@@ -455,6 +462,13 @@
         "termHTML": "CALCI",
         "type": "word"
     },
+    "cam": {
+        "defHTML": "control account manager.",
+        "defLaTeX": "control account manager",
+        "term": "CAM",
+        "termHTML": "CAM",
+        "type": "word"
+    },
     "captain": {
         "defHTML": "Experimental program sited at <a href=\"#lanl\">LANL</a>\nthat is designed to make measurements of scientific importance to <a\nhref=\"#lbl\">LBL</a> neutrino physics and physics topics that\nwill be explored by large underground detectors.",
         "defLaTeX": "Experimental program sited at \\gls{lanl} that is designed to make measurements of scientific importance to \\gls{lbl} neutrino physics and physics topics that will be explored by large underground detectors",
@@ -572,8 +586,8 @@
         "type": "abbrev"
     },
     "ci": {
-        "defHTML": "continuous integration.",
-        "defLaTeX": "continuous integration",
+        "defHTML": "depending on context, either continuous integration or cryogenic\ninstrumentation.",
+        "defLaTeX": "depending on context,  either continuous integration or cryogenic instrumentation",
         "term": "CI",
         "termHTML": "CI",
         "type": "word"
@@ -815,10 +829,10 @@
     "cpv": {
         "abbrev": "CPV",
         "abbrevHTML": "CPV",
-        "defHTML": "Lack of symmetry in a system before and after charge and parity\ntransformations are applied. For <a href=\"#cp\">CP</a>\nsymmetry to hold, a particle turns into its corresponding antiparticle\nunder a charge transformation, and a paritytransformation inverts its\nspace coordinates, i.e. produces the mirror image.",
-        "defLaTeX": "Lack of  symmetry in a system before and after charge and parity  transformations are applied.  For \\gls{cp} symmetry to hold,  a particle turns into its corresponding antiparticle under a charge transformation,  and a paritytransformation inverts its space coordinates,  i.e. produces the mirror image",
-        "term": "charge-parity symmetry violation",
-        "termHTML": "charge-parity symmetry violation",
+        "defHTML": "Lack of symmetry in a system before and after charge conjugation and\nparity transformations are applied. For <a href=\"#cp\">CP</a>\nsymmetry to hold, a particle turns into its corresponding antiparticle\nunder a charge transformation, and a paritytransformation inverts its\nspace coordinates, i.e. produces the mirror image.",
+        "defLaTeX": "Lack of  symmetry in a system before and after charge conjugation and parity  transformations are applied. For \\gls{cp} symmetry to hold,  a particle turns into its corresponding antiparticle under a charge transformation,  and a paritytransformation inverts its space coordinates,  i.e. produces the mirror image",
+        "term": "Charge Conjugation-Parity Symmetry Violation",
+        "termHTML": "Charge Conjugation-Parity Symmetry Violation",
         "type": "abbrev"
     },
     "cr": {
@@ -1187,6 +1201,13 @@
         "term": "upstream DAQ buffer interface",
         "termHTML": "upstream DAQ buffer interface",
         "type": "abbrev"
+    },
+    "darkside": {
+        "defHTML": "a dual-phase argon <a href=\"#tpc\">TPC</a>, developed for\nuse in a search for direct evidence of dark matter.",
+        "defLaTeX": "a dual-phase argon \\gls{tpc}, developed for use in a search for direct evidence of dark matter",
+        "term": "Darkside-50",
+        "termHTML": "Darkside-50",
+        "type": "word"
     },
     "datadis": {
         "defHTML": "communicates between running processing jobs and the data delivery\nsystems. It provides file location information and basic bookkeeping on\nfile access and transfers.",
@@ -1721,8 +1742,8 @@
     "exb": {
         "abbrev": "EB",
         "abbrevHTML": "EB",
-        "defHTML": "The highest level DUNE decision-making body for the collaboration.",
-        "defLaTeX": "The highest level DUNE  decision-making body for the collaboration",
+        "defHTML": "The highest level DUNE decision-making body for the collaboration;\nmembers include the spokespersons, collaboration <a\nhref=\"#ib\">IB</a> chair, <a href=\"#tcoord\">TCs</a>,\nresource coordinator, computing coordinator, physics coordinators, Phase\n2 coordinators, and consortium leaders.",
+        "defLaTeX": "The highest level DUNE  decision-making body for the collaboration; members include the spokespersons,   collaboration \\gls{ib} chair,  \\glspl{tcoord},  resource coordinator,  computing coordinator,  physics coordinators,  Phase 2 coordinators,  and consortium leaders",
         "term": "executive board",
         "termHTML": "executive board",
         "type": "abbrev"
@@ -1765,6 +1786,15 @@
         "term": "field cage",
         "termHTML": "field cage",
         "type": "word"
+    },
+    "fcss": {
+        "abbrev": "FCSS",
+        "abbrevHTML": "FCSS",
+        "defHTML": "The support system suspended from the cryostat ceiling in the <a\nhref=\"#vdmod0\">FD2-VD Module 0</a> used to support the <a\nhref=\"#fc\">field cage</a>.",
+        "defLaTeX": "The support system suspended from the cryostat ceiling in the \\gls{vdmod0} used to support the \\gls{fc}",
+        "term": "field cage support system",
+        "termHTML": "field cage support system",
+        "type": "abbrev"
     },
     "fd": {
         "abbrev": "FD",
@@ -2023,6 +2053,13 @@
         "termHTML": "FSCF-BSI",
         "type": "word"
     },
+    "fscfexc": {
+        "defHTML": "<a href=\"#usproj\">LBNF/DUNE-US</a> subproject for far\nsite conventional facilities, excavation.",
+        "defLaTeX": "\\gls{usproj} subproject for far site conventional facilities,  excavation",
+        "term": "FSCF-EXC",
+        "termHTML": "FSCF-EXC",
+        "type": "word"
+    },
     "fsi": {
         "abbrev": "FSI",
         "abbrevHTML": "FSI",
@@ -2060,6 +2097,13 @@
         "defLaTeX": "field shaping strips",
         "term": "FSS",
         "termHTML": "FSS",
+        "type": "word"
+    },
+    "ftbf": {
+        "defHTML": "Fermilab Test Beam Facility.",
+        "defLaTeX": "Fermilab Test Beam Facility",
+        "term": "FTBF",
+        "termHTML": "FTBF",
         "type": "word"
     },
     "fte": {
@@ -2336,8 +2380,8 @@
     "greyrm": {
         "defHTML": "ISO-8 clean room with a cleanliness level of 3.5M particles of 0.5\nmicron or less per cubic meter volume. ISO-8 clean rooms are referred to\nas grey rooms because at this level of cleanliness most standard clean\nroom attire is not required..",
         "defLaTeX": "ISO-8 clean room with a cleanliness level of 3.5M particles of 0.5 micron or less per cubic meter volume. ISO-8 clean rooms are referred to as grey rooms because at this level of cleanliness most standard clean room attire is not required.",
-        "term": "grey room",
-        "termHTML": "grey room",
+        "term": "gray room",
+        "termHTML": "gray room",
         "type": "word"
     },
     "gsc": {
@@ -2548,8 +2592,8 @@
         "type": "abbrev"
     },
     "hvdb": {
-        "defHTML": "HV divider board.",
-        "defLaTeX": "HV divider board",
+        "defHTML": "voltage divider board.",
+        "defLaTeX": "voltage divider board",
         "term": "HVDB",
         "termHTML": "HVDB",
         "type": "word"
@@ -2883,6 +2927,13 @@
         "termHTML": "JavaScript Object Notation",
         "type": "abbrev"
     },
+    "justin": {
+        "defHTML": "Manages production and analysis workflows, using metadata from\nMetaCat to assemble lists of files to be processed and replica location\ninformation from Rucio to determine where best to process each file.\njustIN relies on \"just in time\" matching of work to job slots at\nsites.",
+        "defLaTeX": "Manages production and analysis workflows, using metadata from MetaCat to assemble lists of files to be processed and replica location information from Rucio to determine where best to process each file. justIN relies on ``just in time'' matching of work to job slots at sites",
+        "term": "justIN workflow system",
+        "termHTML": "justIN workflow system",
+        "type": "word"
+    },
     "jwt": {
         "defHTML": "<a href=\"#json\">JSON</a> web token.",
         "defLaTeX": "\\gls{json} web token",
@@ -2909,6 +2960,13 @@
         "defLaTeX": "KLOE is a $e^+ e^-$ collider detector spectrometer operated at DAFNE,  the $\\phi$-meson factory at Frascati, Rome.  In DUNE it will consist of a \\SI{26}{cm} Pb+scintillating fiber \\gls{ecal} surrounding a cylindrical open detector region that is  \\SI{4.00}{m} in diameter and \\SI{4.30}{m} long.  The \\gls{ecal} and detector region are embedded in a \\SI{0.6}{T} magnetic field created by a \\SI{4.86}{m} diameter superconducting coil and a \\SI{475}{tonne} iron yoke",
         "term": "KLOE",
         "termHTML": "KLOE",
+        "type": "word"
+    },
+    "kpp": {
+        "defHTML": "(KPP) Defined by <a href=\"#doecd\">CD</a>-2 (U.S.) as\ncharacteristic, function, requirement or design basis that if changed\nwould have a major impact on the system or facility performance,\nschedule, cost and/or risk.",
+        "defLaTeX": "(KPP) Defined by \\gls{doecd}-2 (U.S.) as characteristic,  function, requirement or design basis that if changed would have a major impact on the system or facility performance, schedule,  cost and/or risk",
+        "term": "key performance parameter",
+        "termHTML": "key performance parameter",
         "type": "word"
     },
     "l/e": {
@@ -3067,8 +3125,8 @@
     "lbnf": {
         "abbrev": "LBNF",
         "abbrevHTML": "LBNF",
-        "defHTML": "Long-Baseline Neutrino Facility; refers to the facilities that\nsupport the experiment including in-kind contributions under the\nline-item project. The portion of <a\nhref=\"#usproj\">LBNF/DUNE-US</a> responsible for developing the\nneutrino beam, the far site cryostats, and far and near site cryogenics\nsystems, and the conventional facilities, including the excavations.",
-        "defLaTeX": "Long-Baseline Neutrino Facility; refers to the facilities that support the experiment including in-kind contributions under the line-item project. The portion of \\gls{usproj} responsible for developing the neutrino beam, the far site cryostats,  and far and near site cryogenics systems, and the conventional facilities, including the excavations ",
+        "defHTML": "Long-Baseline Neutrino Facility; refers to the facilities that\nsupport the experiment, including in-kind contributions under the\nline-item project. The portion of <a\nhref=\"#usproj\">LBNF/DUNE-US</a> responsible for developing the\nneutrino beam, the far site cryostats, and far and near site cryogenics\nsystems, and the conventional facilities, including the excavations.",
+        "defLaTeX": "Long-Baseline Neutrino Facility; refers to the facilities that support the experiment, including in-kind contributions under the line-item project. The portion of \\gls{usproj} responsible for developing the neutrino beam, the far site cryostats,  and far and near site cryogenics systems, and the conventional facilities, including the excavations ",
         "term": "Long-Baseline Neutrino Facility",
         "termHTML": "Long-Baseline Neutrino Facility",
         "type": "abbrev"
@@ -3606,6 +3664,13 @@
         "term": "Multi Repository Build System",
         "termHTML": "Multi Repository Build System",
         "type": "abbrev"
+    },
+    "msds": {
+        "defHTML": "Manufacturer Safety Data Sheet.",
+        "defLaTeX": "Manufacturer Safety Data Sheet",
+        "term": "MSDS",
+        "termHTML": "MSDS",
+        "type": "word"
     },
     "msps": {
         "defHTML": "megasamples per second.",
@@ -4988,6 +5053,13 @@
         "termHTML": "Fermilab South Dakota Services Division",
         "type": "abbrev"
     },
+    "sdssf": {
+        "defHTML": "South Dakota Steel Storage Facility.",
+        "defLaTeX": "South Dakota Steel Storage Facility",
+        "term": "SDSSF",
+        "termHTML": "SDSSF",
+        "type": "word"
+    },
     "sdsta": {
         "abbrev": "SDSTA",
         "abbrevHTML": "SDSTA",
@@ -5248,6 +5320,13 @@
         "term": "signal-over-fiber",
         "termHTML": "signal-over-fiber",
         "type": "abbrev"
+    },
+    "solarization": {
+        "defHTML": "Aging caused by exposure to UV-light, which can lead to increased\nattenuation.",
+        "defLaTeX": "Aging caused by exposure to UV-light, which can lead to increased attenuation",
+        "term": "solarization",
+        "termHTML": "solarization",
+        "type": "word"
     },
     "sonic": {
         "abbrev": "SONIC",
@@ -5536,6 +5615,15 @@
         "termHTML": "The Muon Spectrometer",
         "type": "abbrev"
     },
+    "toad": {
+        "abbrev": "TOAD",
+        "abbrevHTML": "TOAD",
+        "defHTML": "A test of a high-pressure gaseous argon TPC in the Fermilab Test Beam\nFacility <a href=\"#ftbf\">FTBF</a>.",
+        "defLaTeX": "A test of a high-pressure gaseous argon TPC in the Fermilab Test Beam Facility \\gls{ftbf}",
+        "term": "Teststand of an Overpressure Argon Detector",
+        "termHTML": "Teststand of an Overpressure Argon Detector",
+        "type": "abbrev"
+    },
     "tof": {
         "abbrev": "ToF",
         "abbrevHTML": "ToF",
@@ -5646,6 +5734,13 @@
         "defLaTeX": "Information derived by  the \\gls{daq} \\gls{fe} hardware that describes a region of space (e.g.,  one or several neighboring channels) and time (e.g., a contiguous set  of \\gls{adc} sample ticks) associated with some activity",
         "term": "trigger primitive",
         "termHTML": "trigger primitive",
+        "type": "word"
+    },
+    "trigrec": {
+        "defHTML": "a collection of data and metadata from selected detector space-time\nvolumes corresponding to a trigger decision.",
+        "defLaTeX": "a collection of data and metadata from selected detector space-time volumes corresponding to a trigger decision",
+        "term": "trigger record",
+        "termHTML": "trigger record",
         "type": "word"
     },
     "tvs": {

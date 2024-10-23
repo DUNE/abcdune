@@ -225,6 +225,8 @@ strange quarks.</dd>
   <dd>Common Analysis File Analysis.</dd>
   <dt id = "calci">CALCI</dt>
   <dd>Calibration and Cryogenic Instrumentation.</dd>
+  <dt id = "cam">CAM</dt>
+  <dd>control account manager.</dd>
   <dt id = "captain">CAPTAIN</dt>
   <dd>Experimental program sited at <a href="#lanl">LANL</a>
 that is designed to make measurements of scientific importance to <a
@@ -277,7 +279,8 @@ conventional infrastructure, and includes cavern excavation.</dd>
   <dd>computational fluid dynamics<br>High performance computer-assisted modeling of fluid dynamical
 systems.</dd>
   <dt id = "ci">CI</dt>
-  <dd>continuous integration.</dd>
+  <dd>depending on context, either continuous integration or cryogenic
+instrumentation.</dd>
   <dt id = "cisc">CISC</dt>
   <dd>cryogenic instrumentation and slow controls<br>Includes equipment to monitor all detector components and <a
 href="#lar">LAr</a> quality and behavior, and provides a
@@ -378,8 +381,8 @@ href="#spmod">SP module</a>.</dd>
   <dd>Central Processing Unit<br>A computing processor, when used as a unit of processing; generally
 refers to a single core.</dd>
   <dt id = "cpv">CPV</dt>
-  <dd>charge-parity symmetry violation<br>Lack of symmetry in a system before and after charge and parity
-transformations are applied. For <a href="#cp">CP</a>
+  <dd>Charge Conjugation-Parity Symmetry Violation<br>Lack of symmetry in a system before and after charge conjugation and
+parity transformations are applied. For <a href="#cp">CP</a>
 symmetry to hold, a particle turns into its corresponding antiparticle
 under a charge transformation, and a paritytransformation inverts its
 space coordinates, i.e. produces the mirror image.</dd>
@@ -566,6 +569,9 @@ for timing and synchronization to various components.</dd>
   <dd>upstream DAQ buffer interface<br>The process which provides read-only access to data residing in the
 upstream <a href="#daq">DAQ</a> buffers to processes on the
 network.</dd>
+  <dt id = "darkside">Darkside-50</dt>
+  <dd>a dual-phase argon <a href="#tpc">TPC</a>, developed for
+use in a search for direct evidence of dark matter.</dd>
   <dt id = "datadis">Data Dispatcher</dt>
   <dd>communicates between running processing jobs and the data delivery
 systems. It provides file location information and basic bookkeeping on
@@ -824,7 +830,11 @@ is a system that implements this approach.</dd>
   <dd>endwall field cage<br>The vertical portions of the <a href="#fc">field cage</a>
 near the end walls.</dd>
   <dt id = "exb">EB</dt>
-  <dd>executive board<br>The highest level DUNE decision-making body for the collaboration.</dd>
+  <dd>executive board<br>The highest level DUNE decision-making body for the collaboration;
+members include the spokespersons, collaboration <a
+href="#ib">IB</a> chair, <a href="#tcoord">TCs</a>,
+resource coordinator, computing coordinator, physics coordinators, Phase
+2 coordinators, and consortium leaders.</dd>
   <dt id = "exposure">exposure</dt>
   <dd>The integrated detector fiducial mass times beam intensity; it is
 proportional to the number of interactions and is used to normalize
@@ -847,6 +857,10 @@ including High Energy Physics.</dd>
   <dt id = "fc">field cage</dt>
   <dd>The component of a <a href="#lartpc">LArTPC</a> that
 contains and shapes the applied E field.</dd>
+  <dt id = "fcss">FCSS</dt>
+  <dd>field cage support system<br>The support system suspended from the cryostat ceiling in the <a
+href="#vdmod0">FD2-VD Module 0</a> used to support the <a
+href="#fc">field cage</a>.</dd>
   <dt id = "fd">FD</dt>
   <dd>far detector<br>The 70 kt total (40 fiducial) mass <a
 href="#lartpc">LArTPC</a> DUNE detector, composed of four LAr
@@ -971,6 +985,9 @@ support infrastructure.</dd>
   <dt id = "fscfbsi">FSCF-BSI</dt>
   <dd><a href="#usproj">LBNF/DUNE-US</a> subproject for far
 site conventional facilities, building and site infrastructure.</dd>
+  <dt id = "fscfexc">FSCF-EXC</dt>
+  <dd><a href="#usproj">LBNF/DUNE-US</a> subproject for far
+site conventional facilities, excavation.</dd>
   <dt id = "fsi">FSI</dt>
   <dd>final-state interactions<br>Refers to interactions between elementary or composite particles
 subsequent to the initial, fundamental particle interaction, such as may
@@ -985,6 +1002,8 @@ occur as the products exit a nucleus.</dd>
 can be in exactly one of a finite number of states at any given time.</dd>
   <dt id = "fss">FSS</dt>
   <dd>field shaping strips.</dd>
+  <dt id = "ftbf">FTBF</dt>
+  <dd>Fermilab Test Beam Facility.</dd>
   <dt id = "fte">FTE</dt>
   <dd>full-time equivalent. A unit of labor for the project. One year of
 work from one person.</dd>
@@ -1109,7 +1128,7 @@ analysis and algorithm development.</dd>
 cryostat containing <a href="#lar">LAr</a> installed
 upstream of the straw-tube tracker inside the <a
 href="#ecal">ECAL</a>.</dd>
-  <dt id = "greyrm">grey room</dt>
+  <dt id = "greyrm">gray room</dt>
   <dd>ISO-8 clean room with a cleanliness level of 3.5M particles of 0.5
 micron or less per cubic meter volume. ISO-8 clean rooms are referred to
 as grey rooms because at this level of cleanliness most standard clean
@@ -1202,7 +1221,7 @@ are what is usually meant by "grid computing".</dd>
   <dd>high voltage<br>Generally describes a voltage applied to drive the motion of free
 electrons through some media, e.g., LAr.</dd>
   <dt id = "hvdb">HVDB</dt>
-  <dd>HV divider board.</dd>
+  <dd>voltage divider board.</dd>
   <dt id = "hvft">HVFT</dt>
   <dd>HV feedthrough.</dd>
   <dt id = "hvps">HVPS</dt>
@@ -1362,6 +1381,12 @@ administrative support.</dd>
   <dt id = "json">JSON</dt>
   <dd>JavaScript Object Notation<br>Open standard data interchange format that uses pair-value pairs and
 maps well onto python data formats such as tuples and lists.</dd>
+  <dt id = "justin">justIN workflow system</dt>
+  <dd>Manages production and analysis workflows, using metadata from
+MetaCat to assemble lists of files to be processed and replica location
+information from Rucio to determine where best to process each file.
+justIN relies on "just in time" matching of work to job slots at
+sites.</dd>
   <dt id = "jwt">JWT</dt>
   <dd><a href="#json">JSON</a> web token.</dd>
 </dl>
@@ -1385,6 +1410,11 @@ region that is 4.00 m in diameter and 4.30 m long. The <a
 href="#ecal">ECAL</a> and detector region are embedded in a
 0.6 T magnetic field created by a 4.86 m diameter superconducting coil
 and a 475 tonne iron yoke.</dd>
+  <dt id = "kpp">key performance parameter</dt>
+  <dd>(KPP) Defined by <a href="#doecd">CD</a>-2 (U.S.) as
+characteristic, function, requirement or design basis that if changed
+would have a major impact on the system or facility performance,
+schedule, cost and/or risk.</dd>
 </dl>
 <h1 id="L">L</h1>
 <dl>
@@ -1461,7 +1491,7 @@ href="#fnal">Fermilab</a> as host; and (2) the former
 incarnation of <a href="#usproj">LBNF/DUNE-US</a>.</dd>
   <dt id = "lbnf">LBNF</dt>
   <dd>Long-Baseline Neutrino Facility<br>Long-Baseline Neutrino Facility; refers to the facilities that
-support the experiment including in-kind contributions under the
+support the experiment, including in-kind contributions under the
 line-item project. The portion of <a
 href="#usproj">LBNF/DUNE-US</a> responsible for developing the
 neutrino beam, the far site cryostats, and far and near site cryogenics
@@ -1694,6 +1724,8 @@ subtraction.</dd>
   <dd>Multi Repository Build System<br>A <a href="#fnal">Fermilab</a>-developed build system
 based on that allows development and builds of code from multiple
 repositories.</dd>
+  <dt id = "msds">MSDS</dt>
+  <dd>Manufacturer Safety Data Sheet.</dd>
   <dt id = "msps">MSPS</dt>
   <dd>megasamples per second.</dd>
   <dt id = "msw">MSW</dt>
@@ -2318,6 +2350,8 @@ href="#wlcg">WLCG</a> to otherexperiments.</dd>
   <dt id = "sdsd">SDSD</dt>
   <dd>Fermilab South Dakota Services Division<br>A <a href="#fnal">Fermilab</a> division responsible
 providing host laboratory functions at SURF in South Dakota.</dd>
+  <dt id = "sdssf">SDSSF</dt>
+  <dd>South Dakota Steel Storage Facility.</dd>
   <dt id = "sdsta">SDSTA</dt>
   <dd>South Dakota Science and Technology Authority<br>The legal entity that manages <a href="#surf">SURF</a>,
 in Lead, S.D.</dd>
@@ -2432,6 +2466,9 @@ materials.</dd>
   <dt id = "sof">SoF</dt>
   <dd>signal-over-fiber<br>a technology in which a fiber optic cable carries detector output
 that has been converted from an electrical to an optical pulse.</dd>
+  <dt id = "solarization">solarization</dt>
+  <dd>Aging caused by exposure to UV-light, which can lead to increased
+attenuation.</dd>
   <dt id = "sonic">SONIC</dt>
   <dd>Services for OptimizedNetwork Inference on Coprocessors<br>Framework for implementing machine learning algorithms on
 co-processors developed by <a href="#fnal">Fermilab</a>.</dd>
@@ -2562,6 +2599,9 @@ interactions.</dd>
   <dd>The Muon Spectrometer<br>A muon spectrometer for the Near Detector that will be installed for
 the initial running period of DUNE, before the <a
 href="#mpd">MPD</a> detector component is ready.</dd>
+  <dt id = "toad">TOAD</dt>
+  <dd>Teststand of an Overpressure Argon Detector<br>A test of a high-pressure gaseous argon TPC in the Fermilab Test Beam
+Facility <a href="#ftbf">FTBF</a>.</dd>
   <dt id = "tof">ToF</dt>
   <dd>time of flight<br>The time a particle takes to fly between two visible interactions
 observed in the detector. If combined with the distance traveled by the
@@ -2622,6 +2662,9 @@ href="#fe">FE</a> hardware that describes a region of space
 (e.g., one or several neighboring channels) and time (e.g., a contiguous
 set of <a href="#adc">ADC</a> sample ticks) associated with
 some activity.</dd>
+  <dt id = "trigrec">trigger record</dt>
+  <dd>a collection of data and metadata from selected detector space-time
+volumes corresponding to a trigger decision.</dd>
   <dt id = "tvs">TVS</dt>
   <dd>transient voltage suppression.</dd>
 </dl>
@@ -2822,6 +2865,9 @@ href="#detunit">detector unit</a>.</dd>
 <dl>
   <dt id = "2p2h">2p2h</dt>
   <dd>two particle, two hole.</dd>
+  <dt id = "2x2">2x2 ND LArTPC prototype</dt>
+  <dd>A set of four LArTPC modules (in a 2-by-2 configuration) used in the
+DUNE near detector prototype.</dd>
   <dt id = "35t">35 ton prototype</dt>
   <dd>A prototype cryostat and <a href="#sp">SP</a> detector
 built at <a href="#fnal">Fermilab</a> before the <a

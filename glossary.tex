@@ -77,7 +77,7 @@
 
 
 % tres meta
-\newduneword{dword}{DUNE Word}{A term in the DUNE lexicon}
+%\newduneword{dword}{DUNE Word}{A term in the DUNE lexicon}
 
 %%%%%%     START ADDING WORDS, IN ALPHABETICAL ORDER IF POSSIBLE!    %%%%%%%%
 \newduneword{nasa}{NASA}{U.S. National Aereonautics and Space Administration}
@@ -87,7 +87,7 @@
  installed close to the neutrino source at \gls{fnal}; also a subproject of \gls{usproj} that  includes  installation, infrastructure, and the cryogenics systems for this detector} %updated 19 nov 21
 
 %far detector
-\newduneabbrev{fd}{FD}{far detector}{The \SI{70}{kt} total (\fdfiducialmass fiducial) mass \gls{lartpc} DUNE detector, composed of four \larmass total (\nominalmodsize fiducial) mass modules,  %or more generally the experimental 
+\newduneabbrev{fd}{FD}{far detector}{The \SI{70}{kt} total (40 fiducial) mass \gls{lartpc} DUNE detector, composed of four 17 kt total (10 kt fiducial) mass modules,  %or more generally the experimental 
   to be installed at the far site at \gls{surf} in
   Lead, SD, USA}
 
@@ -236,7 +236,7 @@ predict circuit behavior} % Anne updated to abbrev oct 2022
 \newduneword{calci}{CALCI}{Calibration and Cryogenic Instrumentation}
 
 %detector module
-\newduneword{detmodule}{far detector module}{The entire DUNE far detector design calls for segmentation into  four modules,  each with a total/fiducial mass of approximately \SI{17}{\kton}/\SI{10}{\kton}}
+\newduneword{detmodule}{far detector module}{The entire DUNE far detector design calls for segmentation into  four modules,  each with a total/fiducial mass in kt of approximately 17/10; in Phase I of LBNF/DUNE two modules will be constructed, \gls{spvd} and \gls{sphd}} %\SI{17}{\kton}/\SI{10}{\kton}}
   
 \newduneword{module}{module}{Many aspects of the DUNE far and near detectors are modular, so ``module'' must be understood in context.  It may refer to one of the four far detector modules,  distinct portions of a subdetector as in a ``field cage module,'' a software or electronics module,  e.g., a separate framework plug-in,  and so on}
 
@@ -296,7 +296,7 @@ predict circuit behavior} % Anne updated to abbrev oct 2022
   \glspl{trigcommand}}
 
 %Out-of-band trigger command dispatcher
-\newduneabbrev{daqoob}{OOB dispatcher}{out-of-band trigger command
+\newduneabbrev{daqoob}{OOB dispatcher}{DAQ out-of-band trigger command
   dispatcher}{This component is responsible for dispatching a \gls{snb} dump
   command to all \glspl{daqfer} in the \gls{detmodule}}
 
@@ -416,7 +416,7 @@ execute different algorithms after its manufacture and deployment}
 span a contiguous period of time as requested by a \gls{trigcommand}}
 
 %DAQ front-end redout
-\newduneabbrev{daqfer}{FER}{DAQ front-end readout}{The portion of a
+\newduneabbrev{daqfer}{FER}{front-end readout}{The portion of a
   \gls{daqfrag} that accepts data from the detector electronics and
   provides it to the \gls{fec}}
 
@@ -608,7 +608,7 @@ for liquid argon detector R\&D and for testing of DUNE detector components}
   avalanche photodiode sensitive to single \phel signals}
 
 %cryogenic instrumentation and slow control
-\newduneabbrev{cisc}{CISC}{cryogenic instrumentation and slow controls}{Includes equipment to monitor all detector  components and  \gls{lar} quality and behavior, and provides a control system for many of the detector components}
+% obsolete \newduneabbrev{cisc}{CISC}{cryogenic instrumentation and slow controls}{Includes equipment to monitor all detector  components and  \gls{lar} quality and behavior, and provides a control system for many of the detector components}
 
 %FTE
 \newduneword{fte}{FTE}{full-time equivalent. A unit of labor
@@ -658,7 +658,9 @@ transformation inverts its space coordinates,  i.e. produces the mirror image}
 %us department of energy
 \newduneword{doe}{DOE}{U.S. Department of Energy}
 
-\newduneabbrev{fra}{FRA}{Fermi Research Alliance}{A joint partnership of the University of Chicago and the Universities Research Association (URA) that manages and operates \gls{fnal} on behalf of the \gls{doe}}
+\newduneabbrev{fra}{FRA}{Fermi Research Alliance}{A joint partnership of the University of Chicago and the Universities Research Association (URA) that has managed and operated \gls{fnal} through December 2024 on behalf of the \gls{doe}}
+
+\newduneabbrev{ffdg}{FFDG}{Fermi Forward Discovery Group}{A joint partnership that manages and operates \gls{fnal} as of January 2025 on behalf of the \gls{doe}; the FFDG team is comprised of four entities: the University of Chicago (UChicago), Universities Research Association, Inc. (URA), Amentum Environment \& Energy, Inc. (Amentum), and Longenecker \& Associates (L\&A)}
 
 %\newduneword{us}{USA}{United States of America}
 
@@ -685,9 +687,9 @@ transformation inverts its space coordinates,  i.e. produces the mirror image}
 
 %\newduneabbrev{nscfb}{NSCFB}{Near Site Conventional Facilities and Beamline}{All  \gls{cf} at the near site, \gls{fnal}, including beamline facilities, near detector cavern and support infrastructure, and primary and neutrino beamline}
   
-\newduneabbrev{fd1c}{FD1+C}{far detector module 1 + cryogenics}{The first far detector module to be built at \gls{surf}, including integration and installation, and all cryogenics infrastructure to support FD1 and \gls{fd2}; also a subproject of \gls{usproj}} %new 11 may 21
+%\newduneabbrev{fd1c}{FD1+C}{far detector module 1 + cryogenics}{The first far detector module to be built at \gls{surf}, including integration and installation, and all cryogenics infrastructure to support FD1 and \gls{fd2}; also a subproject of \gls{usproj}} %new 11 may 21
 
-\newduneabbrev{fd2}{FD2}{far detector module 2}{The second DUNE far detector module to be built at \gls{surf}} %new 11 may 21
+%\newduneabbrev{fd2}{FD2}{far detector module 2}{The second DUNE far detector module to be built at \gls{surf}} %new 11 may 21
 
 
 %grand unified theory
@@ -705,7 +707,7 @@ transformation inverts its space coordinates,  i.e. produces the mirror image}
 %long-baseline neutrino facility
 \newduneabbrev{lbnf}{LBNF}{Long-Baseline Neutrino Facility}{Long-Baseline Neutrino Facility; refers to the facilities that support the experiment, including in-kind contributions under the line-item project. The portion of \gls{usproj} responsible for developing the neutrino beam, the far site cryostats,  and far and near site cryogenics systems, and the conventional facilities, including the excavations } % #36, updated 11 may 2021
   
-\newduneabbrev{lbnf-dune}{LBNF/DUNE}{LBNF and DUNE enterprise}{Long-Baseline Neutrino Facility/Deep Underground Neutrino Experiment; refers to the overall enterprise or program including \gls{usproj}, participating international projects, and the \gls{dune} experiment and collaboration} %updated 11 may 2021 (#35 09nov20)
+\newduneword{lbnf-dune}{LBNF and DUNE enterprise}{Long-Baseline Neutrino Facility/Deep Underground Neutrino Experiment; refers to the overall enterprise or program including \gls{usproj}, participating international projects, and the \gls{dune} experiment and collaboration} %updated 11 may 2021 (#35 09nov20)
 
 %\newduneword{usproj}{LBNF/DUNE-US}{Long-Baseline Neutrino Facility/Deep Underground Neutrino Experiment - United States; refers to the U.S. line-item project} % new 11 may 2021
   
@@ -714,7 +716,7 @@ transformation inverts its space coordinates,  i.e. produces the mirror image}
 
 
 
-\newduneword{duneus}{DUNE-US}{Deep Underground Neutrino Experiment - United States; refers to the U.S. contribution to DUNE under the line-item \gls{usproj} project} % new 11 may 2021
+\newduneword{duneus}{DUNE-US}{Deep Underground Neutrino Experiment - United States; refers to the U.S. contribution to the DUNE experiment under the line-item \gls{usproj} project} % new 11 may 2021
   
 
 \newduneabbrev{lbnc}{LBNC}{Long-Baseline Neutrino Committee}{The committee, composed of internationally prominent scientists with relevant expertise, charged by the \gls{fnal} director to review the scientific, technical, and managerial progress, plans and decisions associated with \gls{dune}}
@@ -783,7 +785,7 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
 
 \newduneword{fc}{field cage}{The component of a \gls{lartpc} that contains and shapes the applied \efield}
 
-\newduneword{cpafc}{CPA/FC}{A pair of \gls{cpa} panels and the top and bottom \gls{fc} portions that attach to the pair; an intermediate assembly for installation into the \gls{spmod} }
+\newduneword{cpafc}{CPA/FC}{A pair of \gls{cpa} panels and the top and bottom \gls{fc} portions that attach to the pair; an intermediate assembly for installation into the \gls{sphd} }
 
 \newduneabbrev{topfc}{top FC}{top field cage}{The horizontal portions of the \gls{sphd} \gls{fc}   on the top of the \gls{tpc}}
 
@@ -824,7 +826,7 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
 
 
 \newduneabbrev{exb}{EB}{executive board}{The highest level DUNE
-  decision-making body for the collaboration; members include the spokespersons,   collaboration \gls{ib} chair,  \glspl{tcoord},  resource coordinator,  computing coordinator,  physics coordinators,  Phase 2 coordinators,  and consortium leaders}
+  decision-making body for the collaboration; members include the spokespersons,   collaboration \gls{ib} chair,  \glspl{tcoord},  resource coordinator,  computing coordinator,  physics coordinators,  Phase II coordinators,  and consortium leaders}
 
 \newduneabbrev{tb}{TB}{technical board}{The DUNE organization responsible for
   evaluating technical decisions}
@@ -891,7 +893,7 @@ milestone on the path to a full \gls{tdr}} % changed from ``technical proposal''
  {Facility incident reporting systems, one at \gls{fnal} and at \gls{surf}, that monitors and reports the status of various fire, security and utility sensors} % #36
 
 \newduneabbrev{bsi}{BSI}{building and site infrastructure}
- {The work package for outfitting of the \gls{lbnf} underground infrastructure}
+ {The work package for outfitting of the \gls{lbnf} underground infrastructure (also see \gls{fscfbsi})}
 
 
 
@@ -1172,7 +1174,7 @@ Neutrino Facility (LBNF)''}
 
 \newduneword{root}{ROOT}{A modular scientific software toolkit. It provides all the functionalities needed to deal with big data processing,  statistical analysis, visualization, and storage.  It is mainly written in C++ but integrated with other languages such as Python and R}
 
-\newduneabbrev{eos}{EOS}{EOS}{The XRootD-based distributed file system developed by CERN}
+\newduneword{eos}{EOS}{The XRootD-based distributed file system developed by CERN}
 \newduneabbrev{ehn1}{EHN1}{Experiment Hall North One}{Location at \gls{cern} of the \gls{np02} and \gls{np04} areas used for the \glspl{protodune} and for other test and prototyping activities for DUNE} 
 
 \newduneword{led}{LED}{Light-emitting diode}
@@ -1390,7 +1392,9 @@ computing and software consortium}
 \newduneabbrev{rsds}{RSDS}{radioactive source deployment system}{Proposed calibration system based on the deployment of
 radioactive sources inside the \gls{dune} cryostat}
 \newduneword{2p2h}{2p2h}{two particle, two hole}
-\newduneabbrev{duneprism}{DUNE-PRISM}{\gls{dune} Precision Reaction-Independent Spectrum Measurement}{a mobile near detector that can perform measurements over a range of angles off-axis from the neutrino beam direction in order to sample many different neutrino energy distributions}
+\newduneabbrev{duneprism}{DUNE-PRISM}{\gls{dune} Precision Reaction-Independent Spectrum Measurement}
+{a DUNE near detector system that consists of the hardware required to move the ND-LAr and muon spectrometer subdetectors within the DUNE near detector hall; it will allow the near detector to perform measurements over a range of angles off-axis from the neutrino beam direction in order to sample many different neutrino energy distributions}
+
 \newduneword{arcube}{ArgonCube}{The name of the core part of the \gls{dune} \gls{nd}, a \gls{lartpc}}
 
 \newduneabbrev{citf}{CITF}{cryogenic instrumentation test facility}{A facility at \gls{fnal} with small ($<$\SI{1}{ton}) to intermediate ($\sim$\SI{1}{ton}) volumes of instrumented, purified TPC-grade \gls{lar}, used for testing devices intended for use in \gls{dune}}
@@ -1422,8 +1426,7 @@ radioactive sources inside the \gls{dune} cryostat}
 
 \newduneword{mu2e}{Mu2e}{An experiment sited at \gls{fnal} that searches for charged-lepton flavor violation and seeks to discover physics beyond the \gls{sm}}
 
-\newduneword{pdsp2}{ProtoDUNE-SP-II}{A second test run in the single-phase ProtoDUNE test stand at CERN, acting as a validation of the final
-single-phase detector design}  % #33 11 may 21-  may need an update Don't use!
+\newduneword{pdsp2}{ProtoDUNE-SP-II}{A second test run in the single-phase, horizontal drift ProtoDUNE detector at CERN, acting as a validation of the final SP, HD detector design}  % #33 11 may 21-  may need an update Don't use!
 
 
 \newduneword{osha}{OSHA}{Occupational Safety and Health Administration (USA Department of Labor) formed by the Occupational Safety and Health Act of 1970}
@@ -1440,7 +1443,7 @@ on neutron capture gamma showers spread out in the whole detector}
 \newduneword{core}{CORE}{CORE contributions are in either monetary units or labor hours. They can be technical components for the facility or experiment and the effort of the staff needed to produce, install, and test them;  major facilities for the experiment; or other products and services relevant for the completion of the facility or experiment} % 15 May - gina needs to `bless' this
 
 
-\newduneabbrev{ahj}{AHJ}{Authority Having Jurisdiction}{An organization, office, or individual responsible for enforcing the requirements of a code or standard, or for approving equipment, materials, an installation, or a procedure (\gls{osha})}
+\newduneabbrev{ahj}{AHJ}{Authority Having Jurisdiction}{An organization, office, or individual responsible for enforcing the requirements of a code or standard, or for approving equipment, materials, an installation, or a procedure} % (\gls{osha})}
 \newduneword{cte}{CTE}{coefficient of thermal expansion}
 
 \newduneabbrev{opc}{OPC}{open platform communications}{Open platform communications is a series of standards and specifications for industrial telecommunication} 
@@ -1556,7 +1559,7 @@ with a screw-type coupling mechanism}
 \newduneword{apb}{APB}{authorship and publications board}
 \newduneword{crb}{CRB}{collaboration resources board}
 \newduneword{cube}{CuBe}{beryllium copper, used to make \gls{sphd} \gls{apa} readout planes}
-\newduneword{drift}{drift}{(1) refers to electron drift under the influence of an electric field in a \gls{tpc}; (2) an excavated horizontal corridors (tunnels) in the underground areas at \gls{surf}}
+\newduneword{drift}{drift}{(1) refers to electron drift under the influence of an electric field in a \gls{tpc}; (2) an excavated horizontal corridor (tunnel) in the underground areas at \gls{surf}}
 \newduneword{exposure}{exposure}{The integrated detector fiducial mass times beam intensity; it is proportional to the number of interactions and is used to normalize cross sections in a data sample}
 \newduneword{fr4}{FR-4}{Flame-retardant fiberglass-reinforced epoxy resin laminate used in making PCBs and other detector components}
 \newduneword{g10}{G-10}{Non-flame-retardant fiberglass-reinforced epoxy resin laminate used in making PCBs}
@@ -1692,9 +1695,9 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 % From vertical drift CDR 
 % 22 Feb 2021
 
-\newduneabbrev{sphd}{FD1-HD}{horizontal drift detector module}{LArTPC design used in FD1 in which electrons drift horizontally to wire plane anodes (\glspl{apa}) that along with the front-end electronics are immersed in LAr} % updated 21 May 21
+\newduneabbrev{sphd}{FD-HD}{horizontal drift detector module}{LArTPC design in which electrons drift horizontally to wire plane anodes (\glspl{apa}) that along with the front-end electronics are immersed in LAr} % updated 21 May 21
 
-\newduneabbrev{spvd}{FD2-VD}{vertical drift detector module}{LArTPC design used in FD2 in which electrons drift vertically to PCB-based anodes at the top and bottom of the LAr volume,  with a cathode in the middle} % updated 21 May 21
+\newduneabbrev{spvd}{FD-VD}{vertical drift detector module}{LArTPC design in which electrons drift vertically to PCB-based anodes at the top and bottom of the LAr volume,  with a cathode in the middle} % updated 21 May 21
 
 
 \newduneabbrev{cru}{CRU}{charge-readout unit}{In the \gls{spvd} design an assembly of the \glspl{pcbp} plus adapter boards; two to a \gls{crp}} % 4 aug 2021 four --> two
@@ -1704,7 +1707,7 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 \newduneword{pcbp}{PCB panel}{In the \gls{spvd} design, one of four \glspl{pcb} of size  %\SI{1.5x1.7}{m} 
 1.5 $\times$ 1.7\.,m assembled into a \gls{cru}}
 
-\newduneword{anodepln}{anode plane}{a planar array of charge readout devices covering an entire face of a detector module}
+\newduneword{anodepln}{anode plane}{a planar array of charge readout devices in a LArTPC} %covering an entire face of a detector module}
 
 \newduneword{msps}{MSPS}{megasamples per second}
 
@@ -1786,16 +1789,16 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
   
 
 
-\newduneword{pd2hd}{ProtoDUNE-II-HD}{The second ProtoDUNE for the HD design, using NP04 to test installation, integration, and detector component performance}
+\newduneword{pd2hd}{ProtoDUNE-II-HD}{The second ProtoDUNE for the HD design, using NP04 to test installation, integration, and detector component performance (same as \gls{pdsp2})}
 
 % don't use \newduneword{pd2vd}{ProtoDUNE-II-VD}{The \gls{protodune} for the \gls{spvd} design, using \gls{np02}, to test installation, integration, and detector component performance}
 
 
 \newduneword{mod0}{Module 0}{The final pre-production instance of a detector; for the DUNE \glspl{detmodule}, the \glspl{protodune2} in the 800\,t cryostats in \gls{np02} and \gls{np04} serve this purpose}
 
-\newduneword{vdmod0}{FD2-VD Module 0}{The final pre-production \gls{protodune} instance for the DUNE \gls{spvd} \gls{detmodule},  it will use the 800\,t cryostat in \gls{np02} }
+\newduneword{vdmod0}{FD-VD Module 0}{The final pre-production \gls{protodune} instance for the DUNE \gls{spvd} \gls{detmodule},  it will use the 800\,t cryostat in \gls{np02} }
 
-\newduneword{hdmod0}{FD1-HD Module 0}{The final pre-production \gls{protodune} instance for the DUNE \gls{sphd} \gls{detmodule},  it will use the 800\,t cryostat in \gls{np04} }
+\newduneword{hdmod0}{FD-HD Module 0}{The final pre-production \gls{protodune} instance for the DUNE \gls{sphd} \gls{detmodule},  it will use the 800\,t cryostat in \gls{np04} }
 
 \newduneword{fsii}{FSII}{far site integration and installation}
 \newduneword{fdc}{FDC}{Far Detector and Cryogenics Subproject}
@@ -1819,9 +1822,9 @@ facing the drift volume.   It shapes the signals and provides \gls{esd} protecti
 
 \newduneword{artg4tk}{artg4tk}{artg4tk provides a general interface between \gls{geant4} and \gls{art}}
 
-\newduneword{tde}{TDE}{top detector electronics}
+\newduneword{tde}{TDE}{top detector electronics in a vertical drift DUNE far detector module}
 
-\newduneword{bde}{BDE}{bottom detector electronics}
+\newduneword{bde}{BDE}{bottom detector electronics in a vertical drift DUNE far detector module}
 
 \newduneword{sigproc}{Signal Processing}{The goal of TPC signal processing is to reconstruct the distribution of ionization electrons arriving at wire planes from the digitized TPC waveform}
 % end from FD2 TDR 9/26/22
@@ -2076,3 +2079,10 @@ Network Inference on Coprocessors}{Framework for implementing machine learning a
 \newduneword{justin}{justIN workflow system}{Manages production and analysis workflows, using metadata from MetaCat to assemble lists of files to be processed and replica location information from Rucio to determine where best to process each file. justIN relies on ``just in time'' matching of work to job slots at sites}
 
 \newduneword{2x2}{2x2 ND LArTPC prototype}{A set of four LArTPC modules (in a 2-by-2 configuration) used in the DUNE near detector prototype}
+
+%new Oct 2024
+\newduneword{tti}{TTI}{Power supply that powers the SiPMs in the Light readout} % issue 45
+
+\newduneabbrev{spine}{SPINE}{Scalable Particle Imaging with Neural Embeddings}{a machine-learning-based package designed for reconstructing data from particle imaging detectors, specifically LArTPCs. It utilizes Deep Neural Networks to process and analyze detector data, with Convolutional Neural Networks extracting pixel-level features and Graph Neural Networks forming larger structures like particle tracks and showers} % issue 46
+
+\newduneabbrev{lardrip}{LArDRIP}{Liquid Argon Dead Region Inference Project}{a deep-learning package for generating inferred signals in dead regions of a DUNE-ND-like LArTPC.} % issue 47

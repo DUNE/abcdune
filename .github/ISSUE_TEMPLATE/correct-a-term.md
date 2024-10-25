@@ -3,7 +3,7 @@ name: Correct a term
 about: Suggestion a correction to an existing entry
 title: ''
 labels: documentation
-assignees: aheavey, brettviren, clairedavid
+assignees: aheavey, demuth
 
 ---
 

@@ -3,7 +3,7 @@ name: Add a term
 about: Request a missing term to be added
 title: 'New term '
 labels: documentation
-assignees: aheavey, brettviren, clairedavid
+assignees: aheavey, demuth
 
 ---
 

@@ -1,3 +1,5 @@
 test-all.*
 *~
 auto
+.direnv
+.envrc

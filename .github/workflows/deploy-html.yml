@@ -1,7 +1,7 @@
 on: [push]
 jobs:
-  Deploy-HTML:
-    runs-on: debian-latest
+  Build-HTML:
+    runs-on: ubuntu-latest
     steps:
       - name: Print job info
         run: echo "This job was automatically triggered by a ${{ github.event_name }} event. It is now running on a ${{ runner.os }} server hosted by GitHub! The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
@@ -20,3 +20,20 @@ jobs:
           source venv/bin/activate
           pip install pypandoc
           python abcdune.py -i glossary.tex -d defs.tex -o docs/index.html
+
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

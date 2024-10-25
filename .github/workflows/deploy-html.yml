@@ -1,6 +1,6 @@
 on: [push]
 jobs:
-  Build-HTML:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Print job info

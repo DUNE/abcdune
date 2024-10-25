@@ -6,6 +6,9 @@ jobs:
       - name: Print job info
         run: echo "This job was automatically triggered by a ${{ github.event_name }} event. It is now running on a ${{ runner.os }} server hosted by GitHub! The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
 
+      - name: Install pandoc
+        run: sudo apt-get install -y pandoc
+
       - name: Setup python
         uses: actions/setup-python@v4
         with:

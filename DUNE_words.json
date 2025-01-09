@@ -2385,8 +2385,8 @@
         "type": "word"
     },
     "h4": {
-        "defHTML": "CERN North Area hadron beamline used for <a\nhref=\"#pdsp\">ProtoDUNE-SP</a> and <a\nhref=\"#pdsp2\">ProtoDUNE-SP-II</a>.",
-        "defLaTeX": "CERN North Area hadron beamline used for \\gls{pdsp} and \\gls{pdsp2}",
+        "defHTML": "CERN North Area hadron beamline used for <a\nhref=\"#pdsp\">ProtoDUNE-SP</a>.",
+        "defLaTeX": "CERN North Area hadron beamline used for \\gls{pdsp}",
         "term": "H4",
         "termHTML": "H4",
         "type": "word"
@@ -3891,8 +3891,8 @@
         "type": "word"
     },
     "np04": {
-        "defHTML": "The CERN North Area in <a href=\"#ehn1\">EHN1</a>\nintersected by the <a href=\"#h4\">H4</a> hadron beamline, the\nlocation of <a href=\"#pdsp\">ProtoDUNE-SP</a> and <a\nhref=\"#pdsp2\">ProtoDUNE-SP-II</a>; also used to refer to the\n800\u2006t cryostat in this area.",
-        "defLaTeX": "The CERN North Area in \\gls{ehn1} intersected by the \\gls{h4} hadron beamline,  the location of  \\gls{pdsp} and \\gls{pdsp2}; also used to refer to the 800\\,t cryostat in this area",
+        "defHTML": "The CERN North Area in <a href=\"#ehn1\">EHN1</a>\nintersected by the <a href=\"#h4\">H4</a> hadron beamline, the\nlocation of <a href=\"#pdsp\">ProtoDUNE-SP</a>; also used to\nrefer to the 800\u2006t cryostat in this area.",
+        "defLaTeX": "The CERN North Area in \\gls{ehn1} intersected by the \\gls{h4} hadron beamline,  the location of  \\gls{pdsp}; also used to refer to the 800\\,t cryostat in this area",
         "term": "NP04",
         "termHTML": "NP04",
         "type": "word"
@@ -4179,8 +4179,8 @@
         "type": "word"
     },
     "pd2hd": {
-        "defHTML": "The second ProtoDUNE for the HD design, using NP04 to test\ninstallation, integration, and detector component performance (same as\n<a href=\"#pdsp2\">ProtoDUNE-SP-II</a>).",
-        "defLaTeX": "The second ProtoDUNE for the HD design, using NP04 to test installation, integration, and detector component performance (same as \\gls{pdsp2})",
+        "defHTML": "The second ProtoDUNE for the HD design, using NP04 to test\ninstallation, integration, and detector component performance.",
+        "defLaTeX": "The second ProtoDUNE for the HD design, using NP04 to test installation, integration, and detector component performance",
         "term": "ProtoDUNE-II-HD",
         "termHTML": "ProtoDUNE-II-HD",
         "type": "word"
@@ -4234,13 +4234,6 @@
         "defLaTeX": "The \\gls{sphd} \\gls{protodune} detector constructed at \\gls{cern}  in \\gls{np04}",
         "term": "ProtoDUNE-SP",
         "termHTML": "ProtoDUNE-SP",
-        "type": "word"
-    },
-    "pdsp2": {
-        "defHTML": "A second test run in the single-phase, horizontal drift ProtoDUNE\ndetector at CERN, acting as a validation of the final SP, HD detector\ndesign.",
-        "defLaTeX": "A second test run in the single-phase, horizontal drift ProtoDUNE detector at CERN, acting as a validation of the final SP, HD detector design",
-        "term": "ProtoDUNE-SP-II",
-        "termHTML": "ProtoDUNE-SP-II",
         "type": "word"
     },
     "pe": {

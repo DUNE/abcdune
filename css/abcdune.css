@@ -51,3 +51,13 @@ dd {
     margin-top:-1px;
     }
 
+#footer  {
+    height: 35px;
+}
+
+.logo-new-doe  {    
+    height: 15px;
+    margin-right: 35px;
+    max-width: fit-content;
+    text-align: center; 
+}

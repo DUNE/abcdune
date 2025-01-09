@@ -311,8 +311,14 @@ def main():
                 content += info["defHTML"] + '</dd>\n'
         # end of letter block
         content += '</dl>\n'
-    # end of HTML:
+    print("got to here...")
+   
+    #==== Footer =====
+
+    content += '<div id="footer" class="logo-new-doe"><a href="https://www.energy.gov/"><img src="std-footer.png" alt="FermiForward and Office of Science / U.S. Department of Energy"></a></div>'
+
     content += '<br>\n</div>\n</body>\n</html>'
+        # end of HTML:
 
     #===== Export in HTML index =====
     f_html = open(args.dest, 'w')

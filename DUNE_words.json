@@ -1639,6 +1639,13 @@
         "termHTML": "EOS",
         "type": "word"
     },
+    "eri": {
+        "defHTML": "Energy range of interest for neutrino oscillations at DUNE.",
+        "defLaTeX": "Energy range of interest for neutrino oscillations at DUNE",
+        "term": "ERI",
+        "termHTML": "ERI",
+        "type": "word"
+    },
     "ert": {
         "defHTML": "emergency response team.",
         "defLaTeX": "emergency response team",
@@ -4246,6 +4253,20 @@
         "termHTML": "particle flow particle",
         "type": "abbrev"
     },
+    "phase1": {
+        "defHTML": "The first of two phases of the LBNF/DUNE construction project; Phase\nI includes the Far Site and Near Site conventional facilities for the\nfull project scope, the beamline, the first two far detector modules,\nall far site cryogenic infrastructure and fluids, and the near detector\ncomponents <a href=\"#ndlar\">ND-LAr</a>, <a\nhref=\"#tms\">TMS</a>, <a href=\"#sand\">SAND</a>,\n<a href=\"#duneprism\">DUNE-PRISM</a>, and associated\ncryogenics.",
+        "defLaTeX": "The first of two phases of the LBNF/DUNE construction project; Phase I includes the Far Site and Near Site conventional facilities for the full project scope, the beamline, the first two far detector modules, all far site cryogenic infrastructure and fluids, and the near detector components \\gls{ndlar}, \\gls{tms}, \\gls{sand}, \\gls{duneprism}, and associated cryogenics",
+        "term": "Phase I",
+        "termHTML": "Phase I",
+        "type": "word"
+    },
+    "phase2": {
+        "defHTML": "The second of two phases of the LBNF/DUNE construction project; it\nadds two more FD modules to reach the targeted 40\u2006kt LAr fiducial mass,\nit increases the beam power to 2.1\u2006MW, and it upgrades the ND complex\nand replaces the ND <a href=\"#tms\">TMS</a> with a <a\nhref=\"#gartpc\">GArTPC</a>.",
+        "defLaTeX": "The second of two phases of the LBNF/DUNE construction project; it adds two more FD modules to reach the targeted 40\\,kt LAr fiducial mass, it increases the beam power to 2.1\\,MW, and it upgrades the ND complex and replaces the ND \\gls{tms} with a \\gls{gartpc}",
+        "term": "Phase II",
+        "termHTML": "Phase II",
+        "type": "word"
+    },
     "pickling": {
         "defHTML": "steel pickling and oiling is a metal surface treatment finishing\nprocess used to remove surface impurities such as rust and carbon scale\nfrom hot rolled carbon steel.",
         "defLaTeX": "steel pickling and oiling is a metal surface treatment finishing process used to remove surface impurities such as rust and carbon scale from hot rolled carbon steel",
@@ -4530,6 +4551,13 @@
         "term": "production readiness review",
         "termHTML": "production readiness review",
         "type": "abbrev"
+    },
+    "psac": {
+        "defHTML": "Phase space and acceptance coverage.",
+        "defLaTeX": "Phase space and acceptance coverage",
+        "term": "PSAC",
+        "termHTML": "PSAC",
+        "type": "word"
     },
     "psv": {
         "defHTML": "pressure safety valve.",
